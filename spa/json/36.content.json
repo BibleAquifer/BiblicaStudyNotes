@@ -253,11 +253,11 @@
 "preferred_label": "Appoint"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Jerusalem"
 },
 {
 "id": "keyterm:Fear",
@@ -267,22 +267,22 @@
 "preferred_label": "temer"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Israel"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2755,
 "match_method": "canonical",
 "preferred_label": "Judá"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2755,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -293,20 +293,6 @@
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "Moab"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "palabra del señor"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Woe"
 },
 {
 "id": "keyterm:Ardour",
@@ -323,13 +309,6 @@
 "preferred_label": "Cush"
 },
 {
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Deceit"
-},
-{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.217,
@@ -337,18 +316,39 @@
 "preferred_label": "Ammón"
 },
 {
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Ascalón"
-},
-{
 "id": "group:Ammon",
 "type": "group",
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "Amós"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Deceit"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "palabra del señor"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Woe"
+},
+{
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Ascalón"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -365,34 +365,6 @@
 "preferred_label": "House"
 },
 {
-"id": "person:Zephaniah.3",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Sephanías"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "del"
-},
-{
-"id": "keyterm:Stain",
-"type": "keyterm",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "contaminar"
-},
-{
-"id": "person:Gedaliah.3",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Gedalías"
-},
-{
 "id": "person:Cushi",
 "type": "person",
 "confidence": 0.1623,
@@ -407,11 +379,18 @@
 "preferred_label": "Mactes"
 },
 {
-"id": "person:Amariah.9",
+"id": "person:Zephaniah.3",
 "type": "person",
 "confidence": 0.1623,
 "match_method": "canonical",
-"preferred_label": "Amarías"
+"preferred_label": "Sephanías"
+},
+{
+"id": "keyterm:Stain",
+"type": "keyterm",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "contaminar"
 },
 {
 "id": "place:SecondQuarter",
@@ -421,6 +400,20 @@
 "preferred_label": "segunda"
 },
 {
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "del"
+},
+{
+"id": "person:Gedaliah.3",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Gedalías"
+},
+{
 "id": "person:Hezekiah.4",
 "type": "person",
 "confidence": 0.1623,
@@ -428,25 +421,32 @@
 "preferred_label": "Ezechîas"
 },
 {
-"id": "keyterm:Love",
+"id": "person:Amariah.9",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Amarías"
+},
+{
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "amar"
+"preferred_label": "Instruction"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "place:Canaan",
+"id": "place:Philistine",
 "type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Cananeo"
+"preferred_label": "Filisteos"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "confiar"
 }
 ]
 }

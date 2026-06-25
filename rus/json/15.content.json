@@ -78,7 +78,7 @@
 {
 "reference_id": 108302,
 "content_id": 193384,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Божий народ",
 "language": "rus"
 },
@@ -225,15 +225,15 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.3778,
 "match_method": "canonical",
 "preferred_label": "Иуда"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.3778,
 "match_method": "canonical",
 "preferred_label": "Иуда"
@@ -274,6 +274,13 @@
 "preferred_label": "Персия"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.2667,
+"match_method": "canonical",
+"preferred_label": "Левий"
+},
+{
 "id": "person:Levi.3",
 "type": "person",
 "confidence": 0.2667,
@@ -288,32 +295,11 @@
 "preferred_label": "Зоровавель"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.2667,
-"match_method": "canonical",
-"preferred_label": "Левий"
-},
-{
 "id": "person:Elam",
 "type": "person",
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "Елам"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.2111,
-"match_method": "canonical",
-"preferred_label": "Навуходоносор"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.2111,
-"match_method": "canonical",
-"preferred_label": "Вавилон"
 },
 {
 "id": "person:Solomon",
@@ -323,6 +309,20 @@
 "preferred_label": "Соломон"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.2111,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.2111,
+"match_method": "canonical",
+"preferred_label": "Навуходоносор"
+},
+{
 "id": "person:Shalmai",
 "type": "person",
 "confidence": 0.158,
@@ -330,39 +330,11 @@
 "preferred_label": "Салмай"
 },
 {
-"id": "person:Shobai",
+"id": "person:Sotai",
 "type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Шовай"
-},
-{
-"id": "person:Akkub.3",
-"type": "person",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Аккув"
-},
-{
-"id": "person:Keros",
-"type": "person",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Керос"
-},
-{
-"id": "person:Jedaiah.4",
-"type": "person",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Иедаия"
-},
-{
-"id": "person:Mehida",
-"type": "person",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Мехида"
+"preferred_label": "Сотай"
 },
 {
 "id": "person:Ziha",
@@ -372,25 +344,32 @@
 "preferred_label": "Циха"
 },
 {
-"id": "place:Netophah",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Нетофа"
-},
-{
-"id": "person:Gahar",
+"id": "person:Talmon",
 "type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Гахар"
+"preferred_label": "Талмон"
 },
 {
-"id": "person:Ater.2",
+"id": "person:Jeshua.4",
 "type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Атер"
+"preferred_label": "Иешуа"
+},
+{
+"id": "person:Barzillai.3",
+"type": "person",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Верзеллий"
+},
+{
+"id": "person:Bezai",
+"type": "person",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Бецай"
 },
 {
 "id": "person:Sophereth",
@@ -400,25 +379,46 @@
 "preferred_label": "Софереф"
 },
 {
-"id": "person:Hashum",
+"id": "person:Harim",
 "type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Хашум"
+"preferred_label": "Харим"
 },
 {
-"id": "person:Rezin.2",
-"type": "person",
+"id": "place:Hadid",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Рецин"
+"preferred_label": "Хадид"
 },
 {
-"id": "person:Jeshua",
+"id": "person:Hagabah",
 "type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Иешуа"
+"preferred_label": "Хагаба"
+},
+{
+"id": "person:Temah",
+"type": "person",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Фамах"
+},
+{
+"id": "person:Mehida",
+"type": "person",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Мехида"
+},
+{
+"id": "person:Bani",
+"type": "person",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Ваний"
 }
 ]
 }
@@ -614,20 +614,6 @@
 "preferred_label": "Кир"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3917,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.3917,
-"match_method": "canonical",
-"preferred_label": "Вавилон"
-},
-{
 "id": "person:Darius.2",
 "type": "person",
 "confidence": 0.3917,
@@ -640,6 +626,20 @@
 "confidence": 0.3917,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3917,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.3917,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
 },
 {
 "id": "person:Rehum.2",
@@ -656,13 +656,6 @@
 "preferred_label": "Шимшай"
 },
 {
-"id": "person:Artaxerxes.2",
-"type": "person",
-"confidence": 0.337,
-"match_method": "canonical",
-"preferred_label": "Артаксеркс"
-},
-{
 "id": "person:Joshua.5",
 "type": "person",
 "confidence": 0.337,
@@ -670,18 +663,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.3333,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "person:Levi.3",
+"id": "person:Artaxerxes.2",
 "type": "person",
-"confidence": 0.3333,
+"confidence": 0.337,
 "match_method": "canonical",
-"preferred_label": "Левий"
+"preferred_label": "Артаксеркс"
 },
 {
 "id": "group:Levi",
@@ -691,11 +677,18 @@
 "preferred_label": "Левий"
 },
 {
-"id": "person:Jehozadak",
+"id": "person:Levi.3",
 "type": "person",
-"confidence": 0.2787,
+"confidence": 0.3333,
 "match_method": "canonical",
-"preferred_label": "Иоседек"
+"preferred_label": "Левий"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3333,
+"match_method": "canonical",
+"preferred_label": "Jews"
 },
 {
 "id": "person:Shealtiel.2",
@@ -703,6 +696,13 @@
 "confidence": 0.2787,
 "match_method": "canonical",
 "preferred_label": "Салафиил"
+},
+{
+"id": "person:Jehozadak",
+"type": "person",
+"confidence": 0.2787,
+"match_method": "canonical",
+"preferred_label": "Иоседек"
 },
 {
 "id": "group:Judah",
@@ -726,13 +726,6 @@
 "preferred_label": "Фафнай"
 },
 {
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.2167,
-"match_method": "canonical",
-"preferred_label": "Навуходоносор"
-},
-{
 "id": "place:Samaria",
 "type": "place",
 "confidence": 0.2167,
@@ -740,18 +733,18 @@
 "preferred_label": "Самария"
 },
 {
-"id": "person:Mithredath.2",
+"id": "person:Nebuchadnezzar",
 "type": "person",
-"confidence": 0.162,
+"confidence": 0.2167,
 "match_method": "canonical",
-"preferred_label": "Мифредат"
+"preferred_label": "Навуходоносор"
 },
 {
-"id": "person:Bishlam",
+"id": "person:Iddo.6",
 "type": "person",
 "confidence": 0.162,
 "match_method": "canonical",
-"preferred_label": "Бишлам"
+"preferred_label": "Iddo"
 },
 {
 "id": "person:Henadad",
@@ -761,11 +754,18 @@
 "preferred_label": "Хенадад"
 },
 {
-"id": "person:Hodaviah.4",
+"id": "person:Jeshua.4",
 "type": "person",
 "confidence": 0.162,
 "match_method": "canonical",
-"preferred_label": "Годавия"
+"preferred_label": "Иешуа"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.162,
+"match_method": "canonical",
+"preferred_label": "Артаксеркс"
 }
 ]
 }
@@ -870,18 +870,18 @@
 "preferred_label": "Израиль"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "Левий"
+},
+{
 "id": "place:Euphrates",
 "type": "place",
 "confidence": 0.3114,
 "match_method": "canonical",
 "preferred_label": "Евфрат"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "Jews"
 },
 {
 "id": "person:Levi.3",
@@ -891,11 +891,11 @@
 "preferred_label": "Левий"
 },
 {
-"id": "group:Levi",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "Левий"
+"preferred_label": "Jews"
 },
 {
 "id": "person:Shethar-bozenai",
@@ -919,27 +919,6 @@
 "preferred_label": "Фафнай"
 },
 {
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Вавилон"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -954,18 +933,32 @@
 "preferred_label": "Кир"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1809,
 "match_method": "canonical",
 "preferred_label": "Sheep"
-},
-{
-"id": "place:Ecbatana",
-"type": "place",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Екбатана"
 },
 {
 "id": "person:Zechariah.17",
@@ -975,74 +968,11 @@
 "preferred_label": "Захария"
 },
 {
-"id": "place:Media",
+"id": "place:Ecbatana",
 "type": "place",
-"confidence": 0.1705,
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Мидия"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Аггей"
-},
-{
-"id": "person:Artaxerxes",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Артаксеркс"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Навуходоносор"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Персия"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Assyria"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Моисей"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Gentiles"
+"preferred_label": "Екбатана"
 },
 {
 "id": "person:Iddo.6",
@@ -1052,32 +982,81 @@
 "preferred_label": "Iddo"
 },
 {
-"id": "realia:UnleavenedBread",
+"id": "person:Haggai",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Аггей"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Навуходоносор"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Моисей"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Pure"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Персия"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Defilement"
+},
+{
+"id": "person:Artaxerxes",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Артаксеркс"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Assyria"
+},
+{
+"id": "place:Media",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Мидия"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Gentiles"
+},
+{
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Foundation"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Olive Oil"
 },
 {
 "id": "realia:Cubit",
@@ -1087,18 +1066,18 @@
 "preferred_label": "Cubit"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Money"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Goat"
 },
 {
 "id": "realia:HewnStone",
@@ -1108,6 +1087,13 @@
 "preferred_label": "Hewn Stone"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1105,
@@ -1115,11 +1101,25 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "realia:OliveOil",
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Foundation"
+},
+{
+"id": "realia:UnleavenedBread",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Unleavened Bread"
 }
 ]
 }
@@ -1231,15 +1231,15 @@
 "preferred_label": "Ездра"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
+"id": "group:Levi",
+"type": "group",
 "confidence": 0.4133,
 "match_method": "canonical",
 "preferred_label": "Левий"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.4133,
 "match_method": "canonical",
 "preferred_label": "Левий"
@@ -1315,25 +1315,11 @@
 "preferred_label": "Decree"
 },
 {
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "Perceive"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.2141,
 "match_method": "canonical",
 "preferred_label": "Instruction"
-},
-{
-"id": "person:Phinehas",
-"type": "person",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "Финеес"
 },
 {
 "id": "person:David",
@@ -1343,32 +1329,25 @@
 "preferred_label": "Давид"
 },
 {
-"id": "person:Jehiel.7",
-"type": "person",
-"confidence": 0.1602,
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Иехиел"
+"preferred_label": "Perceive"
 },
 {
-"id": "person:Zechariah.19",
+"id": "person:Phinehas",
 "type": "person",
-"confidence": 0.1602,
+"confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Захария"
+"preferred_label": "Финеес"
 },
 {
-"id": "person:Daniel.2",
+"id": "person:Amariah.2",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Даниил"
-},
-{
-"id": "person:Hakkatan",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Гаккатан"
+"preferred_label": "Амария"
 },
 {
 "id": "person:Elam",
@@ -1378,18 +1357,53 @@
 "preferred_label": "Елам"
 },
 {
-"id": "person:Nathan.5",
+"id": "person:Noadiah",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Нафан"
+"preferred_label": "Ноадия"
 },
 {
-"id": "person:Ebed.2",
+"id": "person:Zechariah.20",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Евед"
+"preferred_label": "Захария"
+},
+{
+"id": "person:Zerahiah",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Зерахия"
+},
+{
+"id": "person:Meshullam.9",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Мешуллам"
+},
+{
+"id": "person:Zechariah.19",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Захария"
+},
+{
+"id": "person:Bigvai.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Бигвай"
+},
+{
+"id": "person:Gershom.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Gershom"
 },
 {
 "id": "person:Jozabad.6",
@@ -1397,20 +1411,6 @@
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "Иозавад"
-},
-{
-"id": "person:Athaliah.3",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Афалия"
-},
-{
-"id": "person:Noadiah",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Ноадия"
 }
 ]
 }
@@ -1515,13 +1515,6 @@
 "preferred_label": "Be Unfaithful"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.3305,
-"match_method": "canonical",
-"preferred_label": "Левий"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.3305,
@@ -1529,11 +1522,11 @@
 "preferred_label": "Левий"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2729,
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.3305,
 "match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "Левий"
 },
 {
 "id": "place:Jerusalem",
@@ -1541,6 +1534,13 @@
 "confidence": 0.2729,
 "match_method": "canonical",
 "preferred_label": "Иерусалим"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2729,
+"match_method": "canonical",
+"preferred_label": "Passion"
 },
 {
 "id": "realia:House",
@@ -1564,13 +1564,6 @@
 "preferred_label": "Елам"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2153,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.2153,
@@ -1585,6 +1578,13 @@
 "preferred_label": "Offering"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2153,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.2153,
@@ -1592,109 +1592,109 @@
 "preferred_label": "Counsel"
 },
 {
-"id": "person:Mattenai.2",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Мафнай"
-},
-{
-"id": "person:Mattaniah.6",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Матфания"
-},
-{
-"id": "person:Mattenai",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Мафнай"
-},
-{
-"id": "person:Jeremoth.4",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Иремоф"
-},
-{
-"id": "person:Bani.5",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Ваний"
-},
-{
-"id": "person:Zabad.7",
+"id": "person:Zabad.6",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
 "preferred_label": "Завад"
 },
 {
-"id": "person:Jahzeiah",
+"id": "person:Elijah.4",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Яхзеия"
+"preferred_label": "Елия"
 },
 {
-"id": "person:Jehiel.8",
+"id": "person:Eliashib.5",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Елиашив"
+},
+{
+"id": "person:Amram.2",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Амрам"
+},
+{
+"id": "person:Jehiel.10",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
 "preferred_label": "Иехиел"
 },
 {
-"id": "person:Bedeiah",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Бидья"
-},
-{
-"id": "person:Vaniah",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Ванея"
-},
-{
-"id": "person:Maaseiah.9",
+"id": "person:Maaseiah.6",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
 "preferred_label": "Маасея"
 },
 {
-"id": "person:Zebina",
+"id": "person:Bani.6",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Зевина"
+"preferred_label": "Ваний"
 },
 {
-"id": "person:Benaiah.8",
+"id": "person:Malluch.2",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Ванея"
+"preferred_label": "Маллух"
 },
 {
-"id": "person:Binnui.3",
+"id": "person:Nethanel.8",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Биннуй"
+"preferred_label": "Нафанаил"
 },
 {
-"id": "person:Pethahiah.2",
+"id": "person:Shimei.16",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Пафахия"
+"preferred_label": "Шимей"
+},
+{
+"id": "person:Eliashib.4",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Елиашив"
+},
+{
+"id": "person:Ishmael.6",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Исмаил"
+},
+{
+"id": "person:Bani",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Ваний"
+},
+{
+"id": "person:Uel",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Уел"
+},
+{
+"id": "person:Eliezer.11",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Елиезер"
 }
 ]
 }

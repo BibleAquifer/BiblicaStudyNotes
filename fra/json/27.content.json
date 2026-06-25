@@ -22,7 +22,7 @@
 {
 "reference_id": 108199,
 "content_id": 133451,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Dieu",
 "language": "fra"
 },
@@ -113,7 +113,7 @@
 {
 "reference_id": 108363,
 "content_id": 133615,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pur ou impur",
 "language": "fra"
 },
@@ -169,13 +169,6 @@
 "preferred_label": "capacité"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3143,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3143,
@@ -185,6 +178,13 @@
 {
 "id": "group:Judah",
 "type": "group",
+"confidence": 0.3143,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.3143,
 "match_method": "canonical",
 "preferred_label": "Juda"
@@ -246,6 +246,13 @@
 "preferred_label": "Scroll"
 },
 {
+"id": "person:Ashpenaz",
+"type": "person",
+"confidence": 0.181,
+"match_method": "canonical",
+"preferred_label": "Aschpenaz"
+},
+{
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.181,
@@ -253,11 +260,60 @@
 "preferred_label": "Chaldéens"
 },
 {
-"id": "person:Ashpenaz",
-"type": "person",
-"confidence": 0.181,
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Aschpenaz"
+"preferred_label": "force"
+},
+{
+"id": "keyterm:Conjurer",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "prestidigitateur"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "comprehension"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Chaldée"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "bonté"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Cyrus"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Babylone"
 },
 {
 "id": "place:Jerusalem",
@@ -274,53 +330,11 @@
 "preferred_label": "souiller"
 },
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "force"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Babylone"
-},
-{
-"id": "keyterm:Conjurer",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "prestidigitateur"
-},
-{
 "id": "person:GenericOfficial",
 "type": "person",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Public Official"
-},
-{
-"id": "place:Shinar",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Schinear"
-},
-{
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "comprehension"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "bonté"
 },
 {
 "id": "person:Israel",
@@ -330,25 +344,11 @@
 "preferred_label": "Israël"
 },
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "la connaissance"
-},
-{
-"id": "place:Chaldea",
+"id": "place:Shinar",
 "type": "place",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Chaldée"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Cyrus"
+"preferred_label": "Schinear"
 },
 {
 "id": "realia:House",
@@ -502,13 +502,6 @@
 "preferred_label": "Money"
 },
 {
-"id": "keyterm:Conjurer",
-"type": "keyterm",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "prestidigitateur"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.1592,
@@ -521,6 +514,13 @@
 "confidence": 0.1592,
 "match_method": "canonical",
 "preferred_label": "Juda"
+},
+{
+"id": "keyterm:Conjurer",
+"type": "keyterm",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "prestidigitateur"
 },
 {
 "id": "realia:House",
@@ -604,18 +604,18 @@
 "preferred_label": "Mischaël"
 },
 {
-"id": "person:Azariah.20",
-"type": "person",
-"confidence": 0.5433,
-"match_method": "canonical",
-"preferred_label": "Azaria"
-},
-{
 "id": "person:Hananiah.15",
 "type": "person",
 "confidence": 0.5433,
 "match_method": "canonical",
 "preferred_label": "Hanania"
+},
+{
+"id": "person:Azariah.20",
+"type": "person",
+"confidence": 0.5433,
+"match_method": "canonical",
+"preferred_label": "Azaria"
 },
 {
 "id": "realia:Flute",
@@ -660,13 +660,6 @@
 "preferred_label": "Bagpipe"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.23,
@@ -674,11 +667,32 @@
 "preferred_label": "Jews"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
 "id": "place:Dura",
 "type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
 "preferred_label": "Dura"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Chaldée"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "group:Astrologer",
@@ -695,18 +709,11 @@
 "preferred_label": "A Messenger"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.165,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Chaldée"
+"preferred_label": "House"
 },
 {
 "id": "realia:Cubit",
@@ -714,13 +721,6 @@
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Cubit"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "House"
 }
 ]
 }
@@ -776,7 +776,7 @@
 {
 "reference_id": 108415,
 "content_id": 133667,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Instrument de Dieu",
 "language": "fra"
 },
@@ -811,7 +811,7 @@
 {
 "reference_id": 108509,
 "content_id": 133761,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Perse",
 "language": "fra"
 },
@@ -874,18 +874,18 @@
 "preferred_label": "Chaldéens"
 },
 {
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.3265,
-"match_method": "canonical",
-"preferred_label": "Babylone"
-},
-{
 "id": "place:Chaldea",
 "type": "place",
 "confidence": 0.3265,
 "match_method": "canonical",
 "preferred_label": "Chaldée"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.3265,
+"match_method": "canonical",
+"preferred_label": "Babylone"
 },
 {
 "id": "realia:House",
@@ -937,25 +937,18 @@
 "preferred_label": "Darius"
 },
 {
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "A Disembodied Voice"
+},
+{
 "id": "group:Persia",
 "type": "group",
 "confidence": 0.1566,
 "match_method": "canonical",
 "preferred_label": "Perse"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "Juda"
 },
 {
 "id": "place:Persia",
@@ -965,11 +958,18 @@
 "preferred_label": "Perse"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1566,
 "match_method": "canonical",
-"preferred_label": "A Disembodied Voice"
+"preferred_label": "Juda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "realia:Mina",
@@ -993,18 +993,18 @@
 "preferred_label": "Wild Donkey"
 },
 {
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.0966,
-"match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
 "id": "fauna:Vulture",
 "type": "fauna",
 "confidence": 0.0966,
 "match_method": "canonical",
 "preferred_label": "Vulture"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.0966,
+"match_method": "canonical",
+"preferred_label": "Throne"
 },
 {
 "id": "realia:Balance",
@@ -1116,13 +1116,6 @@
 "preferred_label": "Perse"
 },
 {
-"id": "person:Medan",
-"type": "person",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "Medan"
-},
-{
 "id": "group:Mede",
 "type": "group",
 "confidence": 0.2982,
@@ -1130,11 +1123,11 @@
 "preferred_label": "Mède(s); Médie"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
+"id": "person:Medan",
+"type": "person",
+"confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "Medan"
 },
 {
 "id": "group:GenericOfficials",
@@ -1144,11 +1137,11 @@
 "preferred_label": "Public Officials"
 },
 {
-"id": "person:Cyrus",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Cyrus"
+"preferred_label": "Jérusalem"
 },
 {
 "id": "group:Judah",
@@ -1156,6 +1149,13 @@
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Juda"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Cyrus"
 },
 {
 "id": "person:Judah.4",
@@ -1365,18 +1365,18 @@
 "preferred_label": "force"
 },
 {
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.3696,
-"match_method": "canonical",
-"preferred_label": "prospérer"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3696,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.3696,
+"match_method": "canonical",
+"preferred_label": "prospérer"
 },
 {
 "id": "keyterm:Truth",
@@ -1386,18 +1386,18 @@
 "preferred_label": "vérité"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.3668,
-"match_method": "canonical",
-"preferred_label": "alliance"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.3668,
 "match_method": "canonical",
 "preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.3668,
+"match_method": "canonical",
+"preferred_label": "alliance"
 },
 {
 "id": "keyterm:Supplication",
@@ -1407,18 +1407,18 @@
 "preferred_label": "supplication"
 },
 {
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.364,
-"match_method": "canonical",
-"preferred_label": "Perse"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.364,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.364,
+"match_method": "canonical",
+"preferred_label": "Perse"
 },
 {
 "id": "fauna:Lamb",
@@ -1428,18 +1428,18 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3112,
-"match_method": "canonical",
-"preferred_label": "Égypte"
-},
-{
 "id": "keyterm:Delight",
 "type": "keyterm",
 "confidence": 0.3112,
 "match_method": "canonical",
 "preferred_label": "délice"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3112,
+"match_method": "canonical",
+"preferred_label": "Égypte"
 },
 {
 "id": "realia:Fortress",
@@ -1456,13 +1456,6 @@
 "preferred_label": "Micaël"
 },
 {
-"id": "place:Greece",
-"type": "place",
-"confidence": 0.2596,
-"match_method": "canonical",
-"preferred_label": "Javan"
-},
-{
 "id": "keyterm:Vision",
 "type": "keyterm",
 "confidence": 0.2596,
@@ -1470,25 +1463,11 @@
 "preferred_label": "vision"
 },
 {
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.2584,
+"id": "place:Greece",
+"type": "place",
+"confidence": 0.2596,
 "match_method": "canonical",
-"preferred_label": "agir par méchanceté"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2584,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2584,
-"match_method": "canonical",
-"preferred_label": "craindre"
+"preferred_label": "Javan"
 },
 {
 "id": "keyterm:Instruction",
@@ -1498,11 +1477,25 @@
 "preferred_label": "Instruction"
 },
 {
-"id": "keyterm:DetestedThing",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.2584,
 "match_method": "canonical",
-"preferred_label": "abomination"
+"preferred_label": "ardeur"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2584,
+"match_method": "canonical",
+"preferred_label": "craindre"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2584,
+"match_method": "canonical",
+"preferred_label": "Israël"
 },
 {
 "id": "keyterm:Understanding",
@@ -1512,11 +1505,18 @@
 "preferred_label": "comprehension"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.2584,
 "match_method": "canonical",
-"preferred_label": "ardeur"
+"preferred_label": "agir par méchanceté"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.2584,
+"match_method": "canonical",
+"preferred_label": "abomination"
 },
 {
 "id": "realia:Scroll",

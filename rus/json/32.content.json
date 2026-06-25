@@ -176,6 +176,13 @@
 "preferred_label": "Ниневия"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.2865,
@@ -183,11 +190,11 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2865,
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Ship"
 },
 {
 "id": "fauna:Fish",
@@ -202,13 +209,6 @@
 "confidence": 0.2265,
 "match_method": "canonical",
 "preferred_label": "Sackcloth"
-},
-{
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "Ship"
 },
 {
 "id": "place:Hell",
@@ -246,46 +246,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "keyterm:Exempt",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Exempt"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
-"id": "place:Tarshish",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Фарсис"
-},
-{
-"id": "group:Hebrews",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Hebrews"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Believe In"
+"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Kindness",
@@ -302,11 +267,60 @@
 "preferred_label": "Slaughtering"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Exempt"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Фарсис"
+},
+{
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Believe In"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Praise"
+},
+{
+"id": "group:Hebrews",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Hebrews"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Lot"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Clothing"
 },
 {
 "id": "realia:Throne",
@@ -323,25 +337,11 @@
 "preferred_label": "Flock"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
 "id": "flora:Cattails",
 "type": "flora",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Cattails"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Goat"
 }
 ]
 }
@@ -376,7 +376,7 @@
 {
 "reference_id": 108220,
 "content_id": 193302,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Родословие ",
 "language": "rus"
 },
@@ -446,11 +446,11 @@
 "preferred_label": "Kindness"
 },
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "keyterm:Generous",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Ниневия"
+"preferred_label": "Generous"
 },
 {
 "id": "place:Tarshish",
@@ -467,18 +467,11 @@
 "preferred_label": "Compassionate"
 },
 {
-"id": "keyterm:Generous",
-"type": "keyterm",
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Generous"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Ниневия"
 },
 {
 "id": "fauna:Maggot",
@@ -486,6 +479,13 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Worm"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Cattle"
 }
 ]
 }

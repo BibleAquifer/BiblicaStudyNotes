@@ -92,13 +92,6 @@
 "preferred_label": "khusus"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.24,
@@ -113,6 +106,13 @@
 "preferred_label": "berbuat dosa"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "persembahan"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.24,
@@ -120,11 +120,25 @@
 "preferred_label": "takut"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Donkey"
 },
 {
 "id": "fauna:Flock",
@@ -141,25 +155,11 @@
 "preferred_label": "Camel"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "House"
 }
 ]
 }
@@ -299,11 +299,11 @@
 "preferred_label": "Wine"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "place:Chaldea",
+"type": "place",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Kasdim"
 },
 {
 "id": "group:Sabean",
@@ -320,25 +320,18 @@
 "preferred_label": "Chaldeans"
 },
 {
-"id": "place:Chaldea",
-"type": "place",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Kasdim"
+"preferred_label": "An Angel"
 },
 {
-"id": "realia:Mattock",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Mattock"
-},
-{
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Robe"
+"preferred_label": "Cattle"
 },
 {
 "id": "fauna:Camel",
@@ -348,11 +341,25 @@
 "preferred_label": "Camel"
 },
 {
-"id": "fauna:Donkey",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "Goat"
+},
+{
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Robe"
+},
+{
+"id": "realia:Mattock",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Mattock"
 },
 {
 "id": "fauna:Flock",
@@ -362,18 +369,11 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
+"id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Donkey"
 }
 ]
 }
@@ -436,6 +436,34 @@
 "preferred_label": "Ayub"
 },
 {
+"id": "group:Naamathites",
+"type": "group",
+"confidence": 0.1724,
+"match_method": "canonical",
+"preferred_label": "Naamathites"
+},
+{
+"id": "person:Bildad",
+"type": "person",
+"confidence": 0.1724,
+"match_method": "canonical",
+"preferred_label": "Bildad"
+},
+{
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.1724,
+"match_method": "canonical",
+"preferred_label": "Temanites"
+},
+{
+"id": "person:Eliphaz.2",
+"type": "person",
+"confidence": 0.1724,
+"match_method": "canonical",
+"preferred_label": "Elifas"
+},
+{
 "id": "person:Zophar",
 "type": "person",
 "confidence": 0.1724,
@@ -450,39 +478,11 @@
 "preferred_label": "Shuhites"
 },
 {
-"id": "person:Eliphaz.2",
-"type": "person",
-"confidence": 0.1724,
-"match_method": "canonical",
-"preferred_label": "Elifas"
-},
-{
-"id": "person:Bildad",
-"type": "person",
-"confidence": 0.1724,
-"match_method": "canonical",
-"preferred_label": "Bildad"
-},
-{
-"id": "group:Naamathites",
-"type": "group",
-"confidence": 0.1724,
-"match_method": "canonical",
-"preferred_label": "Naamathites"
-},
-{
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.1724,
-"match_method": "canonical",
-"preferred_label": "Temanites"
-},
-{
-"id": "keyterm:Curse",
+"id": "keyterm:Redeem",
 "type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "kutuk"
+"preferred_label": "membayar lunas"
 },
 {
 "id": "keyterm:Strength",
@@ -492,32 +492,18 @@
 "preferred_label": "kekuatan"
 },
 {
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "kutuk"
+},
+{
 "id": "place:Teman",
 "type": "place",
 "confidence": 0.1655,
 "match_method": "canonical",
 "preferred_label": "Téman"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "membayar lunas"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Dragon"
 },
 {
 "id": "realia:Robe",
@@ -539,6 +525,20 @@
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "Leviathan"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Dragon"
 }
 ]
 }
@@ -601,13 +601,6 @@
 "preferred_label": "Tuhan"
 },
 {
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.3597,
-"match_method": "canonical",
-"preferred_label": "berakal budi"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.3597,
@@ -615,11 +608,11 @@
 "preferred_label": "mencurigai"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Perceive",
 "type": "keyterm",
-"confidence": 0.3577,
+"confidence": 0.3597,
 "match_method": "canonical",
-"preferred_label": "keahlian"
+"preferred_label": "berakal budi"
 },
 {
 "id": "keyterm:Hope",
@@ -627,6 +620,13 @@
 "confidence": 0.3577,
 "match_method": "canonical",
 "preferred_label": "harapan"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3577,
+"match_method": "canonical",
+"preferred_label": "keahlian"
 },
 {
 "id": "keyterm:Strength",
@@ -685,18 +685,18 @@
 "preferred_label": "percaya pada"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.3545,
-"match_method": "canonical",
-"preferred_label": "memberontak"
-},
-{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.3545,
 "match_method": "canonical",
 "preferred_label": "pertimbangan"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.3545,
+"match_method": "canonical",
+"preferred_label": "memberontak"
 },
 {
 "id": "keyterm:Safety",
@@ -741,6 +741,20 @@
 "preferred_label": "niat jahat"
 },
 {
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.3026,
+"match_method": "canonical",
+"preferred_label": "penipuan"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.3026,
+"match_method": "canonical",
+"preferred_label": "keselamatan"
+},
+{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.3026,
@@ -753,20 +767,6 @@
 "confidence": 0.3026,
 "match_method": "canonical",
 "preferred_label": "murni"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.3026,
-"match_method": "canonical",
-"preferred_label": "keselamatan"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.3026,
-"match_method": "canonical",
-"preferred_label": "penipuan"
 },
 {
 "id": "realia:House",
@@ -797,11 +797,11 @@
 "preferred_label": "Bildad"
 },
 {
-"id": "keyterm:Mighty.2",
+"id": "keyterm:BegForMercy",
 "type": "keyterm",
 "confidence": 0.2522,
 "match_method": "canonical",
-"preferred_label": "orang lalim"
+"preferred_label": "memohon belas kasihan"
 }
 ]
 }
@@ -857,18 +857,18 @@
 "preferred_label": "Elihu"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.3636,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.3636,
 "match_method": "canonical",
 "preferred_label": "memberontak"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.3636,
+"match_method": "canonical",
+"preferred_label": "Hell"
 },
 {
 "id": "keyterm:Mischief",
@@ -878,13 +878,6 @@
 "preferred_label": "kenakalan"
 },
 {
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.3636,
-"match_method": "canonical",
-"preferred_label": "berakal budi"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.3636,
@@ -892,11 +885,11 @@
 "preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
 },
 {
-"id": "keyterm:Strength",
+"id": "keyterm:Perceive",
 "type": "keyterm",
-"confidence": 0.3109,
+"confidence": 0.3636,
 "match_method": "canonical",
-"preferred_label": "kekuatan"
+"preferred_label": "berakal budi"
 },
 {
 "id": "keyterm:Sin",
@@ -904,6 +897,13 @@
 "confidence": 0.3109,
 "match_method": "canonical",
 "preferred_label": "berbuat dosa"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.3109,
+"match_method": "canonical",
+"preferred_label": "kekuatan"
 },
 {
 "id": "keyterm:Intention",
@@ -962,6 +962,13 @@
 "preferred_label": "memiliki pengertian"
 },
 {
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.2055,
+"match_method": "canonical",
+"preferred_label": "pengertian"
+},
+{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.2055,
@@ -976,11 +983,11 @@
 "preferred_label": "lengkap"
 },
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:MightyOne",
 "type": "keyterm",
-"confidence": 0.2055,
+"confidence": 0.1539,
 "match_method": "canonical",
-"preferred_label": "pengertian"
+"preferred_label": "yang perkasa"
 },
 {
 "id": "person:Ram.3",
@@ -990,39 +997,32 @@
 "preferred_label": "Ram"
 },
 {
-"id": "keyterm:MightyOne",
-"type": "keyterm",
-"confidence": 0.1539,
-"match_method": "canonical",
-"preferred_label": "yang perkasa"
-},
-{
-"id": "keyterm:Guidance",
+"id": "keyterm:Wickedness",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
-"preferred_label": "bimbingan"
+"preferred_label": "orang dursila"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
-"preferred_label": "murni"
+"preferred_label": "kebaikan"
 },
 {
-"id": "keyterm:Redeem",
+"id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
-"preferred_label": "membayar lunas"
+"preferred_label": "jalan tuhan"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
+"id": "keyterm:Terror",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
-"preferred_label": "menanggung akibat kesalahan"
+"preferred_label": "ketakutan"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -1032,18 +1032,18 @@
 "preferred_label": "bertindak jahat"
 },
 {
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.1527,
+"match_method": "canonical",
+"preferred_label": "menanggung akibat kesalahan"
+},
+{
 "id": "keyterm:KindlyDisposed",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
 "preferred_label": "mengaruniakan"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1527,
-"match_method": "canonical",
-"preferred_label": "An Angel"
 }
 ]
 }
@@ -1106,18 +1106,18 @@
 "preferred_label": "pengertian"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2678,
-"match_method": "canonical",
-"preferred_label": "keahlian"
-},
-{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.2678,
 "match_method": "canonical",
 "preferred_label": "Ayub"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2678,
+"match_method": "canonical",
+"preferred_label": "keahlian"
 },
 {
 "id": "keyterm:Strength",
@@ -1141,32 +1141,11 @@
 "preferred_label": "berakal budi"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1559,
 "match_method": "canonical",
-"preferred_label": "bersandar pada"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1559,
-"match_method": "canonical",
-"preferred_label": "ketetapan"
-},
-{
-"id": "keyterm:Appetite",
-"type": "keyterm",
-"confidence": 0.1559,
-"match_method": "canonical",
-"preferred_label": "nafsu makan"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1559,
-"match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
+"preferred_label": "pertimbangan"
 },
 {
 "id": "keyterm:Intention",
@@ -1176,6 +1155,41 @@
 "preferred_label": "niat jahat"
 },
 {
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "ketakutan"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "tertarik/tergoda untuk beribadah"
+},
+{
+"id": "keyterm:Appetite",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "nafsu makan"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "ketetapan"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "bersandar pada"
+},
+{
 "id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.1559,
@@ -1183,18 +1197,18 @@
 "preferred_label": "keagungan"
 },
 {
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1559,
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1518,
 "match_method": "canonical",
-"preferred_label": "pertimbangan"
+"preferred_label": "Rams Horn"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
-"confidence": 0.1559,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1518,
 "match_method": "canonical",
-"preferred_label": "ketakutan"
+"preferred_label": "House"
 },
 {
 "id": "fauna:WildOx",
@@ -1211,13 +1225,6 @@
 "preferred_label": "Horse"
 },
 {
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1518,
-"match_method": "canonical",
-"preferred_label": "Rams Horn"
-},
-{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1518,
@@ -1225,11 +1232,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1518,
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 0.0986,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Falcon"
 },
 {
 "id": "fauna:Ibex",
@@ -1246,13 +1253,6 @@
 "preferred_label": "Manger"
 },
 {
-"id": "fauna:Falcon",
-"type": "fauna",
-"confidence": 0.0986,
-"match_method": "canonical",
-"preferred_label": "Falcon"
-},
-{
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.0986,
@@ -1260,25 +1260,25 @@
 "preferred_label": "Ostrich"
 },
 {
-"id": "flora:GreenVegetation",
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.0959,
+"match_method": "canonical",
+"preferred_label": "Crow"
+},
+{
+"id": "realia:Quiver",
+"type": "realia",
+"confidence": 0.0959,
+"match_method": "canonical",
+"preferred_label": "Quiver"
+},
+{
+"id": "flora:Coriander",
 "type": "flora",
 "confidence": 0.0959,
 "match_method": "canonical",
-"preferred_label": "Green Vegetation"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.0959,
-"match_method": "canonical",
-"preferred_label": "Measuring Reed"
-},
-{
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.0959,
-"match_method": "canonical",
-"preferred_label": "Javelin"
+"preferred_label": "Coriander"
 },
 {
 "id": "fauna:Stork",
@@ -1288,18 +1288,18 @@
 "preferred_label": "Stork"
 },
 {
-"id": "realia:Sword",
+"id": "realia:Skin-bottle",
 "type": "realia",
 "confidence": 0.0959,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Skin-Bottle"
 },
 {
-"id": "fauna:Rooster",
-"type": "fauna",
+"id": "realia:MeasuringReed",
+"type": "realia",
 "confidence": 0.0959,
 "match_method": "canonical",
-"preferred_label": "Rooster"
+"preferred_label": "Measuring Reed"
 }
 ]
 }
@@ -1361,25 +1361,11 @@
 "preferred_label": "rencana"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1576,
 "match_method": "canonical",
-"preferred_label": "bersandar pada"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "kekuatan"
-},
-{
-"id": "keyterm:DeclareGuilty",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "menyatakan bersalah"
+"preferred_label": "pertimbangan"
 },
 {
 "id": "keyterm:Supplication",
@@ -1389,18 +1375,11 @@
 "preferred_label": "permohonan"
 },
 {
-"id": "keyterm:Perceive",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1576,
 "match_method": "canonical",
-"preferred_label": "berakal budi"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
+"preferred_label": "kekuatan"
 },
 {
 "id": "keyterm:Intention",
@@ -1408,27 +1387,6 @@
 "confidence": 0.1576,
 "match_method": "canonical",
 "preferred_label": "niat jahat"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "keagungan"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "perjanjian"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "pertimbangan"
 },
 {
 "id": "keyterm:Terror",
@@ -1445,11 +1403,53 @@
 "preferred_label": "Yordan"
 },
 {
-"id": "realia:Javelin",
+"id": "keyterm:DeclareGuilty",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "menyatakan bersalah"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "perjanjian"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "bersandar pada"
+},
+{
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "keagungan"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "berakal budi"
+},
+{
+"id": "realia:Rope",
 "type": "realia",
 "confidence": 0.1553,
 "match_method": "canonical",
-"preferred_label": "Javelin"
+"preferred_label": "Rope"
 },
 {
 "id": "realia:CookingPot",
@@ -1459,11 +1459,11 @@
 "preferred_label": "Cooking Pot"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.1553,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Javelin"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -1494,25 +1494,11 @@
 "preferred_label": "Rush"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
+"id": "fauna:Bird",
+"type": "fauna",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "realia:WarClub",
-"type": "realia",
-"confidence": 0.0976,
-"match_method": "canonical",
-"preferred_label": "War Club"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.0976,
-"match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Bird"
 },
 {
 "id": "flora:Poplar",
@@ -1522,18 +1508,32 @@
 "preferred_label": "Poplar"
 },
 {
-"id": "realia:Hand-mill",
+"id": "realia:WarClub",
 "type": "realia",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Hand-Mill"
+"preferred_label": "War Club"
 },
 {
-"id": "flora:Grain",
+"id": "flora:Reed",
 "type": "flora",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "Reed"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.0976,
+"match_method": "canonical",
+"preferred_label": "Sword"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.0976,
+"match_method": "canonical",
+"preferred_label": "Cattle"
 }
 ]
 }
@@ -1610,18 +1610,18 @@
 "preferred_label": "Elifas"
 },
 {
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Temanites"
-},
-{
 "id": "place:Teman",
 "type": "place",
 "confidence": 0.2818,
 "match_method": "canonical",
 "preferred_label": "Téman"
+},
+{
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Temanites"
 },
 {
 "id": "fauna:Bull",
@@ -1631,32 +1631,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "person:Bildad",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Bildad"
-},
-{
 "id": "person:Zophar",
 "type": "person",
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "Zofar"
-},
-{
-"id": "person:Jemimah",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Yemima"
-},
-{
-"id": "person:Keren-happuch",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Kerenhapukh"
 },
 {
 "id": "person:Keziah",
@@ -1666,32 +1645,25 @@
 "preferred_label": "Kezia"
 },
 {
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1909,
+"id": "person:Bildad",
+"type": "person",
+"confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "bodoh"
+"preferred_label": "Bildad"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1909,
+"id": "person:Keren-happuch",
+"type": "person",
+"confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "menyebabkan memiliki"
+"preferred_label": "Kerenhapukh"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1909,
+"id": "person:Jemimah",
+"type": "person",
+"confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "memberkati"
+"preferred_label": "Yemima"
 },
 {
 "id": "group:Naamathites",
@@ -1701,11 +1673,39 @@
 "preferred_label": "Naamathites"
 },
 {
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "menyebabkan memiliki"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "bodoh"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "memberkati"
+},
+{
 "id": "group:Shuhites",
 "type": "group",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Shuhites"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "persembahan"
 },
 {
 "id": "realia:PieceOfMoney",
@@ -1715,11 +1715,18 @@
 "preferred_label": "Piece of Money"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "realia:Earring",
+"type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Earring"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "fauna:Camel",
@@ -1727,6 +1734,20 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Camel"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 },
 {
 "id": "fauna:Donkey",
@@ -1741,27 +1762,6 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:Earring",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Earring"
 }
 ]
 }

@@ -120,11 +120,11 @@
 "preferred_label": "Wild Flower"
 },
 {
-"id": "keyterm:Happy",
+"id": "keyterm:Approved",
 "type": "keyterm",
 "confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "bem, aventurado"
+"preferred_label": "aprovado"
 },
 {
 "id": "keyterm:Interpret",
@@ -134,11 +134,39 @@
 "preferred_label": "discernir"
 },
 {
-"id": "keyterm:Approved",
+"id": "keyterm:Happy",
 "type": "keyterm",
 "confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "aprovado"
+"preferred_label": "bem, aventurado"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Cause of Joy"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "distinguir"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "A Person"
 },
 {
 "id": "keyterm:Love",
@@ -148,6 +176,13 @@
 "preferred_label": "love"
 },
 {
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
 "id": "person:James.3",
 "type": "person",
 "confidence": 0.175,
@@ -155,11 +190,18 @@
 "preferred_label": "Tiago"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "promessa"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Good"
 },
 {
 "id": "keyterm:Life",
@@ -176,48 +218,6 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Cause of Joy"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "amado"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "distinguir"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "promessa"
-},
-{
 "id": "keyterm:NotTempted",
 "type": "keyterm",
 "confidence": 0.175,
@@ -225,11 +225,11 @@
 "preferred_label": "que não pode ser tentado"
 },
 {
-"id": "person:GenericPerson",
-"type": "person",
+"id": "keyterm:Beloved",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "A Person"
+"preferred_label": "amado"
 },
 {
 "id": "realia:Crown",
@@ -348,32 +348,25 @@
 "preferred_label": "inútil"
 },
 {
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "bem, aventurado"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "lei"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Undefiled",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "sem mancha"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "be (or show oneself) just"
 },
 {
 "id": "keyterm:Beloved",
@@ -383,7 +376,7 @@
 "preferred_label": "amado"
 },
 {
-"id": "keyterm:AboveCriticism",
+"id": "keyterm:Undefiled",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
@@ -397,18 +390,25 @@
 "preferred_label": "coração"
 },
 {
-"id": "keyterm:Happy",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "bem, aventurado"
+"preferred_label": "be (or show oneself) just"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "salvation"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:AboveCriticism",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "sem mancha"
 },
 {
 "id": "realia:Mirror",
@@ -492,18 +492,18 @@
 "preferred_label": "tribunal de justiça"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "crer"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "love"
 },
 {
 "id": "realia:Clothing",
@@ -513,13 +513,6 @@
 "preferred_label": "Clothing"
 },
 {
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "juízo"
-},
-{
 "id": "keyterm:Stumble",
 "type": "keyterm",
 "confidence": 0.2,
@@ -527,109 +520,11 @@
 "preferred_label": "tropeçar"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Judgment",
 "type": "keyterm",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "fornication"
-},
-{
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "escolhido"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "amado"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "misericórdia"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "distinguir"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "promessa"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "blasfemar"
+"preferred_label": "juízo"
 },
 {
 "id": "keyterm:Scripture",
@@ -639,6 +534,83 @@
 "preferred_label": "escritura"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "distinguir"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "promessa"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "escolhido"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "misericórdia"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "decidir"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
 "id": "keyterm:Merciless",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -646,11 +618,32 @@
 "preferred_label": "inclemente"
 },
 {
-"id": "realia:Synagogue",
-"type": "realia",
-"confidence": 0.1246,
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "reino"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "amado"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "fornication"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "blasfemar"
 },
 {
 "id": "realia:Footstool",
@@ -658,6 +651,13 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Footstool"
+},
+{
+"id": "realia:Synagogue",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Synagogue"
 },
 {
 "id": "realia:Seal",
@@ -776,11 +776,11 @@
 "preferred_label": "corpo"
 },
 {
-"id": "person:GenericPerson",
+"id": "person:Abraham",
 "type": "person",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "A Person"
+"preferred_label": "Abraão"
 },
 {
 "id": "deity:Lord",
@@ -790,18 +790,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Abraham",
+"id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "Abraão"
-},
-{
-"id": "person:Rahab",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Raabe"
+"preferred_label": "A Person"
 },
 {
 "id": "keyterm:Idle",
@@ -811,18 +804,11 @@
 "preferred_label": "inútil"
 },
 {
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1846,
+"id": "person:Rahab",
+"type": "person",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "fazer a paz"
+"preferred_label": "Raabe"
 },
 {
 "id": "deity:Angel",
@@ -832,18 +818,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
+"id": "keyterm:Peace",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Isaque"
+"preferred_label": "fazer a paz"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -860,6 +839,13 @@
 "preferred_label": "escritura"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
 "id": "keyterm:Empty",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -867,11 +853,25 @@
 "preferred_label": "vazio"
 },
 {
-"id": "keyterm:Salvation",
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Isaque"
+},
+{
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "salvation"
+"preferred_label": "To Cause to Happen"
 }
 ]
 }
@@ -941,6 +941,20 @@
 "preferred_label": "persuadir"
 },
 {
+"id": "keyterm:Stumble",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "tropeçar"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Hell"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -955,11 +969,11 @@
 "preferred_label": "coração"
 },
 {
-"id": "place:Hell",
-"type": "place",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Hell"
+"preferred_label": "SENHOR"
 },
 {
 "id": "keyterm:UnjustDeed",
@@ -976,25 +990,11 @@
 "preferred_label": "juízo"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Gehenna",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "geena"
-},
-{
-"id": "keyterm:Stumble",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "tropeçar"
 },
 {
 "id": "realia:Rudder",
@@ -1011,25 +1011,11 @@
 "preferred_label": "Bit and Bridle"
 },
 {
-"id": "fauna:Lizard",
+"id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Lizard"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Fish"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Bird"
 },
 {
 "id": "fauna:Rooster",
@@ -1039,32 +1025,18 @@
 "preferred_label": "Rooster"
 },
 {
+"id": "fauna:CreepingAnimal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Creeping Animal"
+},
+{
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Ship"
-},
-{
-"id": "fauna:Iguana",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Monitor"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Snake"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Vine"
 },
 {
 "id": "flora:Fig",
@@ -1074,18 +1046,32 @@
 "preferred_label": "Fig"
 },
 {
-"id": "fauna:CreepingAnimal",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Creeping Animal"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Vine"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Fish"
+},
+{
+"id": "fauna:Iguana",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Monitor"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Horse"
 },
 {
 "id": "fauna:Chameleon",
@@ -1095,11 +1081,25 @@
 "preferred_label": "Chameleon"
 },
 {
-"id": "fauna:Bird",
+"id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "Lizard"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Snake"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
 }
 ]
 }
@@ -1169,18 +1169,18 @@
 "preferred_label": "fazer a paz"
 },
 {
+"id": "keyterm:Natural",
+"type": "keyterm",
+"confidence": 0.2583,
+"match_method": "canonical",
+"preferred_label": "natural"
+},
+{
 "id": "keyterm:Unhypocritical",
 "type": "keyterm",
 "confidence": 0.2583,
 "match_method": "canonical",
 "preferred_label": "sem hipocrisia"
-},
-{
-"id": "keyterm:Gentle",
-"type": "keyterm",
-"confidence": 0.2583,
-"match_method": "canonical",
-"preferred_label": "compreensivo"
 },
 {
 "id": "keyterm:Behavior",
@@ -1190,25 +1190,11 @@
 "preferred_label": "conduta"
 },
 {
-"id": "keyterm:Natural",
+"id": "keyterm:Gentle",
 "type": "keyterm",
 "confidence": 0.2583,
 "match_method": "canonical",
-"preferred_label": "natural"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
-"id": "keyterm:Demonic",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "demoníaco"
+"preferred_label": "compreensivo"
 },
 {
 "id": "keyterm:Truth",
@@ -1218,11 +1204,18 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "pure"
+"preferred_label": "misericórdia"
+},
+{
+"id": "keyterm:Demonic",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "demoníaco"
 },
 {
 "id": "keyterm:Heart",
@@ -1239,11 +1232,18 @@
 "preferred_label": "be (or show oneself) just"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "misericórdia"
+"preferred_label": "Good"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "pure"
 }
 ]
 }
@@ -1320,6 +1320,13 @@
 "preferred_label": "Life"
 },
 {
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "amizade"
+},
+{
 "id": "keyterm:Honest",
 "type": "keyterm",
 "confidence": 0.1882,
@@ -1334,32 +1341,32 @@
 "preferred_label": "be unfaithful"
 },
 {
-"id": "keyterm:Friendship",
-"type": "keyterm",
-"confidence": 0.1882,
-"match_method": "canonical",
-"preferred_label": "amizade"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:LongFor",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "desejar"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "pure"
+"preferred_label": "escritura"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "coração"
+"preferred_label": "salvation"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -1369,11 +1376,25 @@
 "preferred_label": "Cause of Joy"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "coração"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "pure"
 },
 {
 "id": "keyterm:Law",
@@ -1390,18 +1411,11 @@
 "preferred_label": "legislador"
 },
 {
-"id": "keyterm:LongFor",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "desejar"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "favor"
+"preferred_label": "Holy Spirit"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -1411,20 +1425,6 @@
 "preferred_label": "To Cleanse"
 },
 {
-"id": "keyterm:Scripture",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "escritura"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -1432,11 +1432,11 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "salvation"
+"preferred_label": "favor"
 }
 ]
 }
@@ -1506,13 +1506,6 @@
 "preferred_label": "coração"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Jó"
-},
-{
 "id": "keyterm:Compassionate",
 "type": "keyterm",
 "confidence": 0.2091,
@@ -1520,25 +1513,18 @@
 "preferred_label": "Compassionate"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1909,
+"id": "person:Job",
+"type": "person",
+"confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "decidir"
+"preferred_label": "Jó"
 },
 {
-"id": "keyterm:FullOfCompassion",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "mui compassivo"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "testemunhar"
+"preferred_label": "be (or show oneself) just"
 },
 {
 "id": "keyterm:Name",
@@ -1555,18 +1541,18 @@
 "preferred_label": "corpo"
 },
 {
-"id": "keyterm:Just",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "be (or show oneself) just"
+"preferred_label": "testemunhar"
 },
 {
-"id": "keyterm:Condemn",
+"id": "keyterm:FullOfCompassion",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "condenar"
+"preferred_label": "mui compassivo"
 },
 {
 "id": "keyterm:RegardAsHappy",
@@ -1576,11 +1562,18 @@
 "preferred_label": "considerar feliz"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1309,
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "decidir"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "condenar"
 },
 {
 "id": "realia:Door",
@@ -1588,6 +1581,13 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Door"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Clothing"
 }
 ]
 }
@@ -1671,11 +1671,11 @@
 "preferred_label": "To Sin"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "céu"
+"preferred_label": "salvation"
 },
 {
 "id": "deity:Lord",
@@ -1685,32 +1685,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Oath"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Elias"
+"preferred_label": "céu"
 },
 {
 "id": "keyterm:Believe",
@@ -1727,18 +1706,39 @@
 "preferred_label": "Truth"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "be (or show oneself) just"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Oath"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "forgive"
+},
+{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "autoridade"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "anointed"
 },
 {
 "id": "keyterm:Church",
@@ -1748,18 +1748,18 @@
 "preferred_label": "igreja"
 },
 {
-"id": "keyterm:Just",
+"id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "be (or show oneself) just"
+"preferred_label": "anointed"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
+"id": "person:Elijah",
+"type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "forgive"
+"preferred_label": "Elias"
 },
 {
 "id": "realia:OliveOil",

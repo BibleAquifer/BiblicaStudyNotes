@@ -85,7 +85,7 @@
 {
 "reference_id": 108268,
 "content_id": 232869,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "雅各",
 "language": "zht"
 },
@@ -176,7 +176,7 @@
 {
 "reference_id": 108419,
 "content_id": 233020,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "心",
 "language": "zht"
 },
@@ -253,11 +253,11 @@
 "preferred_label": "Appoint"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Jerusalem"
 },
 {
 "id": "keyterm:Fear",
@@ -267,18 +267,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2755,
-"match_method": "canonical",
-"preferred_label": "Judah"
+"preferred_label": "Israel"
 },
 {
 "id": "group:Judah",
@@ -288,25 +281,18 @@
 "preferred_label": "Tribe of Judah"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2755,
+"match_method": "canonical",
+"preferred_label": "Judah"
+},
+{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "Moab"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Woe"
 },
 {
 "id": "keyterm:Ardour",
@@ -323,13 +309,6 @@
 "preferred_label": "Cush"
 },
 {
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Deceit"
-},
-{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.217,
@@ -337,18 +316,39 @@
 "preferred_label": "Ammon"
 },
 {
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Ashkelon"
-},
-{
 "id": "group:Ammon",
 "type": "group",
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "Ammonites"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Deceit"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Woe"
+},
+{
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Ashkelon"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -365,34 +365,6 @@
 "preferred_label": "House"
 },
 {
-"id": "person:Zephaniah.3",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Zephaniah"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Fish Gate"
-},
-{
-"id": "keyterm:Stain",
-"type": "keyterm",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Defile"
-},
-{
-"id": "person:Gedaliah.3",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Gedaliah"
-},
-{
 "id": "person:Cushi",
 "type": "person",
 "confidence": 0.1623,
@@ -407,11 +379,18 @@
 "preferred_label": "The Hollow"
 },
 {
-"id": "person:Amariah.9",
+"id": "person:Zephaniah.3",
 "type": "person",
 "confidence": 0.1623,
 "match_method": "canonical",
-"preferred_label": "Amariah"
+"preferred_label": "Zephaniah"
+},
+{
+"id": "keyterm:Stain",
+"type": "keyterm",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Defile"
 },
 {
 "id": "place:SecondQuarter",
@@ -421,6 +400,20 @@
 "preferred_label": "Second District"
 },
 {
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Fish Gate"
+},
+{
+"id": "person:Gedaliah.3",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Gedaliah"
+},
+{
 "id": "person:Hezekiah.4",
 "type": "person",
 "confidence": 0.1623,
@@ -428,25 +421,32 @@
 "preferred_label": "Hezekiah"
 },
 {
-"id": "keyterm:Love",
+"id": "person:Amariah.9",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Amariah"
+},
+{
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Instruction"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "place:Canaan",
+"id": "place:Philistine",
 "type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Canaan"
+"preferred_label": "Philistia"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Safety"
 }
 ]
 }

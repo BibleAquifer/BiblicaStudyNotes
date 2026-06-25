@@ -285,6 +285,27 @@
 "preferred_label": "prospérer"
 },
 {
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "se réfugier"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "laissiez en possession"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "limite"
+},
+{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -297,27 +318,6 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "craindre"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "limite"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "laissiez en possession"
-},
-{
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "se réfugier"
 },
 {
 "id": "realia:Rope",
@@ -443,6 +443,13 @@
 "preferred_label": "magnifique"
 },
 {
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "splendeur"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2,
@@ -457,25 +464,11 @@
 "preferred_label": "charger"
 },
 {
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "splendeur"
-},
-{
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
 "preferred_label": "Fish"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "Flock"
 },
 {
 "id": "fauna:Bird",
@@ -490,6 +483,13 @@
 "confidence": 0.14,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Goat",
@@ -573,6 +573,13 @@
 "preferred_label": "Dog"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "aide"
+},
+{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1645,
@@ -580,25 +587,11 @@
 "preferred_label": "force"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "saint"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "destin"
-},
-{
-"id": "keyterm:Poor",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "pauvre"
+"preferred_label": "se rendre honoré"
 },
 {
 "id": "place:Bashan",
@@ -615,11 +608,25 @@
 "preferred_label": "être attiré à servir"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "se rendre honoré"
+"preferred_label": "saint"
+},
+{
+"id": "keyterm:Poor",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "pauvre"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "destin"
 },
 {
 "id": "keyterm:Vow",
@@ -629,11 +636,11 @@
 "preferred_label": "faire un voeu"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1645,
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "aide"
+"preferred_label": "Cattle"
 },
 {
 "id": "fauna:WildOx",
@@ -648,13 +655,6 @@
 "confidence": 0.1045,
 "match_method": "canonical",
 "preferred_label": "Sheep"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Cattle"
 },
 {
 "id": "fauna:Maggot",
@@ -724,6 +724,13 @@
 "preferred_label": "psaume"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.225,
@@ -738,67 +745,11 @@
 "preferred_label": "craindre"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
 "id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1983,
 "match_method": "canonical",
 "preferred_label": "Staff"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "flora:GreenVegetation",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Green Vegetation"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Sheep"
 },
 {
 "id": "realia:Rod",
@@ -808,11 +759,60 @@
 "preferred_label": "Rod"
 },
 {
+"id": "flora:GreenVegetation",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Green Vegetation"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Grass"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Sheep"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
 }
 ]
 }
@@ -931,7 +931,7 @@
 {
 "reference_id": 108363,
 "content_id": 133615,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pur ou impur",
 "language": "fra"
 }
@@ -980,11 +980,11 @@
 "preferred_label": "ardeur"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "offrande"
+"preferred_label": "aide"
 },
 {
 "id": "keyterm:Forgive",
@@ -994,18 +994,11 @@
 "preferred_label": "pardonner"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "aide"
-},
-{
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.1842,
-"match_method": "canonical",
-"preferred_label": "purifier"
+"preferred_label": "offrande"
 },
 {
 "id": "keyterm:Psalm",
@@ -1015,11 +1008,11 @@
 "preferred_label": "psaume"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1737,
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.1842,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "purifier"
 },
 {
 "id": "keyterm:Ability",
@@ -1029,39 +1022,11 @@
 "preferred_label": "capacité"
 },
 {
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "délice"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "vérité"
-},
-{
-"id": "keyterm:KindlyDisposed",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "agir avec bonté"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "David"
 },
 {
 "id": "keyterm:Kindness",
@@ -1071,6 +1036,34 @@
 "preferred_label": "bonté"
 },
 {
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "chemin"
+},
+{
+"id": "keyterm:KindlyDisposed",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "agir avec bonté"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Delight",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "délice"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -1078,11 +1071,39 @@
 "preferred_label": "être juste"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
 "id": "flora:Hyssop",
 "type": "flora",
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "Hyssop"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:Altar",
@@ -1097,27 +1118,6 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "Temple Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Cattle"
 }
 ]
 }
@@ -1173,13 +1173,6 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "keyterm:Innocence",
-"type": "keyterm",
-"confidence": 0.1732,
-"match_method": "canonical",
-"preferred_label": "propreté"
-},
-{
 "id": "keyterm:Semblance",
 "type": "keyterm",
 "confidence": 0.1732,
@@ -1187,46 +1180,18 @@
 "preferred_label": "ressemblance"
 },
 {
-"id": "keyterm:Perceive",
+"id": "keyterm:Innocence",
+"type": "keyterm",
+"confidence": 0.1732,
+"match_method": "canonical",
+"preferred_label": "propreté"
+},
+{
+"id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "percevoir"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "keyterm:Refuge",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "refuge"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "se prostituer"
-},
-{
-"id": "keyterm:Psalm",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "psaume"
+"preferred_label": "juste"
 },
 {
 "id": "keyterm:Counsel",
@@ -1236,18 +1201,18 @@
 "preferred_label": "avis"
 },
 {
-"id": "keyterm:Zealous",
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "être zélé"
+"preferred_label": "se prostituer"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "juste"
+"preferred_label": "gloire"
 },
 {
 "id": "person:Asaph.2",
@@ -1262,6 +1227,41 @@
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "état intact"
+},
+{
+"id": "keyterm:Psalm",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "psaume"
+},
+{
+"id": "keyterm:Refuge",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "refuge"
+},
+{
+"id": "keyterm:Zealous",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "être zélé"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "percevoir"
 }
 ]
 }
@@ -1359,13 +1359,6 @@
 "preferred_label": "Moïse"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3194,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.3194,
@@ -1373,25 +1366,18 @@
 "preferred_label": "Égypte"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3194,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.2645,
 "match_method": "canonical",
 "preferred_label": "laissiez en possession"
-},
-{
-"id": "place:Ham.2",
-"type": "place",
-"confidence": 0.2645,
-"match_method": "canonical",
-"preferred_label": "Cham"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.2645,
-"match_method": "canonical",
-"preferred_label": "mer Rouge"
 },
 {
 "id": "person:Abraham",
@@ -1408,11 +1394,25 @@
 "preferred_label": "bonté"
 },
 {
+"id": "place:RedSea",
+"type": "place",
+"confidence": 0.2645,
+"match_method": "canonical",
+"preferred_label": "mer Rouge"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.2645,
 "match_method": "canonical",
 "preferred_label": "alliance"
+},
+{
+"id": "place:Ham.2",
+"type": "place",
+"confidence": 0.2645,
+"match_method": "canonical",
+"preferred_label": "Cham"
 },
 {
 "id": "keyterm:Blow",
@@ -1436,13 +1436,6 @@
 "preferred_label": "limite"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2097,
-"match_method": "canonical",
-"preferred_label": "exemple"
-},
-{
 "id": "place:Canaan",
 "type": "place",
 "confidence": 0.2097,
@@ -1455,6 +1448,13 @@
 "confidence": 0.2097,
 "match_method": "canonical",
 "preferred_label": "fie"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2097,
+"match_method": "canonical",
+"preferred_label": "exemple"
 },
 {
 "id": "flora:Cattails",
@@ -1478,6 +1478,34 @@
 "preferred_label": "levér"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1548,
+"match_method": "canonical",
+"preferred_label": "sûrement!"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1548,
+"match_method": "canonical",
+"preferred_label": "aide"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.1548,
+"match_method": "canonical",
+"preferred_label": "avis"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1548,
+"match_method": "canonical",
+"preferred_label": "Instruction"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1548,
@@ -1485,25 +1513,25 @@
 "preferred_label": "gloire"
 },
 {
-"id": "keyterm:Exempt",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "exempt"
+"preferred_label": "déposséder"
 },
 {
-"id": "keyterm:Delight",
+"id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "délice"
+"preferred_label": "adjuration"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "sûrement!"
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -1513,39 +1541,11 @@
 "preferred_label": "prospérer"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Zealous",
 "type": "keyterm",
 "confidence": 0.1548,
 "match_method": "canonical",
-"preferred_label": "oint"
-},
-{
-"id": "keyterm:MiraculousSign",
-"type": "keyterm",
-"confidence": 0.1548,
-"match_method": "canonical",
-"preferred_label": "signe"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1548,
-"match_method": "canonical",
-"preferred_label": "acheter"
-},
-{
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.1548,
-"match_method": "canonical",
-"preferred_label": "se charger d'une faute"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1548,
-"match_method": "canonical",
-"preferred_label": "agir par méchanceté"
+"preferred_label": "être zélé"
 }
 ]
 }
@@ -1615,18 +1615,18 @@
 "preferred_label": "utilisé comme adverbe: empressement"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Jérusalem"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "jurer"
 },
 {
 "id": "keyterm:Psalm",
@@ -1636,11 +1636,11 @@
 "preferred_label": "psaume"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "keyterm:Swear",
+"type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "jurer"
 },
 {
 "id": "realia:Rod",
@@ -1688,34 +1688,6 @@
 "preferred_label": "faire un voeu"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "keyterm:SimplePerson",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "simple"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "aimer"
-},
-{
 "id": "keyterm:LoyalPerson",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -1723,25 +1695,18 @@
 "preferred_label": "personne qui est fidèle"
 },
 {
-"id": "keyterm:Praise",
-"type": "keyterm",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "louange"
+"preferred_label": "Jérusalem"
 },
 {
-"id": "keyterm:Slaughtering",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "tuerie"
-},
-{
-"id": "keyterm:Supplication",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "supplication"
+"preferred_label": "aide"
 },
 {
 "id": "keyterm:Generous",
@@ -1751,6 +1716,41 @@
 "preferred_label": "bienveillant"
 },
 {
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "louange"
+},
+{
+"id": "keyterm:Supplication",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "supplication"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Hell"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "tuerie"
+},
+{
+"id": "keyterm:SimplePerson",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "simple"
+},
+{
 "id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -1758,11 +1758,11 @@
 "preferred_label": "fie"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "aide"
+"preferred_label": "aimer"
 },
 {
 "id": "realia:House",
@@ -1909,18 +1909,18 @@
 "preferred_label": "agir avec bonté"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.2051,
-"match_method": "canonical",
-"preferred_label": "acheter"
-},
-{
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.2051,
 "match_method": "canonical",
 "preferred_label": "chemin"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.2051,
+"match_method": "canonical",
+"preferred_label": "acheter"
 },
 {
 "id": "keyterm:Complete",
@@ -1944,32 +1944,18 @@
 "preferred_label": "bouclier"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Supplication",
 "type": "keyterm",
 "confidence": 0.1526,
 "match_method": "canonical",
-"preferred_label": "s'appuyer sur"
+"preferred_label": "supplication"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1526,
 "match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1526,
-"match_method": "canonical",
-"preferred_label": "benir"
-},
-{
-"id": "keyterm:SimplePerson",
-"type": "keyterm",
-"confidence": 0.1526,
-"match_method": "canonical",
-"preferred_label": "simple"
+"preferred_label": "avis"
 },
 {
 "id": "keyterm:Sin",
@@ -1979,27 +1965,6 @@
 "preferred_label": "pécher"
 },
 {
-"id": "keyterm:Straightness",
-"type": "keyterm",
-"confidence": 0.1526,
-"match_method": "canonical",
-"preferred_label": "droiture"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.1526,
-"match_method": "canonical",
-"preferred_label": "tromperie"
-},
-{
-"id": "keyterm:Supplication",
-"type": "keyterm",
-"confidence": 0.1526,
-"match_method": "canonical",
-"preferred_label": "supplication"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1526,
@@ -2007,18 +1972,46 @@
 "preferred_label": "jurer"
 },
 {
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
-"confidence": 0.1526,
-"match_method": "canonical",
-"preferred_label": "fie"
-},
-{
 "id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.1526,
 "match_method": "canonical",
 "preferred_label": "pleurer"
+},
+{
+"id": "keyterm:Straightness",
+"type": "keyterm",
+"confidence": 0.1526,
+"match_method": "canonical",
+"preferred_label": "droiture"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.1526,
+"match_method": "canonical",
+"preferred_label": "la connaissance"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1526,
+"match_method": "canonical",
+"preferred_label": "benir"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1526,
+"match_method": "canonical",
+"preferred_label": "état intact"
+},
+{
+"id": "keyterm:SimplePerson",
+"type": "keyterm",
+"confidence": 0.1526,
+"match_method": "canonical",
+"preferred_label": "simple"
 },
 {
 "id": "keyterm:AskFor",
@@ -2033,6 +2026,13 @@
 "confidence": 0.1526,
 "match_method": "canonical",
 "preferred_label": "méchanceté"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1526,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 }
 ]
 }
@@ -2095,6 +2095,13 @@
 "preferred_label": "Éternel"
 },
 {
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Édom"
+},
+{
 "id": "group:GenericGroup",
 "type": "group",
 "confidence": 0.2,
@@ -2109,13 +2116,6 @@
 "preferred_label": "Édom"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "flora:Poplar",
 "type": "flora",
 "confidence": 0.14,
@@ -2123,18 +2123,18 @@
 "preferred_label": "Poplar"
 },
 {
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "Lute"
-},
-{
 "id": "flora:Willow",
 "type": "flora",
 "confidence": 0.14,
 "match_method": "canonical",
 "preferred_label": "Willow"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "Lute"
 },
 {
 "id": "realia:Foundation",
@@ -2232,11 +2232,11 @@
 "preferred_label": "danse en rond"
 },
 {
-"id": "keyterm:Decree",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.2153,
 "match_method": "canonical",
-"preferred_label": "limite"
+"preferred_label": "aide"
 },
 {
 "id": "keyterm:Poor",
@@ -2246,11 +2246,11 @@
 "preferred_label": "pauvre"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.2153,
 "match_method": "canonical",
-"preferred_label": "aide"
+"preferred_label": "limite"
 },
 {
 "id": "realia:Lute",
@@ -2281,53 +2281,11 @@
 "preferred_label": "gloire"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "s'appuyer sur"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "aimer"
-},
-{
-"id": "keyterm:Horn",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "colline"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1576,
 "match_method": "canonical",
 "preferred_label": "force"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "vérité"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "benir"
 },
 {
 "id": "keyterm:Understanding",
@@ -2337,11 +2295,18 @@
 "preferred_label": "comprehension"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1576,
 "match_method": "canonical",
-"preferred_label": "craindre"
+"preferred_label": "aimer"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "vérité"
 },
 {
 "id": "keyterm:Kindness",
@@ -2351,11 +2316,11 @@
 "preferred_label": "bonté"
 },
 {
-"id": "keyterm:Majesty",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1576,
 "match_method": "canonical",
-"preferred_label": "splendeur"
+"preferred_label": "benir"
 },
 {
 "id": "keyterm:BringHonorAndGloryOnOneself",
@@ -2372,6 +2337,41 @@
 "preferred_label": "état intact"
 },
 {
+"id": "keyterm:Horn",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "colline"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "craindre"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "s'appuyer sur"
+},
+{
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "splendeur"
+},
+{
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.101,
@@ -2386,25 +2386,25 @@
 "preferred_label": "Cymbals"
 },
 {
-"id": "fauna:Lizard",
+"id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Lizard"
+"preferred_label": "Bird"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.0976,
-"match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "fauna:Lamb",
+"id": "fauna:Crow",
 "type": "fauna",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Crow"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.0976,
+"match_method": "canonical",
+"preferred_label": "Bed"
 }
 ]
 }
