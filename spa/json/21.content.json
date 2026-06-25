@@ -50,18 +50,18 @@
 ],
 "acai": [
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "David"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
 }
 ]
 }
@@ -201,18 +201,18 @@
 "preferred_label": "House"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.2493,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.2493,
 "match_method": "canonical",
 "preferred_label": "Money"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.2493,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "keyterm:Glory",
@@ -222,27 +222,6 @@
 "preferred_label": "gloria del señor"
 },
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "fuerza"
-},
-{
-"id": "person:GenericMale",
-"type": "person",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "A Man"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "favor"
-},
-{
 "id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.2047,
@@ -250,11 +229,11 @@
 "preferred_label": "juramento"
 },
 {
-"id": "keyterm:Vow",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "hacer un voto"
+"preferred_label": "fuerza"
 },
 {
 "id": "keyterm:Ardour",
@@ -264,11 +243,25 @@
 "preferred_label": "envidia"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.197,
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "favor"
+},
+{
+"id": "person:GenericMale",
+"type": "person",
+"confidence": 0.2047,
+"match_method": "canonical",
+"preferred_label": "A Man"
+},
+{
+"id": "keyterm:Vow",
+"type": "keyterm",
+"confidence": 0.2047,
+"match_method": "canonical",
+"preferred_label": "hacer un voto"
 },
 {
 "id": "realia:OliveOil",
@@ -285,18 +278,11 @@
 "preferred_label": "Wine"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1523,
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.197,
 "match_method": "canonical",
-"preferred_label": "dejar en herencia"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "puro"
+"preferred_label": "Anointing Oil"
 },
 {
 "id": "place:Hell",
@@ -306,32 +292,11 @@
 "preferred_label": "Hell"
 },
 {
-"id": "keyterm:Safety",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1523,
 "match_method": "canonical",
-"preferred_label": "confiar"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "hacer lo malo"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "dejar en herencia"
 },
 {
 "id": "keyterm:Swear",
@@ -341,11 +306,46 @@
 "preferred_label": "jurar"
 },
 {
-"id": "keyterm:EnticedToServe",
+"id": "keyterm:Stupidity",
 "type": "keyterm",
 "confidence": 0.1523,
 "match_method": "canonical",
-"preferred_label": "ser obligado a servir"
+"preferred_label": "necedad"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "sacrificio"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "hacer lo malo"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "paz"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "puro"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "confiar"
 }
 ]
 }
@@ -373,21 +373,21 @@
 {
 "reference_id": 108229,
 "content_id": 232198,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Dios elige",
 "language": "spa"
 },
 {
 "reference_id": 108233,
 "content_id": 232202,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Juicio",
 "language": "spa"
 },
 {
 "reference_id": 108419,
 "content_id": 232388,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Corazón",
 "language": "spa"
 }
@@ -422,6 +422,13 @@
 "preferred_label": "fidelidad"
 },
 {
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "saber"
+},
+{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.175,
@@ -436,11 +443,11 @@
 "preferred_label": "dicho"
 },
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.175,
+"id": "realia:Goad",
+"type": "realia",
+"confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "saber"
+"preferred_label": "Goad"
 },
 {
 "id": "flora:Caper",
@@ -450,11 +457,53 @@
 "preferred_label": "Caper"
 },
 {
-"id": "realia:Goad",
-"type": "realia",
-"confidence": 0.1261,
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Goad"
+"preferred_label": "Bird"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Money"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Scroll"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Pit"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Rope"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Locust"
 },
 {
 "id": "fauna:Lamb",
@@ -471,39 +520,11 @@
 "preferred_label": "Clay Jar"
 },
 {
-"id": "fauna:Locust",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Locust"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Pit",
+"id": "realia:Nail",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Nail"
 },
 {
 "id": "flora:Almond",
@@ -513,32 +534,11 @@
 "preferred_label": "Almond"
 },
 {
-"id": "realia:Nail",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Nail"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
-"id": "fauna:Bird",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Bird"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Flock"
 }
 ]
 }

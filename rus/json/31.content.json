@@ -57,7 +57,7 @@
 {
 "reference_id": 108229,
 "content_id": 193311,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Бог избирает",
 "language": "rus"
 },
@@ -225,6 +225,13 @@
 "preferred_label": "LORD"
 },
 {
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.3857,
+"match_method": "canonical",
+"preferred_label": "Едом"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3857,
@@ -246,13 +253,6 @@
 "preferred_label": "Израиль"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.3857,
-"match_method": "canonical",
-"preferred_label": "Едом"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.3143,
@@ -260,18 +260,18 @@
 "preferred_label": "Dispossess"
 },
 {
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "юг"
-},
-{
 "id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Understanding"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "юг"
 },
 {
 "id": "group:Edom",
@@ -288,74 +288,11 @@
 "preferred_label": "Овадия"
 },
 {
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Вениамин"
-},
-{
-"id": "place:Philistine",
+"id": "place:Samaria",
 "type": "place",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Филистимской"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "place:Sardis",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Сардис"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Иосиф"
-},
-{
-"id": "place:Zarephath",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Сарепта"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Ханаан"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Филистимлянин"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Ефрем"
+"preferred_label": "Самария"
 },
 {
 "id": "place:Teman",
@@ -365,53 +302,18 @@
 "preferred_label": "Феман"
 },
 {
+"id": "place:Sardis",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Сардис"
+},
+{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Вениамин"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Самария"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Ефрем"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Галаад"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Shephelah"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Иуда"
 },
 {
 "id": "keyterm:IntactState",
@@ -421,6 +323,55 @@
 "preferred_label": "Peace"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Галаад"
+},
+{
+"id": "place:Zarephath",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Сарепта"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Филистимской"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Ефрем"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Вениамин"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
 "id": "group:Canaan",
 "type": "group",
 "confidence": 0.1714,
@@ -428,11 +379,53 @@
 "preferred_label": "Canaanites"
 },
 {
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.1114,
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Vulture"
+"preferred_label": "Ханаан"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Covenant"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Филистимлянин"
+},
+{
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Shephelah"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Иосиф"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Ефрем"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Lot"
 },
 {
 "id": "realia:Trap",
@@ -440,6 +433,13 @@
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Trap"
+},
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Vulture"
 }
 ]
 }

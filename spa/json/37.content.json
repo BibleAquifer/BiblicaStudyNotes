@@ -169,6 +169,20 @@
 "preferred_label": "palabra del señor"
 },
 {
+"id": "person:Darius.2",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Darío"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
 "id": "person:Shealtiel.2",
 "type": "person",
 "confidence": 0.2091,
@@ -183,39 +197,11 @@
 "preferred_label": "Josadac"
 },
 {
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
-"id": "person:Darius.2",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Darío"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Zorobabel"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Judá"
 },
 {
 "id": "keyterm:BringHonorAndGloryOnOneself",
@@ -225,6 +211,20 @@
 "preferred_label": "ser respetado"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1309,
@@ -232,11 +232,18 @@
 "preferred_label": "Bag"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "realia:OliveOil",
+"type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Must"
 },
 {
 "id": "flora:Vine",
@@ -253,18 +260,11 @@
 "preferred_label": "Mule"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Grain"
 },
 {
 "id": "realia:AnointingOil",
@@ -274,11 +274,11 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
+"id": "flora:OliveTree",
+"type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Olive Tree"
 }
 ]
 }
@@ -404,11 +404,11 @@
 "preferred_label": "Josadac"
 },
 {
-"id": "person:Shealtiel.2",
+"id": "person:Haggai",
 "type": "person",
 "confidence": 0.425,
 "match_method": "canonical",
-"preferred_label": "Salathiel"
+"preferred_label": "Haggeo"
 },
 {
 "id": "person:Joshua.5",
@@ -418,11 +418,18 @@
 "preferred_label": "Josué"
 },
 {
-"id": "person:Haggai",
+"id": "person:Shealtiel.2",
 "type": "person",
 "confidence": 0.425,
 "match_method": "canonical",
-"preferred_label": "Haggeo"
+"preferred_label": "Salathiel"
+},
+{
+"id": "person:Darius.2",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Darío"
 },
 {
 "id": "deity:Angel",
@@ -430,13 +437,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "temer"
 },
 {
 "id": "group:Judah",
@@ -453,11 +453,11 @@
 "preferred_label": "Judá"
 },
 {
-"id": "person:Darius.2",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Darío"
+"preferred_label": "temer"
 },
 {
 "id": "realia:House",
@@ -618,18 +618,18 @@
 "preferred_label": "House"
 },
 {
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
 "id": "person:Zerubbabel.2",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Zorobabel"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Josué"
 },
 {
 "id": "person:Jehozadak",
@@ -644,6 +644,34 @@
 "confidence": 0.2222,
 "match_method": "canonical",
 "preferred_label": "Haggeo"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "paz"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "person:Shealtiel.2",
@@ -665,34 +693,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "palabra del señor"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "paz"
 },
 {
 "id": "realia:Money",
@@ -797,25 +797,11 @@
 "preferred_label": "Vine"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Darius.2",
+"type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "palabra del señor"
+"preferred_label": "Darío"
 },
 {
 "id": "keyterm:Instruction",
@@ -825,53 +811,25 @@
 "preferred_label": "Instruction"
 },
 {
-"id": "person:Darius.2",
-"type": "person",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Darío"
+"preferred_label": "bendecir"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.135,
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "santo"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.135,
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Fig"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Pomegranate"
+"preferred_label": "palabra del señor"
 },
 {
 "id": "flora:Coriander",
@@ -881,11 +839,39 @@
 "preferred_label": "Coriander"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Olive Oil"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Pomegranate"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Fig"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Wine"
 },
 {
 "id": "realia:Stew",
@@ -895,18 +881,32 @@
 "preferred_label": "Stew"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Grain"
 },
 {
-"id": "realia:Wine",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Winepress"
 }
 ]
 }
@@ -1011,25 +1011,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Salathiel"
-},
-{
 "id": "person:Haggai",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Haggeo"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "palabra del señor"
 },
 {
 "id": "group:Judah",
@@ -1046,11 +1032,18 @@
 "preferred_label": "Judá"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.2025,
+"id": "person:Shealtiel.2",
+"type": "person",
+"confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Salathiel"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "palabra del señor"
 },
 {
 "id": "realia:Chariot",
@@ -1065,6 +1058,13 @@
 "confidence": 0.2025,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.2025,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }

@@ -43,7 +43,7 @@
 {
 "reference_id": 108220,
 "content_id": 367711,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ukoo",
 "language": "swh"
 },
@@ -253,18 +253,18 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
+"id": "group:Levi",
+"type": "group",
 "confidence": 0.3681,
 "match_method": "canonical",
 "preferred_label": "Walawi"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Levi.3",
 "type": "person",
 "confidence": 0.3681,
 "match_method": "canonical",
-"preferred_label": "Yuda"
+"preferred_label": "Walawi"
 },
 {
 "id": "group:Judah",
@@ -274,11 +274,11 @@
 "preferred_label": "Yuda"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.3681,
 "match_method": "canonical",
-"preferred_label": "Walawi"
+"preferred_label": "Yuda"
 },
 {
 "id": "person:Israel",
@@ -295,15 +295,15 @@
 "preferred_label": "Kohathi"
 },
 {
-"id": "person:Manasseh",
-"type": "person",
+"id": "group:Manasseh",
+"type": "group",
 "confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "Manase"
 },
 {
-"id": "group:Manasseh",
-"type": "group",
+"id": "person:Manasseh",
+"type": "person",
 "confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "Manase"
@@ -344,15 +344,15 @@
 "preferred_label": "Reubeni"
 },
 {
-"id": "person:Benjamin",
-"type": "person",
+"id": "group:Benjamin",
+"type": "group",
 "confidence": 0.3591,
 "match_method": "canonical",
 "preferred_label": "Benyamini"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.3591,
 "match_method": "canonical",
 "preferred_label": "Benyamini"
@@ -386,11 +386,25 @@
 "preferred_label": "Gershoni"
 },
 {
+"id": "person:Machir",
+"type": "person",
+"confidence": 0.3568,
+"match_method": "canonical",
+"preferred_label": "Makiri"
+},
+{
 "id": "place:Bashan",
 "type": "place",
 "confidence": 0.3568,
 "match_method": "canonical",
 "preferred_label": "Bashani"
+},
+{
+"id": "person:Gad",
+"type": "person",
+"confidence": 0.3568,
+"match_method": "canonical",
+"preferred_label": "Gadi"
 },
 {
 "id": "keyterm:Work",
@@ -400,18 +414,32 @@
 "preferred_label": "Work"
 },
 {
-"id": "person:Machir",
-"type": "person",
-"confidence": 0.3568,
+"id": "group:Asher",
+"type": "group",
+"confidence": 0.3557,
 "match_method": "canonical",
-"preferred_label": "Makiri"
+"preferred_label": "Asheri"
 },
 {
-"id": "person:Gad",
+"id": "person:Aaron",
 "type": "person",
-"confidence": 0.3568,
+"confidence": 0.3557,
 "match_method": "canonical",
-"preferred_label": "Gadi"
+"preferred_label": "Haruni"
+},
+{
+"id": "person:Asher",
+"type": "person",
+"confidence": 0.3557,
+"match_method": "canonical",
+"preferred_label": "Asheri"
+},
+{
+"id": "person:Issachar",
+"type": "person",
+"confidence": 0.3557,
+"match_method": "canonical",
+"preferred_label": "Isakari"
 },
 {
 "id": "group:Issachar",
@@ -426,34 +454,6 @@
 "confidence": 0.3557,
 "match_method": "canonical",
 "preferred_label": "Gileadi"
-},
-{
-"id": "person:Issachar",
-"type": "person",
-"confidence": 0.3557,
-"match_method": "canonical",
-"preferred_label": "Isakari"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.3557,
-"match_method": "canonical",
-"preferred_label": "Efraimu"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.3557,
-"match_method": "canonical",
-"preferred_label": "Efraimu"
-},
-{
-"id": "person:Asher",
-"type": "person",
-"confidence": 0.3557,
-"match_method": "canonical",
-"preferred_label": "Asheri"
 }
 ]
 }
@@ -621,13 +621,6 @@
 "preferred_label": "Sauli"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.3721,
-"match_method": "canonical",
-"preferred_label": "Walawi"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.3721,
@@ -635,11 +628,11 @@
 "preferred_label": "Walawi"
 },
 {
-"id": "place:Ammon",
-"type": "place",
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.3721,
 "match_method": "canonical",
-"preferred_label": "Waamoni"
+"preferred_label": "Walawi"
 },
 {
 "id": "group:Ammon",
@@ -647,6 +640,13 @@
 "confidence": 0.3721,
 "match_method": "canonical",
 "preferred_label": "Ammonites"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.3721,
+"match_method": "canonical",
+"preferred_label": "Waamoni"
 },
 {
 "id": "person:Joab",
@@ -768,18 +768,18 @@
 "preferred_label": "Zekaria"
 },
 {
+"id": "person:Heman.3",
+"type": "person",
+"confidence": 0.307,
+"match_method": "canonical",
+"preferred_label": "Hemani"
+},
+{
 "id": "place:Gibeon",
 "type": "place",
 "confidence": 0.307,
 "match_method": "canonical",
 "preferred_label": "Gibeoni"
-},
-{
-"id": "person:Uzzah",
-"type": "person",
-"confidence": 0.307,
-"match_method": "canonical",
-"preferred_label": "Uza"
 }
 ]
 }
@@ -912,18 +912,18 @@
 "preferred_label": "Gadi"
 },
 {
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.3959,
-"match_method": "canonical",
-"preferred_label": "Yoabu"
-},
-{
 "id": "person:Solomon",
 "type": "person",
 "confidence": 0.3959,
 "match_method": "canonical",
 "preferred_label": "Sulemani"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.3959,
+"match_method": "canonical",
+"preferred_label": "Yoabu"
 },
 {
 "id": "keyterm:Offering",
@@ -940,6 +940,20 @@
 "preferred_label": "House"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.3359,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3359,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3359,
@@ -952,20 +966,6 @@
 "confidence": 0.3359,
 "match_method": "canonical",
 "preferred_label": "Temple Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3359,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.3359,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
 },
 {
 "id": "realia:ThreshingFloor",
@@ -1003,13 +1003,6 @@
 "preferred_label": "Money"
 },
 {
-"id": "keyterm:Blow",
-"type": "keyterm",
-"confidence": 0.2184,
-"match_method": "canonical",
-"preferred_label": "Plague"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2184,
@@ -1024,6 +1017,13 @@
 "preferred_label": "Musa"
 },
 {
+"id": "keyterm:Blow",
+"type": "keyterm",
+"confidence": 0.2184,
+"match_method": "canonical",
+"preferred_label": "Plague"
+},
+{
 "id": "place:Gibeon",
 "type": "place",
 "confidence": 0.1592,
@@ -1031,102 +1031,11 @@
 "preferred_label": "Gibeoni"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Dani"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Tiro"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Benyamini"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Sidonians"
-},
-{
-"id": "keyterm:Decree",
+"id": "keyterm:CovenantBox",
 "type": "keyterm",
 "confidence": 0.1592,
 "match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "group:Tyre",
-"type": "group",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Tyrians"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Wasidoni"
-},
-{
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Dani"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Beer-sheba"
-},
-{
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Understanding"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Shetani"
+"preferred_label": "Covenant Box"
 },
 {
 "id": "keyterm:Instruction",
@@ -1136,6 +1045,34 @@
 "preferred_label": "Instruction"
 },
 {
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Tiro"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Walawi"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Understanding"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Peace"
+},
+{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.1592,
@@ -1143,11 +1080,81 @@
 "preferred_label": "Benyamini"
 },
 {
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Shetani"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Tyrians"
+},
+{
 "id": "keyterm:Insight",
 "type": "keyterm",
 "confidence": 0.1592,
 "match_method": "canonical",
 "preferred_label": "Insight"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Wasidoni"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Benyamini"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Dani"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Passion"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1592,
+"match_method": "canonical",
+"preferred_label": "Decree"
 },
 {
 "id": "person:Levi.3",
@@ -1164,39 +1171,32 @@
 "preferred_label": "Covenant"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
+"id": "place:Beersheba",
+"type": "place",
 "confidence": 0.1592,
 "match_method": "canonical",
-"preferred_label": "Covenant Box"
+"preferred_label": "Beer-sheba"
 },
 {
-"id": "group:Judah",
+"id": "group:Dan",
 "type": "group",
 "confidence": 0.1592,
 "match_method": "canonical",
-"preferred_label": "Yuda"
+"preferred_label": "Dani"
 },
 {
-"id": "group:Levi",
+"id": "group:Sidon",
 "type": "group",
 "confidence": 0.1592,
 "match_method": "canonical",
-"preferred_label": "Walawi"
+"preferred_label": "Sidonians"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.1592,
 "match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1592,
-"match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "Word of the Lord"
 },
 {
 "id": "flora:Wheat",
@@ -1213,25 +1213,18 @@
 "preferred_label": "Nail"
 },
 {
-"id": "realia:ArkOfTheCovenant",
+"id": "realia:Talent",
 "type": "realia",
 "confidence": 0.0992,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Talent"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "realia:Sackcloth",
+"id": "realia:Sheath",
 "type": "realia",
 "confidence": 0.0992,
 "match_method": "canonical",
-"preferred_label": "Sackcloth"
+"preferred_label": "Sheath"
 },
 {
 "id": "realia:HighPlace",
@@ -1241,67 +1234,11 @@
 "preferred_label": "High Place"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.0992,
 "match_method": "canonical",
 "preferred_label": "Stone Pine"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Threshing-Sledge"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Shekel"
-},
-{
-"id": "realia:Talent",
-"type": "realia",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Talent"
-},
-{
-"id": "realia:HewnStone",
-"type": "realia",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Hewn Stone"
-},
-{
-"id": "realia:Sheath",
-"type": "realia",
-"confidence": 0.0992,
-"match_method": "canonical",
-"preferred_label": "Sheath"
 },
 {
 "id": "fauna:Bull",
@@ -1316,6 +1253,69 @@
 "confidence": 0.0992,
 "match_method": "canonical",
 "preferred_label": "Craftsman"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:HewnStone",
+"type": "realia",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Hewn Stone"
+},
+{
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Shekel"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Grain"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Cedar"
+},
+{
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Threshing-Sledge"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.0992,
+"match_method": "canonical",
+"preferred_label": "Ark of the Covenant"
 }
 ]
 }
@@ -1427,15 +1427,15 @@
 "preferred_label": "Work"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
+"id": "group:Levi",
+"type": "group",
 "confidence": 0.3841,
 "match_method": "canonical",
 "preferred_label": "Walawi"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.3841,
 "match_method": "canonical",
 "preferred_label": "Walawi"
@@ -1448,18 +1448,18 @@
 "preferred_label": "Sulemani"
 },
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.3649,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.3649,
 "match_method": "canonical",
 "preferred_label": "Haruni"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.3649,
+"match_method": "canonical",
+"preferred_label": "Lot"
 },
 {
 "id": "person:Ithamar",
@@ -1469,18 +1469,18 @@
 "preferred_label": "Ithamari"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.3628,
-"match_method": "canonical",
-"preferred_label": "Eleazari"
-},
-{
 "id": "person:Merari",
 "type": "person",
 "confidence": 0.3628,
 "match_method": "canonical",
 "preferred_label": "Merari"
+},
+{
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.3628,
+"match_method": "canonical",
+"preferred_label": "Eleazari"
 },
 {
 "id": "person:Zadok.2",
@@ -1553,25 +1553,11 @@
 "preferred_label": "Money"
 },
 {
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.3085,
-"match_method": "canonical",
-"preferred_label": "Perceive"
-},
-{
-"id": "person:Moses",
+"id": "person:Mushi",
 "type": "person",
 "confidence": 0.3085,
 "match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "person:Amram",
-"type": "person",
-"confidence": 0.3085,
-"match_method": "canonical",
-"preferred_label": "Amramu"
+"preferred_label": "Mushi"
 },
 {
 "id": "keyterm:Bless",
@@ -1581,11 +1567,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Obed-edom",
+"type": "person",
 "confidence": 0.3085,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Obed-edomu"
 },
 {
 "id": "person:Joab",
@@ -1595,18 +1581,32 @@
 "preferred_label": "Yoabu"
 },
 {
-"id": "person:Gershon",
+"id": "person:Amram",
 "type": "person",
 "confidence": 0.3085,
 "match_method": "canonical",
-"preferred_label": "Gershoni"
+"preferred_label": "Amramu"
 },
 {
-"id": "person:Mushi",
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.3085,
+"match_method": "canonical",
+"preferred_label": "Strength"
+},
+{
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.3085,
 "match_method": "canonical",
-"preferred_label": "Mushi"
+"preferred_label": "Musa"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3085,
+"match_method": "canonical",
+"preferred_label": "Holy"
 }
 ]
 }

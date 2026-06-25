@@ -22,7 +22,7 @@
 {
 "reference_id": 108199,
 "content_id": 134001,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "الله",
 "language": "arb"
 },
@@ -36,21 +36,21 @@
 {
 "reference_id": 108284,
 "content_id": 134086,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "آلهة باطلة",
 "language": "arb"
 },
 {
 "reference_id": 108330,
 "content_id": 134132,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "ملك",
 "language": "arb"
 },
 {
 "reference_id": 108369,
 "content_id": 134171,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "غريب (دخيل)",
 "language": "arb"
 },
@@ -162,13 +162,6 @@
 "preferred_label": "أَلِيمَالِك"
 },
 {
-"id": "group:Ephrathah",
-"type": "group",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Ephrathites"
-},
-{
 "id": "group:GenericFemales",
 "type": "group",
 "confidence": 0.1795,
@@ -181,6 +174,13 @@
 "confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "أَفْرَاتَةَ"
+},
+{
+"id": "group:Ephrathah",
+"type": "group",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Ephrathites"
 },
 {
 "id": "keyterm:Kindness",
@@ -236,7 +236,7 @@
 {
 "reference_id": 108208,
 "content_id": 134010,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "عمل",
 "language": "arb"
 },
@@ -250,7 +250,7 @@
 {
 "reference_id": 108291,
 "content_id": 134093,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "يهوذا",
 "language": "arb"
 },
@@ -264,7 +264,7 @@
 {
 "reference_id": 108418,
 "content_id": 134220,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "المَساكِين",
 "language": "arb"
 },
@@ -306,18 +306,18 @@
 "preferred_label": "رَاعوث"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.3087,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.3087,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.3087,
+"match_method": "canonical",
+"preferred_label": "Favor"
 },
 {
 "id": "deity:Lord",
@@ -355,11 +355,11 @@
 "preferred_label": "Kindness"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
+"preferred_label": "Seek Refugue"
 },
 {
 "id": "place:Bethlehem",
@@ -369,18 +369,11 @@
 "preferred_label": "لَحْمٍ"
 },
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "إِسْرَائِيلَ"
 },
 {
 "id": "flora:Wheat",
@@ -388,6 +381,13 @@
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "realia:Ephah",
@@ -569,18 +569,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "person:Mahlon",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "مَحْلون"
-},
-{
-"id": "person:Perez",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "ٱقْتِحَامٌ"
+"preferred_label": "أَلِيمَالِك"
 },
 {
 "id": "keyterm:Bless",
@@ -590,25 +583,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "person:David",
+"id": "person:Mahlon",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "دَاودَ"
-},
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "يَسَّى"
+"preferred_label": "مَحْلون"
 },
 {
 "id": "person:Amminadab",
@@ -618,11 +597,25 @@
 "preferred_label": "عَمِّينَادَابَ"
 },
 {
-"id": "person:Ram",
+"id": "person:Jesse",
 "type": "person",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "رَامَ"
+"preferred_label": "يَسَّى"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "دَاودَ"
+},
+{
+"id": "person:Perez",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "ٱقْتِحَامٌ"
 },
 {
 "id": "group:GenericFemales",
@@ -639,11 +632,18 @@
 "preferred_label": "كِلْيون"
 },
 {
-"id": "person:Rachel",
+"id": "person:Ram",
+"type": "person",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "رَامَ"
+},
+{
+"id": "person:Leah",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "رَاحِيل"
+"preferred_label": "لَيْئَةَ"
 },
 {
 "id": "keyterm:Love",
@@ -653,11 +653,25 @@
 "preferred_label": "Love"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Nahshon",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "يَهوذَا"
+"preferred_label": "نَحْشونَ"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Tamar",
@@ -674,11 +688,18 @@
 "preferred_label": "لَحْمٍ"
 },
 {
-"id": "person:Nahshon",
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
+},
+{
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "نَحْشونَ"
+"preferred_label": "يَهوذَا"
 },
 {
 "id": "keyterm:Fear",
@@ -688,32 +709,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Elders"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "person:Leah",
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "لَيْئَةَ"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
+"preferred_label": "رَاحِيل"
 }
 ]
 }

@@ -141,6 +141,13 @@
 "preferred_label": "Israel"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3409,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3409,
@@ -155,11 +162,11 @@
 "preferred_label": "reunión"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3409,
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "fuerza"
 },
 {
 "id": "keyterm:Love",
@@ -176,11 +183,11 @@
 "preferred_label": "cuerno"
 },
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2205,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "fuerza"
+"preferred_label": "House"
 },
 {
 "id": "fauna:Lamb",
@@ -190,60 +197,11 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "sábado"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Utterance"
-},
-{
 "id": "keyterm:MightyOne",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "fuerte"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Deceit"
-},
-{
-"id": "keyterm:Work",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "servicio"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "deshonrar"
 },
 {
 "id": "keyterm:Instruction",
@@ -253,25 +211,32 @@
 "preferred_label": "Instruction"
 },
 {
-"id": "keyterm:HaveAVision",
+"id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "ver"
+"preferred_label": "servicio"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "contaminación"
+"preferred_label": "pecar"
 },
 {
-"id": "group:Gentile",
-"type": "group",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "nación; gente"
+"preferred_label": "sábado"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "deshonrar"
 },
 {
 "id": "keyterm:BringHonorAndGloryOnOneself",
@@ -281,11 +246,46 @@
 "preferred_label": "ser respetado"
 },
 {
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "contaminación"
+},
+{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "envidia"
+},
+{
+"id": "keyterm:HaveAVision",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "ver"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "nación; gente"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Deceit"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Utterance"
 },
 {
 "id": "realia:Train",
@@ -295,11 +295,11 @@
 "preferred_label": "Train"
 },
 {
-"id": "realia:Net",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Net"
+"preferred_label": "Stone Altar"
 },
 {
 "id": "realia:MeasuringReed",
@@ -309,74 +309,11 @@
 "preferred_label": "Measuring Reed"
 },
 {
-"id": "realia:Sackcloth",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Sackcloth"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Winepress"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Tent",
-"type": "realia",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Bow"
 },
 {
 "id": "flora:Vine",
@@ -386,18 +323,60 @@
 "preferred_label": "Vine"
 },
 {
-"id": "realia:Yoke",
-"type": "realia",
+"id": "fauna:Deer",
+"type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Yoke"
+"preferred_label": "Deer"
 },
 {
-"id": "realia:StoneAltar",
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Sackcloth"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Tent"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Wine"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Grain"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Altar"
 },
 {
 "id": "realia:CastingNet",
@@ -407,25 +386,46 @@
 "preferred_label": "Casting Net"
 },
 {
-"id": "realia:Bow",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "Temple Altar"
 },
 {
-"id": "fauna:Deer",
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Net"
+},
+{
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Deer"
+"preferred_label": "Flock"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Yoke",
 "type": "realia",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "Yoke"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Grass"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Winepress"
 }
 ]
 }
@@ -523,11 +523,11 @@
 "preferred_label": "envidia"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.2082,
 "match_method": "canonical",
-"preferred_label": "honrado"
+"preferred_label": "Edom"
 },
 {
 "id": "keyterm:Kindness",
@@ -537,18 +537,11 @@
 "preferred_label": "bondad"
 },
 {
-"id": "place:Edom",
-"type": "place",
+"id": "keyterm:Complete",
+"type": "keyterm",
 "confidence": 0.2082,
 "match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "keyterm:Stain",
-"type": "keyterm",
-"confidence": 0.1559,
-"match_method": "canonical",
-"preferred_label": "contaminar"
+"preferred_label": "honrado"
 },
 {
 "id": "place:Uz",
@@ -558,32 +551,11 @@
 "preferred_label": "Hus"
 },
 {
-"id": "keyterm:RoundDance",
+"id": "keyterm:Stain",
 "type": "keyterm",
-"confidence": 0.1541,
+"confidence": 0.1559,
 "match_method": "canonical",
-"preferred_label": "danza"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "ungido"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "dejar en herencia"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "comprar"
+"preferred_label": "contaminar"
 },
 {
 "id": "keyterm:Rebel",
@@ -593,11 +565,32 @@
 "preferred_label": "rebelarse"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "keyterm:Salvation",
+"type": "keyterm",
 "confidence": 0.1541,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "flecha"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "dejar en herencia"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "perdonar"
 },
 {
 "id": "keyterm:Punishment",
@@ -607,6 +600,27 @@
 "preferred_label": "castigo"
 },
 {
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "Sodoma"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "esperanza"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "paz"
+},
+{
 "id": "keyterm:KindlyDisposed",
 "type": "keyterm",
 "confidence": 0.1541,
@@ -614,11 +628,60 @@
 "preferred_label": "ser compasivo"
 },
 {
-"id": "keyterm:Arrow",
+"id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.1541,
 "match_method": "canonical",
-"preferred_label": "flecha"
+"preferred_label": "ungido"
+},
+{
+"id": "keyterm:RoundDance",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "danza"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "comprar"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "contaminación"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1541,
+"match_method": "canonical",
+"preferred_label": "temer"
 },
 {
 "id": "keyterm:BelieveIn",
@@ -635,74 +698,11 @@
 "preferred_label": "Woe"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
 "id": "place:Assyria",
 "type": "place",
 "confidence": 0.1541,
 "match_method": "canonical",
 "preferred_label": "Assyria"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "Sodoma"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "esperanza"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1541,
-"match_method": "canonical",
-"preferred_label": "Judá"
 }
 ]
 }

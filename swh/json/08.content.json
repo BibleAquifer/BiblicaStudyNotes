@@ -78,7 +78,7 @@
 {
 "reference_id": 108447,
 "content_id": 367938,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ruthu",
 "language": "swh"
 }
@@ -162,13 +162,6 @@
 "preferred_label": "Elimeleki"
 },
 {
-"id": "group:Ephrathah",
-"type": "group",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Ephrathites"
-},
-{
 "id": "group:GenericFemales",
 "type": "group",
 "confidence": 0.1795,
@@ -181,6 +174,13 @@
 "confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "Efrata"
+},
+{
+"id": "group:Ephrathah",
+"type": "group",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Ephrathites"
 },
 {
 "id": "keyterm:Kindness",
@@ -306,18 +306,18 @@
 "preferred_label": "Ruthu"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.3087,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.3087,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.3087,
+"match_method": "canonical",
+"preferred_label": "Favor"
 },
 {
 "id": "deity:Lord",
@@ -355,11 +355,11 @@
 "preferred_label": "Kindness"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Israeli"
+"preferred_label": "Seek Refugue"
 },
 {
 "id": "place:Bethlehem",
@@ -369,18 +369,11 @@
 "preferred_label": "Bethlehemu"
 },
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Israeli"
 },
 {
 "id": "flora:Wheat",
@@ -388,6 +381,13 @@
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "realia:Ephah",
@@ -436,7 +436,7 @@
 {
 "reference_id": 108220,
 "content_id": 367711,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ukoo",
 "language": "swh"
 },
@@ -569,18 +569,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "person:Mahlon",
+"id": "person:Elimelech",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Maloni"
-},
-{
-"id": "person:Perez",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Peresi"
+"preferred_label": "Elimeleki"
 },
 {
 "id": "keyterm:Bless",
@@ -590,25 +583,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "person:David",
+"id": "person:Mahlon",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Daudi"
-},
-{
-"id": "person:Elimelech",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Elimeleki"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Yese"
+"preferred_label": "Maloni"
 },
 {
 "id": "person:Amminadab",
@@ -618,11 +597,25 @@
 "preferred_label": "Aminadabu"
 },
 {
-"id": "person:Ram",
+"id": "person:Jesse",
 "type": "person",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Ramu"
+"preferred_label": "Yese"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "Daudi"
+},
+{
+"id": "person:Perez",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "Peresi"
 },
 {
 "id": "group:GenericFemales",
@@ -639,11 +632,18 @@
 "preferred_label": "Kilioni"
 },
 {
-"id": "person:Rachel",
+"id": "person:Ram",
+"type": "person",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "Ramu"
+},
+{
+"id": "person:Leah",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Raheli"
+"preferred_label": "Lea"
 },
 {
 "id": "keyterm:Love",
@@ -653,11 +653,25 @@
 "preferred_label": "Love"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Nahshon",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Yuda"
+"preferred_label": "Nashoni"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Elders"
 },
 {
 "id": "person:Tamar",
@@ -674,11 +688,18 @@
 "preferred_label": "Bethlehemu"
 },
 {
-"id": "person:Nahshon",
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Nashoni"
+"preferred_label": "Yuda"
 },
 {
 "id": "keyterm:Fear",
@@ -688,32 +709,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Elders"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "person:Leah",
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Lea"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Yuda"
+"preferred_label": "Raheli"
 }
 ]
 }

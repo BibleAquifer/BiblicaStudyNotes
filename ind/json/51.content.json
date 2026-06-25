@@ -106,18 +106,18 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.5429,
-"match_method": "canonical",
-"preferred_label": "Yesus"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5429,
 "match_method": "canonical",
 "preferred_label": "Tuhan"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.5429,
+"match_method": "canonical",
+"preferred_label": "Yesus"
 },
 {
 "id": "keyterm:Ability",
@@ -148,13 +148,6 @@
 "preferred_label": "kebenaran"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "dalam kristus"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.2643,
@@ -174,6 +167,27 @@
 "confidence": 0.2643,
 "match_method": "canonical",
 "preferred_label": "kebaikan"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "dalam kristus"
+},
+{
+"id": "keyterm:Deliver",
+"type": "keyterm",
+"confidence": 0.1964,
+"match_method": "canonical",
+"preferred_label": "menyelamatkan"
+},
+{
+"id": "place:Colossae",
+"type": "place",
+"confidence": 0.1964,
+"match_method": "canonical",
+"preferred_label": "Kolose"
 },
 {
 "id": "keyterm:Live.3",
@@ -197,20 +211,6 @@
 "preferred_label": "kekasih"
 },
 {
-"id": "place:Colossae",
-"type": "place",
-"confidence": 0.1964,
-"match_method": "canonical",
-"preferred_label": "Kolose"
-},
-{
-"id": "keyterm:Deliver",
-"type": "keyterm",
-"confidence": 0.1964,
-"match_method": "canonical",
-"preferred_label": "menyelamatkan"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.1821,
@@ -225,20 +225,6 @@
 "preferred_label": "Paulus"
 },
 {
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Cause of Joy"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "kerajaan"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1821,
@@ -246,11 +232,25 @@
 "preferred_label": "berbuat dosa"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "kekuasaan"
+"preferred_label": "Cause of Joy"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "mengampuni"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "percaya"
 },
 {
 "id": "keyterm:Heaven",
@@ -258,6 +258,20 @@
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "sorga"
+},
+{
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Timotius"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "harapan"
 },
 {
 "id": "keyterm:Good",
@@ -274,18 +288,11 @@
 "preferred_label": "penebusan"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "percaya"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "mengampuni"
+"preferred_label": "kekuasaan"
 },
 {
 "id": "deity:HolySpirit",
@@ -295,13 +302,6 @@
 "preferred_label": "Roh"
 },
 {
-"id": "person:Timothy",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Timotius"
-},
-{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.1821,
@@ -309,11 +309,11 @@
 "preferred_label": "memperdamaikan"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "harapan"
+"preferred_label": "kerajaan"
 }
 ]
 }
@@ -418,20 +418,6 @@
 "preferred_label": "tubuh"
 },
 {
-"id": "keyterm:Unblemished",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "tak bernoda"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "memperdamaikan"
-},
-{
 "id": "keyterm:WithoutReproach",
 "type": "keyterm",
 "confidence": 0.2222,
@@ -446,25 +432,18 @@
 "preferred_label": "jemaat"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Peace",
 "type": "keyterm",
-"confidence": 0.2,
+"confidence": 0.2222,
 "match_method": "canonical",
-"preferred_label": "keahlian"
+"preferred_label": "memperdamaikan"
 },
 {
-"id": "keyterm:Mind.2",
+"id": "keyterm:Unblemished",
 "type": "keyterm",
-"confidence": 0.2,
+"confidence": 0.2222,
 "match_method": "canonical",
-"preferred_label": "pikiran"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "darah"
+"preferred_label": "tak bernoda"
 },
 {
 "id": "keyterm:GoodNews",
@@ -474,11 +453,11 @@
 "preferred_label": "injil"
 },
 {
-"id": "keyterm:Proclaim",
+"id": "keyterm:Mind.2",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "memberitakan"
+"preferred_label": "pikiran"
 },
 {
 "id": "person:Paul",
@@ -488,25 +467,25 @@
 "preferred_label": "Paulus"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "khusus"
+"preferred_label": "percaya"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "kekuasaan"
+"preferred_label": "keahlian"
 },
 {
-"id": "keyterm:Reconcile",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "memperdamaikan"
+"preferred_label": "harapan"
 },
 {
 "id": "deity:Lord",
@@ -516,18 +495,39 @@
 "preferred_label": "Tuhan"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Reconcile",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "percaya"
+"preferred_label": "memperdamaikan"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "harapan"
+"preferred_label": "kekuasaan"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "khusus"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "memberitakan"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "darah"
 },
 {
 "id": "realia:Cross",
@@ -646,18 +646,18 @@
 "preferred_label": "kemuliaan"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "percaya"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "keahlian"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "memberitakan"
 },
 {
 "id": "keyterm:Love",
@@ -667,11 +667,11 @@
 "preferred_label": "kasihi"
 },
 {
-"id": "keyterm:Encourage",
-"type": "keyterm",
+"id": "place:Laodicea",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "menasihati"
+"preferred_label": "Laodikia"
 },
 {
 "id": "keyterm:Heart",
@@ -681,32 +681,11 @@
 "preferred_label": "hati"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "selama, lamanya"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "dalam kristus"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "percaya"
+"preferred_label": "harapan"
 },
 {
 "id": "keyterm:AskFor",
@@ -716,6 +695,20 @@
 "preferred_label": "meminta"
 },
 {
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "jemaat"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "khusus"
+},
+{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -723,11 +716,25 @@
 "preferred_label": "roh"
 },
 {
-"id": "place:Laodicea",
-"type": "place",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Laodikia"
+"preferred_label": "selama, lamanya"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "menasihati"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "memberitakan"
 },
 {
 "id": "group:Gentile",
@@ -737,18 +744,11 @@
 "preferred_label": "Gentiles"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:InChrist",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "harapan"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "jemaat"
+"preferred_label": "dalam kristus"
 }
 ]
 }
@@ -860,11 +860,11 @@
 "preferred_label": "roh, roh dunia"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "kekuasaan"
+"preferred_label": "percaya"
 },
 {
 "id": "deity:Lord",
@@ -874,11 +874,11 @@
 "preferred_label": "Tuhan"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "percaya"
+"preferred_label": "kekuasaan"
 },
 {
 "id": "keyterm:Teaching",
@@ -888,11 +888,11 @@
 "preferred_label": "adat istiadat"
 },
 {
-"id": "keyterm:Empty",
+"id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "hampa"
+"preferred_label": "baptisan"
 },
 {
 "id": "keyterm:Divine",
@@ -902,18 +902,18 @@
 "preferred_label": "ilahi"
 },
 {
-"id": "keyterm:Baptism",
+"id": "keyterm:Empty",
 "type": "keyterm",
 "confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "baptisan"
+"preferred_label": "hampa"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "kehidupan"
+"preferred_label": "mengampuni"
 },
 {
 "id": "keyterm:Sabbath",
@@ -930,11 +930,25 @@
 "preferred_label": "hidup"
 },
 {
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "kehidupan"
+},
+{
 "id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "memutuskan"
+},
+{
+"id": "keyterm:SelfImposedReligion",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "ibadah buatan sendiri"
 },
 {
 "id": "keyterm:InReality",
@@ -951,11 +965,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "keyterm:GodlyReverence",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "yang beribadah"
+"preferred_label": "kebangkitan"
 },
 {
 "id": "keyterm:Circumcision",
@@ -965,25 +979,11 @@
 "preferred_label": "penyunatan"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:GodlyReverence",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "kebangkitan"
-},
-{
-"id": "keyterm:SelfImposedReligion",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "ibadah buatan sendiri"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "mengampuni"
+"preferred_label": "yang beribadah"
 },
 {
 "id": "realia:Cross",
@@ -1088,60 +1088,11 @@
 "preferred_label": "kemuliaan"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "keahlian"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "tubuh"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "persundalan"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "hidup"
-},
-{
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "orang pilihan"
-},
-{
-"id": "group:Greek",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Greeks"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "nama"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "khusus"
+"preferred_label": "mengampuni"
 },
 {
 "id": "keyterm:Affection",
@@ -1151,60 +1102,11 @@
 "preferred_label": "rahmat"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "belas kasihan"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "kebaikan"
-},
-{
-"id": "keyterm:Idolatry",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "penyembahan berhala"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "menghujat"
-},
-{
-"id": "keyterm:Circumcision",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "penyunatan"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "kebangkitan"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "mengampuni"
+"preferred_label": "keahlian"
 },
 {
 "id": "keyterm:Kindness",
@@ -1214,11 +1116,39 @@
 "preferred_label": "kebaikan"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "memperdamaikan"
+"preferred_label": "hidup"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "tubuh"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "orang pilihan"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "belas kasihan"
+},
+{
+"id": "keyterm:Idolatry",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "penyembahan berhala"
 },
 {
 "id": "keyterm:Defilement",
@@ -1233,6 +1163,76 @@
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Yunani"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "khusus"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "memperdamaikan"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "kebangkitan"
+},
+{
+"id": "keyterm:Circumcision",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "penyunatan"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "nama"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "kebaikan"
+},
+{
+"id": "group:Greek",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Greeks"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "persundalan"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "menghujat"
 }
 ]
 }
@@ -1316,13 +1316,6 @@
 "preferred_label": "tonton bulu atau muka"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "sorga"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2,
@@ -1330,18 +1323,11 @@
 "preferred_label": "tubuh"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Serve.2",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "kasihi"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "takut"
+"preferred_label": "melayani"
 },
 {
 "id": "keyterm:Heart",
@@ -1351,6 +1337,13 @@
 "preferred_label": "hati"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "takut"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.2,
@@ -1358,11 +1351,18 @@
 "preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
 },
 {
-"id": "keyterm:Serve.2",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "melayani"
+"preferred_label": "sorga"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "kasihi"
 }
 ]
 }
@@ -1404,13 +1404,6 @@
 "preferred_label": "berdoa"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "kebaikan"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.24,
@@ -1418,18 +1411,25 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "hidup"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "kebaikan"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Tuhan"
 },
 {
 "id": "realia:Door",
@@ -1520,13 +1520,6 @@
 "preferred_label": "Tuhan"
 },
 {
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "kesetiaan"
-},
-{
 "id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.275,
@@ -1534,67 +1527,11 @@
 "preferred_label": "jemaat"
 },
 {
-"id": "person:Tychicus",
-"type": "person",
-"confidence": 0.2042,
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "Tikhikus"
-},
-{
-"id": "person:Demas",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Demas"
-},
-{
-"id": "person:Epaphras",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Epafras"
-},
-{
-"id": "person:Aristarchus",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Aristarkhus"
-},
-{
-"id": "person:Onesimus",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Onesimus"
-},
-{
-"id": "person:Nympha",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Nimfa"
-},
-{
-"id": "person:Justus.3",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Yustus"
-},
-{
-"id": "place:Hierapolis",
-"type": "place",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Hierapolis"
-},
-{
-"id": "person:Luke",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Lukas"
+"preferred_label": "kesetiaan"
 },
 {
 "id": "person:Archippus",
@@ -1604,25 +1541,67 @@
 "preferred_label": "Arkhipus"
 },
 {
-"id": "keyterm:Encourage",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "place:Hierapolis",
+"type": "place",
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "menasihati"
+"preferred_label": "Hierapolis"
 },
 {
-"id": "person:Paul",
+"id": "person:Aristarchus",
 "type": "person",
-"confidence": 0.1875,
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "Paulus"
+"preferred_label": "Aristarkhus"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "person:Demas",
+"type": "person",
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "hati"
+"preferred_label": "Demas"
+},
+{
+"id": "person:Nympha",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Nimfa"
+},
+{
+"id": "person:Onesimus",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Onesimus"
+},
+{
+"id": "person:Epaphras",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Epafras"
+},
+{
+"id": "person:Luke",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Lukas"
+},
+{
+"id": "person:Justus.3",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Yustus"
+},
+{
+"id": "person:Tychicus",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Tikhikus"
 },
 {
 "id": "keyterm:Commandment",
@@ -1632,18 +1611,25 @@
 "preferred_label": "perintah"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "kerajaan"
+"preferred_label": "memerintahkan"
 },
 {
-"id": "person:Mark",
+"id": "person:Paul",
 "type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Markus"
+"preferred_label": "Paulus"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "bersaksi"
 },
 {
 "id": "group:Laodicea",
@@ -1653,18 +1639,18 @@
 "preferred_label": "Laodiceans"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
+"id": "person:Mark",
+"type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "lengkap"
+"preferred_label": "Markus"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "berdoa"
+"preferred_label": "hati"
 },
 {
 "id": "keyterm:Happen",
@@ -1672,34 +1658,6 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "menggenapi"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "memerintahkan"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "kebaikan"
-},
-{
-"id": "keyterm:Circumcision",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "penyunatan"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "melayani"
 },
 {
 "id": "keyterm:AskFor",
@@ -1716,18 +1674,60 @@
 "preferred_label": "Barnabas"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "bersaksi"
+"preferred_label": "berdoa"
 },
 {
-"id": "realia:Temple",
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "melayani"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "lengkap"
+},
+{
+"id": "keyterm:Circumcision",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "penyunatan"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "kebaikan"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "kerajaan"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "menasihati"
+},
+{
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "House"
 },
 {
 "id": "realia:Chain",
@@ -1737,11 +1737,11 @@
 "preferred_label": "Chain"
 },
 {
-"id": "realia:House",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Temple"
 }
 ]
 }

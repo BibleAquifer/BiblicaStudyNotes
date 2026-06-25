@@ -57,7 +57,7 @@
 {
 "reference_id": 108229,
 "content_id": 133481,
-"resource_code": "Unknown",
+"resource_code": "BiblicaStudyNotes",
 "label": "Dieu décide",
 "language": "fra"
 },
@@ -225,6 +225,13 @@
 "preferred_label": "Éternel"
 },
 {
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.3857,
+"match_method": "canonical",
+"preferred_label": "Édom"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3857,
@@ -246,13 +253,6 @@
 "preferred_label": "Israël"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.3857,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.3143,
@@ -260,18 +260,18 @@
 "preferred_label": "déposséder"
 },
 {
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Negev"
-},
-{
 "id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "comprehension"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Negev"
 },
 {
 "id": "group:Edom",
@@ -288,74 +288,11 @@
 "preferred_label": "Abdias"
 },
 {
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Benjamin"
-},
-{
-"id": "place:Philistine",
+"id": "place:Samaria",
 "type": "place",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "place:Sardis",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Sardes"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
-"id": "place:Zarephath",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Sarepta"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Canaan"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "destin"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Philistins"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
+"preferred_label": "Samarie"
 },
 {
 "id": "place:Teman",
@@ -365,53 +302,18 @@
 "preferred_label": "Théman"
 },
 {
+"id": "place:Sardis",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sardes"
+},
+{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Benjamin"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Samarie"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "alliance"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Galaad"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Shephelah"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Juda"
 },
 {
 "id": "keyterm:IntactState",
@@ -421,6 +323,55 @@
 "preferred_label": "état intact"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Galaad"
+},
+{
+"id": "place:Zarephath",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sarepta"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Philistia"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Éphraïm"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Benjamin"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
 "id": "group:Canaan",
 "type": "group",
 "confidence": 0.1714,
@@ -428,11 +379,53 @@
 "preferred_label": "Canaan"
 },
 {
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.1114,
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Vulture"
+"preferred_label": "Canaan"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "alliance"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Philistins"
+},
+{
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Shephelah"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Éphraïm"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "destin"
 },
 {
 "id": "realia:Trap",
@@ -440,6 +433,13 @@
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Trap"
+},
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Vulture"
 }
 ]
 }

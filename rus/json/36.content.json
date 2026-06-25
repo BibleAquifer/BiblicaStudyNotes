@@ -253,11 +253,11 @@
 "preferred_label": "Appoint"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "Израиль"
+"preferred_label": "Иерусалим"
 },
 {
 "id": "keyterm:Fear",
@@ -267,22 +267,22 @@
 "preferred_label": "Fear"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "Иерусалим"
+"preferred_label": "Израиль"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2755,
 "match_method": "canonical",
 "preferred_label": "Иуда"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2755,
 "match_method": "canonical",
 "preferred_label": "Иуда"
@@ -293,20 +293,6 @@
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "Моав"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Woe"
 },
 {
 "id": "keyterm:Ardour",
@@ -323,13 +309,6 @@
 "preferred_label": "Cush"
 },
 {
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Deceit"
-},
-{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.217,
@@ -337,18 +316,39 @@
 "preferred_label": "Аммон"
 },
 {
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Аскалонский"
-},
-{
 "id": "group:Ammon",
 "type": "group",
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "Ammonites"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Deceit"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Woe"
+},
+{
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Аскалонский"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -365,34 +365,6 @@
 "preferred_label": "House"
 },
 {
-"id": "person:Zephaniah.3",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Цефания"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Рыбные ворота"
-},
-{
-"id": "keyterm:Stain",
-"type": "keyterm",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Defile"
-},
-{
-"id": "person:Gedaliah.3",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Годолия"
-},
-{
 "id": "person:Cushi",
 "type": "person",
 "confidence": 0.1623,
@@ -407,11 +379,18 @@
 "preferred_label": "The Hollow"
 },
 {
-"id": "person:Amariah.9",
+"id": "person:Zephaniah.3",
 "type": "person",
 "confidence": 0.1623,
 "match_method": "canonical",
-"preferred_label": "Амария"
+"preferred_label": "Цефания"
+},
+{
+"id": "keyterm:Stain",
+"type": "keyterm",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Defile"
 },
 {
 "id": "place:SecondQuarter",
@@ -421,6 +400,20 @@
 "preferred_label": "Second District"
 },
 {
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Рыбные ворота"
+},
+{
+"id": "person:Gedaliah.3",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Годолия"
+},
+{
 "id": "person:Hezekiah.4",
 "type": "person",
 "confidence": 0.1623,
@@ -428,25 +421,32 @@
 "preferred_label": "Езекия"
 },
 {
-"id": "keyterm:Love",
+"id": "person:Amariah.9",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Амария"
+},
+{
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Instruction"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "place:Canaan",
+"id": "place:Philistine",
 "type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Ханаан"
+"preferred_label": "Филистимской"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Safety"
 }
 ]
 }
