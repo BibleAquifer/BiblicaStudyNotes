@@ -225,11 +225,18 @@
 "preferred_label": "ardeur"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "person:Ezekiel",
+"type": "person",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "se rebeller"
+"preferred_label": "Ézéchiel"
+},
+{
+"id": "place:Tel-abib",
+"type": "place",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Thel-Abib"
 },
 {
 "id": "keyterm:Vision",
@@ -239,11 +246,11 @@
 "preferred_label": "vision"
 },
 {
-"id": "person:Ezekiel",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Ézéchiel"
+"preferred_label": "se rebeller"
 },
 {
 "id": "person:Buzi",
@@ -251,13 +258,6 @@
 "confidence": 0.16,
 "match_method": "canonical",
 "preferred_label": "Buzi"
-},
-{
-"id": "place:Tel-abib",
-"type": "place",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Thel-Abib"
 },
 {
 "id": "place:Chaldea",
@@ -274,6 +274,13 @@
 "preferred_label": "benir"
 },
 {
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.1569,
+"match_method": "canonical",
+"preferred_label": "lamentation"
+},
+{
 "id": "person:Jehoiachin",
 "type": "person",
 "confidence": 0.1569,
@@ -288,25 +295,11 @@
 "preferred_label": "Chaldéens"
 },
 {
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1569,
-"match_method": "canonical",
-"preferred_label": "lamentation"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1538,
 "match_method": "canonical",
 "preferred_label": "Cattle"
-},
-{
-"id": "realia:Wheel",
-"type": "realia",
-"confidence": 0.1,
-"match_method": "canonical",
-"preferred_label": "Wheel"
 },
 {
 "id": "flora:Nettle",
@@ -316,11 +309,46 @@
 "preferred_label": "Nettle"
 },
 {
+"id": "realia:Wheel",
+"type": "realia",
+"confidence": 0.1,
+"match_method": "canonical",
+"preferred_label": "Wheel"
+},
+{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.0969,
 "match_method": "canonical",
 "preferred_label": "Brier"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.0969,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.0969,
+"match_method": "canonical",
+"preferred_label": "Vulture"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.0969,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.0969,
+"match_method": "canonical",
+"preferred_label": "Throne"
 },
 {
 "id": "fauna:Scorpion",
@@ -335,34 +363,6 @@
 "confidence": 0.0969,
 "match_method": "canonical",
 "preferred_label": "Molten Image"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.0969,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.0969,
-"match_method": "canonical",
-"preferred_label": "Lion"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.0969,
-"match_method": "canonical",
-"preferred_label": "Rope"
-},
-{
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.0969,
-"match_method": "canonical",
-"preferred_label": "Vulture"
 }
 ]
 }
@@ -544,6 +544,13 @@
 "preferred_label": "Stone Altar"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.264,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.264,
@@ -558,25 +565,11 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.264,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.212,
 "match_method": "canonical",
 "preferred_label": "abomination"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.212,
-"match_method": "canonical",
-"preferred_label": "parler"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -586,11 +579,11 @@
 "preferred_label": "parole du seigneur"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.208,
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.212,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "parler"
 },
 {
 "id": "flora:Pine",
@@ -600,32 +593,18 @@
 "preferred_label": "Stone Pine"
 },
 {
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.208,
+"match_method": "canonical",
+"preferred_label": "Sword"
+},
+{
 "id": "place:Riblah.2",
 "type": "place",
 "confidence": 0.1587,
 "match_method": "canonical",
 "preferred_label": "Ribla"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.156,
-"match_method": "canonical",
-"preferred_label": "se rebeller"
-},
-{
-"id": "keyterm:Arrow",
-"type": "keyterm",
-"confidence": 0.156,
-"match_method": "canonical",
-"preferred_label": "flèche"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.156,
-"match_method": "canonical",
-"preferred_label": "déposséder"
 },
 {
 "id": "keyterm:Counsel",
@@ -635,25 +614,18 @@
 "preferred_label": "avis"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.156,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.156,
-"match_method": "canonical",
-"preferred_label": "état intact"
-},
-{
 "id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.156,
 "match_method": "canonical",
 "preferred_label": "se prostituer"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.156,
+"match_method": "canonical",
+"preferred_label": "flèche"
 },
 {
 "id": "group:Judah",
@@ -663,18 +635,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.156,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:PleasingOdor",
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.156,
 "match_method": "canonical",
-"preferred_label": "parfum apaisant"
+"preferred_label": "Instruction"
 },
 {
 "id": "keyterm:Destroy",
@@ -682,6 +647,41 @@
 "confidence": 0.156,
 "match_method": "canonical",
 "preferred_label": "atteindre"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.156,
+"match_method": "canonical",
+"preferred_label": "nation; peuple"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.156,
+"match_method": "canonical",
+"preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.156,
+"match_method": "canonical",
+"preferred_label": "état intact"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.156,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.156,
+"match_method": "canonical",
+"preferred_label": "déposséder"
 }
 ]
 }
@@ -849,6 +849,13 @@
 "preferred_label": "Juda"
 },
 {
+"id": "place:Chebar",
+"type": "place",
+"confidence": 0.2678,
+"match_method": "canonical",
+"preferred_label": "Kebar"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2678,
@@ -863,11 +870,11 @@
 "preferred_label": "ardeur"
 },
 {
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2678,
+"id": "person:Pelatiah.4",
+"type": "person",
+"confidence": 0.2171,
 "match_method": "canonical",
-"preferred_label": "Kebar"
+"preferred_label": "Pelathia"
 },
 {
 "id": "person:Benaiah.12",
@@ -875,13 +882,6 @@
 "confidence": 0.2171,
 "match_method": "canonical",
 "preferred_label": "Benaja"
-},
-{
-"id": "person:Pelatiah.4",
-"type": "person",
-"confidence": 0.2171,
-"match_method": "canonical",
-"preferred_label": "Pelathia"
 },
 {
 "id": "keyterm:DetestedThing",
@@ -905,6 +905,13 @@
 "preferred_label": "Writing Case"
 },
 {
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.2078,
+"match_method": "canonical",
+"preferred_label": "Image"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.2078,
@@ -912,11 +919,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:Image",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2078,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -940,11 +947,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2078,
+"id": "person:Jaazaniah.3",
+"type": "person",
+"confidence": 0.1586,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Jaazania"
+},
+{
+"id": "keyterm:Visitation",
+"type": "keyterm",
+"confidence": 0.1586,
+"match_method": "canonical",
+"preferred_label": "compte"
 },
 {
 "id": "deity:Tammuz",
@@ -952,13 +966,6 @@
 "confidence": 0.1586,
 "match_method": "canonical",
 "preferred_label": "Thammuz"
-},
-{
-"id": "person:Jaazaniah.3",
-"type": "person",
-"confidence": 0.1586,
-"match_method": "canonical",
-"preferred_label": "Jaazania"
 },
 {
 "id": "person:Shaphan.2",
@@ -973,13 +980,6 @@
 "confidence": 0.1586,
 "match_method": "canonical",
 "preferred_label": "Azzur"
-},
-{
-"id": "keyterm:Visitation",
-"type": "keyterm",
-"confidence": 0.1586,
-"match_method": "canonical",
-"preferred_label": "compte"
 },
 {
 "id": "person:Jaazaniah.2",
@@ -1182,18 +1182,18 @@
 "preferred_label": "profaner, déshonorer"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3667,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.3667,
 "match_method": "canonical",
 "preferred_label": "Égypte"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3667,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -1287,11 +1287,11 @@
 "preferred_label": "Oholiba"
 },
 {
-"id": "place:Assyria",
+"id": "place:Sodom",
 "type": "place",
 "confidence": 0.3567,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Sodome"
 },
 {
 "id": "place:Samaria",
@@ -1301,11 +1301,11 @@
 "preferred_label": "Samarie"
 },
 {
-"id": "place:Sodom",
+"id": "place:Assyria",
 "type": "place",
 "confidence": 0.3567,
 "match_method": "canonical",
-"preferred_label": "Sodome"
+"preferred_label": "Assyria"
 },
 {
 "id": "keyterm:Love",
@@ -1322,18 +1322,18 @@
 "preferred_label": "Chaldée"
 },
 {
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.3556,
-"match_method": "canonical",
-"preferred_label": "être infidèle"
-},
-{
 "id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.3556,
 "match_method": "canonical",
 "preferred_label": "adjuration"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.3556,
+"match_method": "canonical",
+"preferred_label": "être infidèle"
 },
 {
 "id": "realia:Image",
@@ -1487,18 +1487,18 @@
 "preferred_label": "Babylone"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.3637,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
 "id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.3637,
 "match_method": "canonical",
 "preferred_label": "lamentation"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.3637,
+"match_method": "canonical",
+"preferred_label": "Hell"
 },
 {
 "id": "keyterm:Ability",
@@ -1515,11 +1515,11 @@
 "preferred_label": "Sidon"
 },
 {
-"id": "keyterm:Mighty.2",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.3091,
 "match_method": "canonical",
-"preferred_label": "puissant"
+"preferred_label": "Liban"
 },
 {
 "id": "group:Judah",
@@ -1529,11 +1529,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "place:Cush.2",
-"type": "place",
+"id": "person:Nebuchadnezzar",
+"type": "person",
 "confidence": 0.3091,
 "match_method": "canonical",
-"preferred_label": "Cush"
+"preferred_label": "Nebucadnetsar"
 },
 {
 "id": "place:Ammon",
@@ -1543,25 +1543,11 @@
 "preferred_label": "Ammon"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.3091,
-"match_method": "canonical",
-"preferred_label": "Liban"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3091,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:Speak",
+"id": "keyterm:Mighty.2",
 "type": "keyterm",
 "confidence": 0.3091,
 "match_method": "canonical",
-"preferred_label": "parler"
+"preferred_label": "puissant"
 },
 {
 "id": "place:Eden.2",
@@ -1571,6 +1557,13 @@
 "preferred_label": "Garden of Eden"
 },
 {
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.3091,
+"match_method": "canonical",
+"preferred_label": "parler"
+},
+{
 "id": "place:Edom",
 "type": "place",
 "confidence": 0.3091,
@@ -1578,11 +1571,18 @@
 "preferred_label": "Édom"
 },
 {
-"id": "person:Nebuchadnezzar",
+"id": "place:Cush.2",
+"type": "place",
+"confidence": 0.3091,
+"match_method": "canonical",
+"preferred_label": "Cush"
+},
+{
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3091,
 "match_method": "canonical",
-"preferred_label": "Nebucadnetsar"
+"preferred_label": "Juda"
 },
 {
 "id": "realia:Sword",
@@ -1597,6 +1597,13 @@
 "confidence": 0.2579,
 "match_method": "canonical",
 "preferred_label": "Dedan"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.2569,
+"match_method": "canonical",
+"preferred_label": "Amos"
 },
 {
 "id": "place:Moab",
@@ -1627,18 +1634,11 @@
 "preferred_label": "Assyria"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
+"id": "place:Nile",
+"type": "place",
 "confidence": 0.2569,
 "match_method": "canonical",
-"preferred_label": "profaner, déshonorer"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.2569,
-"match_method": "canonical",
-"preferred_label": "Amos"
+"preferred_label": "Nile River"
 }
 ]
 }
@@ -1764,18 +1764,18 @@
 "preferred_label": "Israël"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.381,
-"match_method": "canonical",
-"preferred_label": "parler"
-},
-{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.381,
 "match_method": "canonical",
 "preferred_label": "parole du seigneur"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.381,
+"match_method": "canonical",
+"preferred_label": "parler"
 },
 {
 "id": "keyterm:Ardour",
@@ -1792,18 +1792,18 @@
 "preferred_label": "pollution"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.3655,
-"match_method": "canonical",
-"preferred_label": "déposséder"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3655,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.3655,
+"match_method": "canonical",
+"preferred_label": "déposséder"
 },
 {
 "id": "fauna:Goat",
@@ -1827,11 +1827,11 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "place:SeirMount",
-"type": "place",
+"id": "person:David",
+"type": "person",
 "confidence": 0.3124,
 "match_method": "canonical",
-"preferred_label": "montagne de Séir"
+"preferred_label": "David"
 },
 {
 "id": "keyterm:Dishonor",
@@ -1841,11 +1841,11 @@
 "preferred_label": "profaner, déshonorer"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "place:SeirMount",
+"type": "place",
 "confidence": 0.3124,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "montagne de Séir"
 },
 {
 "id": "keyterm:Pure",
@@ -1855,13 +1855,6 @@
 "preferred_label": "sans saleté"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2593,
-"match_method": "canonical",
-"preferred_label": "se rebeller"
-},
-{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.2593,
@@ -1869,11 +1862,11 @@
 "preferred_label": "securité"
 },
 {
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.2524,
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.2593,
 "match_method": "canonical",
-"preferred_label": "Rams Horn"
+"preferred_label": "se rebeller"
 },
 {
 "id": "realia:Image",
@@ -1883,60 +1876,11 @@
 "preferred_label": "Image"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2062,
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.2524,
 "match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2062,
-"match_method": "canonical",
-"preferred_label": "laissiez en possession"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.2062,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.2062,
-"match_method": "canonical",
-"preferred_label": "état intact"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2062,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.2062,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2062,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2062,
-"match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Rams Horn"
 },
 {
 "id": "person:Ephraim",
@@ -1946,6 +1890,34 @@
 "preferred_label": "Éphraïm"
 },
 {
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "Éphraïm"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "laissiez en possession"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.2062,
@@ -1953,11 +1925,39 @@
 "preferred_label": "alliance"
 },
 {
-"id": "keyterm:Holy",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.2062,
 "match_method": "canonical",
-"preferred_label": "saint"
+"preferred_label": "chemin"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "Édom"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "état intact"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2062,
+"match_method": "canonical",
+"preferred_label": "Juda"
 }
 ]
 }
@@ -2027,13 +2027,6 @@
 "preferred_label": "securité"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3346,
-"match_method": "canonical",
-"preferred_label": "saint"
-},
-{
 "id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.3346,
@@ -2041,11 +2034,11 @@
 "preferred_label": "parler"
 },
 {
-"id": "place:Meshech",
-"type": "place",
-"confidence": 0.2798,
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3346,
 "match_method": "canonical",
-"preferred_label": "Méschec"
+"preferred_label": "saint"
 },
 {
 "id": "place:Tubal",
@@ -2053,6 +2046,13 @@
 "confidence": 0.2798,
 "match_method": "canonical",
 "preferred_label": "Tubal"
+},
+{
+"id": "place:Meshech",
+"type": "place",
+"confidence": 0.2798,
+"match_method": "canonical",
+"preferred_label": "Méschec"
 },
 {
 "id": "keyterm:Pure",
@@ -2076,13 +2076,6 @@
 "preferred_label": "Magog"
 },
 {
-"id": "keyterm:Arrow",
-"type": "keyterm",
-"confidence": 0.2173,
-"match_method": "canonical",
-"preferred_label": "flèche"
-},
-{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.2173,
@@ -2090,18 +2083,25 @@
 "preferred_label": "tuerie"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2173,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.2173,
 "match_method": "canonical",
 "preferred_label": "être infidèle"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.2173,
+"match_method": "canonical",
+"preferred_label": "flèche"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2173,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 },
 {
 "id": "realia:SmallShield",
@@ -2118,13 +2118,6 @@
 "preferred_label": "Horse"
 },
 {
-"id": "person:Gomer",
-"type": "person",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Gomer"
-},
-{
 "id": "place:TravelersValley",
 "type": "place",
 "confidence": 0.1625,
@@ -2137,6 +2130,13 @@
 "confidence": 0.1625,
 "match_method": "canonical",
 "preferred_label": "maison de Togarma"
+},
+{
+"id": "person:Gomer",
+"type": "person",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Gomer"
 },
 {
 "id": "place:Hamonah",
@@ -2160,11 +2160,11 @@
 "preferred_label": "Arrow"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "place:Bashan",
+"type": "place",
 "confidence": 0.1587,
 "match_method": "canonical",
-"preferred_label": "se rebeller"
+"preferred_label": "Basan"
 },
 {
 "id": "place:Put",
@@ -2174,18 +2174,11 @@
 "preferred_label": "Puth"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "place:Dedan",
+"type": "place",
 "confidence": 0.1587,
 "match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "keyterm:Zealous",
-"type": "keyterm",
-"confidence": 0.1587,
-"match_method": "canonical",
-"preferred_label": "être zélé"
+"preferred_label": "Dedan"
 },
 {
 "id": "keyterm:Dishonor",
@@ -2195,6 +2188,13 @@
 "preferred_label": "profaner, déshonorer"
 },
 {
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1587,
+"match_method": "canonical",
+"preferred_label": "Perse"
+},
+{
 "id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1587,
@@ -2202,11 +2202,11 @@
 "preferred_label": "se rendre honoré"
 },
 {
-"id": "place:Persia",
-"type": "place",
+"id": "keyterm:Zealous",
+"type": "keyterm",
 "confidence": 0.1587,
 "match_method": "canonical",
-"preferred_label": "Perse"
+"preferred_label": "être zélé"
 }
 ]
 }
@@ -2423,18 +2423,18 @@
 "preferred_label": "Mediterranean Sea"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3587,
-"match_method": "canonical",
-"preferred_label": "saint"
-},
-{
 "id": "place:Hamath",
 "type": "place",
 "confidence": 0.3587,
 "match_method": "canonical",
 "preferred_label": "Hamath"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3587,
+"match_method": "canonical",
+"preferred_label": "saint"
 },
 {
 "id": "keyterm:Appease",
@@ -2500,18 +2500,18 @@
 "preferred_label": "néoménies"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3073,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3073,
 "match_method": "canonical",
 "preferred_label": "Altar"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.3073,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
 },
 {
 "id": "flora:Reed",
@@ -2521,6 +2521,13 @@
 "preferred_label": "Reed"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.3073,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3073,
@@ -2528,11 +2535,11 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3073,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3069,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Juda"
 },
 {
 "id": "keyterm:Instruction",
@@ -2542,18 +2549,11 @@
 "preferred_label": "Instruction"
 },
 {
-"id": "person:Zadok.2",
-"type": "person",
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
 "confidence": 0.3069,
 "match_method": "canonical",
-"preferred_label": "Tsadok"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3069,
-"match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "fête déterminée"
 }
 ]
 }

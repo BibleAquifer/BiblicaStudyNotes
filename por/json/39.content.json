@@ -162,13 +162,6 @@
 "preferred_label": "Edomites"
 },
 {
-"id": "person:Malachi",
-"type": "person",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "Malaquias"
-},
-{
 "id": "keyterm:Utterance",
 "type": "keyterm",
 "confidence": 0.28,
@@ -176,11 +169,11 @@
 "preferred_label": "Utterance"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.24,
+"id": "person:Malachi",
+"type": "person",
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "Malaquias"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -188,6 +181,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Word of the Lord"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "to cause to possess"
 },
 {
 "id": "keyterm:Love",
@@ -369,13 +369,6 @@
 "preferred_label": "Covenant"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.3439,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3439,
@@ -383,18 +376,18 @@
 "preferred_label": "fear"
 },
 {
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.3439,
+"match_method": "canonical",
+"preferred_label": "Instruction"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3439,
 "match_method": "canonical",
 "preferred_label": "Israel"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "Levi"
 },
 {
 "id": "keyterm:Curse",
@@ -411,6 +404,13 @@
 "preferred_label": "profane, dishonor"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "Levi"
+},
+{
 "id": "person:Levi.3",
 "type": "person",
 "confidence": 0.2829,
@@ -423,6 +423,13 @@
 "confidence": 0.2229,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2229,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -439,11 +446,11 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2229,
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.222,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Priests"
 },
 {
 "id": "keyterm:Glory",
@@ -460,25 +467,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Stain",
 "type": "keyterm",
 "confidence": 0.222,
 "match_method": "canonical",
-"preferred_label": "peace"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "pure"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Jerusalém"
+"preferred_label": "stain"
 },
 {
 "id": "group:Judah",
@@ -488,32 +481,39 @@
 "preferred_label": "Judá"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:Stain",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "stain"
-},
-{
-"id": "group:GenericPriests",
-"type": "group",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Priests"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.222,
 "match_method": "canonical",
 "preferred_label": "An Angel"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "Jerusalém"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "pure"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "peace"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "keyterm:Fairness",
@@ -530,11 +530,18 @@
 "preferred_label": "being honor and glory on oneself"
 },
 {
-"id": "keyterm:Vow",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "make a vow"
+"preferred_label": "rogar"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "be enticed to serve"
 },
 {
 "id": "keyterm:Swear",
@@ -544,18 +551,18 @@
 "preferred_label": "swear"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Delight",
 "type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "love"
+"preferred_label": "delight"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "make a vow"
 },
 {
 "id": "keyterm:Intention",
@@ -563,6 +570,13 @@
 "confidence": 0.161,
 "match_method": "canonical",
 "preferred_label": "evil intention"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Truth"
 },
 {
 "id": "keyterm:TheWay",
@@ -579,18 +593,18 @@
 "preferred_label": "A Group of People"
 },
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Gentiles"
+},
+{
 "id": "keyterm:KindlyDisposed",
 "type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
 "preferred_label": "be kindly disposed"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "rogar"
 },
 {
 "id": "keyterm:Ardour",
@@ -600,20 +614,6 @@
 "preferred_label": "ardour"
 },
 {
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "delight"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
-},
-{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.161,
@@ -621,18 +621,11 @@
 "preferred_label": "decree"
 },
 {
-"id": "group:Gentile",
-"type": "group",
+"id": "keyterm:Love",
+"type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Gentiles"
-},
-{
-"id": "flora:Soap",
-"type": "flora",
-"confidence": 0.1059,
-"match_method": "canonical",
-"preferred_label": "Hammada"
+"preferred_label": "love"
 },
 {
 "id": "realia:Soap",
@@ -642,11 +635,11 @@
 "preferred_label": "Soap"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.101,
+"id": "flora:Soap",
+"type": "flora",
+"confidence": 0.1059,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Hammada"
 },
 {
 "id": "realia:Money",
@@ -654,6 +647,13 @@
 "confidence": 0.101,
 "match_method": "canonical",
 "preferred_label": "Money"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "flora:Vine",
@@ -677,18 +677,18 @@
 "preferred_label": "Wheat"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "Sorghum"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.101,
 "match_method": "canonical",
 "preferred_label": "Flock"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Sorghum"
 }
 ]
 }
@@ -765,6 +765,13 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "be enticed to serve"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.35,
@@ -772,11 +779,11 @@
 "preferred_label": "fear"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.35,
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "Molten Image"
 },
 {
 "id": "fauna:Bull",
@@ -798,13 +805,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Scroll"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
 }
 ]
 }
@@ -902,20 +902,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Monte Sinai"
-},
-{
 "id": "person:Elijah",
 "type": "person",
 "confidence": 0.3,
@@ -923,18 +909,11 @@
 "preferred_label": "Elias"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Decree",
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "decree"
+"preferred_label": "Instruction"
 },
 {
 "id": "keyterm:Fear",
@@ -944,13 +923,6 @@
 "preferred_label": "fear"
 },
 {
-"id": "keyterm:SomethingDevotedToGod",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "something devoted to god"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.3,
@@ -958,11 +930,39 @@
 "preferred_label": "Moisés"
 },
 {
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "decree"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Monte Sinai"
+},
+{
+"id": "keyterm:SomethingDevotedToGod",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "something devoted to god"
 }
 ]
 }

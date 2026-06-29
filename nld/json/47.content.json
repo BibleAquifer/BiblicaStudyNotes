@@ -78,18 +78,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.5545,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.5545,
 "match_method": "canonical",
 "preferred_label": "Ask for"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.5545,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "person:Jesus.2",
@@ -120,13 +120,6 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Deliver",
-"type": "keyterm",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Deliver"
-},
-{
 "id": "place:Achaia",
 "type": "place",
 "confidence": 0.2091,
@@ -134,32 +127,18 @@
 "preferred_label": "Achaia"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Deliver",
+"type": "keyterm",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Deliver"
+},
+{
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Paul"
-},
-{
-"id": "keyterm:Verdict",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Verdict"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Heart"
 },
 {
 "id": "place:Corinth",
@@ -183,18 +162,18 @@
 "preferred_label": "Timothy"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Make Peace"
 },
 {
-"id": "place:Asia",
-"type": "place",
+"id": "keyterm:Verdict",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Asia"
+"preferred_label": "Verdict"
 },
 {
 "id": "keyterm:Persuade",
@@ -204,13 +183,6 @@
 "preferred_label": "Persuade"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -218,11 +190,18 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "keyterm:Church",
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Asia"
+},
+{
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Pray",
@@ -232,18 +211,11 @@
 "preferred_label": "Pray"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Make Peace"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Resurrection",
@@ -251,6 +223,34 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Resurrection"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Paul"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Church"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Holy"
 }
 ]
 }
@@ -334,25 +334,11 @@
 "preferred_label": "Silas"
 },
 {
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Judea"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Heart"
 },
 {
 "id": "keyterm:BearWitness",
@@ -369,6 +355,55 @@
 "preferred_label": "Macedonia"
 },
 {
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Judea"
+},
+{
+"id": "keyterm:Carnal",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Carnal"
+},
+{
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Timothy"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Faithfulness"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -383,39 +418,11 @@
 "preferred_label": "Body"
 },
 {
-"id": "person:Timothy",
-"type": "person",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Timothy"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Anointed"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Holy Spirit"
 },
 {
 "id": "keyterm:Conscience",
@@ -425,32 +432,25 @@
 "preferred_label": "Conscience"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "keyterm:Faithfulness",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Faithfulness"
+"preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Carnal",
+"id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Carnal"
+"preferred_label": "Anointed"
 },
 {
-"id": "keyterm:Proclaim",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Proclaim"
+"preferred_label": "Glory"
 }
 ]
 }
@@ -492,6 +492,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2692,
@@ -513,13 +520,6 @@
 "preferred_label": "Cause of Joy"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2692,
@@ -527,11 +527,18 @@
 "preferred_label": "Love"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Believe"
+},
+{
+"id": "place:Corinth",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Corinth"
 },
 {
 "id": "deity:Satan",
@@ -548,6 +555,13 @@
 "preferred_label": "Witness"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
 "id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -562,11 +576,11 @@
 "preferred_label": "Call Upon"
 },
 {
-"id": "keyterm:Encourage",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Encourage"
+"preferred_label": "Persuade"
 },
 {
 "id": "deity:Lord",
@@ -576,25 +590,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Encourage",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Persuade"
-},
-{
-"id": "place:Corinth",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Corinth"
+"preferred_label": "Encourage"
 }
 ]
 }
@@ -671,18 +671,11 @@
 "preferred_label": "Titus"
 },
 {
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Spirit"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Favor"
 },
 {
 "id": "place:Troas",
@@ -692,18 +685,25 @@
 "preferred_label": "Troas"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Salvation"
 },
 {
-"id": "keyterm:Favor",
+"id": "place:Macedonia",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Macedonia"
+},
+{
+"id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Favor"
+"preferred_label": "Spirit"
 },
 {
 "id": "keyterm:GoodNews",
@@ -713,11 +713,11 @@
 "preferred_label": "Good News"
 },
 {
-"id": "place:Macedonia",
-"type": "place",
+"id": "keyterm:Life",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Macedonia"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:InChrist",
@@ -871,13 +871,6 @@
 "preferred_label": "Make Alive"
 },
 {
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Condemn"
-},
-{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.175,
@@ -885,18 +878,11 @@
 "preferred_label": "Hope"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:InChrist",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
+"preferred_label": "In Christ"
 },
 {
 "id": "keyterm:Carnal",
@@ -906,11 +892,25 @@
 "preferred_label": "Carnal"
 },
 {
-"id": "keyterm:InChrist",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "In Christ"
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Condemn"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "realia:Ink",
@@ -1001,18 +1001,18 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.325,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.325,
 "match_method": "canonical",
 "preferred_label": "Always"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.325,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:GoodNews",
@@ -1036,11 +1036,39 @@
 "preferred_label": "Body"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Heart"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Mercy"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Favor"
 },
 {
 "id": "keyterm:Truth",
@@ -1057,18 +1085,18 @@
 "preferred_label": "Live"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Resurrection"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Mercy"
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Conscience",
@@ -1078,13 +1106,6 @@
 "preferred_label": "Conscience"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.175,
@@ -1092,32 +1113,11 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Be Unfaithful"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
+"preferred_label": "Serve"
 }
 ]
 }
@@ -1201,11 +1201,11 @@
 "preferred_label": "Long For"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Live.3",
@@ -1215,11 +1215,11 @@
 "preferred_label": "Live"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Good"
 },
 {
 "id": "deity:HolySpirit",
@@ -1229,25 +1229,18 @@
 "preferred_label": "Holy Spirit"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Always"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Good"
-},
-{
-"id": "realia:JudgmentSeat",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Judgment Seat"
+"preferred_label": "Life"
 },
 {
 "id": "realia:House",
@@ -1255,6 +1248,13 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:JudgmentSeat",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Judgment Seat"
 }
 ]
 }
@@ -1309,32 +1309,11 @@
 "preferred_label": "In Christ"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Life"
 },
 {
 "id": "keyterm:Just",
@@ -1344,18 +1323,32 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Serve"
-},
-{
-"id": "keyterm:Unhypocritical",
-"type": "keyterm",
-"confidence": 0.181,
-"match_method": "canonical",
-"preferred_label": "Unhypocritical"
 },
 {
 "id": "keyterm:Empty",
@@ -1365,67 +1358,11 @@
 "preferred_label": "Empty"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Unhypocritical",
 "type": "keyterm",
-"confidence": 0.1714,
+"confidence": 0.181,
 "match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Obstacle",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Obstacle"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Fast",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Abstain from Food"
-},
-{
-"id": "keyterm:WithoutMoralDefect",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Being Without Moral Defect"
+"preferred_label": "Unhypocritical"
 },
 {
 "id": "keyterm:Heart",
@@ -1435,25 +1372,11 @@
 "preferred_label": "Heart"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:WithoutMoralDefect",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Persuade"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Decided"
+"preferred_label": "Being Without Moral Defect"
 },
 {
 "id": "keyterm:True",
@@ -1463,11 +1386,25 @@
 "preferred_label": "True"
 },
 {
-"id": "keyterm:Conscience",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Conscience"
+"preferred_label": "Kindness"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Fear",
@@ -1477,18 +1414,39 @@
 "preferred_label": "Fear"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Spirit"
+"preferred_label": "Decided"
+},
+{
+"id": "keyterm:Persuade",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Persuade"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Body"
 },
 {
 "id": "keyterm:Resurrection",
@@ -1498,11 +1456,53 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Obstacle",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Favor"
+"preferred_label": "Obstacle"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Holy Spirit"
+},
+{
+"id": "keyterm:Conscience",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Conscience"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Fast",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Abstain from Food"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Spirit"
 },
 {
 "id": "realia:Prison",
@@ -1558,18 +1558,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Defilement"
 },
 {
 "id": "group:Corinth",
@@ -1579,11 +1579,18 @@
 "preferred_label": "Corinthians"
 },
 {
-"id": "keyterm:Affection",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Affection"
+"preferred_label": "Heart"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "To Cleanse"
 },
 {
 "id": "keyterm:UnequallyYoked",
@@ -1600,55 +1607,6 @@
 "preferred_label": "Corinth"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Fellowship"
-},
-{
-"id": "keyterm:Partnership",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Partnership"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2,
@@ -1663,11 +1621,18 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "keyterm:Cleanse.2",
+"id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "To Cleanse"
+"preferred_label": "Faithfulness"
+},
+{
+"id": "keyterm:Partnership",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Partnership"
 },
 {
 "id": "keyterm:Lawless",
@@ -1677,11 +1642,60 @@
 "preferred_label": "Lawless"
 },
 {
+"id": "keyterm:Affection",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Affection"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Beloved"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Fellowship"
 },
 {
 "id": "keyterm:Holy",
@@ -1696,20 +1710,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Spirit"
-},
-{
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Faithfulness"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Beloved"
 },
 {
 "id": "realia:Image",
@@ -1778,18 +1778,18 @@
 "preferred_label": "Repent"
 },
 {
-"id": "person:Titus",
-"type": "person",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Titus"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "person:Titus",
+"type": "person",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "Titus"
 },
 {
 "id": "keyterm:Extremely",
@@ -1799,11 +1799,11 @@
 "preferred_label": "Extremely"
 },
 {
-"id": "keyterm:CauseOfJoy",
+"id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "To Act Wickedly"
 },
 {
 "id": "keyterm:Eagerness",
@@ -1813,11 +1813,11 @@
 "preferred_label": "Eagerness"
 },
 {
-"id": "keyterm:ActWickedly",
+"id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "To Act Wickedly"
+"preferred_label": "Cause of Joy"
 },
 {
 "id": "keyterm:Pure",
@@ -1827,11 +1827,18 @@
 "preferred_label": "Pure"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Heart"
+},
+{
+"id": "keyterm:NotToBeRegretted",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Not to Be Regretted"
 },
 {
 "id": "place:Macedonia",
@@ -1841,27 +1848,6 @@
 "preferred_label": "Macedonia"
 },
 {
-"id": "keyterm:Affection",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Affection"
-},
-{
-"id": "keyterm:LiveWith",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Live With"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.18,
@@ -1869,25 +1855,11 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Affection",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Condemn"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Affection"
 },
 {
 "id": "keyterm:GrantJustice",
@@ -1897,11 +1869,39 @@
 "preferred_label": "Avenge"
 },
 {
-"id": "keyterm:NotToBeRegretted",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Not to Be Regretted"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Condemn"
+},
+{
+"id": "keyterm:LiveWith",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Live With"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -1978,18 +1978,18 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.4276,
-"match_method": "canonical",
-"preferred_label": "Church"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.4276,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.4276,
+"match_method": "canonical",
+"preferred_label": "Church"
 },
 {
 "id": "keyterm:AskFor",
@@ -2020,13 +2020,6 @@
 "preferred_label": "Macedonia"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2966,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2966,
@@ -2041,6 +2034,13 @@
 "preferred_label": "Titus"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2966,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.231,
@@ -2048,11 +2048,11 @@
 "preferred_label": "Holy"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Heart"
 },
 {
 "id": "keyterm:BearWitness",
@@ -2069,32 +2069,11 @@
 "preferred_label": "Good News"
 },
 {
-"id": "keyterm:Confidence",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Confidence"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "Cause of Joy"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Hope"
 },
 {
 "id": "keyterm:Extremely",
@@ -2104,18 +2083,18 @@
 "preferred_label": "Extremely"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Confidence",
 "type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Hope"
+"preferred_label": "Confidence"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Promise",
@@ -2125,11 +2104,25 @@
 "preferred_label": "Promise"
 },
 {
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Cause of Joy"
+},
+{
 "id": "keyterm:Interpret",
 "type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
 "preferred_label": "Interpret"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:DepriveOfPower",
@@ -2151,6 +2144,13 @@
 "confidence": 0.1655,
 "match_method": "canonical",
 "preferred_label": "Achaia"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Glory"
 }
 ]
 }
@@ -2206,13 +2206,6 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.29,
@@ -2220,60 +2213,11 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Holy",
+"id": "keyterm:Serve",
 "type": "keyterm",
-"confidence": 0.195,
+"confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Priesthood"
-},
-{
-"id": "keyterm:LongFor",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Long For"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Fellowship"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Serve"
 },
 {
 "id": "keyterm:Heart",
@@ -2283,11 +2227,11 @@
 "preferred_label": "Heart"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:LongFor",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Pray"
+"preferred_label": "Long For"
 },
 {
 "id": "keyterm:Good",
@@ -2297,6 +2241,62 @@
 "preferred_label": "Good"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Fellowship"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.195,
@@ -2304,18 +2304,18 @@
 "preferred_label": "Love"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Grain"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }
@@ -2377,67 +2377,11 @@
 "preferred_label": "Good News"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Paul"
-},
-{
-"id": "keyterm:Carnal",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Carnal"
-},
-{
-"id": "keyterm:BuildingUp",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Building Up"
-},
-{
-"id": "keyterm:Approved",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Approved"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Heart"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Hope"
 },
 {
 "id": "keyterm:Believe",
@@ -2447,11 +2391,39 @@
 "preferred_label": "Believe"
 },
 {
-"id": "keyterm:Persuade",
+"id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Persuade"
+"preferred_label": "Authority"
+},
+{
+"id": "keyterm:Carnal",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Carnal"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Paul"
+},
+{
+"id": "keyterm:Approved",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Approved"
 },
 {
 "id": "keyterm:Ability",
@@ -2459,6 +2431,34 @@
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "keyterm:Persuade",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Persuade"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:BuildingUp",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Building Up"
 },
 {
 "id": "realia:Fortress",
@@ -2535,11 +2535,11 @@
 "preferred_label": "Eve"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:WithoutMoralDefect",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Being Without Moral Defect"
 },
 {
 "id": "place:Macedonia",
@@ -2549,46 +2549,11 @@
 "preferred_label": "Macedonia"
 },
 {
-"id": "keyterm:Extremely",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Extremely"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:WithoutMoralDefect",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Being Without Moral Defect"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Pure"
+"preferred_label": "Proclaim"
 },
 {
 "id": "keyterm:Engaged",
@@ -2596,13 +2561,6 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Be Engaged"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Church"
 },
 {
 "id": "keyterm:Fear",
@@ -2619,13 +2577,6 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.18,
@@ -2633,11 +2584,46 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Extremely",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Spirit"
+"preferred_label": "Extremely"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Pure"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Church"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "place:Achaia",
@@ -2647,11 +2633,25 @@
 "preferred_label": "Achaia"
 },
 {
-"id": "keyterm:Proclaim",
+"id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Proclaim"
+"preferred_label": "Spirit"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Serve"
 },
 {
 "id": "fauna:Snake",
@@ -2699,18 +2699,11 @@
 "preferred_label": "Aretas"
 },
 {
-"id": "keyterm:Confidence",
-"type": "keyterm",
+"id": "place:Damascus",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Confidence"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Abraham"
+"preferred_label": "Damascus"
 },
 {
 "id": "keyterm:Bless",
@@ -2720,53 +2713,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Fast",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Abstain from Food"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:CauseToStumble",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Cause to Stumble"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Church"
-},
-{
-"id": "person:Israel",
+"id": "person:Abraham",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Israelites"
+"preferred_label": "Abraham"
 },
 {
 "id": "keyterm:Always",
@@ -2776,11 +2727,32 @@
 "preferred_label": "Always"
 },
 {
-"id": "group:Hebrews",
-"type": "group",
+"id": "keyterm:Confidence",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Hebrews"
+"preferred_label": "Confidence"
+},
+{
+"id": "keyterm:CauseToStumble",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Cause to Stumble"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Body"
 },
 {
 "id": "group:Gentile",
@@ -2790,6 +2762,13 @@
 "preferred_label": "Gentiles"
 },
 {
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Israelites"
+},
+{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.175,
@@ -2797,25 +2776,32 @@
 "preferred_label": "Jews"
 },
 {
-"id": "place:Damascus",
-"type": "place",
+"id": "keyterm:Church",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Damascus"
+"preferred_label": "Church"
 },
 {
-"id": "realia:Window",
-"type": "realia",
-"confidence": 0.115,
+"id": "keyterm:Fast",
+"type": "keyterm",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Window"
+"preferred_label": "Abstain from Food"
 },
 {
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.115,
+"id": "group:Hebrews",
+"type": "group",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "Hebrews"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "realia:Prison",
@@ -2830,6 +2816,20 @@
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "City Wall"
+},
+{
+"id": "realia:Window",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Window"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Basket"
 }
 ]
 }
@@ -2885,11 +2885,11 @@
 "preferred_label": "Body"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Favor",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Favor"
 },
 {
 "id": "keyterm:Truth",
@@ -2899,11 +2899,11 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Sky"
 },
 {
 "id": "keyterm:AskFor",
@@ -2913,18 +2913,32 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Paradise",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Favor"
+"preferred_label": "Paradise"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Word"
+"preferred_label": "Ability"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Lawful",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Be Lawful"
 },
 {
 "id": "keyterm:InChrist",
@@ -2934,25 +2948,11 @@
 "preferred_label": "In Christ"
 },
 {
-"id": "keyterm:Paradise",
+"id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Paradise"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:Lawful",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Be Lawful"
+"preferred_label": "Word"
 }
 ]
 }
@@ -2994,25 +2994,18 @@
 "preferred_label": "Obligated"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Spirit.2",
+"id": "keyterm:InChrist",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Spirit"
+"preferred_label": "In Christ"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Portent",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Portent"
 },
 {
 "id": "keyterm:AskFor",
@@ -3022,25 +3015,18 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "person:Titus",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Titus"
-},
-{
-"id": "keyterm:Resentment",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Resentment"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:Forgive",
@@ -3057,11 +3043,11 @@
 "preferred_label": "Church"
 },
 {
-"id": "keyterm:Example",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Symbol"
+"preferred_label": "Ability"
 },
 {
 "id": "deity:Lord",
@@ -3071,13 +3057,6 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Portent",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Portent"
-},
-{
 "id": "keyterm:UnjustDeed",
 "type": "keyterm",
 "confidence": 0.195,
@@ -3085,18 +3064,39 @@
 "preferred_label": "Unjust Deed"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Beloved"
 },
 {
-"id": "keyterm:InChrist",
+"id": "person:Titus",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Titus"
+},
+{
+"id": "keyterm:Resentment",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "In Christ"
+"preferred_label": "Resentment"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Spirit"
 },
 {
 "id": "keyterm:BuildingUp",
@@ -3151,25 +3151,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "Ability"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Love"
 },
 {
 "id": "keyterm:Pray",
@@ -3179,102 +3165,25 @@
 "preferred_label": "Pray"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
 "id": "keyterm:Interpret",
 "type": "keyterm",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Interpret"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Word"
-},
-{
-"id": "keyterm:AtPeace",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Be at Peace"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Approved",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Approved"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Witness"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Honest",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Honest"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Fellowship"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Defilement"
 },
 {
 "id": "keyterm:Authority.2",
@@ -3284,18 +3193,32 @@
 "preferred_label": "Authority"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "keyterm:Holy",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Witness"
 },
 {
 "id": "keyterm:Peace",
@@ -3305,11 +3228,32 @@
 "preferred_label": "Make Peace"
 },
 {
+"id": "keyterm:AtPeace",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Be at Peace"
+},
+{
 "id": "keyterm:Encourage",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Honest",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Honest"
 },
 {
 "id": "keyterm:Fornication",
@@ -3319,11 +3263,67 @@
 "preferred_label": "Fornication"
 },
 {
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Defilement"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Holy Spirit"
+},
+{
+"id": "keyterm:Approved",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Approved"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Fellowship"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
 "id": "keyterm:BuildingUp",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Building Up"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Word"
 },
 {
 "id": "realia:Cross",

@@ -253,11 +253,11 @@
 "preferred_label": "Appoint"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "यरूशलेम"
+"preferred_label": "इस्राएल"
 },
 {
 "id": "keyterm:Fear",
@@ -267,11 +267,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.334,
 "match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "यरूशलेम"
 },
 {
 "id": "group:Judah",
@@ -288,32 +288,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
-"id": "keyterm:Ardour",
+"id": "keyterm:Woe.2",
 "type": "keyterm",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "place:Cush.2",
-"type": "place",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Cush"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "अम्मोन"
+"preferred_label": "Woe"
 },
 {
 "id": "group:Ammon",
@@ -323,13 +302,6 @@
 "preferred_label": "अम्मोनी"
 },
 {
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Deceit"
-},
-{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.217,
@@ -337,11 +309,11 @@
 "preferred_label": "Word of the Lord"
 },
 {
-"id": "keyterm:Woe.2",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "Woe"
+"preferred_label": "मोआब"
 },
 {
 "id": "place:Ashkelon",
@@ -351,6 +323,27 @@
 "preferred_label": "अश्कलोन"
 },
 {
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "अम्मोन"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Passion"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Deceit"
+},
+{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.217,
@@ -358,32 +351,18 @@
 "preferred_label": "Slaughtering"
 },
 {
+"id": "place:Cush.2",
+"type": "place",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "Cush"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2155,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "person:Cushi",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "कूशी"
-},
-{
-"id": "place:Mortar",
-"type": "place",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "The Hollow"
-},
-{
-"id": "person:Zephaniah.3",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "सपन्याह"
 },
 {
 "id": "keyterm:Stain",
@@ -400,25 +379,11 @@
 "preferred_label": "Second District"
 },
 {
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Fish Gate"
-},
-{
 "id": "person:Gedaliah.3",
 "type": "person",
 "confidence": 0.1623,
 "match_method": "canonical",
 "preferred_label": "गदल्याह"
-},
-{
-"id": "person:Hezekiah.4",
-"type": "person",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "हिजकिय्याह"
 },
 {
 "id": "person:Amariah.9",
@@ -428,25 +393,60 @@
 "preferred_label": "अमर्याह"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1585,
+"id": "place:Mortar",
+"type": "place",
+"confidence": 0.1623,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "The Hollow"
 },
 {
-"id": "place:Philistine",
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "Fish Gate"
+},
+{
+"id": "person:Zephaniah.3",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "सपन्याह"
+},
+{
+"id": "person:Hezekiah.4",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "हिजकिय्याह"
+},
+{
+"id": "person:Cushi",
+"type": "person",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "कूशी"
+},
+{
+"id": "place:Gaza",
 "type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Philistia"
+"preferred_label": "गाज़ा"
 },
 {
-"id": "keyterm:Safety",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Safety"
+"preferred_label": "Force to Serve"
+},
+{
+"id": "place:Gomorrah",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "गमोरा"
 }
 ]
 }

@@ -253,22 +253,8 @@
 "preferred_label": "يونَاثَانَ"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3756,
-"match_method": "canonical",
-"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
-},
-{
 "id": "group:Judah",
 "type": "group",
-"confidence": 0.3756,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
 "confidence": 0.3756,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
@@ -279,6 +265,20 @@
 "confidence": 0.3756,
 "match_method": "canonical",
 "preferred_label": "فِلِشْتِيم"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3756,
+"match_method": "canonical",
+"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3756,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
 },
 {
 "id": "person:Ner.2",
@@ -323,11 +323,11 @@
 "preferred_label": "أورشَلِيمَ"
 },
 {
-"id": "keyterm:Smear",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.3642,
 "match_method": "canonical",
-"preferred_label": "Smear"
+"preferred_label": "Bless"
 },
 {
 "id": "deity:Angel",
@@ -337,11 +337,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Smear",
 "type": "keyterm",
 "confidence": 0.3642,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Smear"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -516,18 +516,18 @@
 "preferred_label": "Syrians"
 },
 {
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.407,
-"match_method": "canonical",
-"preferred_label": "ٱلْعَمّونِيِّينَ"
-},
-{
 "id": "group:Ammon",
 "type": "group",
 "confidence": 0.407,
 "match_method": "canonical",
 "preferred_label": "Ammonites"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.407,
+"match_method": "canonical",
+"preferred_label": "ٱلْعَمّونِيِّينَ"
 },
 {
 "id": "person:Hadadezer",
@@ -551,13 +551,6 @@
 "preferred_label": "شَاولَ"
 },
 {
-"id": "person:Mephibosheth",
-"type": "person",
-"confidence": 0.381,
-"match_method": "canonical",
-"preferred_label": "مَفِيبوشَثَ"
-},
-{
 "id": "place:Zobah",
 "type": "place",
 "confidence": 0.381,
@@ -570,6 +563,13 @@
 "confidence": 0.381,
 "match_method": "canonical",
 "preferred_label": "يوآب"
+},
+{
+"id": "person:Mephibosheth",
+"type": "person",
+"confidence": 0.381,
+"match_method": "canonical",
+"preferred_label": "مَفِيبوشَثَ"
 },
 {
 "id": "keyterm:Kindness",
@@ -607,13 +607,6 @@
 "preferred_label": "يونَاثَانَ"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2671,
-"match_method": "canonical",
-"preferred_label": "أورشَلِيمَ"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2671,
@@ -628,18 +621,25 @@
 "preferred_label": "أَدومَ"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2671,
+"match_method": "canonical",
+"preferred_label": "أورشَلِيمَ"
+},
+{
+"id": "person:Rehob",
+"type": "person",
+"confidence": 0.2165,
+"match_method": "canonical",
+"preferred_label": "رَحوبَ"
+},
+{
 "id": "person:Shobach",
 "type": "person",
 "confidence": 0.2165,
 "match_method": "canonical",
 "preferred_label": "شوبَك"
-},
-{
-"id": "person:Machir.2",
-"type": "person",
-"confidence": 0.2165,
-"match_method": "canonical",
-"preferred_label": "مَاكِيرَ"
 },
 {
 "id": "place:Beth-rehob",
@@ -656,13 +656,6 @@
 "preferred_label": "توعِي"
 },
 {
-"id": "group:Tob",
-"type": "group",
-"confidence": 0.2165,
-"match_method": "canonical",
-"preferred_label": "People of Tob"
-},
-{
 "id": "person:Ammiel.2",
 "type": "person",
 "confidence": 0.2165,
@@ -670,18 +663,18 @@
 "preferred_label": "عَمِّيئِيلَ"
 },
 {
-"id": "person:Rehob",
+"id": "person:Machir.2",
 "type": "person",
 "confidence": 0.2165,
 "match_method": "canonical",
-"preferred_label": "رَحوبَ"
+"preferred_label": "مَاكِيرَ"
 },
 {
-"id": "place:Maacah",
-"type": "place",
-"confidence": 0.2139,
+"id": "group:Tob",
+"type": "group",
+"confidence": 0.2165,
 "match_method": "canonical",
-"preferred_label": "مَعْكَة"
+"preferred_label": "People of Tob"
 },
 {
 "id": "place:Moab",
@@ -691,11 +684,18 @@
 "preferred_label": "موآبَ"
 },
 {
-"id": "place:Helam",
+"id": "place:Lo-debar",
 "type": "place",
 "confidence": 0.2139,
 "match_method": "canonical",
-"preferred_label": "حِيلَامَ"
+"preferred_label": "Lo-debar"
+},
+{
+"id": "place:Tob",
+"type": "place",
+"confidence": 0.2139,
+"match_method": "canonical",
+"preferred_label": "طوبٍ"
 }
 ]
 }
@@ -842,13 +842,6 @@
 "preferred_label": "ثَامَارَ"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.3777,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3777,
@@ -856,11 +849,11 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "group:Hittite",
-"type": "group",
-"confidence": 0.3742,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.3777,
 "match_method": "canonical",
-"preferred_label": "Hittites"
+"preferred_label": "An Angel"
 },
 {
 "id": "person:Heth",
@@ -868,6 +861,13 @@
 "confidence": 0.3742,
 "match_method": "canonical",
 "preferred_label": "حِثًّا"
+},
+{
+"id": "group:Hittite",
+"type": "group",
+"confidence": 0.3742,
+"match_method": "canonical",
+"preferred_label": "Hittites"
 },
 {
 "id": "person:Nathan.2",
@@ -961,29 +961,8 @@
 "preferred_label": "شِمْعَى"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.2069,
-"match_method": "canonical",
-"preferred_label": "سلَيْمَانَ"
-},
-{
 "id": "group:Judah",
 "type": "group",
-"confidence": 0.2069,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2069,
-"match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
 "confidence": 0.2069,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
@@ -994,6 +973,27 @@
 "confidence": 0.2069,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2069,
+"match_method": "canonical",
+"preferred_label": "Passion"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2069,
+"match_method": "canonical",
+"preferred_label": "سلَيْمَانَ"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2069,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
 },
 {
 "id": "realia:Cake",
@@ -1375,18 +1375,18 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3894,
-"match_method": "canonical",
-"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3894,
 "match_method": "canonical",
 "preferred_label": "فِلِشْتِيم"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3894,
+"match_method": "canonical",
+"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
 },
 {
 "id": "person:Saul.2",
@@ -1424,18 +1424,18 @@
 "preferred_label": "جَاد"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.3664,
-"match_method": "canonical",
-"preferred_label": "لَحْمٍ"
-},
-{
 "id": "place:Gibeon",
 "type": "place",
 "confidence": 0.3664,
 "match_method": "canonical",
 "preferred_label": "جِبْعونَ"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.3664,
+"match_method": "canonical",
+"preferred_label": "لَحْمٍ"
 },
 {
 "id": "group:Gibeon",
@@ -1459,13 +1459,6 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3131,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
 "id": "person:Jonathan.3",
 "type": "person",
 "confidence": 0.3131,
@@ -1478,6 +1471,13 @@
 "confidence": 0.3131,
 "match_method": "canonical",
 "preferred_label": "Complete"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3131,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
 },
 {
 "id": "person:Rizpah",
@@ -1494,13 +1494,6 @@
 "preferred_label": "أَيَّةَ"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2599,
-"match_method": "canonical",
-"preferred_label": "دَانَ"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2599,
@@ -1508,18 +1501,11 @@
 "preferred_label": "Offering"
 },
 {
-"id": "place:Beersheba",
-"type": "place",
+"id": "person:Zeruiah",
+"type": "person",
 "confidence": 0.2599,
 "match_method": "canonical",
-"preferred_label": "Beersheba"
-},
-{
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.2599,
-"match_method": "canonical",
-"preferred_label": "دَانَ"
+"preferred_label": "صروِيَّةَ"
 },
 {
 "id": "place:Gath",
@@ -1529,11 +1515,25 @@
 "preferred_label": "إِلَى"
 },
 {
-"id": "person:Zeruiah",
-"type": "person",
+"id": "place:Dan",
+"type": "place",
 "confidence": 0.2599,
 "match_method": "canonical",
-"preferred_label": "صروِيَّةَ"
+"preferred_label": "دَانَ"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.2599,
+"match_method": "canonical",
+"preferred_label": "دَانَ"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.2599,
+"match_method": "canonical",
+"preferred_label": "Beersheba"
 },
 {
 "id": "keyterm:Shield",
@@ -1557,11 +1557,11 @@
 "preferred_label": "Spear"
 },
 {
-"id": "group:Ahoah",
-"type": "group",
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.208,
 "match_method": "canonical",
-"preferred_label": "أَخوخَ"
+"preferred_label": "بَنَايَا"
 }
 ]
 }

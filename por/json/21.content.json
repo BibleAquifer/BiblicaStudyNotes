@@ -173,18 +173,18 @@
 "preferred_label": "evil intention"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.3617,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3617,
 "match_method": "canonical",
 "preferred_label": "fear"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.3617,
+"match_method": "canonical",
+"preferred_label": "love"
 },
 {
 "id": "place:Jerusalem",
@@ -215,6 +215,20 @@
 "preferred_label": "Vine"
 },
 {
+"id": "person:GenericMale",
+"type": "person",
+"confidence": 0.2047,
+"match_method": "canonical",
+"preferred_label": "A Man"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2047,
+"match_method": "canonical",
+"preferred_label": "strength"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2047,
@@ -229,18 +243,11 @@
 "preferred_label": "Oath"
 },
 {
-"id": "keyterm:Strength",
+"id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "strength"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "ardour"
+"preferred_label": "make a vow"
 },
 {
 "id": "keyterm:Favor",
@@ -250,25 +257,11 @@
 "preferred_label": "favor"
 },
 {
-"id": "person:GenericMale",
-"type": "person",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "A Man"
-},
-{
-"id": "keyterm:Vow",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "make a vow"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.197,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "ardour"
 },
 {
 "id": "realia:Wine",
@@ -285,39 +278,11 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1523,
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.197,
 "match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "swear"
-},
-{
-"id": "keyterm:Stupidity",
-"type": "keyterm",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "stupidity"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1523,
-"match_method": "canonical",
-"preferred_label": "slaughtering"
+"preferred_label": "Olive Oil"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -327,11 +292,46 @@
 "preferred_label": "to act wickedly"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.1523,
 "match_method": "canonical",
-"preferred_label": "peace"
+"preferred_label": "slaughtering"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "to cause to possess"
+},
+{
+"id": "keyterm:Stupidity",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "stupidity"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "be enticed to serve"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "swear"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1523,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "keyterm:Pure",
@@ -341,11 +341,11 @@
 "preferred_label": "pure"
 },
 {
-"id": "keyterm:Safety",
-"type": "keyterm",
+"id": "place:Hell",
+"type": "place",
 "confidence": 0.1523,
 "match_method": "canonical",
-"preferred_label": "Safety"
+"preferred_label": "Hell"
 }
 ]
 }
@@ -422,11 +422,11 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Intention",
+"id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "evil intention"
+"preferred_label": "saying"
 },
 {
 "id": "keyterm:Straightness",
@@ -436,18 +436,11 @@
 "preferred_label": "straightness"
 },
 {
-"id": "keyterm:Saying",
+"id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "saying"
-},
-{
-"id": "realia:Goad",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "Goad"
+"preferred_label": "evil intention"
 },
 {
 "id": "flora:Caper",
@@ -457,11 +450,25 @@
 "preferred_label": "Caper"
 },
 {
-"id": "fauna:Bird",
+"id": "realia:Goad",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "Goad"
+},
+{
+"id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "Locust"
+},
+{
+"id": "realia:ClayJar",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Clay Jar"
 },
 {
 "id": "realia:Money",
@@ -478,32 +485,11 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "realia:Pit",
+"id": "realia:Nail",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Rope"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Locust",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Locust"
+"preferred_label": "Nail"
 },
 {
 "id": "fauna:Lamb",
@@ -513,18 +499,18 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "realia:ClayJar",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Clay Jar"
+"preferred_label": "Goat"
 },
 {
-"id": "realia:Nail",
-"type": "realia",
+"id": "fauna:Bird",
+"type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Nail"
+"preferred_label": "Bird"
 },
 {
 "id": "flora:Almond",
@@ -534,11 +520,25 @@
 "preferred_label": "Almond"
 },
 {
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Rope"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Flock"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Pit"
 }
 ]
 }

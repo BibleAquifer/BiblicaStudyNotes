@@ -99,11 +99,11 @@
 "preferred_label": "altura"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "purificarse"
 },
 {
 "id": "keyterm:Name",
@@ -111,27 +111,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "nombre"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "palabra"
 },
 {
 "id": "keyterm:Sin",
@@ -148,11 +127,32 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Cleanse.2",
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "purificarse"
+"preferred_label": "para la eternidad"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "palabra"
 }
 ]
 }
@@ -215,18 +215,18 @@
 "preferred_label": "espíritu"
 },
 {
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.23,
 "match_method": "canonical",
 "preferred_label": "Clothing"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "Cloak"
 },
 {
 "id": "keyterm:Anointed",
@@ -236,6 +236,13 @@
 "preferred_label": "ungido"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
 "confidence": 0.195,
@@ -243,11 +250,25 @@
 "preferred_label": "sacerdocio"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "reino"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "para la eternidad"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "sin ley"
 },
 {
 "id": "keyterm:BowDown",
@@ -264,11 +285,18 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Servant",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "cielo"
+"preferred_label": "servidor público"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "salvación"
 },
 {
 "id": "keyterm:Love",
@@ -278,13 +306,6 @@
 "preferred_label": "amar"
 },
 {
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "sin ley"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.195,
@@ -292,39 +313,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:Servant",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "servidor público"
-},
-{
 "id": "realia:Staff",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Staff"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
 },
 {
 "id": "realia:Rod",
@@ -353,6 +346,13 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Foundation"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -506,18 +506,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
 },
 {
 "id": "keyterm:Declare",
@@ -534,13 +534,6 @@
 "preferred_label": "maravilla"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.2,
@@ -548,18 +541,25 @@
 "preferred_label": "salvación"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "señal"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Espíritu"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "señal"
 }
 ]
 }
@@ -636,18 +636,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Slavery",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "esclavitud"
-},
-{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.2222,
 "match_method": "canonical",
 "preferred_label": "deber"
+},
+{
+"id": "keyterm:Slavery",
+"type": "keyterm",
+"confidence": 0.2222,
+"match_method": "canonical",
+"preferred_label": "esclavitud"
 },
 {
 "id": "keyterm:Partake",
@@ -657,25 +657,11 @@
 "preferred_label": "participar"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "corazón"
 },
 {
 "id": "keyterm:Forgive",
@@ -692,11 +678,11 @@
 "preferred_label": "Abraham"
 },
 {
-"id": "keyterm:Consecration.2",
+"id": "keyterm:SetFree",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "consagración"
+"preferred_label": "liberar"
 },
 {
 "id": "keyterm:Share",
@@ -706,25 +692,11 @@
 "preferred_label": "compartir"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "tentar"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "corazón"
+"preferred_label": "temer"
 },
 {
 "id": "keyterm:Persuade",
@@ -734,39 +706,18 @@
 "preferred_label": "persuadir"
 },
 {
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "iglesia"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "misericordia"
 },
 {
 "id": "keyterm:Faithfulness",
@@ -776,6 +727,13 @@
 "preferred_label": "lealtad"
 },
 {
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "tentar"
+},
+{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2,
@@ -783,11 +741,18 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:SetFree",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "liberar"
+"preferred_label": "cuerpo"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Blood",
@@ -795,6 +760,41 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "sangre"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "consagración"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "iglesia"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
 }
 ]
 }
@@ -920,11 +920,11 @@
 "preferred_label": "no creer"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "lealtad"
 },
 {
 "id": "deity:Lord",
@@ -934,18 +934,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "lealtad"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "pecar"
 },
 {
 "id": "keyterm:BearWitness",
@@ -953,6 +946,34 @@
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "dar testimonio"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "rogar"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "esperanza"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "exhortar"
 },
 {
 "id": "keyterm:Confidence",
@@ -969,32 +990,11 @@
 "preferred_label": "The Way"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "esperanza"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Life"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Egipto"
 },
 {
 "id": "deity:HolySpirit",
@@ -1011,11 +1011,11 @@
 "preferred_label": "santo"
 },
 {
-"id": "keyterm:Encourage",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "exhortar"
+"preferred_label": "gloria del señor"
 }
 ]
 }
@@ -1085,13 +1085,6 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "buena noticia"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2692,
@@ -1106,53 +1099,18 @@
 "preferred_label": "creer"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "buena noticia"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "sábado"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:AbleToDiscern",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "capaz de juzgar"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "espíritu"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "promesa"
 },
 {
 "id": "keyterm:Fear",
@@ -1162,11 +1120,53 @@
 "preferred_label": "temer"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "keyterm:AbleToDiscern",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "capaz de juzgar"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "espíritu"
 }
 ]
 }
@@ -1222,11 +1222,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "ofrenda"
 },
 {
 "id": "keyterm:Salvation",
@@ -1236,18 +1236,11 @@
 "preferred_label": "salvación"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "Jesús"
 },
 {
 "id": "person:Melchizedek",
@@ -1257,18 +1250,11 @@
 "preferred_label": "Melchîsedec"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Always",
 "type": "keyterm",
-"confidence": 0.1846,
+"confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "para la eternidad"
 },
 {
 "id": "keyterm:Favor",
@@ -1278,25 +1264,11 @@
 "preferred_label": "favor"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "deber"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "tentar"
+"preferred_label": "cielo"
 },
 {
 "id": "keyterm:DealGently",
@@ -1313,6 +1285,27 @@
 "preferred_label": "Aarón"
 },
 {
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "tentar"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -1320,11 +1313,18 @@
 "preferred_label": "orar"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "cielo"
+"preferred_label": "deber"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
 },
 {
 "id": "realia:Throne",
@@ -1387,13 +1387,6 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
 "id": "keyterm:Repent",
 "type": "keyterm",
 "confidence": 0.2562,
@@ -1408,18 +1401,11 @@
 "preferred_label": "para la eternidad"
 },
 {
-"id": "keyterm:Discern",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.1906,
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "distinguir"
-},
-{
-"id": "keyterm:Eagerness",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "empeño"
+"preferred_label": "creer"
 },
 {
 "id": "keyterm:FundamentalPrinciples",
@@ -1429,46 +1415,25 @@
 "preferred_label": "elemento"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Eagerness",
 "type": "keyterm",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "empeño"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:Discern",
 "type": "keyterm",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "palabra"
+"preferred_label": "distinguir"
 },
 {
-"id": "keyterm:Baptism",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "bautismo"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "bendecir"
+"preferred_label": "corazón"
 },
 {
 "id": "keyterm:Ought",
@@ -1485,81 +1450,11 @@
 "preferred_label": "esperanza"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "corazón"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "juicio"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "persuadir"
-},
-{
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "participar"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "santo"
+"preferred_label": "bendecir"
 },
 {
 "id": "keyterm:Complete",
@@ -1569,11 +1464,18 @@
 "preferred_label": "honrado"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "levantamiento"
+"preferred_label": "persuadir"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "ser justo"
 },
 {
 "id": "keyterm:Name",
@@ -1583,11 +1485,109 @@
 "preferred_label": "nombre"
 },
 {
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "palabra"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "amado"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "levantamiento"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "bautismo"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "juicio"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "participar"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "amar"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "servir"
 },
 {
 "id": "flora:Thistle",
@@ -1720,11 +1720,11 @@
 "preferred_label": "esperanza"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Abraham",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "Abraham"
 },
 {
 "id": "keyterm:AskFor",
@@ -1734,18 +1734,11 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "Jesús"
 },
 {
 "id": "person:Melchizedek",
@@ -1755,6 +1748,13 @@
 "preferred_label": "Melchîsedec"
 },
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "para la eternidad"
+},
+{
 "id": "keyterm:SomethingDefinite",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -1762,11 +1762,11 @@
 "preferred_label": "seguro"
 },
 {
-"id": "person:Abraham",
-"type": "person",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Abraham"
+"preferred_label": "bendecir"
 },
 {
 "id": "realia:Anchor",
@@ -1892,6 +1892,13 @@
 "preferred_label": "sacerdocio"
 },
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.3643,
+"match_method": "canonical",
+"preferred_label": "para la eternidad"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3643,
@@ -1906,11 +1913,18 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Oath",
 "type": "keyterm",
-"confidence": 0.3643,
+"confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "juramento"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "bendecir"
 },
 {
 "id": "keyterm:Commandment",
@@ -1920,25 +1934,11 @@
 "preferred_label": "mandamiento"
 },
 {
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "juramento"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2982,
 "match_method": "canonical",
 "preferred_label": "Levitas"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "bendecir"
 },
 {
 "id": "person:Levi.3",
@@ -1969,32 +1969,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Aarón"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "ofrenda"
 },
 {
 "id": "keyterm:Heaven",
@@ -2004,25 +1983,25 @@
 "preferred_label": "cielo"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:EnactLaws",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "esperanza"
+"preferred_label": "dar leyes"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "person:Moses",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Moisés"
+"preferred_label": "Aarón"
+},
+{
+"id": "keyterm:Undefiled",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "sin mancha"
 },
 {
 "id": "keyterm:Repent",
@@ -2032,32 +2011,32 @@
 "preferred_label": "convertirse"
 },
 {
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "esperanza"
+},
+{
+"id": "keyterm:Carnal",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "carnal"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "hacer la paz"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Judá"
-},
-{
-"id": "keyterm:EnactLaws",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "dar leyes"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "participar"
 },
 {
 "id": "keyterm:Just",
@@ -2074,32 +2053,53 @@
 "preferred_label": "pacto"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "hacer la paz"
+"preferred_label": "Ability"
 },
 {
-"id": "keyterm:Carnal",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "carnal"
+"preferred_label": "promesa"
 },
 {
-"id": "keyterm:Undefiled",
-"type": "keyterm",
+"id": "person:Moses",
+"type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "sin mancha"
+"preferred_label": "Moisés"
 },
 {
-"id": "keyterm:Offering",
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "participar"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "pecar"
 }
 ]
 }
@@ -2176,6 +2176,13 @@
 "preferred_label": "pacto"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
 "confidence": 0.2692,
@@ -2188,13 +2195,6 @@
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "ley"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
 },
 {
 "id": "person:Israel",
@@ -2225,11 +2225,11 @@
 "preferred_label": "servidor público"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "corazón"
 },
 {
 "id": "keyterm:Heaven",
@@ -2239,39 +2239,11 @@
 "preferred_label": "cielo"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:EnactLaws",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "corazón"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "keyterm:UnjustDeed",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "injusticia"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "misericordia"
+"preferred_label": "dar leyes"
 },
 {
 "id": "keyterm:True",
@@ -2281,11 +2253,11 @@
 "preferred_label": "verdadero"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "keyterm:Blameless",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Egipto"
+"preferred_label": "quedar libre de castigo"
 },
 {
 "id": "group:Judah",
@@ -2295,18 +2267,18 @@
 "preferred_label": "Judá"
 },
 {
-"id": "keyterm:EnactLaws",
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "dar leyes"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "misericordia"
 },
 {
 "id": "keyterm:Heavenly",
@@ -2316,6 +2288,34 @@
 "preferred_label": "Heavenly"
 },
 {
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:UnjustDeed",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "injusticia"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.1846,
@@ -2323,11 +2323,11 @@
 "preferred_label": "santuario"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "servir"
+"preferred_label": "pecar"
 },
 {
 "id": "keyterm:Holy",
@@ -2337,11 +2337,11 @@
 "preferred_label": "santo"
 },
 {
-"id": "keyterm:Blameless",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "quedar libre de castigo"
+"preferred_label": "servir"
 },
 {
 "id": "realia:Throne",
@@ -2404,18 +2404,18 @@
 "preferred_label": "santo"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.4464,
-"match_method": "canonical",
-"preferred_label": "santuario"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.4464,
 "match_method": "canonical",
 "preferred_label": "ofrenda"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.4464,
+"match_method": "canonical",
+"preferred_label": "santuario"
 },
 {
 "id": "keyterm:Priesthood",
@@ -2460,6 +2460,13 @@
 "preferred_label": "purificarse"
 },
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.3643,
+"match_method": "canonical",
+"preferred_label": "para la eternidad"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3643,
@@ -2472,13 +2479,6 @@
 "confidence": 0.3643,
 "match_method": "canonical",
 "preferred_label": "servir"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.3643,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
 },
 {
 "id": "deity:Lord",
@@ -2509,13 +2509,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2321,
@@ -2544,6 +2537,13 @@
 "preferred_label": "ley"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2321,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
+},
+{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.2321,
@@ -2551,11 +2551,11 @@
 "preferred_label": "conciencia"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "pecar"
 },
 {
 "id": "fauna:Goat",
@@ -2586,25 +2586,11 @@
 "preferred_label": "Flock"
 },
 {
-"id": "keyterm:Propitiation",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "propiciación"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "mandamiento"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "perdonar"
 },
 {
 "id": "keyterm:Command",
@@ -2614,25 +2600,46 @@
 "preferred_label": "mandar"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "verdadero"
 },
 {
-"id": "keyterm:Baptism",
+"id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "bautismo"
+"preferred_label": "tribunal de justicia"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Commandment",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "perdonar"
+"preferred_label": "mandamiento"
+},
+{
+"id": "keyterm:Propitiation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "propiciación"
+},
+{
+"id": "place:MostHolyPlace",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "santísimo"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
 },
 {
 "id": "keyterm:Ability",
@@ -2640,13 +2647,6 @@
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Ability"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "consagración"
 },
 {
 "id": "keyterm:Promise",
@@ -2663,32 +2663,25 @@
 "preferred_label": "Moisés"
 },
 {
+"id": "keyterm:Unblemished",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "irreprochable"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "bautismo"
+},
+{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Good"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "juicio"
-},
-{
-"id": "place:MostHolyPlace",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "santísimo"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "verdadero"
 },
 {
 "id": "keyterm:Parable",
@@ -2698,18 +2691,32 @@
 "preferred_label": "parábola"
 },
 {
-"id": "keyterm:CourtCase",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "tribunal de justicia"
+"preferred_label": "juicio"
 },
 {
-"id": "keyterm:Heavenly",
+"id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Heavenly"
+"preferred_label": "consagración"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
 },
 {
 "id": "keyterm:SheddingOfBlood",
@@ -2719,11 +2726,11 @@
 "preferred_label": "derramamiento de sangre"
 },
 {
-"id": "keyterm:Unblemished",
-"type": "keyterm",
-"confidence": 0.1661,
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "irreprochable"
+"preferred_label": "Ark of the Covenant"
 },
 {
 "id": "realia:WingedCreature",
@@ -2733,18 +2740,18 @@
 "preferred_label": "Winged Creature"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
-},
-{
 "id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "Staff"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Lampstand"
 },
 {
 "id": "flora:Hyssop",
@@ -2754,13 +2761,6 @@
 "preferred_label": "Hyssop"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Curtain"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1061,
@@ -2768,11 +2768,11 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Lampstand"
+"preferred_label": "Curtain"
 }
 ]
 }
@@ -2835,18 +2835,18 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.372,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.372,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.372,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
 },
 {
 "id": "keyterm:Law",
@@ -2856,13 +2856,6 @@
 "preferred_label": "ley"
 },
 {
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.244,
-"match_method": "canonical",
-"preferred_label": "consagración"
-},
-{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.244,
@@ -2870,11 +2863,11 @@
 "preferred_label": "conciencia"
 },
 {
-"id": "keyterm:Priesthood",
+"id": "keyterm:Consecration.2",
 "type": "keyterm",
-"confidence": 0.236,
+"confidence": 0.244,
 "match_method": "canonical",
-"preferred_label": "sacerdocio"
+"preferred_label": "consagración"
 },
 {
 "id": "keyterm:Heart",
@@ -2884,11 +2877,11 @@
 "preferred_label": "corazón"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Priesthood",
+"type": "keyterm",
 "confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "sacerdocio"
 },
 {
 "id": "keyterm:Blood",
@@ -2898,18 +2891,18 @@
 "preferred_label": "sangre"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "lealtad"
-},
-{
-"id": "keyterm:Mind.2",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "mente"
 },
 {
 "id": "keyterm:BearWitness",
@@ -2919,60 +2912,11 @@
 "preferred_label": "dar testimonio"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
-"id": "keyterm:Clean",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "limpio"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "esperanza"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "purificarse"
 },
 {
 "id": "keyterm:AskFor",
@@ -2982,11 +2926,11 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "perdonar"
 },
 {
 "id": "keyterm:True",
@@ -2996,39 +2940,11 @@
 "preferred_label": "verdadero"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
-},
-{
-"id": "keyterm:Cleanse.2",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "purificarse"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "sin ley"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "santuario"
+"preferred_label": "esperanza"
 },
 {
 "id": "keyterm:Complete",
@@ -3036,13 +2952,6 @@
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "honrado"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "santo"
 },
 {
 "id": "keyterm:Covenant",
@@ -3059,11 +2968,95 @@
 "preferred_label": "exhortar"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.116,
+"id": "keyterm:Mind.2",
+"type": "keyterm",
+"confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Curtain"
+"preferred_label": "mente"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "sin ley"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "limpio"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "santuario"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "amar"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "servir"
 },
 {
 "id": "realia:MostHolyPlace",
@@ -3073,11 +3066,11 @@
 "preferred_label": "Most Holy Place"
 },
 {
-"id": "realia:House",
+"id": "realia:Curtain",
 "type": "realia",
-"confidence": 0.108,
+"confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Curtain"
 },
 {
 "id": "fauna:Bull",
@@ -3094,18 +3087,11 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Footstool",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Footstool"
+"preferred_label": "House"
 },
 {
 "id": "realia:Temple",
@@ -3115,11 +3101,11 @@
 "preferred_label": "Temple"
 },
 {
-"id": "fauna:Flock",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Goat"
 },
 {
 "id": "realia:TheHolyPlace",
@@ -3127,6 +3113,20 @@
 "confidence": 0.108,
 "match_method": "canonical",
 "preferred_label": "The Holy Place"
+},
+{
+"id": "realia:Footstool",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Footstool"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -3182,11 +3182,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2643,
 "match_method": "canonical",
-"preferred_label": "creer"
+"preferred_label": "temer"
 },
 {
 "id": "keyterm:Life",
@@ -3196,11 +3196,11 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2643,
 "match_method": "canonical",
-"preferred_label": "temer"
+"preferred_label": "creer"
 },
 {
 "id": "keyterm:Extremely",
@@ -3210,25 +3210,67 @@
 "preferred_label": "celo"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "ofrenda"
 },
 {
-"id": "keyterm:CauseOfJoy",
+"id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "tribunal de justicia"
 },
 {
-"id": "keyterm:Consecration.2",
+"id": "keyterm:HaveSympathyFor",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "consagración"
+"preferred_label": "simpatizar"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "testimonio"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "decidir"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "pacto"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "favor"
 },
 {
 "id": "keyterm:Truth",
@@ -3236,6 +3278,13 @@
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "fidelidad"
+},
+{
+"id": "keyterm:GrantJustice",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "hacer justicia"
 },
 {
 "id": "keyterm:Promise",
@@ -3259,46 +3308,11 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "juicio"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "testimonio"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "keyterm:GrantJustice",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "hacer justicia"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ley"
+"preferred_label": "Cause of Joy"
 },
 {
 "id": "keyterm:Defilement",
@@ -3308,18 +3322,18 @@
 "preferred_label": "contaminación"
 },
 {
-"id": "keyterm:Just",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "ser justo"
+"preferred_label": "ley"
 },
 {
-"id": "keyterm:CourtCase",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "tribunal de justicia"
+"preferred_label": "sangre"
 },
 {
 "id": "deity:HolySpirit",
@@ -3329,39 +3343,25 @@
 "preferred_label": "Espíritu"
 },
 {
-"id": "keyterm:HaveSympathyFor",
+"id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "simpatizar"
+"preferred_label": "consagración"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "pacto"
+"preferred_label": "juicio"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "favor"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "sangre"
+"preferred_label": "pecar"
 }
 ]
 }
@@ -3494,13 +3494,6 @@
 "preferred_label": "Ability"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "José"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.25,
@@ -3508,11 +3501,11 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "person:Abraham",
+"id": "person:Joseph.10",
 "type": "person",
-"confidence": 0.2409,
+"confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Abraham"
+"preferred_label": "José"
 },
 {
 "id": "keyterm:Bless",
@@ -3522,6 +3515,13 @@
 "preferred_label": "bendecir"
 },
 {
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -3529,18 +3529,18 @@
 "preferred_label": "ser justo"
 },
 {
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
 "id": "person:Cain",
 "type": "person",
 "confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "Caín"
-},
-{
-"id": "person:Enoch.2",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Henoch"
 },
 {
 "id": "person:Abel",
@@ -3557,46 +3557,11 @@
 "preferred_label": "Heavenly"
 },
 {
-"id": "person:Noah",
+"id": "person:Enoch.2",
 "type": "person",
 "confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Noé"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "mandar"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "postrarse"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "palabra"
-},
-{
-"id": "keyterm:Confidence",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "esencia"
+"preferred_label": "Henoch"
 },
 {
 "id": "keyterm:Heaven",
@@ -3613,11 +3578,11 @@
 "preferred_label": "Sara"
 },
 {
-"id": "keyterm:Condemn",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "condenar"
+"preferred_label": "mandar"
 },
 {
 "id": "keyterm:Hope",
@@ -3627,18 +3592,11 @@
 "preferred_label": "esperanza"
 },
 {
-"id": "keyterm:Parable",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "parábola"
-},
-{
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Esaú"
+"preferred_label": "para la eternidad"
 },
 {
 "id": "keyterm:Faithfulness",
@@ -3646,6 +3604,27 @@
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "lealtad"
+},
+{
+"id": "keyterm:Confidence",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "esencia"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "postrarse"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "condenar"
 },
 {
 "id": "group:Israel",
@@ -3662,25 +3641,32 @@
 "preferred_label": "levantamiento"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "salvación"
 },
 {
-"id": "realia:Boat",
-"type": "realia",
-"confidence": 0.1105,
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Boat"
+"preferred_label": "parábola"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1105,
+"id": "person:Esau",
+"type": "person",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "Esaú"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "palabra"
 },
 {
 "id": "realia:Tent",
@@ -3690,11 +3676,25 @@
 "preferred_label": "Tent"
 },
 {
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Staff"
+},
+{
 "id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Foundation"
+},
+{
+"id": "realia:Boat",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Boat"
 }
 ]
 }
@@ -3749,13 +3749,6 @@
 "preferred_label": "Ability"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.25,
@@ -3770,11 +3763,18 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "person:Gideon",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "person:Jephthah",
 "type": "person",
 "confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "Gedeón"
+"preferred_label": "Jephté"
 },
 {
 "id": "person:Pharaoh.5",
@@ -3782,6 +3782,27 @@
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Faraón"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Samuel"
+},
+{
+"id": "person:Barak",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Barac"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Gedeón"
 },
 {
 "id": "person:Samson",
@@ -3798,41 +3819,6 @@
 "preferred_label": "Rahab"
 },
 {
-"id": "person:Barak",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Barac"
-},
-{
-"id": "person:Jephthah",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Jephté"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Samuel"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "pascua"
-},
-{
-"id": "place:Jericho",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Jericó"
-},
-{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.175,
@@ -3840,39 +3826,11 @@
 "preferred_label": "dar testimonio"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "keyterm:Liberation",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "liberación"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Bermejo"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "pascua"
 },
 {
 "id": "person:David",
@@ -3889,18 +3847,11 @@
 "preferred_label": "hacer la paz"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
+"id": "place:Jericho",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "levantamiento"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Egipto"
+"preferred_label": "Jericó"
 },
 {
 "id": "keyterm:Kingdom",
@@ -3910,6 +3861,34 @@
 "preferred_label": "reino"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "liberación"
+},
+{
+"id": "place:RedSea",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Bermejo"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "levantamiento"
+},
+{
 "id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.175,
@@ -3917,32 +3896,32 @@
 "preferred_label": "sangre"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
 "id": "realia:Skin",
 "type": "realia",
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "Skin"
-},
-{
-"id": "realia:Chain",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Chain"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Lion"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Goat"
 },
 {
 "id": "realia:Prison",
@@ -3957,6 +3936,27 @@
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "City Wall"
+},
+{
+"id": "realia:Chain",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Chain"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Lion"
 },
 {
 "id": "fauna:Flock",
@@ -4033,13 +4033,6 @@
 "preferred_label": "hacer la paz"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.2529,
@@ -4047,11 +4040,11 @@
 "preferred_label": "Cause of Joy"
 },
 {
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.1882,
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "Esaú"
+"preferred_label": "pecar"
 },
 {
 "id": "keyterm:Profane",
@@ -4061,11 +4054,88 @@
 "preferred_label": "profano"
 },
 {
+"id": "person:Esau",
+"type": "person",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "Esaú"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "rogar"
+},
+{
 "id": "keyterm:Reject",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "desechar"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "convertirse"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "testimonio"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "favor"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "contaminación"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "sangre"
 },
 {
 "id": "keyterm:Believe",
@@ -4080,69 +4150,6 @@
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "consagración"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "convertirse"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "testimonio"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "ser justo"
 },
 {
 "id": "person:Jesus.2",
@@ -4166,25 +4173,11 @@
 "preferred_label": "espíritu"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "favor"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "sangre"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Throne"
+"preferred_label": "amar"
 },
 {
 "id": "realia:Cross",
@@ -4192,6 +4185,13 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Cross"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Throne"
 }
 ]
 }
@@ -4268,60 +4268,11 @@
 "preferred_label": "sacerdocio"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "palabra"
-},
-{
-"id": "keyterm:Register",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "inscribir"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "person:Abel",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Abel"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "iglesia"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:Fear",
@@ -4338,11 +4289,11 @@
 "preferred_label": "ser justo"
 },
 {
-"id": "keyterm:Heavenly",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Heavenly"
+"preferred_label": "An Angel"
 },
 {
 "id": "keyterm:Covenant",
@@ -4352,32 +4303,18 @@
 "preferred_label": "pacto"
 },
 {
-"id": "person:Jesus.2",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "person:Abel",
 "type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "espíritu"
+"preferred_label": "Abel"
 },
 {
 "id": "keyterm:Favor",
@@ -4387,11 +4324,39 @@
 "preferred_label": "favor"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "reino"
+"preferred_label": "palabra"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Blood",
@@ -4399,6 +4364,41 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "sangre"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "iglesia"
+},
+{
+"id": "keyterm:Register",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "inscribir"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "espíritu"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "servir"
 },
 {
 "id": "realia:Trumpet",
@@ -4468,11 +4468,11 @@
 "preferred_label": "corazón"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "ofrenda"
 },
 {
 "id": "keyterm:Persuade",
@@ -4482,13 +4482,6 @@
 "preferred_label": "persuadir"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
 "id": "keyterm:Behavior",
 "type": "keyterm",
 "confidence": 0.2474,
@@ -4496,11 +4489,11 @@
 "preferred_label": "conducta"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "cuerpo"
 },
 {
 "id": "keyterm:Blood",
@@ -4510,18 +4503,11 @@
 "preferred_label": "sangre"
 },
 {
-"id": "keyterm:BringIn",
-"type": "keyterm",
-"confidence": 0.1842,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "llevar a"
-},
-{
-"id": "keyterm:LoveForOnesFellowBeliever",
-"type": "keyterm",
-"confidence": 0.1842,
-"match_method": "canonical",
-"preferred_label": "amor fraternal"
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Always",
@@ -4531,88 +4517,18 @@
 "preferred_label": "para la eternidad"
 },
 {
-"id": "keyterm:Priesthood",
+"id": "keyterm:LoveForOnesFellowBeliever",
 "type": "keyterm",
-"confidence": 0.1737,
+"confidence": 0.1842,
 "match_method": "canonical",
-"preferred_label": "sacerdocio"
+"preferred_label": "amor fraternal"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:BringIn",
 "type": "keyterm",
-"confidence": 0.1737,
+"confidence": 0.1842,
 "match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Cause of Joy"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "consagración"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "The Way"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "andar"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "comunión"
-},
-{
-"id": "keyterm:Conscience",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "conciencia"
+"preferred_label": "llevar a"
 },
 {
 "id": "keyterm:Authority.2",
@@ -4622,6 +4538,27 @@
 "preferred_label": "autoridad"
 },
 {
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "rogar"
+},
+{
+"id": "keyterm:Undefiled",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "sin mancha"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -4629,25 +4566,11 @@
 "preferred_label": "temer"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "orar"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "santuario"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "servir"
+"preferred_label": "decidir"
 },
 {
 "id": "deity:Angel",
@@ -4655,20 +4578,6 @@
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:NotALoverOfMoney",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "no amante del dinero"
 },
 {
 "id": "keyterm:Name",
@@ -4685,18 +4594,102 @@
 "preferred_label": "favor"
 },
 {
-"id": "keyterm:Undefiled",
+"id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "sin mancha"
+"preferred_label": "The Way"
 },
 {
-"id": "realia:Tabernacle",
-"type": "realia",
-"confidence": 0.1137,
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Tabernacle"
+"preferred_label": "andar"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "orar"
+},
+{
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Cause of Joy"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "keyterm:Conscience",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "conciencia"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "consagración"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "santuario"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "comunión"
+},
+{
+"id": "keyterm:NotALoverOfMoney",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "no amante del dinero"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "servir"
 },
 {
 "id": "realia:MostHolyPlace",
@@ -4718,6 +4711,13 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "The Holy Place"
+},
+{
+"id": "realia:Tabernacle",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Tabernacle"
 }
 ]
 }
@@ -4787,39 +4787,11 @@
 "preferred_label": "Italia"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "hacer la paz"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "amén"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "sangre"
 },
 {
 "id": "keyterm:Favor",
@@ -4836,13 +4808,6 @@
 "preferred_label": "Timoteo"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.225,
@@ -4850,11 +4815,32 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "sangre"
+"preferred_label": "rogar"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "hacer la paz"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "amén"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Covenant",
@@ -4862,6 +4848,20 @@
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "pacto"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
 },
 {
 "id": "fauna:Flock",
