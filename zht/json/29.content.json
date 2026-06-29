@@ -127,13 +127,6 @@
 "preferred_label": "Offering"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.185,
@@ -155,11 +148,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "person:Joel.14",
-"type": "person",
-"confidence": 0.1825,
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Joel"
+"preferred_label": "Must"
 },
 {
 "id": "person:Pethuel",
@@ -169,11 +162,11 @@
 "preferred_label": "Pethuel"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1725,
+"id": "person:Joel.14",
+"type": "person",
+"confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Joel"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -183,6 +176,13 @@
 "preferred_label": "Word of the Lord"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1225,
@@ -190,18 +190,11 @@
 "preferred_label": "Locust"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
+"id": "flora:DatePalm",
+"type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Date Palm"
 },
 {
 "id": "flora:Pomegranate",
@@ -218,18 +211,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
+"id": "realia:StoneAltar",
+"type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Lion"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "Stone Altar"
 },
 {
 "id": "fauna:Goat",
@@ -239,46 +225,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "fauna:Mule",
+"id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:Barn",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Barn"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Lion"
 },
 {
 "id": "realia:TempleAltar",
@@ -288,11 +239,11 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "flora:DatePalm",
-"type": "flora",
+"id": "realia:TabernacleAltar",
+"type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Date Palm"
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "fauna:Flock",
@@ -302,6 +253,27 @@
 "preferred_label": "Flock"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Barn"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1125,
@@ -309,11 +281,39 @@
 "preferred_label": "Olive Tree"
 },
 {
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Grass"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Altar"
 }
 ]
 }
@@ -411,18 +411,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
 },
 {
 "id": "flora:Vine",
@@ -446,27 +446,6 @@
 "preferred_label": "Rams Horn"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1733,
@@ -481,11 +460,53 @@
 "preferred_label": "Olive Tree"
 },
 {
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "Must"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+},
+{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "To Cause to Possess"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "keyterm:Zealous",
@@ -502,20 +523,6 @@
 "preferred_label": "Garden of Eden"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
 "id": "keyterm:Compassionate",
 "type": "keyterm",
 "confidence": 0.1667,
@@ -530,18 +537,46 @@
 "preferred_label": "Generous"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Wine"
+},
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Locust"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Winepress"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Fig"
 },
 {
 "id": "realia:StoneAltar",
@@ -558,11 +593,25 @@
 "preferred_label": "House"
 },
 {
-"id": "flora:Fig",
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
+"id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "Grain"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Weapons",
@@ -586,60 +635,11 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "fauna:Locust",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Locust"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Horse"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
 },
 {
 "id": "flora:Grass",
@@ -649,11 +649,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "realia:Winepress",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "Altar"
 }
 ]
 }
@@ -828,6 +828,13 @@
 "preferred_label": "Israel"
 },
 {
+"id": "group:Greek",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Greeks"
+},
+{
 "id": "group:Sabean",
 "type": "group",
 "confidence": 0.175,
@@ -842,25 +849,11 @@
 "preferred_label": "Valley of Shittim"
 },
 {
-"id": "group:Greek",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Greeks"
-},
-{
-"id": "place:Edom",
-"type": "place",
+"id": "person:GenericMale",
+"type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Tyre"
+"preferred_label": "A Man"
 },
 {
 "id": "keyterm:Possess",
@@ -870,18 +863,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Philistia"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Sidon"
 },
 {
 "id": "keyterm:Exempt",
@@ -891,39 +884,11 @@
 "preferred_label": "Exempt"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Egypt"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Fear"
-},
-{
-"id": "person:Javan",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Javan"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Holy"
 },
 {
 "id": "person:Sheba",
@@ -933,25 +898,18 @@
 "preferred_label": "Sheba"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Symbol"
+"preferred_label": "Egypt"
 },
 {
-"id": "keyterm:Refuge",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Refuge"
-},
-{
-"id": "person:GenericMale",
+"id": "person:Javan",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "A Man"
+"preferred_label": "Javan"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -961,11 +919,46 @@
 "preferred_label": "Pronounce Innocent"
 },
 {
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Edom"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Lot"
+},
+{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Gentiles"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Sidon"
+},
+{
+"id": "keyterm:Refuge",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Refuge"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Tyre"
 },
 {
 "id": "keyterm:Speak",
@@ -975,11 +968,32 @@
 "preferred_label": "Speak as a Prophet"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
 "id": "realia:PruningKnife",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Pruning Knife"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Wine"
+},
+{
+"id": "realia:Mattock",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Mattock"
 },
 {
 "id": "realia:Fortress",
@@ -989,18 +1003,11 @@
 "preferred_label": "Fortress"
 },
 {
-"id": "realia:Sword",
+"id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Winepress"
 },
 {
 "id": "realia:Money",
@@ -1008,6 +1015,13 @@
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Money"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "flora:Vine",
@@ -1031,25 +1045,11 @@
 "preferred_label": "Spear"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Sword",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "realia:Mattock",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Mattock"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "Sword"
 }
 ]
 }

@@ -78,6 +78,13 @@
 "preferred_label": "Proverb"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.3286,
@@ -85,11 +92,11 @@
 "preferred_label": "Intention"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Guidance",
 "type": "keyterm",
-"confidence": 0.3286,
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Guidance"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -113,6 +120,13 @@
 "preferred_label": "Crafty"
 },
 {
+"id": "keyterm:Discretion",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Discretion"
+},
+{
 "id": "keyterm:SimplePerson",
 "type": "keyterm",
 "confidence": 0.2429,
@@ -120,18 +134,11 @@
 "preferred_label": "Simple Person"
 },
 {
-"id": "keyterm:Guidance",
+"id": "keyterm:Fear",
 "type": "keyterm",
-"confidence": 0.2429,
+"confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Guidance"
-},
-{
-"id": "keyterm:Discretion",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Discretion"
+"preferred_label": "Fear"
 },
 {
 "id": "person:David",
@@ -148,18 +155,18 @@
 "preferred_label": "Fairness"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "إِسْرَائِيلَ"
-},
-{
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Understanding"
 },
 {
 "id": "person:Solomon",
@@ -169,18 +176,11 @@
 "preferred_label": "سلَيْمَانَ"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
-"id": "keyterm:Fear",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Understanding"
 }
 ]
 }
@@ -355,6 +355,13 @@
 "preferred_label": "Sound Wisdom"
 },
 {
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.2554,
+"match_method": "canonical",
+"preferred_label": "Counsel"
+},
+{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.2554,
@@ -369,11 +376,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2554,
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.2472,
 "match_method": "canonical",
-"preferred_label": "Counsel"
+"preferred_label": "Trap"
 },
 {
 "id": "flora:Vine",
@@ -383,18 +390,11 @@
 "preferred_label": "Vine"
 },
 {
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.2472,
-"match_method": "canonical",
-"preferred_label": "Trap"
-},
-{
-"id": "keyterm:Mischief",
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.2044,
 "match_method": "canonical",
-"preferred_label": "Mischief"
+"preferred_label": "Bring Honor and Glory on Oneself"
 },
 {
 "id": "keyterm:Straightness",
@@ -404,25 +404,25 @@
 "preferred_label": "Straightness"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
+"id": "keyterm:Mischief",
 "type": "keyterm",
 "confidence": 0.2044,
 "match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
+"preferred_label": "Mischief"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.2036,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Exempt"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Crafty",
 "type": "keyterm",
 "confidence": 0.2036,
 "match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "Crafty"
 },
 {
 "id": "keyterm:Fairness",
@@ -432,13 +432,6 @@
 "preferred_label": "Fairness"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2036,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2036,
@@ -446,11 +439,18 @@
 "preferred_label": "Bless"
 },
 {
-"id": "keyterm:Exempt",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.2036,
 "match_method": "canonical",
-"preferred_label": "Exempt"
+"preferred_label": "Passion"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2036,
+"match_method": "canonical",
+"preferred_label": "Complete"
 },
 {
 "id": "keyterm:Favor",
@@ -590,18 +590,18 @@
 "preferred_label": "Deceit"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3593,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "keyterm:Delight",
 "type": "keyterm",
 "confidence": 0.3593,
 "match_method": "canonical",
 "preferred_label": "Delight"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3593,
+"match_method": "canonical",
+"preferred_label": "Fear"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -618,18 +618,18 @@
 "preferred_label": "Bless"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3579,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.3579,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Crafty",
@@ -646,18 +646,18 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.3557,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.3557,
 "match_method": "canonical",
 "preferred_label": "Trust"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.3557,
+"match_method": "canonical",
+"preferred_label": "Hope"
 },
 {
 "id": "keyterm:Kindness",
@@ -702,18 +702,18 @@
 "preferred_label": "Be Blameless"
 },
 {
-"id": "keyterm:Insight",
-"type": "keyterm",
-"confidence": 0.3539,
-"match_method": "canonical",
-"preferred_label": "Insight"
-},
-{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.3539,
 "match_method": "canonical",
 "preferred_label": "Safety"
+},
+{
+"id": "keyterm:Insight",
+"type": "keyterm",
+"confidence": 0.3539,
+"match_method": "canonical",
+"preferred_label": "Insight"
 },
 {
 "id": "keyterm:Instruction",
@@ -769,18 +769,18 @@
 "preferred_label": "لَموئِيلَ"
 },
 {
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Wine"
 },
 {
 "id": "keyterm:Utterance",
@@ -836,20 +836,6 @@
 "preferred_label": "Fear"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Trust"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -857,11 +843,11 @@
 "preferred_label": "Instruction"
 },
 {
-"id": "keyterm:Decree",
+"id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Decree"
+"preferred_label": "Trust"
 },
 {
 "id": "deity:Lord",
@@ -871,11 +857,39 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Decree"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+},
+{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "Spindle"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Ship"
 },
 {
 "id": "realia:Wool",
@@ -892,25 +906,11 @@
 "preferred_label": "Linen"
 },
 {
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Tunic"
-},
-{
 "id": "flora:Flax",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Flax"
-},
-{
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Ship"
 },
 {
 "id": "realia:PurpleCloth",
@@ -920,18 +920,18 @@
 "preferred_label": "Purple Cloth"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Lamp"
+},
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Tunic"
 }
 ]
 }

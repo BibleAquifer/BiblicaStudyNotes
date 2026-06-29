@@ -169,18 +169,18 @@
 "preferred_label": "keahlian"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3143,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.3143,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3143,
+"match_method": "canonical",
+"preferred_label": "Tuhan"
 },
 {
 "id": "person:Judah.4",
@@ -197,18 +197,18 @@
 "preferred_label": "penjenang"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.2543,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.2543,
 "match_method": "canonical",
 "preferred_label": "Wine"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.2543,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -260,25 +260,11 @@
 "preferred_label": "Chaldeans"
 },
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "place:Babylon",
+"type": "place",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "kekuatan"
-},
-{
-"id": "keyterm:Conjurer",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "tukang sihir"
-},
-{
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "pengertian"
+"preferred_label": "Babel"
 },
 {
 "id": "place:Chaldea",
@@ -295,32 +281,18 @@
 "preferred_label": "kebaikan"
 },
 {
-"id": "keyterm:Intention",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "niat jahat"
+"preferred_label": "kekuatan"
 },
 {
-"id": "person:Cyrus",
-"type": "person",
+"id": "keyterm:Understanding",
+"type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Koresh"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Babel"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
+"preferred_label": "pengertian"
 },
 {
 "id": "keyterm:Stain",
@@ -330,11 +302,39 @@
 "preferred_label": "membuat noda"
 },
 {
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "niat jahat"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
 "id": "person:GenericOfficial",
 "type": "person",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Public Official"
+},
+{
+"id": "place:Shinar",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sinear"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Koresh"
 },
 {
 "id": "person:Israel",
@@ -344,11 +344,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Shinar",
-"type": "place",
+"id": "keyterm:Conjurer",
+"type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Sinear"
+"preferred_label": "tukang sihir"
 },
 {
 "id": "realia:House",
@@ -467,11 +467,11 @@
 "preferred_label": "Astrologers"
 },
 {
-"id": "group:Chaldea",
-"type": "group",
+"id": "person:Hananiah.15",
+"type": "person",
 "confidence": 0.2184,
 "match_method": "canonical",
-"preferred_label": "Chaldeans"
+"preferred_label": "Hananya"
 },
 {
 "id": "person:Azariah.20",
@@ -488,11 +488,11 @@
 "preferred_label": "Misael"
 },
 {
-"id": "person:Hananiah.15",
-"type": "person",
+"id": "group:Chaldea",
+"type": "group",
 "confidence": 0.2184,
 "match_method": "canonical",
-"preferred_label": "Hananya"
+"preferred_label": "Chaldeans"
 },
 {
 "id": "realia:Money",
@@ -502,15 +502,15 @@
 "preferred_label": "Money"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1592,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1592,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
@@ -597,6 +597,13 @@
 "preferred_label": "Nebukadnezar"
 },
 {
+"id": "person:Azariah.20",
+"type": "person",
+"confidence": 0.5433,
+"match_method": "canonical",
+"preferred_label": "Azarya"
+},
+{
 "id": "person:Mishael.3",
 "type": "person",
 "confidence": 0.5433,
@@ -611,13 +618,6 @@
 "preferred_label": "Hananya"
 },
 {
-"id": "person:Azariah.20",
-"type": "person",
-"confidence": 0.5433,
-"match_method": "canonical",
-"preferred_label": "Azarya"
-},
-{
 "id": "realia:Flute",
 "type": "realia",
 "confidence": 0.3067,
@@ -625,18 +625,18 @@
 "preferred_label": "Flute"
 },
 {
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Rams Horn"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Lyre"
 },
 {
 "id": "realia:Lute",
@@ -660,18 +660,18 @@
 "preferred_label": "Bagpipe"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.23,
 "match_method": "canonical",
 "preferred_label": "persembahan"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "Jews"
 },
 {
 "id": "place:Dura",
@@ -688,18 +688,18 @@
 "preferred_label": "Kasdim"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "group:Astrologer",
 "type": "group",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Astrologers"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Tuhan"
 },
 {
 "id": "person:Messenger",
@@ -846,18 +846,18 @@
 "preferred_label": "Nebukadnezar"
 },
 {
-"id": "person:Daniel.3",
-"type": "person",
-"confidence": 0.4029,
-"match_method": "canonical",
-"preferred_label": "Daniel"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4029,
 "match_method": "canonical",
 "preferred_label": "Tuhan"
+},
+{
+"id": "person:Daniel.3",
+"type": "person",
+"confidence": 0.4029,
+"match_method": "canonical",
+"preferred_label": "Daniel"
 },
 {
 "id": "person:Belshazzar",
@@ -874,18 +874,18 @@
 "preferred_label": "Astrologers"
 },
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.3265,
-"match_method": "canonical",
-"preferred_label": "Kasdim"
-},
-{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.3265,
 "match_method": "canonical",
 "preferred_label": "Babel"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.3265,
+"match_method": "canonical",
+"preferred_label": "Kasdim"
 },
 {
 "id": "realia:House",
@@ -902,18 +902,18 @@
 "preferred_label": "Medes"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2132,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
 "id": "person:Medan",
 "type": "person",
 "confidence": 0.2132,
 "match_method": "canonical",
 "preferred_label": "Media"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2132,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
 },
 {
 "id": "realia:PurpleCloth",
@@ -951,18 +951,18 @@
 "preferred_label": "Persians"
 },
 {
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "Persia"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.1566,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "Persia"
 },
 {
 "id": "person:Judah.4",
@@ -1102,13 +1102,6 @@
 "preferred_label": "Lion"
 },
 {
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.3643,
-"match_method": "canonical",
-"preferred_label": "Persia"
-},
-{
 "id": "group:Persia",
 "type": "group",
 "confidence": 0.3643,
@@ -1116,11 +1109,11 @@
 "preferred_label": "Persians"
 },
 {
-"id": "group:Mede",
-"type": "group",
-"confidence": 0.2982,
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "Medes"
+"preferred_label": "Persia"
 },
 {
 "id": "person:Medan",
@@ -1130,22 +1123,15 @@
 "preferred_label": "Media"
 },
 {
-"id": "group:GenericOfficials",
+"id": "group:Mede",
 "type": "group",
-"confidence": 0.1661,
+"confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "Public Officials"
+"preferred_label": "Medes"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
@@ -1158,11 +1144,25 @@
 "preferred_label": "Koresh"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
+"id": "group:GenericOfficials",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Public Officials"
 },
 {
 "id": "realia:House",
@@ -1365,6 +1365,13 @@
 "preferred_label": "kekuatan"
 },
 {
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.3696,
+"match_method": "canonical",
+"preferred_label": "memiliki pengertian"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3696,
@@ -1372,11 +1379,11 @@
 "preferred_label": "berbuat dosa"
 },
 {
-"id": "keyterm:HaveInsight",
+"id": "keyterm:Covenant",
 "type": "keyterm",
-"confidence": 0.3696,
+"confidence": 0.3668,
 "match_method": "canonical",
-"preferred_label": "memiliki pengertian"
+"preferred_label": "perjanjian"
 },
 {
 "id": "keyterm:Truth",
@@ -1391,13 +1398,6 @@
 "confidence": 0.3668,
 "match_method": "canonical",
 "preferred_label": "memberontak"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.3668,
-"match_method": "canonical",
-"preferred_label": "perjanjian"
 },
 {
 "id": "keyterm:Supplication",
@@ -1428,18 +1428,18 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.3112,
-"match_method": "canonical",
-"preferred_label": "berkenan"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.3112,
 "match_method": "canonical",
 "preferred_label": "Mesir"
+},
+{
+"id": "keyterm:Delight",
+"type": "keyterm",
+"confidence": 0.3112,
+"match_method": "canonical",
+"preferred_label": "berkenan"
 },
 {
 "id": "realia:Fortress",
@@ -1484,18 +1484,18 @@
 "preferred_label": "mencurigai"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2584,
-"match_method": "canonical",
-"preferred_label": "takut"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2584,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.2584,
+"match_method": "canonical",
+"preferred_label": "bertindak jahat"
 },
 {
 "id": "keyterm:Understanding",
@@ -1505,11 +1505,11 @@
 "preferred_label": "pengertian"
 },
 {
-"id": "keyterm:ActWickedly",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2584,
 "match_method": "canonical",
-"preferred_label": "bertindak jahat"
+"preferred_label": "takut"
 },
 {
 "id": "keyterm:DetestedThing",

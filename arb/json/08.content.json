@@ -120,13 +120,6 @@
 "preferred_label": "لَحْمٍ"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3114,
@@ -134,11 +127,11 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "person:Orpah",
-"type": "person",
-"confidence": 0.2591,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "عرْفَة"
+"preferred_label": "يَهوذَا"
 },
 {
 "id": "person:Chilion",
@@ -148,11 +141,11 @@
 "preferred_label": "كِلْيون"
 },
 {
-"id": "person:Mahlon",
+"id": "person:Orpah",
 "type": "person",
-"confidence": 0.25,
+"confidence": 0.2591,
 "match_method": "canonical",
-"preferred_label": "مَحْلون"
+"preferred_label": "عرْفَة"
 },
 {
 "id": "person:Elimelech",
@@ -160,6 +153,13 @@
 "confidence": 0.25,
 "match_method": "canonical",
 "preferred_label": "أَلِيمَالِك"
+},
+{
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "مَحْلون"
 },
 {
 "id": "group:GenericFemales",
@@ -183,18 +183,18 @@
 "preferred_label": "Ephrathites"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Appoint"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Kindness"
 },
 {
 "id": "keyterm:Hope",
@@ -306,13 +306,6 @@
 "preferred_label": "رَاعوث"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3087,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.3087,
@@ -334,6 +327,13 @@
 "preferred_label": "موآبَ"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3087,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
 "id": "person:Elimelech",
 "type": "person",
 "confidence": 0.2391,
@@ -348,25 +348,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "Seek Refugue"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "لَحْمٍ"
 },
 {
 "id": "person:Israel",
@@ -376,11 +362,18 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1096,
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Kindness"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "لَحْمٍ"
 },
 {
 "id": "realia:House",
@@ -388,6 +381,13 @@
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 },
 {
 "id": "realia:Ephah",
@@ -527,18 +527,18 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2838,
-"match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2838,
 "match_method": "canonical",
 "preferred_label": "إِسْرَائِيلَ"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2838,
+"match_method": "canonical",
+"preferred_label": "موآبَ"
 },
 {
 "id": "person:KinsmanRedeemer",
@@ -548,18 +548,18 @@
 "preferred_label": "Kinsman Redeemer"
 },
 {
-"id": "person:Salmon",
-"type": "person",
-"confidence": 0.2275,
-"match_method": "canonical",
-"preferred_label": "سَلْمونَ"
-},
-{
 "id": "person:Hezron.2",
 "type": "person",
 "confidence": 0.2275,
 "match_method": "canonical",
 "preferred_label": "حَصْرونَ"
+},
+{
+"id": "person:Salmon",
+"type": "person",
+"confidence": 0.2275,
+"match_method": "canonical",
+"preferred_label": "سَلْمونَ"
 },
 {
 "id": "flora:Barley",
@@ -569,11 +569,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "person:Elimelech",
+"id": "person:Jesse",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "أَلِيمَالِك"
+"preferred_label": "يَسَّى"
 },
 {
 "id": "keyterm:Bless",
@@ -581,27 +581,6 @@
 "confidence": 0.2225,
 "match_method": "canonical",
 "preferred_label": "Bless"
-},
-{
-"id": "person:Mahlon",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "مَحْلون"
-},
-{
-"id": "person:Amminadab",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "عَمِّينَادَابَ"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "يَسَّى"
 },
 {
 "id": "person:David",
@@ -618,11 +597,25 @@
 "preferred_label": "ٱقْتِحَامٌ"
 },
 {
-"id": "group:GenericFemales",
-"type": "group",
-"confidence": 0.1663,
+"id": "person:Mahlon",
+"type": "person",
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Women"
+"preferred_label": "مَحْلون"
+},
+{
+"id": "person:Elimelech",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "أَلِيمَالِك"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "عَمِّينَادَابَ"
 },
 {
 "id": "person:Chilion",
@@ -632,32 +625,18 @@
 "preferred_label": "كِلْيون"
 },
 {
+"id": "group:GenericFemales",
+"type": "group",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "Women"
+},
+{
 "id": "person:Ram",
 "type": "person",
 "confidence": 0.1663,
 "match_method": "canonical",
 "preferred_label": "رَامَ"
-},
-{
-"id": "person:Leah",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "لَيْئَةَ"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "نَحْشونَ"
 },
 {
 "id": "keyterm:Kindness",
@@ -667,25 +646,11 @@
 "preferred_label": "Kindness"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Elders"
-},
-{
-"id": "person:Tamar",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "ثَامَارَ"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "لَحْمٍ"
+"preferred_label": "Fear"
 },
 {
 "id": "group:Judah",
@@ -695,18 +660,11 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Nahshon",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "نَحْشونَ"
 },
 {
 "id": "person:Rachel",
@@ -714,6 +672,48 @@
 "confidence": 0.1613,
 "match_method": "canonical",
 "preferred_label": "رَاحِيل"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Elders"
+},
+{
+"id": "person:Leah",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "لَيْئَةَ"
+},
+{
+"id": "person:Tamar",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "ثَامَارَ"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "يَهوذَا"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "لَحْمٍ"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Love"
 }
 ]
 }
