@@ -8,7 +8,7 @@
 "index_reference": "18001001-18001005",
 "language": "eng",
 "review_level": "None",
-"content": "<p><span data-bnType=\"resourceReference\" data-resourceId=\"108524\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Job</span> had everything that people in his time could hope for. He had a large family and many servants. He was a successful farmer of livestock. He was highly respected and had authority in the area where he lived.</p><p>He was also completely committed to <span data-bnType=\"resourceReference\" data-resourceId=\"108199\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">God</span>. He did what God wanted done. He showed how much he respected God by making <span data-bnType=\"resourceReference\" data-resourceId=\"108256\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">sacrifices</span>. He did this when his family <span data-bnType=\"resourceReference\" data-resourceId=\"108195\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">sinned</span>. He even did it when he thought they might have sinned.</p><p>He wanted everyone in his family to live in ways that were considered <span data-bnType=\"resourceReference\" data-resourceId=\"108364\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">pure</span> and <span data-bnType=\"resourceReference\" data-resourceId=\"108363\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">clean</span>. This would allow them to worship God together.</p>",
+"content": "<p><data class=\"resource-ref\" data-content-id=\"108524\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Job</data> had everything that people in his time could hope for. He had a large family and many servants. He was a successful farmer of livestock. He was highly respected and had authority in the area where he lived.</p><p>He was also completely committed to <data class=\"resource-ref\" data-content-id=\"108199\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">God</data>. He did what God wanted done. He showed how much he respected God by making <data class=\"resource-ref\" data-content-id=\"108256\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">sacrifices</data>. He did this when his family <data class=\"resource-ref\" data-content-id=\"108195\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">sinned</data>. He even did it when he thought they might have sinned.</p><p>He wanted everyone in his family to live in ways that were considered <data class=\"resource-ref\" data-content-id=\"108364\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">pure</data> and <data class=\"resource-ref\" data-content-id=\"108363\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">clean</data>. This would allow them to worship God together.</p>",
 "associations": {
 "passage": [
 {
@@ -22,42 +22,42 @@
 {
 "reference_id": 108195,
 "content_id": 132141,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Sin",
 "language": "eng"
 },
 {
 "reference_id": 108199,
 "content_id": 132145,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "God",
 "language": "eng"
 },
 {
 "reference_id": 108256,
 "content_id": 132202,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Sacrifice",
 "language": "eng"
 },
 {
 "reference_id": 108364,
 "content_id": 132310,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pure or impure",
 "language": "eng"
 },
 {
 "reference_id": 108524,
 "content_id": 132470,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Job",
 "language": "eng"
 },
 {
 "reference_id": 108363,
 "content_id": 132309,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Clean or unclean",
 "language": "eng"
 }
@@ -85,11 +85,11 @@
 "preferred_label": "Uz"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Holy"
 },
 {
 "id": "keyterm:Fear",
@@ -99,18 +99,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Offering"
 },
 {
 "id": "keyterm:Bless",
@@ -120,25 +113,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.18,
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "To Sin"
 },
 {
 "id": "fauna:Goat",
@@ -155,11 +134,32 @@
 "preferred_label": "Cattle"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Donkey"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Camel"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -173,7 +173,7 @@
 "index_reference": "18001006-18002010",
 "language": "eng",
 "review_level": "None",
-"content": "<p>God wanted Satan to notice Job. Later Satan was understood to be the <span data-bnType=\"resourceReference\" data-resourceId=\"108216\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">devil</span>. Satan brought a charge against Job. He accused Job of only serving God because of the ways that God blessed him.</p><p>Satan wanted God to <span data-bnType=\"resourceReference\" data-resourceId=\"108263\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">test</span> Job. He was sure that Job would speak evil things against God. He would do this if he were made to suffer. This meant that Job would stop honouring God.</p><p>God gave Satan the authority to take away everything Job had except his life. First Satan took away Job’s livestock, his servants and his children. Job remained humble before God as he mourned. He recognised that God had allowed him to have good things. And he recognised that God had allowed them to be taken away.</p><p>Job recognised that God had the right to decide what happened in his life. He praised the <span data-bnType=\"resourceReference\" data-resourceId=\"108225\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">name</span> of the <span data-bnType=\"resourceReference\" data-resourceId=\"108226\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Lord</span> even in his sadness.</p><p>Then Satan took away Job’s health. Job’s body was in pain. He sat in ashes. This was a common practice to show that people were very sad. Job’s wife saw how miserable he was. She thought that it would be better for him to die. She suggested that Job speak against God so that God would put him to death. Job thought that this idea was foolish. The wise thing to do was to remain faithful to God no matter what happened.</p>",
+"content": "<p>God wanted Satan to notice Job. Later Satan was understood to be the <data class=\"resource-ref\" data-content-id=\"108216\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">devil</data>. Satan brought a charge against Job. He accused Job of only serving God because of the ways that God blessed him.</p><p>Satan wanted God to <data class=\"resource-ref\" data-content-id=\"108263\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">test</data> Job. He was sure that Job would speak evil things against God. He would do this if he were made to suffer. This meant that Job would stop honouring God.</p><p>God gave Satan the authority to take away everything Job had except his life. First Satan took away Job’s livestock, his servants and his children. Job remained humble before God as he mourned. He recognised that God had allowed him to have good things. And he recognised that God had allowed them to be taken away.</p><p>Job recognised that God had the right to decide what happened in his life. He praised the <data class=\"resource-ref\" data-content-id=\"108225\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">name</data> of the <data class=\"resource-ref\" data-content-id=\"108226\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Lord</data> even in his sadness.</p><p>Then Satan took away Job’s health. Job’s body was in pain. He sat in ashes. This was a common practice to show that people were very sad. Job’s wife saw how miserable he was. She thought that it would be better for him to die. She suggested that Job speak against God so that God would put him to death. Job thought that this idea was foolish. The wise thing to do was to remain faithful to God no matter what happened.</p>",
 "associations": {
 "passage": [
 {
@@ -187,28 +187,28 @@
 {
 "reference_id": 108216,
 "content_id": 132162,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Devil",
 "language": "eng"
 },
 {
 "reference_id": 108225,
 "content_id": 132171,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Name",
 "language": "eng"
 },
 {
 "reference_id": 108226,
 "content_id": 132172,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Lord",
 "language": "eng"
 },
 {
 "reference_id": 108263,
 "content_id": 132209,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Test",
 "language": "eng"
 }
@@ -264,13 +264,6 @@
 "preferred_label": "To Sin"
 },
 {
-"id": "person:Sheba",
-"type": "person",
-"confidence": 0.1741,
-"match_method": "canonical",
-"preferred_label": "Sheba"
-},
-{
 "id": "person:WifeOfJob",
 "type": "person",
 "confidence": 0.1741,
@@ -278,18 +271,11 @@
 "preferred_label": "Job's Wife"
 },
 {
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1733,
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Sheba"
 },
 {
 "id": "realia:Sword",
@@ -299,25 +285,18 @@
 "preferred_label": "Sword"
 },
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1667,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "Chaldea"
+"preferred_label": "Vine"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1667,
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "group:Sabean",
-"type": "group",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Sabeans"
+"preferred_label": "Wine"
 },
 {
 "id": "group:Chaldea",
@@ -327,25 +306,32 @@
 "preferred_label": "Chaldeans"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Chaldea"
+},
+{
+"id": "group:Sabean",
+"type": "group",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Sabeans"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Cattle"
-},
-{
-"id": "realia:Mattock",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Mattock"
-},
-{
-"id": "realia:Robe",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Robe"
 },
 {
 "id": "fauna:Camel",
@@ -355,18 +341,11 @@
 "preferred_label": "Camel"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
+"id": "realia:Robe",
+"type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Robe"
 },
 {
 "id": "fauna:Donkey",
@@ -374,6 +353,27 @@
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Donkey"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "realia:Mattock",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Mattock"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }
@@ -387,7 +387,7 @@
 "index_reference": "18002011-18003026",
 "language": "eng",
 "review_level": "None",
-"content": "<p>Job’s friends Eliphaz, Bildad and Zophar visited him in order to comfort him. These men joined Job in his sadness. They recognised how terribly Job was suffering.</p><p>They did several things that were common in that time for people who were mourning. They also showed their respect for Job by being silent for <span data-bnType=\"resourceReference\" data-resourceId=\"108214\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">seven</span> days. They waited for Job to speak first.</p><p>His speech was recorded as a long <span data-bnType=\"resourceReference\" data-resourceId=\"108204\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">poem</span>. Job described how sad and bitter his life had become. He didn’t have any <span data-bnType=\"resourceReference\" data-resourceId=\"108211\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">peace</span> or <span data-bnType=\"resourceReference\" data-resourceId=\"108212\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">rest</span>. He wished that he hadn’t been born.</p><p>Job wondered why God allowed people who were suffering to continue living.</p>",
+"content": "<p>Job’s friends Eliphaz, Bildad and Zophar visited him in order to comfort him. These men joined Job in his sadness. They recognised how terribly Job was suffering.</p><p>They did several things that were common in that time for people who were mourning. They also showed their respect for Job by being silent for <data class=\"resource-ref\" data-content-id=\"108214\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">seven</data> days. They waited for Job to speak first.</p><p>His speech was recorded as a long <data class=\"resource-ref\" data-content-id=\"108204\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">poem</data>. Job described how sad and bitter his life had become. He didn’t have any <data class=\"resource-ref\" data-content-id=\"108211\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">peace</data> or <data class=\"resource-ref\" data-content-id=\"108212\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">rest</data>. He wished that he hadn’t been born.</p><p>Job wondered why God allowed people who were suffering to continue living.</p>",
 "associations": {
 "passage": [
 {
@@ -401,28 +401,28 @@
 {
 "reference_id": 108204,
 "content_id": 132150,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Poem",
 "language": "eng"
 },
 {
 "reference_id": 108211,
 "content_id": 132157,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Peace",
 "language": "eng"
 },
 {
 "reference_id": 108212,
 "content_id": 132158,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Rest",
 "language": "eng"
 },
 {
 "reference_id": 108214,
 "content_id": 132160,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Seven",
 "language": "eng"
 }
@@ -436,6 +436,13 @@
 "preferred_label": "Job"
 },
 {
+"id": "person:Bildad",
+"type": "person",
+"confidence": 0.1724,
+"match_method": "canonical",
+"preferred_label": "Bildad"
+},
+{
 "id": "group:Shuhites",
 "type": "group",
 "confidence": 0.1724,
@@ -443,18 +450,18 @@
 "preferred_label": "Shuhites"
 },
 {
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.1724,
-"match_method": "canonical",
-"preferred_label": "Temanites"
-},
-{
 "id": "person:Eliphaz.2",
 "type": "person",
 "confidence": 0.1724,
 "match_method": "canonical",
 "preferred_label": "Eliphaz"
+},
+{
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.1724,
+"match_method": "canonical",
+"preferred_label": "Temanites"
 },
 {
 "id": "group:Naamathites",
@@ -471,11 +478,11 @@
 "preferred_label": "Zophar"
 },
 {
-"id": "person:Bildad",
-"type": "person",
-"confidence": 0.1724,
+"id": "place:Teman",
+"type": "place",
+"confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Bildad"
+"preferred_label": "Teman"
 },
 {
 "id": "keyterm:Redeem",
@@ -499,11 +506,11 @@
 "preferred_label": "To Curse"
 },
 {
-"id": "place:Teman",
-"type": "place",
-"confidence": 0.1655,
+"id": "fauna:GiantCroccodile",
+"type": "fauna",
+"confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Teman"
+"preferred_label": "Leviathan"
 },
 {
 "id": "realia:House",
@@ -513,11 +520,11 @@
 "preferred_label": "House"
 },
 {
-"id": "realia:Robe",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Robe"
+"preferred_label": "Money"
 },
 {
 "id": "fauna:Dragon",
@@ -527,18 +534,11 @@
 "preferred_label": "Dragon"
 },
 {
-"id": "realia:Money",
+"id": "realia:Robe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "fauna:GiantCroccodile",
-"type": "fauna",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Leviathan"
+"preferred_label": "Robe"
 }
 ]
 }
@@ -552,7 +552,7 @@
 "index_reference": "18004001-18031040",
 "language": "eng",
 "review_level": "None",
-"content": "<p>Eliphaz and Bildad each spoke three times. Zophar spoke twice. All of their speeches are recorded as long poems.</p><p>Eliphaz, Bildad and Zophar explained the reason why they thought Job was suffering. Throughout his life, Eliphaz had noticed that trouble came to foolish people. Suffering was how they were taught as well as punished for their sins. Eliphaz believed that this was a pattern for how things work in the <span data-bnType=\"resourceReference\" data-resourceId=\"108215\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">world</span>. He believed that it was happening in Job’s case.</p><p>Bildad had noticed that God didn’t bring <span data-bnType=\"resourceReference\" data-resourceId=\"108233\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">judgement</span> against people who hadn’t sinned. This was a lesson that people had taught for hundreds of years. Bildad believed it was a pattern for how things work in the world. So he thought that Job and his family were being punished for their sins.</p><p>Zophar was sure that <span data-bnType=\"resourceReference\" data-resourceId=\"108525\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">ungodly people</span> are always punished. He believed that this is how things had always been in the world. He was sure that God was bringing judgement on Job for sins Job had committed.</p><p>Job answered Eliphaz, Bildad and Zophar each time after they spoke. Job was sad and angry because his friends said things that weren’t helpful. Many of the things they said were true. But the patterns they noticed in life didn’t apply to Job’s case. Job hadn’t sinned in secret. Job didn’t claim to have never sinned. But he knew that God wasn’t punishing him for his sins. Job knew that he had lived the way God wanted people to live. His friends didn’t understand him. They accused him falsely.</p><p>Job believed that God did understand him. Job believed that God knew that he wasn’t guilty of secret sins. Job wanted God to explain why his life had become so difficult. Job was very confused by God and angry at him. But Job continued to have respect for God and to avoid evil. He did this even though he was suffering terribly. This showed that Job had <span data-bnType=\"resourceReference\" data-resourceId=\"108325\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">wisdom</span> and understanding.</p>",
+"content": "<p>Eliphaz and Bildad each spoke three times. Zophar spoke twice. All of their speeches are recorded as long poems.</p><p>Eliphaz, Bildad and Zophar explained the reason why they thought Job was suffering. Throughout his life, Eliphaz had noticed that trouble came to foolish people. Suffering was how they were taught as well as punished for their sins. Eliphaz believed that this was a pattern for how things work in the <data class=\"resource-ref\" data-content-id=\"108215\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">world</data>. He believed that it was happening in Job’s case.</p><p>Bildad had noticed that God didn’t bring <data class=\"resource-ref\" data-content-id=\"108233\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">judgement</data> against people who hadn’t sinned. This was a lesson that people had taught for hundreds of years. Bildad believed it was a pattern for how things work in the world. So he thought that Job and his family were being punished for their sins.</p><p>Zophar was sure that <data class=\"resource-ref\" data-content-id=\"108525\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">ungodly people</data> are always punished. He believed that this is how things had always been in the world. He was sure that God was bringing judgement on Job for sins Job had committed.</p><p>Job answered Eliphaz, Bildad and Zophar each time after they spoke. Job was sad and angry because his friends said things that weren’t helpful. Many of the things they said were true. But the patterns they noticed in life didn’t apply to Job’s case. Job hadn’t sinned in secret. Job didn’t claim to have never sinned. But he knew that God wasn’t punishing him for his sins. Job knew that he had lived the way God wanted people to live. His friends didn’t understand him. They accused him falsely.</p><p>Job believed that God did understand him. Job believed that God knew that he wasn’t guilty of secret sins. Job wanted God to explain why his life had become so difficult. Job was very confused by God and angry at him. But Job continued to have respect for God and to avoid evil. He did this even though he was suffering terribly. This showed that Job had <data class=\"resource-ref\" data-content-id=\"108325\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">wisdom</data> and understanding.</p>",
 "associations": {
 "passage": [
 {
@@ -566,28 +566,28 @@
 {
 "reference_id": 108215,
 "content_id": 132161,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "World",
 "language": "eng"
 },
 {
 "reference_id": 108233,
 "content_id": 132179,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Judgement",
 "language": "eng"
 },
 {
 "reference_id": 108325,
 "content_id": 132271,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Wisdom",
 "language": "eng"
 },
 {
 "reference_id": 108525,
 "content_id": 132471,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ungodly people",
 "language": "eng"
 }
@@ -622,13 +622,6 @@
 "preferred_label": "Strength"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.3577,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3577,
@@ -636,11 +629,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.3571,
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.3577,
 "match_method": "canonical",
-"preferred_label": "Job"
+"preferred_label": "Hope"
 },
 {
 "id": "keyterm:Just",
@@ -648,6 +641,13 @@
 "confidence": 0.3571,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.3571,
+"match_method": "canonical",
+"preferred_label": "Job"
 },
 {
 "id": "keyterm:Fear",
@@ -678,18 +678,18 @@
 "preferred_label": "Mischief"
 },
 {
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.3545,
-"match_method": "canonical",
-"preferred_label": "Counsel"
-},
-{
 "id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.3545,
 "match_method": "canonical",
 "preferred_label": "Believe In"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.3545,
+"match_method": "canonical",
+"preferred_label": "Counsel"
 },
 {
 "id": "keyterm:Rebel",
@@ -706,18 +706,18 @@
 "preferred_label": "Exempt"
 },
 {
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.3539,
-"match_method": "canonical",
-"preferred_label": "Safety"
-},
-{
 "id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.3539,
 "match_method": "canonical",
 "preferred_label": "Understanding"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.3539,
+"match_method": "canonical",
+"preferred_label": "Safety"
 },
 {
 "id": "keyterm:SoundWisdom",
@@ -741,11 +741,11 @@
 "preferred_label": "Intention"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.3026,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Peace"
 },
 {
 "id": "keyterm:Deceit",
@@ -762,11 +762,11 @@
 "preferred_label": "Pure"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.3026,
 "match_method": "canonical",
-"preferred_label": "Peace"
+"preferred_label": "Salvation"
 },
 {
 "id": "realia:House",
@@ -815,7 +815,7 @@
 "index_reference": "18032001-18037024",
 "language": "eng",
 "review_level": "None",
-"content": "<p>Elihu was younger than Job’s other friends. It’s thought that he was also from <span data-bnType=\"resourceReference\" data-resourceId=\"108411\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Edom</span>. Elihu was angry at Eliphaz, Bildad and Zophar. They hadn’t fully answered Job or shown how Job was wrong.</p><p>Elihu thought that it was wrong for Job to question God. He thought that Job believed he was right and that God was wrong. This made Elihu angry. But the answer he gave about Job’s suffering was like the answers of the others. Elihu believed that God allowed Job to suffer in order to correct him. The suffering was seen as a warning to keep Job from sinning. Elihu thought that this would save Job from being put to death for his sins.</p><p>Elihu understood that God never does anything evil, wrong or unfair. So he thought it was wrong for Job to think that God treated him unfairly. He thought that this showed that Job was full of pride. Elihu understood that God has complete power over everything. God is the Creator who made the world and everything in it. God is the only one able to keep the life of the world going. For Elihu, this meant that people can’t understand God’s reasons for doing something. So he thought that people shouldn’t ask questions about God’s reasons.</p>",
+"content": "<p>Elihu was younger than Job’s other friends. It’s thought that he was also from <data class=\"resource-ref\" data-content-id=\"108411\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Edom</data>. Elihu was angry at Eliphaz, Bildad and Zophar. They hadn’t fully answered Job or shown how Job was wrong.</p><p>Elihu thought that it was wrong for Job to question God. He thought that Job believed he was right and that God was wrong. This made Elihu angry. But the answer he gave about Job’s suffering was like the answers of the others. Elihu believed that God allowed Job to suffer in order to correct him. The suffering was seen as a warning to keep Job from sinning. Elihu thought that this would save Job from being put to death for his sins.</p><p>Elihu understood that God never does anything evil, wrong or unfair. So he thought it was wrong for Job to think that God treated him unfairly. He thought that this showed that Job was full of pride. Elihu understood that God has complete power over everything. God is the Creator who made the world and everything in it. God is the only one able to keep the life of the world going. For Elihu, this meant that people can’t understand God’s reasons for doing something. So he thought that people shouldn’t ask questions about God’s reasons.</p>",
 "associations": {
 "passage": [
 {
@@ -829,7 +829,7 @@
 {
 "reference_id": 108411,
 "content_id": 132357,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Edom",
 "language": "eng"
 }
@@ -857,11 +857,11 @@
 "preferred_label": "Elihu (Friend of Job)."
 },
 {
-"id": "keyterm:Mischief",
+"id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.3636,
 "match_method": "canonical",
-"preferred_label": "Mischief"
+"preferred_label": "Perceive"
 },
 {
 "id": "keyterm:Just",
@@ -871,11 +871,11 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "place:Hell",
-"type": "place",
+"id": "keyterm:Mischief",
+"type": "keyterm",
 "confidence": 0.3636,
 "match_method": "canonical",
-"preferred_label": "Hell"
+"preferred_label": "Mischief"
 },
 {
 "id": "keyterm:Rebel",
@@ -885,18 +885,11 @@
 "preferred_label": "Rebel"
 },
 {
-"id": "keyterm:Perceive",
-"type": "keyterm",
+"id": "place:Hell",
+"type": "place",
 "confidence": 0.3636,
 "match_method": "canonical",
-"preferred_label": "Perceive"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.3109,
-"match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "Hell"
 },
 {
 "id": "keyterm:Sin",
@@ -904,6 +897,13 @@
 "confidence": 0.3109,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.3109,
+"match_method": "canonical",
+"preferred_label": "Strength"
 },
 {
 "id": "keyterm:Intention",
@@ -920,13 +920,6 @@
 "preferred_label": "To Declare Guilty"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2582,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2582,
@@ -939,6 +932,13 @@
 "confidence": 0.2582,
 "match_method": "canonical",
 "preferred_label": "Appoint"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2582,
+"match_method": "canonical",
+"preferred_label": "Fear"
 },
 {
 "id": "group:Buzites",
@@ -962,11 +962,11 @@
 "preferred_label": "Understanding"
 },
 {
-"id": "keyterm:HaveInsight",
+"id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.2055,
 "match_method": "canonical",
-"preferred_label": "Have Insight"
+"preferred_label": "Straightness"
 },
 {
 "id": "keyterm:Complete",
@@ -976,11 +976,11 @@
 "preferred_label": "Complete"
 },
 {
-"id": "keyterm:Straightness",
+"id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.2055,
 "match_method": "canonical",
-"preferred_label": "Straightness"
+"preferred_label": "Have Insight"
 },
 {
 "id": "person:Ram.3",
@@ -997,18 +997,18 @@
 "preferred_label": "Mighty One"
 },
 {
-"id": "keyterm:ActWickedly",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
-"preferred_label": "To Act Wickedly"
+"preferred_label": "Force to Serve"
 },
 {
-"id": "keyterm:Majesty",
+"id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
-"preferred_label": "Majesty"
+"preferred_label": "Pure"
 },
 {
 "id": "keyterm:Kindness",
@@ -1018,25 +1018,11 @@
 "preferred_label": "Kindness"
 },
 {
-"id": "keyterm:EnticedToServe",
+"id": "keyterm:Terror",
 "type": "keyterm",
 "confidence": 0.1527,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1527,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1527,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Terror"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -1044,6 +1030,20 @@
 "confidence": 0.1527,
 "match_method": "canonical",
 "preferred_label": "Bear the Consequences Of"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1527,
+"match_method": "canonical",
+"preferred_label": "Passion"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1527,
+"match_method": "canonical",
+"preferred_label": "To Act Wickedly"
 }
 ]
 }
@@ -1057,7 +1057,7 @@
 "index_reference": "18038001-18040005",
 "language": "eng",
 "review_level": "None",
-"content": "<p>Job thought that God wouldn’t listen to him. Earlier Job had said he thought that God would send a storm to crush him. Job thought God would do this if he called out to God. Instead, God listened very closely.</p><p>God listened to everything that Job, Eliphaz, Bildad, Zophar and Elihu said. Instead of crushing Job with a storm, God spoke to Job from a storm. God didn’t answer the questions Job had asked. He didn’t explain to Job why people suffer. God didn’t explain that Satan had suggested a test for Job. Instead, God asked Job many questions. God asked what things Job was able to do. Then God explained many of the things that he can do.</p><p>God created everything in <span data-bnType=\"resourceReference\" data-resourceId=\"108201\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">heaven</span> and on the earth. He makes sure that what he created works the way he wants it to. This includes the land, the water, the sky, the stars and the animals. God takes care of all animals. This includes animals that aren’t livestock raised by <span data-bnType=\"resourceReference\" data-resourceId=\"108202\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">human beings</span>.</p><p>God talked a lot about the sky, the earth and the animals. The way he talked about them showed Job something important. Human beings are only one part of what God created. As a human being, Job couldn’t understand everything about God’s <span data-bnType=\"resourceReference\" data-resourceId=\"108197\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">creation</span>. Job couldn’t understand everything that was needed to take care of creation. Job couldn’t understand God’s plans. Job couldn’t understand the reasons why God did what he did. And Job couldn’t do God’s work better than God did it. Job’s first answer to God was to remain silent.</p>",
+"content": "<p>Job thought that God wouldn’t listen to him. Earlier Job had said he thought that God would send a storm to crush him. Job thought God would do this if he called out to God. Instead, God listened very closely.</p><p>God listened to everything that Job, Eliphaz, Bildad, Zophar and Elihu said. Instead of crushing Job with a storm, God spoke to Job from a storm. God didn’t answer the questions Job had asked. He didn’t explain to Job why people suffer. God didn’t explain that Satan had suggested a test for Job. Instead, God asked Job many questions. God asked what things Job was able to do. Then God explained many of the things that he can do.</p><p>God created everything in <data class=\"resource-ref\" data-content-id=\"108201\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">heaven</data> and on the earth. He makes sure that what he created works the way he wants it to. This includes the land, the water, the sky, the stars and the animals. God takes care of all animals. This includes animals that aren’t livestock raised by <data class=\"resource-ref\" data-content-id=\"108202\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">human beings</data>.</p><p>God talked a lot about the sky, the earth and the animals. The way he talked about them showed Job something important. Human beings are only one part of what God created. As a human being, Job couldn’t understand everything about God’s <data class=\"resource-ref\" data-content-id=\"108197\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">creation</data>. Job couldn’t understand everything that was needed to take care of creation. Job couldn’t understand God’s plans. Job couldn’t understand the reasons why God did what he did. And Job couldn’t do God’s work better than God did it. Job’s first answer to God was to remain silent.</p>",
 "associations": {
 "passage": [
 {
@@ -1071,21 +1071,21 @@
 {
 "reference_id": 108197,
 "content_id": 132143,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Creation",
 "language": "eng"
 },
 {
 "reference_id": 108201,
 "content_id": 132147,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Heaven",
 "language": "eng"
 },
 {
 "reference_id": 108202,
 "content_id": 132148,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Human beings",
 "language": "eng"
 }
@@ -1106,13 +1106,6 @@
 "preferred_label": "Understanding"
 },
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.2678,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2678,
@@ -1120,18 +1113,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2118,
+"id": "person:Job",
+"type": "person",
+"confidence": 0.2678,
 "match_method": "canonical",
-"preferred_label": "Strength"
-},
-{
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
-"confidence": 0.2118,
-"match_method": "canonical",
-"preferred_label": "Believe In"
+"preferred_label": "Job"
 },
 {
 "id": "keyterm:Perceive",
@@ -1141,25 +1127,18 @@
 "preferred_label": "Perceive"
 },
 {
-"id": "keyterm:Counsel",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
-"confidence": 0.1559,
+"confidence": 0.2118,
 "match_method": "canonical",
-"preferred_label": "Counsel"
+"preferred_label": "Believe In"
 },
 {
-"id": "keyterm:Majesty",
+"id": "keyterm:Strength",
 "type": "keyterm",
-"confidence": 0.1559,
+"confidence": 0.2118,
 "match_method": "canonical",
-"preferred_label": "Majesty"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1559,
-"match_method": "canonical",
-"preferred_label": "Trust"
+"preferred_label": "Strength"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -1183,11 +1162,32 @@
 "preferred_label": "Terror"
 },
 {
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "Trust"
+},
+{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.1559,
 "match_method": "canonical",
 "preferred_label": "Decree"
+},
+{
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "Majesty"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.1559,
+"match_method": "canonical",
+"preferred_label": "Counsel"
 },
 {
 "id": "keyterm:Intention",
@@ -1204,20 +1204,6 @@
 "preferred_label": "Wild Ox"
 },
 {
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1518,
-"match_method": "canonical",
-"preferred_label": "Rams Horn"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1518,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1518,
@@ -1232,25 +1218,18 @@
 "preferred_label": "Grass"
 },
 {
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.0986,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "realia:Manger",
+"id": "realia:House",
 "type": "realia",
-"confidence": 0.0986,
+"confidence": 0.1518,
 "match_method": "canonical",
-"preferred_label": "Manger"
+"preferred_label": "House"
 },
 {
-"id": "fauna:Ibex",
-"type": "fauna",
-"confidence": 0.0986,
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1518,
 "match_method": "canonical",
-"preferred_label": "Ibex"
+"preferred_label": "Rams Horn"
 },
 {
 "id": "fauna:Falcon",
@@ -1260,32 +1239,46 @@
 "preferred_label": "Falcon"
 },
 {
-"id": "realia:Quiver",
+"id": "fauna:Ibex",
+"type": "fauna",
+"confidence": 0.0986,
+"match_method": "canonical",
+"preferred_label": "Ibex"
+},
+{
+"id": "realia:Manger",
+"type": "realia",
+"confidence": 0.0986,
+"match_method": "canonical",
+"preferred_label": "Manger"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.0986,
+"match_method": "canonical",
+"preferred_label": "Ostrich"
+},
+{
+"id": "realia:Weapons",
 "type": "realia",
 "confidence": 0.0959,
 "match_method": "canonical",
-"preferred_label": "Quiver"
+"preferred_label": "Weapons"
 },
 {
-"id": "fauna:Stork",
-"type": "fauna",
-"confidence": 0.0959,
-"match_method": "canonical",
-"preferred_label": "Stork"
-},
-{
-"id": "realia:Fortress",
+"id": "realia:Sword",
 "type": "realia",
 "confidence": 0.0959,
 "match_method": "canonical",
-"preferred_label": "Fortress"
+"preferred_label": "Sword"
 },
 {
-"id": "fauna:Locust",
+"id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.0959,
 "match_method": "canonical",
-"preferred_label": "Locust"
+"preferred_label": "Rooster"
 },
 {
 "id": "realia:ThreshingFloor",
@@ -1295,11 +1288,18 @@
 "preferred_label": "Threshing Floor"
 },
 {
-"id": "fauna:Crow",
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.0959,
+"match_method": "canonical",
+"preferred_label": "Measuring Reed"
+},
+{
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.0959,
 "match_method": "canonical",
-"preferred_label": "Crow"
+"preferred_label": "Goat"
 }
 ]
 }
@@ -1361,67 +1361,11 @@
 "preferred_label": "Plan"
 },
 {
-"id": "keyterm:Counsel",
+"id": "keyterm:Supplication",
 "type": "keyterm",
 "confidence": 0.1576,
 "match_method": "canonical",
-"preferred_label": "Counsel"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Majesty"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Trust"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Strength"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "keyterm:Terror",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Terror"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Perceive"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Plea for Mercy"
 },
 {
 "id": "keyterm:DeclareGuilty",
@@ -1431,32 +1375,74 @@
 "preferred_label": "To Declare Guilty"
 },
 {
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Covenant"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Perceive"
+},
+{
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Terror"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Trust"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Strength"
+},
+{
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Majesty"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.1576,
+"match_method": "canonical",
+"preferred_label": "Counsel"
+},
+{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.1576,
 "match_method": "canonical",
 "preferred_label": "Intention"
-},
-{
-"id": "keyterm:Supplication",
-"type": "keyterm",
-"confidence": 0.1576,
-"match_method": "canonical",
-"preferred_label": "Plea for Mercy"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.1553,
-"match_method": "canonical",
-"preferred_label": "Rope"
-},
-{
-"id": "realia:Javelin",
-"type": "realia",
-"confidence": 0.1553,
-"match_method": "canonical",
-"preferred_label": "Javelin"
 },
 {
 "id": "realia:CookingPot",
@@ -1466,18 +1452,18 @@
 "preferred_label": "Cooking Pot"
 },
 {
-"id": "fauna:Elephant",
-"type": "fauna",
-"confidence": 0.101,
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 0.1553,
 "match_method": "canonical",
-"preferred_label": "Elephant"
+"preferred_label": "Javelin"
 },
 {
-"id": "fauna:GiantCroccodile",
-"type": "fauna",
-"confidence": 0.101,
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.1553,
 "match_method": "canonical",
-"preferred_label": "Leviathan"
+"preferred_label": "Rope"
 },
 {
 "id": "fauna:Hippopotamus",
@@ -1487,6 +1473,13 @@
 "preferred_label": "Behemoth"
 },
 {
+"id": "fauna:Elephant",
+"type": "fauna",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Elephant"
+},
+{
 "id": "flora:Rush",
 "type": "flora",
 "confidence": 0.101,
@@ -1494,11 +1487,11 @@
 "preferred_label": "Rush"
 },
 {
-"id": "fauna:Dragon",
+"id": "fauna:GiantCroccodile",
 "type": "fauna",
-"confidence": 0.0976,
+"confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "Dragon"
+"preferred_label": "Leviathan"
 },
 {
 "id": "fauna:Bull",
@@ -1508,32 +1501,39 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "realia:Sling",
+"id": "realia:Sword",
 "type": "realia",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Sling"
+"preferred_label": "Sword"
 },
 {
-"id": "realia:WarClub",
+"id": "realia:BitAndBridle",
 "type": "realia",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "War Club"
+"preferred_label": "Bit and Bridle"
 },
 {
-"id": "realia:Trap",
+"id": "realia:Threshing-sledge",
 "type": "realia",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Trap"
+"preferred_label": "Threshing-Sledge"
 },
 {
-"id": "flora:Grain",
+"id": "flora:Willow",
 "type": "flora",
 "confidence": 0.0976,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "Willow"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.0976,
+"match_method": "canonical",
+"preferred_label": "Bird"
 }
 ]
 }
@@ -1547,7 +1547,7 @@
 "index_reference": "18042007-18042017",
 "language": "eng",
 "review_level": "None",
-"content": "<p>Eliphaz, Bildad and Zophar had said things that weren’t true about God. They had said foolish things about God’s reasons for allowing Job to be tested. God was angry about this.</p><p>After they made a sacrifice and Job <span data-bnType=\"resourceReference\" data-resourceId=\"108227\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">prayed</span> for them, God <span data-bnType=\"resourceReference\" data-resourceId=\"108281\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">forgave</span> them. God called Job his servant. This meant that Job did the <span data-bnType=\"resourceReference\" data-resourceId=\"108208\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">work</span> that God gave him to do. God said that Job had spoken what was true about God.</p><p>This includes the questions Job asked. It includes Job talking about being sad, angry and confused. It includes Job longing to see God and to speak with him face to face. What God said about Job showed that Job passed the test that Satan had suggested. Job had continued to respect God. He respected God even when it seemed that God wasn’t blessing anything in his life.</p><p>When the test was over things once again went very well with Job. In this way something that Job’s friends had said came true in Job’s life. Eliphaz, Bildad, Zophar and Elihu had recognised a pattern in life. That pattern was about people who obey and serve God. Elihu had said that things will go well with those who do this.</p><p>God blessed Job with success again and gave him more than he had before the test. He gave Job more of everything that people in his time could hope for. This included many children, livestock, <span data-bnType=\"resourceReference\" data-resourceId=\"108465\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">honour</span> and long life.</p>",
+"content": "<p>Eliphaz, Bildad and Zophar had said things that weren’t true about God. They had said foolish things about God’s reasons for allowing Job to be tested. God was angry about this.</p><p>After they made a sacrifice and Job <data class=\"resource-ref\" data-content-id=\"108227\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">prayed</data> for them, God <data class=\"resource-ref\" data-content-id=\"108281\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">forgave</data> them. God called Job his servant. This meant that Job did the <data class=\"resource-ref\" data-content-id=\"108208\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">work</data> that God gave him to do. God said that Job had spoken what was true about God.</p><p>This includes the questions Job asked. It includes Job talking about being sad, angry and confused. It includes Job longing to see God and to speak with him face to face. What God said about Job showed that Job passed the test that Satan had suggested. Job had continued to respect God. He respected God even when it seemed that God wasn’t blessing anything in his life.</p><p>When the test was over things once again went very well with Job. In this way something that Job’s friends had said came true in Job’s life. Eliphaz, Bildad, Zophar and Elihu had recognised a pattern in life. That pattern was about people who obey and serve God. Elihu had said that things will go well with those who do this.</p><p>God blessed Job with success again and gave him more than he had before the test. He gave Job more of everything that people in his time could hope for. This included many children, livestock, <data class=\"resource-ref\" data-content-id=\"108465\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">honour</data> and long life.</p>",
 "associations": {
 "passage": [
 {
@@ -1561,28 +1561,28 @@
 {
 "reference_id": 108208,
 "content_id": 132154,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Work",
 "language": "eng"
 },
 {
 "reference_id": 108227,
 "content_id": 132173,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Prayer",
 "language": "eng"
 },
 {
 "reference_id": 108281,
 "content_id": 132227,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Forgive",
 "language": "eng"
 },
 {
 "reference_id": 108465,
 "content_id": 132411,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Shame and honour",
 "language": "eng"
 }
@@ -1610,18 +1610,18 @@
 "preferred_label": "Eliphaz"
 },
 {
-"id": "group:Teman",
-"type": "group",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Temanites"
-},
-{
 "id": "place:Teman",
 "type": "place",
 "confidence": 0.2818,
 "match_method": "canonical",
 "preferred_label": "Teman"
+},
+{
+"id": "group:Teman",
+"type": "group",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Temanites"
 },
 {
 "id": "fauna:Bull",
@@ -1631,18 +1631,18 @@
 "preferred_label": "Cattle"
 },
 {
+"id": "person:Zophar",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Zophar"
+},
+{
 "id": "person:Keziah",
 "type": "person",
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "Keziah"
-},
-{
-"id": "person:Jemimah",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Jemimah"
 },
 {
 "id": "person:Keren-happuch",
@@ -1652,13 +1652,6 @@
 "preferred_label": "Keren-happuch"
 },
 {
-"id": "person:Zophar",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Zophar"
-},
-{
 "id": "person:Bildad",
 "type": "person",
 "confidence": 0.2091,
@@ -1666,25 +1659,18 @@
 "preferred_label": "Bildad"
 },
 {
+"id": "person:Jemimah",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Jemimah"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Offering"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "To Cause to Possess"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Bless"
 },
 {
 "id": "group:Naamathites",
@@ -1708,11 +1694,46 @@
 "preferred_label": "Shuhites"
 },
 {
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
 "id": "realia:PieceOfMoney",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "Piece of Money"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Camel"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Donkey"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Goat"
 },
 {
 "id": "realia:House",
@@ -1729,32 +1750,11 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Camel"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Donkey"
 },
 {
 "id": "realia:Earring",

@@ -8,7 +8,7 @@
 "index_reference": "58001001-58001004",
 "language": "spa",
 "review_level": "None",
-"content": "<p><span data-bnType=\"resourceReference\" data-resourceId=\"108532\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Hebreos</span> no comienza como otras cartas en el <span data-bnType=\"resourceReference\" data-resourceId=\"108528\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Nuevo Testamento</span>. No incluye saludos a los lectores ni menciona quién es el escritor. En cambio, habla sobre quién es el <span data-bnType=\"resourceReference\" data-resourceId=\"108526\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Hijo de Dios</span>. <span data-bnType=\"resourceReference\" data-resourceId=\"108219\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Jesús</span> muestra quién es <span data-bnType=\"resourceReference\" data-resourceId=\"108199\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Dios</span> de la mejor y más clara manera. Todas las cosas fueron creadas a través de él. Continúan existiendo porque él lo permite. Jesús hizo posible que las personas fueran liberadas del poder del <span data-bnType=\"resourceReference\" data-resourceId=\"108195\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">pecado</span>. Esto sucede cuando las personas <span data-bnType=\"resourceReference\" data-resourceId=\"108255\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">creen en</span> él. Luego Jesús regresó al <span data-bnType=\"resourceReference\" data-resourceId=\"108312\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Padre</span>. El Hijo de Dios se sienta en el lugar de honor junto a Dios. Él tiene más autoridad que los <span data-bnType=\"resourceReference\" data-resourceId=\"108313\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">ángeles</span>.</p>",
+"content": "<p><data class=\"resource-ref\" data-content-id=\"108532\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Hebreos</data> no comienza como otras cartas en el <data class=\"resource-ref\" data-content-id=\"108528\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Nuevo Testamento</data>. No incluye saludos a los lectores ni menciona quién es el escritor. En cambio, habla sobre quién es el <data class=\"resource-ref\" data-content-id=\"108526\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Hijo de Dios</data>. <data class=\"resource-ref\" data-content-id=\"108219\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Jesús</data> muestra quién es <data class=\"resource-ref\" data-content-id=\"108199\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Dios</data> de la mejor y más clara manera. Todas las cosas fueron creadas a través de él. Continúan existiendo porque él lo permite. Jesús hizo posible que las personas fueran liberadas del poder del <data class=\"resource-ref\" data-content-id=\"108195\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">pecado</data>. Esto sucede cuando las personas <data class=\"resource-ref\" data-content-id=\"108255\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">creen en</data> él. Luego Jesús regresó al <data class=\"resource-ref\" data-content-id=\"108312\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Padre</data>. El Hijo de Dios se sienta en el lugar de honor junto a Dios. Él tiene más autoridad que los <data class=\"resource-ref\" data-content-id=\"108313\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">ángeles</data>.</p>",
 "associations": {
 "passage": [
 {
@@ -22,63 +22,63 @@
 {
 "reference_id": 108195,
 "content_id": 232164,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pecado",
 "language": "spa"
 },
 {
 "reference_id": 108199,
 "content_id": 232168,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Dios",
 "language": "spa"
 },
 {
 "reference_id": 108219,
 "content_id": 232188,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Jesús",
 "language": "spa"
 },
 {
 "reference_id": 108255,
 "content_id": 232224,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Creer en",
 "language": "spa"
 },
 {
 "reference_id": 108312,
 "content_id": 232281,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Padre",
 "language": "spa"
 },
 {
 "reference_id": 108313,
 "content_id": 232282,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ángel",
 "language": "spa"
 },
 {
 "reference_id": 108526,
 "content_id": 232495,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Hijo de Dios",
 "language": "spa"
 },
 {
 "reference_id": 108528,
 "content_id": 232497,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Nuevo Testamento",
 "language": "spa"
 },
 {
 "reference_id": 108532,
 "content_id": 232501,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Hebreo",
 "language": "spa"
 }
@@ -99,6 +99,20 @@
 "preferred_label": "altura"
 },
 {
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "palabra"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.2625,
@@ -113,25 +127,11 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "gloria del señor"
 },
 {
 "id": "keyterm:Always",
@@ -141,18 +141,18 @@
 "preferred_label": "para la eternidad"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "palabra"
+"preferred_label": "pecar"
 }
 ]
 }
@@ -166,7 +166,7 @@
 "index_reference": "58001005-58001014",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Jesús es más grande que los ángeles de Dios. El escritor de Hebreos usó palabras del <span data-bnType=\"resourceReference\" data-resourceId=\"108192\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Antiguo Testamento</span> para demostrar esto de varias maneras. Los ángeles son siervos de Dios. Jesús es el Hijo de Dios. Los ángeles adoran a Dios. El Hijo de Dios es adorado. Los ángeles sirven al Rey. El Hijo de Dios es el Rey. Los ángeles fueron creados. El Hijo de Dios creó todas las cosas. Todo lo que Dios creó será cambiado. El Hijo de Dios permanece igual para siempre. Los ángeles son mensajeros que sirven a las personas. Jesús es quien salva a las personas. En todos los aspectos, Jesús es más grande que todo lo que Dios creó.</p>",
+"content": "<p>Jesús es más grande que los ángeles de Dios. El escritor de Hebreos usó palabras del <data class=\"resource-ref\" data-content-id=\"108192\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Antiguo Testamento</data> para demostrar esto de varias maneras. Los ángeles son siervos de Dios. Jesús es el Hijo de Dios. Los ángeles adoran a Dios. El Hijo de Dios es adorado. Los ángeles sirven al Rey. El Hijo de Dios es el Rey. Los ángeles fueron creados. El Hijo de Dios creó todas las cosas. Todo lo que Dios creó será cambiado. El Hijo de Dios permanece igual para siempre. Los ángeles son mensajeros que sirven a las personas. Jesús es quien salva a las personas. En todos los aspectos, Jesús es más grande que todo lo que Dios creó.</p>",
 "associations": {
 "passage": [
 {
@@ -180,7 +180,7 @@
 {
 "reference_id": 108192,
 "content_id": 232161,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Antiguo Testamento",
 "language": "spa"
 }
@@ -201,18 +201,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "espíritu"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "ser justo"
 },
 {
 "id": "realia:Clothing",
@@ -236,46 +236,11 @@
 "preferred_label": "ungido"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Servant",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "sacerdocio"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "sin ley"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "postrarse"
+"preferred_label": "servidor público"
 },
 {
 "id": "keyterm:Ability",
@@ -285,18 +250,46 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Servant",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "servidor público"
+"preferred_label": "servir"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "reino"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "sin ley"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "para la eternidad"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
 },
 {
 "id": "keyterm:Love",
@@ -306,11 +299,25 @@
 "preferred_label": "amar"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "servir"
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "postrarse"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Throne"
 },
 {
 "id": "realia:Staff",
@@ -318,6 +325,13 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Staff"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Foundation"
 },
 {
 "id": "realia:Rod",
@@ -332,20 +346,6 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Footstool"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Foundation"
 },
 {
 "id": "realia:OliveOil",
@@ -366,7 +366,7 @@
 "index_reference": "58002001-58002009",
 "language": "spa",
 "review_level": "None",
-"content": "<p>La <span data-bnType=\"resourceReference\" data-resourceId=\"108335\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Ley de Moisés</span> fue dada al <span data-bnType=\"resourceReference\" data-resourceId=\"108302\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">pueblo de Dios</span>. Muchos <span data-bnType=\"resourceReference\" data-resourceId=\"108503\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">judíos</span> creían que Dios usó ángeles para hacerlo. Cuando los <span data-bnType=\"resourceReference\" data-resourceId=\"108280\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">israelitas</span> no obedecían la ley, enfrentaban las <span data-bnType=\"resourceReference\" data-resourceId=\"108380\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">maldiciones de la alianza</span>. El mensaje de <span data-bnType=\"resourceReference\" data-resourceId=\"108196\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">salvación</span> que Jesús trajo era mayor que la ley. Así que aceptar el mensaje de Jesús era aún más importante que obedecer el <span data-bnType=\"resourceReference\" data-resourceId=\"108328\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">pacto del Monte Sinaí</span>. Jesús había anunciado el mensaje de la <span data-bnType=\"resourceReference\" data-resourceId=\"108043\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">buena noticia</span> de salvación. Sus <span data-bnType=\"resourceReference\" data-resourceId=\"108040\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">discípulos</span> y <span data-bnType=\"resourceReference\" data-resourceId=\"108053\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">apóstoles</span> difundieron el mensaje a otros. Dios mostró que el mensaje de Jesús podía ser confiable. Lo mostró a través de los <span data-bnType=\"resourceReference\" data-resourceId=\"108305\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">milagros</span> de Jesús. La obra del <span data-bnType=\"resourceReference\" data-resourceId=\"108388\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Espíritu Santo</span> en los <span data-bnType=\"resourceReference\" data-resourceId=\"108077\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">creyentes</span> también mostró que era verdadero. Los <span data-bnType=\"resourceReference\" data-resourceId=\"108202\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">seres humanos</span> tienen menos poder y autoridad que los ángeles. Mientras Jesús vivió en la tierra, renunció a gran parte de su poder y autoridad. Esto significa que Jesús se hizo inferior a los ángeles. Pero después de su muerte, Dios lo resucitó en victoria. Por eso el autor de Hebreos habló sobre una corona. Jesús es el Rey que lleva la corona de la victoria. Desde su <span data-bnType=\"resourceReference\" data-resourceId=\"108568\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">resurrección</span>, tiene de nuevo todo su poder y autoridad. Gobernará completamente en el mundo venidero. Esa es la <span data-bnType=\"resourceReference\" data-resourceId=\"108543\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">nueva creación</span>.</p>",
+"content": "<p>La <data class=\"resource-ref\" data-content-id=\"108335\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Ley de Moisés</data> fue dada al <data class=\"resource-ref\" data-content-id=\"108302\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">pueblo de Dios</data>. Muchos <data class=\"resource-ref\" data-content-id=\"108503\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">judíos</data> creían que Dios usó ángeles para hacerlo. Cuando los <data class=\"resource-ref\" data-content-id=\"108280\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">israelitas</data> no obedecían la ley, enfrentaban las <data class=\"resource-ref\" data-content-id=\"108380\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">maldiciones de la alianza</data>. El mensaje de <data class=\"resource-ref\" data-content-id=\"108196\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">salvación</data> que Jesús trajo era mayor que la ley. Así que aceptar el mensaje de Jesús era aún más importante que obedecer el <data class=\"resource-ref\" data-content-id=\"108328\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">pacto del Monte Sinaí</data>. Jesús había anunciado el mensaje de la <data class=\"resource-ref\" data-content-id=\"108043\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">buena noticia</data> de salvación. Sus <data class=\"resource-ref\" data-content-id=\"108040\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">discípulos</data> y <data class=\"resource-ref\" data-content-id=\"108053\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">apóstoles</data> difundieron el mensaje a otros. Dios mostró que el mensaje de Jesús podía ser confiable. Lo mostró a través de los <data class=\"resource-ref\" data-content-id=\"108305\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">milagros</data> de Jesús. La obra del <data class=\"resource-ref\" data-content-id=\"108388\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Espíritu Santo</data> en los <data class=\"resource-ref\" data-content-id=\"108077\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">creyentes</data> también mostró que era verdadero. Los <data class=\"resource-ref\" data-content-id=\"108202\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">seres humanos</data> tienen menos poder y autoridad que los ángeles. Mientras Jesús vivió en la tierra, renunció a gran parte de su poder y autoridad. Esto significa que Jesús se hizo inferior a los ángeles. Pero después de su muerte, Dios lo resucitó en victoria. Por eso el autor de Hebreos habló sobre una corona. Jesús es el Rey que lleva la corona de la victoria. Desde su <data class=\"resource-ref\" data-content-id=\"108568\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">resurrección</data>, tiene de nuevo todo su poder y autoridad. Gobernará completamente en el mundo venidero. Esa es la <data class=\"resource-ref\" data-content-id=\"108543\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">nueva creación</data>.</p>",
 "associations": {
 "passage": [
 {
@@ -380,112 +380,112 @@
 {
 "reference_id": 108040,
 "content_id": 232009,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Discípulo",
 "language": "spa"
 },
 {
 "reference_id": 108043,
 "content_id": 232012,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Buenas noticias",
 "language": "spa"
 },
 {
 "reference_id": 108196,
 "content_id": 232165,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Salvación",
 "language": "spa"
 },
 {
 "reference_id": 108202,
 "content_id": 232171,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Seres humanos",
 "language": "spa"
 },
 {
 "reference_id": 108053,
 "content_id": 232022,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Apóstoles",
 "language": "spa"
 },
 {
 "reference_id": 108077,
 "content_id": 232046,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Creyente",
 "language": "spa"
 },
 {
 "reference_id": 108280,
 "content_id": 232249,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Israel",
 "language": "spa"
 },
 {
 "reference_id": 108302,
 "content_id": 232271,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "El pueblo de Dios",
 "language": "spa"
 },
 {
 "reference_id": 108305,
 "content_id": 232274,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Milagros",
 "language": "spa"
 },
 {
 "reference_id": 108328,
 "content_id": 232297,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pacto del Monte Sinaí",
 "language": "spa"
 },
 {
 "reference_id": 108335,
 "content_id": 232304,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ley de Moisés",
 "language": "spa"
 },
 {
 "reference_id": 108380,
 "content_id": 232349,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Maldiciones del pacto",
 "language": "spa"
 },
 {
 "reference_id": 108388,
 "content_id": 232357,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Espíritu Santo",
 "language": "spa"
 },
 {
 "reference_id": 108503,
 "content_id": 232472,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Judío",
 "language": "spa"
 },
 {
 "reference_id": 108543,
 "content_id": 232512,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Nueva creación",
 "language": "spa"
 },
 {
 "reference_id": 108568,
 "content_id": 232537,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Resurrección",
 "language": "spa"
 }
@@ -506,13 +506,6 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3,
@@ -520,11 +513,11 @@
 "preferred_label": "gloria del señor"
 },
 {
-"id": "keyterm:Declare",
+"id": "keyterm:Ability",
 "type": "keyterm",
-"confidence": 0.2222,
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "testificar solemnemente"
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Portent",
@@ -534,11 +527,11 @@
 "preferred_label": "maravilla"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Declare",
 "type": "keyterm",
-"confidence": 0.2,
+"confidence": 0.2222,
 "match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "testificar solemnemente"
 },
 {
 "id": "deity:HolySpirit",
@@ -548,18 +541,25 @@
 "preferred_label": "Espíritu"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "señal"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 }
 ]
 }
@@ -573,7 +573,7 @@
 "index_reference": "58002010-58002018",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Como Hijo de Dios, Jesús es el hermano mayor de todos los hijos de Dios. Jesús es el primer ser humano que no fue <span data-bnType=\"resourceReference\" data-resourceId=\"108258\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">esclavo</span> del miedo a la muerte. Él sabía que resucitaría de los muertos con <span data-bnType=\"resourceReference\" data-resourceId=\"108569\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">vida eterna</span>. No era un esclavo del poder del <span data-bnType=\"resourceReference\" data-resourceId=\"108216\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">diablo</span>. Vivió libre del poder del pecado. Estas cosas son todas parte de lo que significa la salvación. Dado que Jesús pasó por ellas primero, el puede guiar a otros a través de ellas. Jesús vivió una vida completamente humana en la tierra. No hay nada por lo que los seres humanos pasen que él no pueda entender. Lo que sufrió como ser humano lo hizo <span data-bnType=\"resourceReference\" data-resourceId=\"108165\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">perfecto</span> o completo. Lo hizo capaz de ayudar a los seres humanos exactamente de la manera en que necesitan ser ayudados. Como ser humano, Jesús hizo el trabajo del <span data-bnType=\"resourceReference\" data-resourceId=\"108368\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">sumo sacerdote</span>. El ofreció el <span data-bnType=\"resourceReference\" data-resourceId=\"108256\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">sacrificio</span> para pagar por los pecados de las personas. El sacrificio que ofreció fue él mismo. Su muerte hizo posible la salvación para todos los que creen en él.</p>",
+"content": "<p>Como Hijo de Dios, Jesús es el hermano mayor de todos los hijos de Dios. Jesús es el primer ser humano que no fue <data class=\"resource-ref\" data-content-id=\"108258\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">esclavo</data> del miedo a la muerte. Él sabía que resucitaría de los muertos con <data class=\"resource-ref\" data-content-id=\"108569\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">vida eterna</data>. No era un esclavo del poder del <data class=\"resource-ref\" data-content-id=\"108216\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">diablo</data>. Vivió libre del poder del pecado. Estas cosas son todas parte de lo que significa la salvación. Dado que Jesús pasó por ellas primero, el puede guiar a otros a través de ellas. Jesús vivió una vida completamente humana en la tierra. No hay nada por lo que los seres humanos pasen que él no pueda entender. Lo que sufrió como ser humano lo hizo <data class=\"resource-ref\" data-content-id=\"108165\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">perfecto</data> o completo. Lo hizo capaz de ayudar a los seres humanos exactamente de la manera en que necesitan ser ayudados. Como ser humano, Jesús hizo el trabajo del <data class=\"resource-ref\" data-content-id=\"108368\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">sumo sacerdote</data>. El ofreció el <data class=\"resource-ref\" data-content-id=\"108256\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">sacrificio</data> para pagar por los pecados de las personas. El sacrificio que ofreció fue él mismo. Su muerte hizo posible la salvación para todos los que creen en él.</p>",
 "associations": {
 "passage": [
 {
@@ -587,42 +587,42 @@
 {
 "reference_id": 108165,
 "content_id": 232134,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Perfecto",
 "language": "spa"
 },
 {
 "reference_id": 108216,
 "content_id": 232185,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Diablo",
 "language": "spa"
 },
 {
 "reference_id": 108256,
 "content_id": 232225,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Sacrificio",
 "language": "spa"
 },
 {
 "reference_id": 108258,
 "content_id": 232227,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Esclavos",
 "language": "spa"
 },
 {
 "reference_id": 108368,
 "content_id": 232337,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Sumo sacerdote",
 "language": "spa"
 },
 {
 "reference_id": 108569,
 "content_id": 232538,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Vida eterna",
 "language": "spa"
 }
@@ -643,13 +643,6 @@
 "preferred_label": "deber"
 },
 {
-"id": "keyterm:Slavery",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "esclavitud"
-},
-{
 "id": "keyterm:Partake",
 "type": "keyterm",
 "confidence": 0.2222,
@@ -657,60 +650,11 @@
 "preferred_label": "participar"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Slavery",
 "type": "keyterm",
-"confidence": 0.2,
+"confidence": 0.2222,
 "match_method": "canonical",
-"preferred_label": "corazón"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "keyterm:SetFree",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "liberar"
-},
-{
-"id": "keyterm:Share",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "compartir"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "persuadir"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "esclavitud"
 },
 {
 "id": "keyterm:Mercy",
@@ -720,18 +664,11 @@
 "preferred_label": "misericordia"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "lealtad"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "tentar"
+"preferred_label": "perdonar"
 },
 {
 "id": "keyterm:Name",
@@ -741,11 +678,18 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "sangre"
+},
+{
+"id": "keyterm:Share",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "compartir"
 },
 {
 "id": "keyterm:Life",
@@ -755,32 +699,11 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "sangre"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "consagración"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "iglesia"
+"preferred_label": "corazón"
 },
 {
 "id": "keyterm:Sin",
@@ -790,11 +713,88 @@
 "preferred_label": "pecar"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "iglesia"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
+"id": "keyterm:SetFree",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "liberar"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "consagración"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "temer"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "gloria del señor"
+},
+{
+"id": "keyterm:Persuade",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "persuadir"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "tentar"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "lealtad"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "salvación"
 }
 ]
 }
@@ -808,7 +808,7 @@
 "index_reference": "58003001-58003019",
 "language": "spa",
 "review_level": "None",
-"content": "<p>El autor de Hebreos describió a <span data-bnType=\"resourceReference\" data-resourceId=\"108300\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Moisés</span> como un siervo fiel en la casa de Dios. La casa de Dios era una forma de hablar de la <span data-bnType=\"resourceReference\" data-resourceId=\"108045\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">familia de Dios</span>. También era una manera de describir el <span data-bnType=\"resourceReference\" data-resourceId=\"108334\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">tabernáculo</span> y el <span data-bnType=\"resourceReference\" data-resourceId=\"108417\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">templo</span>. En la casa de Dios, Jesús es más que un siervo. Él es el Hijo. A través de Jesús, la casa de Dios es más que el <span data-bnType=\"resourceReference\" data-resourceId=\"108361\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">tabernáculo</span> o el templo. Está compuesta por todos los que siguen a Jesús fielmente y con esperanza. La historia de Israel es una advertencia y un ejemplo para los seguidores de Jesús. Una y otra vez los israelitas se negaron a escuchar a Moisés. Una y otra vez se negaron a obedecer la <span data-bnType=\"resourceReference\" data-resourceId=\"108200\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">palabra de Dios</span>. Como resultado, muchos de ellos no entraron en la tierra que Dios les había prometido. Algunos de los que escucharon el mensaje de Hebreos eran creyentes judíos. Honraban a Moisés y la Ley de Moisés. Pero el escritor de Hebreos les insistió a estar aún más comprometidos con Jesús. Llamó a Jesús su apóstol y sumo sacerdote. Debían aferrarse en su esperanza y <span data-bnType=\"resourceReference\" data-resourceId=\"108232\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">fe</span> en <span data-bnType=\"resourceReference\" data-resourceId=\"108098\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Cristo</span>.</p>",
+"content": "<p>El autor de Hebreos describió a <data class=\"resource-ref\" data-content-id=\"108300\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Moisés</data> como un siervo fiel en la casa de Dios. La casa de Dios era una forma de hablar de la <data class=\"resource-ref\" data-content-id=\"108045\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">familia de Dios</data>. También era una manera de describir el <data class=\"resource-ref\" data-content-id=\"108334\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">tabernáculo</data> y el <data class=\"resource-ref\" data-content-id=\"108417\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">templo</data>. En la casa de Dios, Jesús es más que un siervo. Él es el Hijo. A través de Jesús, la casa de Dios es más que el <data class=\"resource-ref\" data-content-id=\"108361\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">tabernáculo</data> o el templo. Está compuesta por todos los que siguen a Jesús fielmente y con esperanza. La historia de Israel es una advertencia y un ejemplo para los seguidores de Jesús. Una y otra vez los israelitas se negaron a escuchar a Moisés. Una y otra vez se negaron a obedecer la <data class=\"resource-ref\" data-content-id=\"108200\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">palabra de Dios</data>. Como resultado, muchos de ellos no entraron en la tierra que Dios les había prometido. Algunos de los que escucharon el mensaje de Hebreos eran creyentes judíos. Honraban a Moisés y la Ley de Moisés. Pero el escritor de Hebreos les insistió a estar aún más comprometidos con Jesús. Llamó a Jesús su apóstol y sumo sacerdote. Debían aferrarse en su esperanza y <data class=\"resource-ref\" data-content-id=\"108232\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">fe</data> en <data class=\"resource-ref\" data-content-id=\"108098\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Cristo</data>.</p>",
 "associations": {
 "passage": [
 {
@@ -822,56 +822,56 @@
 {
 "reference_id": 108045,
 "content_id": 232014,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "La familia de Dios",
 "language": "spa"
 },
 {
 "reference_id": 108098,
 "content_id": 232067,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Cristo",
 "language": "spa"
 },
 {
 "reference_id": 108200,
 "content_id": 232169,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "La palabra de Dios",
 "language": "spa"
 },
 {
 "reference_id": 108232,
 "content_id": 232201,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Fe",
 "language": "spa"
 },
 {
 "reference_id": 108300,
 "content_id": 232269,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Moisés",
 "language": "spa"
 },
 {
 "reference_id": 108334,
 "content_id": 232303,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Santa tienda",
 "language": "spa"
 },
 {
 "reference_id": 108361,
 "content_id": 232330,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Santo",
 "language": "spa"
 },
 {
 "reference_id": 108417,
 "content_id": 232386,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Templo",
 "language": "spa"
 }
@@ -892,18 +892,18 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.3347,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.3347,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.3347,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "person:Jesus.2",
@@ -920,13 +920,6 @@
 "preferred_label": "no creer"
 },
 {
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "lealtad"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2474,
@@ -941,11 +934,11 @@
 "preferred_label": "pecar"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Faithfulness",
 "type": "keyterm",
-"confidence": 0.1737,
+"confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "dar testimonio"
+"preferred_label": "lealtad"
 },
 {
 "id": "keyterm:AskFor",
@@ -955,11 +948,11 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "esperanza"
+"preferred_label": "Espíritu"
 },
 {
 "id": "place:Egypt",
@@ -969,25 +962,11 @@
 "preferred_label": "Egipto"
 },
 {
-"id": "keyterm:Encourage",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "exhortar"
-},
-{
-"id": "keyterm:Confidence",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "esencia"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "santo"
 },
 {
 "id": "keyterm:Life",
@@ -997,18 +976,39 @@
 "preferred_label": "Life"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
-},
-{
-"id": "keyterm:Holy",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "santo"
+"preferred_label": "esperanza"
+},
+{
+"id": "keyterm:Confidence",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "esencia"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "exhortar"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "dar testimonio"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "The Way"
 },
 {
 "id": "keyterm:Glory",
@@ -1029,7 +1029,7 @@
 "index_reference": "58004001-58004013",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Hace mucho tiempo, Dios invitó a su pueblo Israel a entrar en su <span data-bnType=\"resourceReference\" data-resourceId=\"108212\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">descanso</span>. Esta buena noticia fue expresada en la época de Moisés. <span data-bnType=\"resourceReference\" data-resourceId=\"108389\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Josué</span> llevó al pueblo de Israel a la tierra de <span data-bnType=\"resourceReference\" data-resourceId=\"108246\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Canaán</span>. Durante este tiempo, tuvieron descanso de la esclavitud. Pero el verdadero y duradero descanso solo viene de creer en Jesús y seguirlo. Este es el descanso que Dios invita a todos a disfrutar. Dios ve y sabe sobre cualquier cosa de todo lo que creó. Él usa sus palabras y el mensaje sobre Jesús para mostrar lo que hay en el <span data-bnType=\"resourceReference\" data-resourceId=\"108419\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">corazon </span>de las personas. Así es como la palabra de Dios se asemeja una <span data-bnType=\"resourceReference\" data-resourceId=\"108548\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">espada</span> que está viva y activa. Esta era una forma de advertir y alentar a los creyentes que escuchaban el mensaje de Hebreos. El autor quería que hicieran todo lo posible para obedecer a Jesús.</p>",
+"content": "<p>Hace mucho tiempo, Dios invitó a su pueblo Israel a entrar en su <data class=\"resource-ref\" data-content-id=\"108212\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">descanso</data>. Esta buena noticia fue expresada en la época de Moisés. <data class=\"resource-ref\" data-content-id=\"108389\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Josué</data> llevó al pueblo de Israel a la tierra de <data class=\"resource-ref\" data-content-id=\"108246\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Canaán</data>. Durante este tiempo, tuvieron descanso de la esclavitud. Pero el verdadero y duradero descanso solo viene de creer en Jesús y seguirlo. Este es el descanso que Dios invita a todos a disfrutar. Dios ve y sabe sobre cualquier cosa de todo lo que creó. Él usa sus palabras y el mensaje sobre Jesús para mostrar lo que hay en el <data class=\"resource-ref\" data-content-id=\"108419\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">corazon </data>de las personas. Así es como la palabra de Dios se asemeja una <data class=\"resource-ref\" data-content-id=\"108548\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">espada</data> que está viva y activa. Esta era una forma de advertir y alentar a los creyentes que escuchaban el mensaje de Hebreos. El autor quería que hicieran todo lo posible para obedecer a Jesús.</p>",
 "associations": {
 "passage": [
 {
@@ -1043,35 +1043,35 @@
 {
 "reference_id": 108212,
 "content_id": 232181,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Descanso",
 "language": "spa"
 },
 {
 "reference_id": 108246,
 "content_id": 232215,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Canaán",
 "language": "spa"
 },
 {
 "reference_id": 108389,
 "content_id": 232358,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Josué",
 "language": "spa"
 },
 {
 "reference_id": 108419,
 "content_id": 232388,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Corazón",
 "language": "spa"
 },
 {
 "reference_id": 108548,
 "content_id": 232517,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Espada",
 "language": "spa"
 }
@@ -1092,18 +1092,18 @@
 "preferred_label": "corazón"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "buena noticia"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "creer"
 },
 {
 "id": "keyterm:Sabbath",
@@ -1113,6 +1113,20 @@
 "preferred_label": "sábado"
 },
 {
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "espíritu"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -1120,25 +1134,18 @@
 "preferred_label": "temer"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:AbleToDiscern",
@@ -1155,18 +1162,11 @@
 "preferred_label": "Josué"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "espíritu"
+"preferred_label": "promesa"
 }
 ]
 }
@@ -1180,7 +1180,7 @@
 "index_reference": "58004014-58005010",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Dios designó a Jesús como sumo sacerdote. Cuando vivió en la tierra, Jesús pasó por cosas que todas las personas pasan. Nació como bebé y aprendió cosas a medida que crecía. A veces estaba débil y herido. A veces fue tentado y probado, pero nunca pecó. A veces sufrió. A lo largo de su vida aprendió a obedecer a Dios siendo ser humano. Su comprensión de cómo es la vida para los seres humanos es completa. Esto es lo que significa que fue hecho perfecto. Como su sacerdote, Jesús trata con gentileza a los creyentes. Esto les da a los creyentes la valentía para acercarse a Dios. Los creyentes pueden confiar en que Dios les mostrará <span data-bnType=\"resourceReference\" data-resourceId=\"108235\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">gracia</span> y <span data-bnType=\"resourceReference\" data-resourceId=\"108342\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">misericordia</span>.</p>",
+"content": "<p>Dios designó a Jesús como sumo sacerdote. Cuando vivió en la tierra, Jesús pasó por cosas que todas las personas pasan. Nació como bebé y aprendió cosas a medida que crecía. A veces estaba débil y herido. A veces fue tentado y probado, pero nunca pecó. A veces sufrió. A lo largo de su vida aprendió a obedecer a Dios siendo ser humano. Su comprensión de cómo es la vida para los seres humanos es completa. Esto es lo que significa que fue hecho perfecto. Como su sacerdote, Jesús trata con gentileza a los creyentes. Esto les da a los creyentes la valentía para acercarse a Dios. Los creyentes pueden confiar en que Dios les mostrará <data class=\"resource-ref\" data-content-id=\"108235\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">gracia</data> y <data class=\"resource-ref\" data-content-id=\"108342\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">misericordia</data>.</p>",
 "associations": {
 "passage": [
 {
@@ -1194,14 +1194,14 @@
 {
 "reference_id": 108235,
 "content_id": 232204,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Gracia",
 "language": "spa"
 },
 {
 "reference_id": 108342,
 "content_id": 232311,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Misericordia",
 "language": "spa"
 }
@@ -1222,11 +1222,25 @@
 "preferred_label": "Jehová"
 },
 {
+"id": "person:Melchizedek",
+"type": "person",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "Melchîsedec"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "ofrenda"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "para la eternidad"
 },
 {
 "id": "keyterm:Salvation",
@@ -1243,18 +1257,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "person:Melchizedek",
-"type": "person",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "Melchîsedec"
-},
-{
-"id": "keyterm:Always",
+"id": "keyterm:DealGently",
 "type": "keyterm",
-"confidence": 0.2692,
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "tratar con comprensión"
 },
 {
 "id": "keyterm:Favor",
@@ -1264,18 +1271,25 @@
 "preferred_label": "favor"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "cielo"
+"preferred_label": "misericordia"
 },
 {
-"id": "keyterm:DealGently",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "tratar con comprensión"
+"preferred_label": "orar"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "gloria del señor"
 },
 {
 "id": "person:Aaron",
@@ -1292,25 +1306,11 @@
 "preferred_label": "tentar"
 },
 {
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "cuerpo"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "orar"
 },
 {
 "id": "keyterm:Ought",
@@ -1320,11 +1320,11 @@
 "preferred_label": "deber"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "cielo"
 },
 {
 "id": "realia:Throne",
@@ -1345,7 +1345,7 @@
 "index_reference": "58005011-58006012",
 "language": "spa",
 "review_level": "None",
-"content": "<p>El autor de Hebreos describió lo que significa crecer en la fe. Cuando alguien comienza a seguir a Jesús, es como un bebé <span data-bnType=\"resourceReference\" data-resourceId=\"108462\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">espiritual</span>. Aprenden las enseñanzas básicas sobre Jesús. Y siguen creciendo espiritualmente. Deben continuar aprendiendo con fe y paciencia por el resto de sus vidas. Si dejan de querer entender lo que Jesús quiere enseñarles, dejan de crecer. El autor también habló sobre apartarse de la fe. Esto sucede cuando los creyentes ya no quieren la <span data-bnType=\"resourceReference\" data-resourceId=\"108546\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">luz</span> de Dios en sus vidas. Ya no esperan con esperanza la era venidera. La era venidera era otra forma de hablar sobre la nueva creación. Ya no quieren al Espíritu Santo trabajando en ellos. Esto los lleva a vivir de maneras que son pecaminosas y no son piadosas. El autor describió esas maneras como un campo que produce espinas y malas hierbas. El autor quería que los creyentes fueran como un campo que produce una buena cosecha. Algunos de ellos ya estaban haciendo esto en maneras que mostraban que <span data-bnType=\"resourceReference\" data-resourceId=\"108355\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">amaban a Dios</span>.</p>",
+"content": "<p>El autor de Hebreos describió lo que significa crecer en la fe. Cuando alguien comienza a seguir a Jesús, es como un bebé <data class=\"resource-ref\" data-content-id=\"108462\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">espiritual</data>. Aprenden las enseñanzas básicas sobre Jesús. Y siguen creciendo espiritualmente. Deben continuar aprendiendo con fe y paciencia por el resto de sus vidas. Si dejan de querer entender lo que Jesús quiere enseñarles, dejan de crecer. El autor también habló sobre apartarse de la fe. Esto sucede cuando los creyentes ya no quieren la <data class=\"resource-ref\" data-content-id=\"108546\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">luz</data> de Dios en sus vidas. Ya no esperan con esperanza la era venidera. La era venidera era otra forma de hablar sobre la nueva creación. Ya no quieren al Espíritu Santo trabajando en ellos. Esto los lleva a vivir de maneras que son pecaminosas y no son piadosas. El autor describió esas maneras como un campo que produce espinas y malas hierbas. El autor quería que los creyentes fueran como un campo que produce una buena cosecha. Algunos de ellos ya estaban haciendo esto en maneras que mostraban que <data class=\"resource-ref\" data-content-id=\"108355\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">amaban a Dios</data>.</p>",
 "associations": {
 "passage": [
 {
@@ -1359,21 +1359,21 @@
 {
 "reference_id": 108355,
 "content_id": 232324,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ama a Dios",
 "language": "spa"
 },
 {
 "reference_id": 108462,
 "content_id": 232431,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Espiritual",
 "language": "spa"
 },
 {
 "reference_id": 108546,
 "content_id": 232515,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Luz",
 "language": "spa"
 }
@@ -1394,13 +1394,6 @@
 "preferred_label": "convertirse"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2562,
@@ -1408,18 +1401,11 @@
 "preferred_label": "creer"
 },
 {
-"id": "keyterm:FundamentalPrinciples",
+"id": "keyterm:Always",
 "type": "keyterm",
-"confidence": 0.1906,
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "elemento"
-},
-{
-"id": "keyterm:Eagerness",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "empeño"
+"preferred_label": "para la eternidad"
 },
 {
 "id": "keyterm:Discern",
@@ -1429,67 +1415,18 @@
 "preferred_label": "distinguir"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Eagerness",
 "type": "keyterm",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "corazón"
+"preferred_label": "empeño"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:FundamentalPrinciples",
 "type": "keyterm",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "deber"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "esperanza"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "honrado"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "persuadir"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "nombre"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
+"preferred_label": "elemento"
 },
 {
 "id": "keyterm:Word",
@@ -1499,11 +1436,18 @@
 "preferred_label": "palabra"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "promesa"
+"preferred_label": "nombre"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Espíritu"
 },
 {
 "id": "keyterm:Ability",
@@ -1520,11 +1464,11 @@
 "preferred_label": "amado"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "levantamiento"
+"preferred_label": "deber"
 },
 {
 "id": "keyterm:Baptism",
@@ -1534,18 +1478,32 @@
 "preferred_label": "bautismo"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
-},
-{
-"id": "keyterm:Salvation",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "esperanza"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "corazón"
 },
 {
 "id": "person:Jesus.2",
@@ -1562,6 +1520,13 @@
 "preferred_label": "juicio"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
 "id": "keyterm:Partake",
 "type": "keyterm",
 "confidence": 0.1781,
@@ -1569,11 +1534,46 @@
 "preferred_label": "participar"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "santo"
+"preferred_label": "honrado"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Persuade",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "persuadir"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "levantamiento"
 },
 {
 "id": "keyterm:Love",
@@ -1583,32 +1583,11 @@
 "preferred_label": "amar"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Thistle"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Acacia"
+"preferred_label": "salvación"
 },
 {
 "id": "flora:Boxthorn",
@@ -1618,11 +1597,32 @@
 "preferred_label": "Boxthorn"
 },
 {
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Acacia"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Thistle"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "Grass"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Brier"
 }
 ]
 }
@@ -1636,7 +1636,7 @@
 "index_reference": "58006013-58006020",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Dios había hecho una promesa a <span data-bnType=\"resourceReference\" data-resourceId=\"108243\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Abraham</span> en su <span data-bnType=\"resourceReference\" data-resourceId=\"108253\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">pacto con Abraham</span>. Los creyentes que leían la carta a los Hebreos sabían esto. También sabían que Dios había cumplido su promesa con Abraham. Había bendecido a Abraham con una familia muy grande que se convirtió en la nación de Israel. El autor de Hebreos usó esta historia para recordar a los lectores sobre las promesas de Dios. Dios nunca miente. Siempre cumple sus promesas. Su propósito para el <span data-bnType=\"resourceReference\" data-resourceId=\"108215\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">mundo</span> no cambia. Su propósito es que su <span data-bnType=\"resourceReference\" data-resourceId=\"108197\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">creación</span> viva en <span data-bnType=\"resourceReference\" data-resourceId=\"108211\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">paz</span> con él para siempre. Esta es la esperanza que tienen los creyentes. Esta esperanza es cierta y segura porque se basa en la <span data-bnType=\"resourceReference\" data-resourceId=\"108208\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">obra</span> de Jesús.</p>",
+"content": "<p>Dios había hecho una promesa a <data class=\"resource-ref\" data-content-id=\"108243\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Abraham</data> en su <data class=\"resource-ref\" data-content-id=\"108253\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">pacto con Abraham</data>. Los creyentes que leían la carta a los Hebreos sabían esto. También sabían que Dios había cumplido su promesa con Abraham. Había bendecido a Abraham con una familia muy grande que se convirtió en la nación de Israel. El autor de Hebreos usó esta historia para recordar a los lectores sobre las promesas de Dios. Dios nunca miente. Siempre cumple sus promesas. Su propósito para el <data class=\"resource-ref\" data-content-id=\"108215\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">mundo</data> no cambia. Su propósito es que su <data class=\"resource-ref\" data-content-id=\"108197\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">creación</data> viva en <data class=\"resource-ref\" data-content-id=\"108211\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">paz</data> con él para siempre. Esta es la esperanza que tienen los creyentes. Esta esperanza es cierta y segura porque se basa en la <data class=\"resource-ref\" data-content-id=\"108208\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">obra</data> de Jesús.</p>",
 "associations": {
 "passage": [
 {
@@ -1650,42 +1650,42 @@
 {
 "reference_id": 108197,
 "content_id": 232166,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Creación",
 "language": "spa"
 },
 {
 "reference_id": 108208,
 "content_id": 232177,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Trabajo",
 "language": "spa"
 },
 {
 "reference_id": 108211,
 "content_id": 232180,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Paz",
 "language": "spa"
 },
 {
 "reference_id": 108215,
 "content_id": 232184,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Mundo",
 "language": "spa"
 },
 {
 "reference_id": 108243,
 "content_id": 232212,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Abraham",
 "language": "spa"
 },
 {
 "reference_id": 108253,
 "content_id": 232222,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pacto con Abraham",
 "language": "spa"
 }
@@ -1720,39 +1720,11 @@
 "preferred_label": "esperanza"
 },
 {
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "rogar"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "person:Melchizedek",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Melchîsedec"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
 },
 {
 "id": "keyterm:SomethingDefinite",
@@ -1762,11 +1734,39 @@
 "preferred_label": "seguro"
 },
 {
+"id": "person:Melchizedek",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Melchîsedec"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "para la eternidad"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "bendecir"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "realia:Anchor",
@@ -1794,7 +1794,7 @@
 "index_reference": "58007001-58007028",
 "language": "spa",
 "review_level": "None",
-"content": "<p>El autor de Hebreos habló sobre <span data-bnType=\"resourceReference\" data-resourceId=\"108252\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Melquisedec</span> y <span data-bnType=\"resourceReference\" data-resourceId=\"108383\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Leví</span> para describir la obra de Jesús como <span data-bnType=\"resourceReference\" data-resourceId=\"108333\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">sacerdote</span>. Dios estableció el sistema sacerdotal judío en la Ley de Moisés. Los hombres de la tribu de Leví servirían como sacerdotes. Los hombres de la <span data-bnType=\"resourceReference\" data-resourceId=\"108220\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">línea familiar</span> de <span data-bnType=\"resourceReference\" data-resourceId=\"108306\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Aarón</span> servirían como sumos sacerdotes. Cuando un sumo sacerdote moría, otro hombre de la línea familiar de Aarón tomaba su lugar. Sin embargo, el versículo 4 del Salmo 110 anunció que el <span data-bnType=\"resourceReference\" data-resourceId=\"108527\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Mesías</span> sería sacerdote para siempre como Melquisedec. Melquisedec no formaba parte del sistema sacerdotal judío. No era de la tribu de Leví. La línea familiar de Melquisedec no está registrada en el Antiguo Testamento. Para el autor de Hebreos, esto significaba que Melquisedec no tenía principio ni fin. De esta manera se entiende que su servicio como sacerdote dura para siempre. Jesús tampoco era de la tribu de Leví. Como Hijo de Dios, Jesús no tiene principio ni fin. Su servicio como sacerdote también dura para siempre. Jesús no se convirtió en sacerdote porque el sistema sacerdotal judío se lo permitiera. Se convirtió en sacerdote porque Dios prometió que lo sería. Se convirtió en sacerdote porque tiene una vida eterna poderosa que la muerte no puede destruir. De esta manera completa el sistema sacerdotal judío. Nadie más necesita servir como sacerdote entre Dios y las personas. No se necesitan hacer más <span data-bnType=\"resourceReference\" data-resourceId=\"108353\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">ofrendas de pecado</span> para que las personas sean <span data-bnType=\"resourceReference\" data-resourceId=\"108281\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">perdonadas</span>. El sacrificio de Jesús salva a las personas del poder del pecado para siempre.</p>",
+"content": "<p>El autor de Hebreos habló sobre <data class=\"resource-ref\" data-content-id=\"108252\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Melquisedec</data> y <data class=\"resource-ref\" data-content-id=\"108383\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Leví</data> para describir la obra de Jesús como <data class=\"resource-ref\" data-content-id=\"108333\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">sacerdote</data>. Dios estableció el sistema sacerdotal judío en la Ley de Moisés. Los hombres de la tribu de Leví servirían como sacerdotes. Los hombres de la <data class=\"resource-ref\" data-content-id=\"108220\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">línea familiar</data> de <data class=\"resource-ref\" data-content-id=\"108306\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Aarón</data> servirían como sumos sacerdotes. Cuando un sumo sacerdote moría, otro hombre de la línea familiar de Aarón tomaba su lugar. Sin embargo, el versículo 4 del Salmo 110 anunció que el <data class=\"resource-ref\" data-content-id=\"108527\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Mesías</data> sería sacerdote para siempre como Melquisedec. Melquisedec no formaba parte del sistema sacerdotal judío. No era de la tribu de Leví. La línea familiar de Melquisedec no está registrada en el Antiguo Testamento. Para el autor de Hebreos, esto significaba que Melquisedec no tenía principio ni fin. De esta manera se entiende que su servicio como sacerdote dura para siempre. Jesús tampoco era de la tribu de Leví. Como Hijo de Dios, Jesús no tiene principio ni fin. Su servicio como sacerdote también dura para siempre. Jesús no se convirtió en sacerdote porque el sistema sacerdotal judío se lo permitiera. Se convirtió en sacerdote porque Dios prometió que lo sería. Se convirtió en sacerdote porque tiene una vida eterna poderosa que la muerte no puede destruir. De esta manera completa el sistema sacerdotal judío. Nadie más necesita servir como sacerdote entre Dios y las personas. No se necesitan hacer más <data class=\"resource-ref\" data-content-id=\"108353\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">ofrendas de pecado</data> para que las personas sean <data class=\"resource-ref\" data-content-id=\"108281\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">perdonadas</data>. El sacrificio de Jesús salva a las personas del poder del pecado para siempre.</p>",
 "associations": {
 "passage": [
 {
@@ -1808,56 +1808,56 @@
 {
 "reference_id": 108220,
 "content_id": 232189,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Línea familiar",
 "language": "spa"
 },
 {
 "reference_id": 108252,
 "content_id": 232221,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Melquisedec",
 "language": "spa"
 },
 {
 "reference_id": 108281,
 "content_id": 232250,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Perdonar",
 "language": "spa"
 },
 {
 "reference_id": 108306,
 "content_id": 232275,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Aaron",
 "language": "spa"
 },
 {
 "reference_id": 108333,
 "content_id": 232302,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Sacerdote",
 "language": "spa"
 },
 {
 "reference_id": 108353,
 "content_id": 232322,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ofrendas por el pecado",
 "language": "spa"
 },
 {
 "reference_id": 108383,
 "content_id": 232352,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Leví",
 "language": "spa"
 },
 {
 "reference_id": 108527,
 "content_id": 232496,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Mesías",
 "language": "spa"
 }
@@ -1892,11 +1892,11 @@
 "preferred_label": "sacerdocio"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "Life"
 },
 {
 "id": "deity:Lord",
@@ -1906,25 +1906,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "juramento"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "bendecir"
+"preferred_label": "para la eternidad"
 },
 {
 "id": "keyterm:Commandment",
@@ -1934,11 +1920,11 @@
 "preferred_label": "mandamiento"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "Levitas"
+"preferred_label": "bendecir"
 },
 {
 "id": "person:Levi.3",
@@ -1948,18 +1934,25 @@
 "preferred_label": "Levitas"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "Levitas"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "juramento"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2393,
 "match_method": "canonical",
 "preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "dar testimonio"
 },
 {
 "id": "person:Jesus.2",
@@ -1969,81 +1962,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
-"confidence": 0.1661,
+"confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:EnactLaws",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "dar leyes"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Aarón"
-},
-{
-"id": "keyterm:Undefiled",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "sin mancha"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "convertirse"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "esperanza"
-},
-{
-"id": "keyterm:Carnal",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "carnal"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "hacer la paz"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "ser justo"
+"preferred_label": "dar testimonio"
 },
 {
 "id": "keyterm:Covenant",
@@ -2053,6 +1976,13 @@
 "preferred_label": "pacto"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Aarón"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -2060,18 +1990,18 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "promesa"
+"preferred_label": "ofrenda"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Undefiled",
+"type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Moisés"
+"preferred_label": "sin mancha"
 },
 {
 "id": "person:Judah.4",
@@ -2081,11 +2011,60 @@
 "preferred_label": "Judá"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "esperanza"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "convertirse"
+},
+{
+"id": "keyterm:Carnal",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "carnal"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:EnactLaws",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "dar leyes"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "ser justo"
 },
 {
 "id": "keyterm:Partake",
@@ -2095,11 +2074,32 @@
 "preferred_label": "participar"
 },
 {
-"id": "keyterm:Sin",
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "hacer la paz"
 }
 ]
 }
@@ -2113,7 +2113,7 @@
 "index_reference": "58008001-58008013",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Dios estableció la <span data-bnType=\"resourceReference\" data-resourceId=\"108237\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">alianza </span>del Monte Sinaí con el pueblo de Israel a través de Moisés. El autor de Hebreos la llamó tanto de la antigua alianza como de la primera alianza. Se basaba en leyes que los israelitas debían obedecer. El sistema sacerdotal judío era parte de esa alianza. Antes de que se construyera el templo, los sacerdotes israelitas servían en la tienda sagrada. La tienda y el templo se basaban en lo que está en el <span data-bnType=\"resourceReference\" data-resourceId=\"108201\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">cielo</span>. Fueron construidos como una copia del lugar sagrado donde Dios reina como Rey. Allí es donde Jesús realiza su trabajo como sumo sacerdote. Él sirve como el sumo sacerdote e <span data-bnType=\"resourceReference\" data-resourceId=\"108336\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">intermediario</span> de la <span data-bnType=\"resourceReference\" data-resourceId=\"108553\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">nueva alianza </span>de Dios con su pueblo. La nueva alianza no depende de que las personas obedezcan las leyes de Dios. Depende de que Dios cambie a las personas desde dentro de su corazón. La alianza del del <span data-bnType=\"resourceReference\" data-resourceId=\"108327\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Monte Sinaí</span> ha terminado ahora que Dios ha hecho la nueva alianza.</p>",
+"content": "<p>Dios estableció la <data class=\"resource-ref\" data-content-id=\"108237\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">alianza </data>del Monte Sinaí con el pueblo de Israel a través de Moisés. El autor de Hebreos la llamó tanto de la antigua alianza como de la primera alianza. Se basaba en leyes que los israelitas debían obedecer. El sistema sacerdotal judío era parte de esa alianza. Antes de que se construyera el templo, los sacerdotes israelitas servían en la tienda sagrada. La tienda y el templo se basaban en lo que está en el <data class=\"resource-ref\" data-content-id=\"108201\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">cielo</data>. Fueron construidos como una copia del lugar sagrado donde Dios reina como Rey. Allí es donde Jesús realiza su trabajo como sumo sacerdote. Él sirve como el sumo sacerdote e <data class=\"resource-ref\" data-content-id=\"108336\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">intermediario</data> de la <data class=\"resource-ref\" data-content-id=\"108553\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">nueva alianza </data>de Dios con su pueblo. La nueva alianza no depende de que las personas obedezcan las leyes de Dios. Depende de que Dios cambie a las personas desde dentro de su corazón. La alianza del del <data class=\"resource-ref\" data-content-id=\"108327\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Monte Sinaí</data> ha terminado ahora que Dios ha hecho la nueva alianza.</p>",
 "associations": {
 "passage": [
 {
@@ -2127,35 +2127,35 @@
 {
 "reference_id": 108201,
 "content_id": 232170,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Cielo",
 "language": "spa"
 },
 {
 "reference_id": 108237,
 "content_id": 232206,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pacto",
 "language": "spa"
 },
 {
 "reference_id": 108327,
 "content_id": 232296,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Monte Sinaí",
 "language": "spa"
 },
 {
 "reference_id": 108336,
 "content_id": 232305,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Intermediario",
 "language": "spa"
 },
 {
 "reference_id": 108553,
 "content_id": 232522,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Nueva alianza",
 "language": "spa"
 }
@@ -2183,11 +2183,11 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "keyterm:Priesthood",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "sacerdocio"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Law",
@@ -2197,11 +2197,11 @@
 "preferred_label": "ley"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:Priesthood",
+"type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "sacerdocio"
 },
 {
 "id": "realia:Tabernacle",
@@ -2211,13 +2211,6 @@
 "preferred_label": "Tabernacle"
 },
 {
-"id": "keyterm:Mind.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "mente"
-},
-{
 "id": "keyterm:Servant",
 "type": "keyterm",
 "confidence": 0.2,
@@ -2225,53 +2218,11 @@
 "preferred_label": "servidor público"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Mind.2",
 "type": "keyterm",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "corazón"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:EnactLaws",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "dar leyes"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "verdadero"
-},
-{
-"id": "keyterm:Blameless",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "quedar libre de castigo"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Egipto"
+"preferred_label": "mente"
 },
 {
 "id": "keyterm:Mercy",
@@ -2281,27 +2232,6 @@
 "preferred_label": "misericordia"
 },
 {
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
 "id": "keyterm:UnjustDeed",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -2309,25 +2239,18 @@
 "preferred_label": "injusticia"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "place:HolyPlace",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "santuario"
+"preferred_label": "Egipto"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "verdadero"
 },
 {
 "id": "keyterm:Holy",
@@ -2342,6 +2265,83 @@
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "servir"
+},
+{
+"id": "keyterm:Blameless",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "quedar libre de castigo"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "corazón"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:EnactLaws",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "dar leyes"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "santuario"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "realia:Throne",
@@ -2362,7 +2362,7 @@
 "index_reference": "58009001-58009028",
 "language": "spa",
 "review_level": "None",
-"content": "<p>La alianza del Monte Sinaí era como un testamento que entraba en vigor con la muerte. La muerte no era de personas, sino de animales que Dios proporcionaba. Esto mostraba que Dios amaba a las personas y no quería que murieran por sus pecados. La alianza del Monte Sinaí no estaba destinada a durar para siempre. Era una señal de cosas mayores que vendrían. Apuntaba al Mesías y a su obra. La nueva alianza también entró en vigor con la muerte. La muerte no fue de personas o animales, sino de Jesucristo. Jesús se sacrificó para establecer la nueva alianza. Esto muestra cuán profundamente Dios ama a las personas. En la alianza del Monte Sinaí, las personas eran rociadas con la <span data-bnType=\"resourceReference\" data-resourceId=\"108315\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">sangre</span> de animales. Esto les permitía ser considerados <span data-bnType=\"resourceReference\" data-resourceId=\"108363\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">limpios</span>. Les hacía capaces de entrar en la tienda sagrada. En la nueva alianza, las personas son rociadas con la sangre de Jesús. Los creyentes no sienten realmente la sangre de Jesús sobre ellos. Esta es una manera de describir lo que sucede espiritualmente cuando Jesús salva a las personas. La sangre de Jesús es mucho más poderosa que la sangre de los animales. Su sangre hace que aquellos que creen en él sean completamente limpios y aceptados para siempre. Jesús los perdona. Él sana lo que el pecado y el mal han hecho a su mente y corazón. El autor de Hebreos describió esto como lavar los sentimientos de culpa. Jesús hace que las personas puedan estar con Dios plenamente y para siempre. Así es como Jesús completará su salvación cuando regrese.</p>",
+"content": "<p>La alianza del Monte Sinaí era como un testamento que entraba en vigor con la muerte. La muerte no era de personas, sino de animales que Dios proporcionaba. Esto mostraba que Dios amaba a las personas y no quería que murieran por sus pecados. La alianza del Monte Sinaí no estaba destinada a durar para siempre. Era una señal de cosas mayores que vendrían. Apuntaba al Mesías y a su obra. La nueva alianza también entró en vigor con la muerte. La muerte no fue de personas o animales, sino de Jesucristo. Jesús se sacrificó para establecer la nueva alianza. Esto muestra cuán profundamente Dios ama a las personas. En la alianza del Monte Sinaí, las personas eran rociadas con la <data class=\"resource-ref\" data-content-id=\"108315\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">sangre</data> de animales. Esto les permitía ser considerados <data class=\"resource-ref\" data-content-id=\"108363\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">limpios</data>. Les hacía capaces de entrar en la tienda sagrada. En la nueva alianza, las personas son rociadas con la sangre de Jesús. Los creyentes no sienten realmente la sangre de Jesús sobre ellos. Esta es una manera de describir lo que sucede espiritualmente cuando Jesús salva a las personas. La sangre de Jesús es mucho más poderosa que la sangre de los animales. Su sangre hace que aquellos que creen en él sean completamente limpios y aceptados para siempre. Jesús los perdona. Él sana lo que el pecado y el mal han hecho a su mente y corazón. El autor de Hebreos describió esto como lavar los sentimientos de culpa. Jesús hace que las personas puedan estar con Dios plenamente y para siempre. Así es como Jesús completará su salvación cuando regrese.</p>",
 "associations": {
 "passage": [
 {
@@ -2376,14 +2376,14 @@
 {
 "reference_id": 108315,
 "content_id": 232284,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Sangre",
 "language": "spa"
 },
 {
 "reference_id": 108363,
 "content_id": 232332,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Puro o impuro",
 "language": "spa"
 }
@@ -2418,18 +2418,18 @@
 "preferred_label": "santuario"
 },
 {
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.4304,
-"match_method": "canonical",
-"preferred_label": "sacerdocio"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.4304,
 "match_method": "canonical",
 "preferred_label": "pacto"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.4304,
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
 },
 {
 "id": "realia:Tabernacle",
@@ -2460,11 +2460,11 @@
 "preferred_label": "purificarse"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "servir"
 },
 {
 "id": "person:Jesus.2",
@@ -2474,11 +2474,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "servir"
+"preferred_label": "para la eternidad"
 },
 {
 "id": "deity:Lord",
@@ -2488,18 +2488,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Liberation",
-"type": "keyterm",
-"confidence": 0.2393,
-"match_method": "canonical",
-"preferred_label": "liberación"
-},
-{
 "id": "keyterm:Regulations",
 "type": "keyterm",
 "confidence": 0.2393,
 "match_method": "canonical",
 "preferred_label": "decreto justo"
+},
+{
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.2393,
+"match_method": "canonical",
+"preferred_label": "liberación"
 },
 {
 "id": "fauna:Bull",
@@ -2509,18 +2509,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "Espíritu"
 },
 {
 "id": "keyterm:Life",
@@ -2530,6 +2523,20 @@
 "preferred_label": "Life"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2321,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2321,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.2321,
@@ -2537,11 +2544,11 @@
 "preferred_label": "ley"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "cuerpo"
 },
 {
 "id": "keyterm:Conscience",
@@ -2551,25 +2558,11 @@
 "preferred_label": "conciencia"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1793,
 "match_method": "canonical",
 "preferred_label": "Goat"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1732,
-"match_method": "canonical",
-"preferred_label": "Aarón"
 },
 {
 "id": "keyterm:Defilement",
@@ -2579,88 +2572,18 @@
 "preferred_label": "contaminación"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1732,
+"match_method": "canonical",
+"preferred_label": "Aarón"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1721,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "mandar"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "verdadero"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "tribunal de justicia"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "mandamiento"
-},
-{
-"id": "keyterm:Propitiation",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "propiciación"
-},
-{
-"id": "place:MostHolyPlace",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "santísimo"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Moisés"
 },
 {
 "id": "keyterm:Unblemished",
@@ -2670,6 +2593,41 @@
 "preferred_label": "irreprochable"
 },
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "perdonar"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "mandamiento"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "verdadero"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -2677,18 +2635,32 @@
 "preferred_label": "bautismo"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
+"id": "place:MostHolyPlace",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "santísimo"
 },
 {
-"id": "keyterm:Parable",
+"id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "parábola"
+"preferred_label": "tribunal de justicia"
+},
+{
+"id": "keyterm:Propitiation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "propiciación"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "mandar"
 },
 {
 "id": "keyterm:Judgment",
@@ -2698,18 +2670,39 @@
 "preferred_label": "juicio"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "parábola"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "consagración"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "salvación"
 },
 {
 "id": "keyterm:Glory",
@@ -2726,6 +2719,13 @@
 "preferred_label": "derramamiento de sangre"
 },
 {
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1132,
@@ -2740,11 +2740,18 @@
 "preferred_label": "Winged Creature"
 },
 {
-"id": "realia:Staff",
+"id": "flora:Hyssop",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Hyssop"
+},
+{
+"id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "Curtain"
 },
 {
 "id": "realia:Lampstand.2",
@@ -2754,11 +2761,11 @@
 "preferred_label": "Lampstand"
 },
 {
-"id": "flora:Hyssop",
-"type": "flora",
+"id": "realia:Staff",
+"type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Hyssop"
+"preferred_label": "Staff"
 },
 {
 "id": "realia:Altar",
@@ -2766,13 +2773,6 @@
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "Altar"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Curtain"
 }
 ]
 }
@@ -2786,7 +2786,7 @@
 "index_reference": "58010001-58010025",
 "language": "spa",
 "review_level": "None",
-"content": "<p>En su trabajo como sacerdote, Jesús dio su vida como sacrificio en la <span data-bnType=\"resourceReference\" data-resourceId=\"108530\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">cruz</span>. Aquellos que creen en él son perdonados de sus pecados para siempre. Así es como Jesús rompió el poder del pecado. Y rompió el poder de la muerte cuando Dios lo resucitó de entre los muertos. En el futuro, todos los enemigos de Dios estarán completamente bajo el control de Jesús. En la tienda sagrada y el templo, solo el sumo sacerdote podía estar cerca de Dios. Eso sucedía en el <span data-bnType=\"resourceReference\" data-resourceId=\"108365\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Lugar Santísimo</span>. Estaba separado de otras habitaciones por una cortina. El Lugar Santísimo era una copia del lugar donde Dios gobierna en el cielo. Después de su resurrección, Jesús fue al verdadero lugar en el cielo donde Dios gobierna. Él permanece allí. Él hace posible que sus seguidores también estén en la presencia de Dios. Sus seguidores entran en la presencia de Dios creyendo en Jesús. El cuerpo de Jesús es como una cortina por la que entran los creyentes. Pasan a través de ella al Lugar Santísimo donde está Dios. El autor de Hebreos quería que sus lectores se acercaran a Dios con valentía. No necesitaban tener miedo de Dios. Debían alentarse los unos a los otros a estar cerca de Dios. Ser perdonado del pecado y estar en la presencia de Dios llena a los creyentes con esperanza. Les llena con el deseo de hacer <span data-bnType=\"resourceReference\" data-resourceId=\"108060\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">buenas obras</span> y de mostrar amor a los demás.</p>",
+"content": "<p>En su trabajo como sacerdote, Jesús dio su vida como sacrificio en la <data class=\"resource-ref\" data-content-id=\"108530\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">cruz</data>. Aquellos que creen en él son perdonados de sus pecados para siempre. Así es como Jesús rompió el poder del pecado. Y rompió el poder de la muerte cuando Dios lo resucitó de entre los muertos. En el futuro, todos los enemigos de Dios estarán completamente bajo el control de Jesús. En la tienda sagrada y el templo, solo el sumo sacerdote podía estar cerca de Dios. Eso sucedía en el <data class=\"resource-ref\" data-content-id=\"108365\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Lugar Santísimo</data>. Estaba separado de otras habitaciones por una cortina. El Lugar Santísimo era una copia del lugar donde Dios gobierna en el cielo. Después de su resurrección, Jesús fue al verdadero lugar en el cielo donde Dios gobierna. Él permanece allí. Él hace posible que sus seguidores también estén en la presencia de Dios. Sus seguidores entran en la presencia de Dios creyendo en Jesús. El cuerpo de Jesús es como una cortina por la que entran los creyentes. Pasan a través de ella al Lugar Santísimo donde está Dios. El autor de Hebreos quería que sus lectores se acercaran a Dios con valentía. No necesitaban tener miedo de Dios. Debían alentarse los unos a los otros a estar cerca de Dios. Ser perdonado del pecado y estar en la presencia de Dios llena a los creyentes con esperanza. Les llena con el deseo de hacer <data class=\"resource-ref\" data-content-id=\"108060\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">buenas obras</data> y de mostrar amor a los demás.</p>",
 "associations": {
 "passage": [
 {
@@ -2800,21 +2800,21 @@
 {
 "reference_id": 108060,
 "content_id": 232029,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Buenas obras",
 "language": "spa"
 },
 {
 "reference_id": 108365,
 "content_id": 232334,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "El Lugar más sagrado (Santo de los Santos)",
 "language": "spa"
 },
 {
 "reference_id": 108530,
 "content_id": 232499,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Cruz",
 "language": "spa"
 }
@@ -2856,13 +2856,6 @@
 "preferred_label": "ley"
 },
 {
-"id": "keyterm:Conscience",
-"type": "keyterm",
-"confidence": 0.244,
-"match_method": "canonical",
-"preferred_label": "conciencia"
-},
-{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.244,
@@ -2870,18 +2863,11 @@
 "preferred_label": "consagración"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Conscience",
 "type": "keyterm",
-"confidence": 0.236,
+"confidence": 0.244,
 "match_method": "canonical",
-"preferred_label": "corazón"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "sacerdocio"
+"preferred_label": "conciencia"
 },
 {
 "id": "keyterm:Blood",
@@ -2891,11 +2877,25 @@
 "preferred_label": "sangre"
 },
 {
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "corazón"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
 },
 {
 "id": "keyterm:Faithfulness",
@@ -2905,11 +2905,11 @@
 "preferred_label": "lealtad"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "dar testimonio"
+"preferred_label": "rogar"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -2919,39 +2919,11 @@
 "preferred_label": "purificarse"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "perdonar"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "verdadero"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "esperanza"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "honrado"
 },
 {
 "id": "keyterm:Covenant",
@@ -2961,25 +2933,11 @@
 "preferred_label": "pacto"
 },
 {
-"id": "keyterm:Encourage",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "exhortar"
-},
-{
-"id": "keyterm:Mind.2",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "mente"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "sin ley"
+"preferred_label": "Espíritu"
 },
 {
 "id": "keyterm:Ability",
@@ -2989,53 +2947,18 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Mind.2",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "promesa"
+"preferred_label": "mente"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Clean",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "limpio"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "santuario"
+"preferred_label": "verdadero"
 },
 {
 "id": "keyterm:Holy",
@@ -3045,13 +2968,6 @@
 "preferred_label": "santo"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.168,
@@ -3059,11 +2975,88 @@
 "preferred_label": "servir"
 },
 {
-"id": "realia:MostHolyPlace",
-"type": "realia",
-"confidence": 0.116,
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Most Holy Place"
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "esperanza"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "exhortar"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "honrado"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "amar"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "limpio"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "dar testimonio"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "santuario"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "sin ley"
 },
 {
 "id": "realia:Curtain",
@@ -3073,11 +3066,11 @@
 "preferred_label": "Curtain"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.108,
+"id": "realia:MostHolyPlace",
+"type": "realia",
+"confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Most Holy Place"
 },
 {
 "id": "realia:Scroll",
@@ -3087,11 +3080,11 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Cattle"
 },
 {
 "id": "realia:Temple",
@@ -3108,11 +3101,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:TheHolyPlace",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "The Holy Place"
+"preferred_label": "House"
 },
 {
 "id": "realia:Footstool",
@@ -3120,6 +3113,13 @@
 "confidence": 0.108,
 "match_method": "canonical",
 "preferred_label": "Footstool"
+},
+{
+"id": "realia:TheHolyPlace",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "The Holy Place"
 },
 {
 "id": "fauna:Flock",
@@ -3140,7 +3140,7 @@
 "index_reference": "58010026-58010039",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Los creyentes que recibieron la carta a los Hebreos habían sido <span data-bnType=\"resourceReference\" data-resourceId=\"108054\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">malratados</span> por su fe. Los no creyentes hablaban mal de ellos, les robaban sus propiedades y los enviaban a prisión. Sin embargo, los creyentes habían permanecido fieles a Jesús incluso mientras sufrían. El autor de Hebreos quería que siguieran siendo fieles a Dios. Y, cuando <span data-bnType=\"resourceReference\" data-resourceId=\"108065\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Jesús regrese</span>, disfrutarán de lo que Dios prometió darles. El autor no quería que abandonaran la fe. Eso sucedería si seguían pecando a propósito. Sucedería si decían que no conocían a Jesús. Estaban tentados a hacer eso para dejar de ser maltratados. Pero los creyentes que hacen eso no se acercan a Dios con confianza. En cambio, esperan con miedo el <span data-bnType=\"resourceReference\" data-resourceId=\"108055\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">día del juicio</span>. Son como todas las personas que no quieren recibir la gracia de Dios. Tales personas se niegan a ser salvadas de la muerte. Dios no obliga a las personas a aceptar sus dones.</p>",
+"content": "<p>Los creyentes que recibieron la carta a los Hebreos habían sido <data class=\"resource-ref\" data-content-id=\"108054\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">malratados</data> por su fe. Los no creyentes hablaban mal de ellos, les robaban sus propiedades y los enviaban a prisión. Sin embargo, los creyentes habían permanecido fieles a Jesús incluso mientras sufrían. El autor de Hebreos quería que siguieran siendo fieles a Dios. Y, cuando <data class=\"resource-ref\" data-content-id=\"108065\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Jesús regrese</data>, disfrutarán de lo que Dios prometió darles. El autor no quería que abandonaran la fe. Eso sucedería si seguían pecando a propósito. Sucedería si decían que no conocían a Jesús. Estaban tentados a hacer eso para dejar de ser maltratados. Pero los creyentes que hacen eso no se acercan a Dios con confianza. En cambio, esperan con miedo el <data class=\"resource-ref\" data-content-id=\"108055\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">día del juicio</data>. Son como todas las personas que no quieren recibir la gracia de Dios. Tales personas se niegan a ser salvadas de la muerte. Dios no obliga a las personas a aceptar sus dones.</p>",
 "associations": {
 "passage": [
 {
@@ -3154,21 +3154,21 @@
 {
 "reference_id": 108054,
 "content_id": 232023,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Maltratado",
 "language": "spa"
 },
 {
 "reference_id": 108055,
 "content_id": 232024,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Día del juicio",
 "language": "spa"
 },
 {
 "reference_id": 108065,
 "content_id": 232034,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "El regreso de Jesús",
 "language": "spa"
 }
@@ -3180,13 +3180,6 @@
 "confidence": 0.3464,
 "match_method": "canonical",
 "preferred_label": "Jehová"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "temer"
 },
 {
 "id": "keyterm:Life",
@@ -3203,67 +3196,18 @@
 "preferred_label": "creer"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "temer"
+},
+{
 "id": "keyterm:Extremely",
 "type": "keyterm",
 "confidence": 0.1964,
 "match_method": "canonical",
 "preferred_label": "celo"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "tribunal de justicia"
-},
-{
-"id": "keyterm:HaveSympathyFor",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "simpatizar"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "testimonio"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "pacto"
 },
 {
 "id": "keyterm:Favor",
@@ -3273,46 +3217,11 @@
 "preferred_label": "favor"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "fidelidad"
-},
-{
-"id": "keyterm:GrantJustice",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "hacer justicia"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "keyterm:EternalFire",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "fuego eterno"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "misericordia"
 },
 {
 "id": "keyterm:Defilement",
@@ -3322,18 +3231,11 @@
 "preferred_label": "contaminación"
 },
 {
-"id": "keyterm:Law",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "sangre"
+"preferred_label": "pacto"
 },
 {
 "id": "deity:HolySpirit",
@@ -3343,11 +3245,39 @@
 "preferred_label": "Espíritu"
 },
 {
-"id": "keyterm:Consecration.2",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "consagración"
+"preferred_label": "ofrenda"
+},
+{
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Cause of Joy"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "sangre"
+},
+{
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "tribunal de justicia"
+},
+{
+"id": "keyterm:EternalFire",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "fuego eterno"
 },
 {
 "id": "keyterm:Judgment",
@@ -3362,6 +3292,76 @@
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "pecar"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "testimonio"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "fidelidad"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "keyterm:HaveSympathyFor",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "simpatizar"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:GrantJustice",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "hacer justicia"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "consagración"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "decidir"
 }
 ]
 }
@@ -3375,7 +3375,7 @@
 "index_reference": "58011001-58011022",
 "language": "spa",
 "review_level": "None",
-"content": "<p>La fe en Dios se basa en creer que él existe y que creó el mundo. Él tiene el poder de hacer que las cosas existan cuando habla. Él da órdenes y sus palabras pueden ser confiadas. Por eso Abraham, <span data-bnType=\"resourceReference\" data-resourceId=\"108247\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Sara</span>, <span data-bnType=\"resourceReference\" data-resourceId=\"108261\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Isaac</span>, <span data-bnType=\"resourceReference\" data-resourceId=\"108268\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Jacob</span> y <span data-bnType=\"resourceReference\" data-resourceId=\"108288\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">José</span> confiaron en las promesas de Dios. Creían que Dios tiene el poder para hacer lo que dice que irá a hacer. También creían que él sería fiel para hacerlo. La fe en Dios también se basa en la esperanza. Se basa en la esperanza de lo que Dios hará en el futuro. <span data-bnType=\"resourceReference\" data-resourceId=\"108230\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Noé</span> creía que Dios salvaría a su familia del <span data-bnType=\"resourceReference\" data-resourceId=\"108234\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">diluvio</span> que vendría. Abraham y Sara creían que Dios los llevaría juntos con sus  hijos a un país mejor. Su esperanza podría haber estado en peligro cuando Isaac estuvo a punto de ser sacrificado. Pero su esperanza se basaba en el poder de Dios para resucitar a los muertos. También se basaba en vivir en el lugar al que pertenecían. Eso sucedería en la ciudad y el país celestial que Dios preparó para ellos. Estas eran algunas formas de describir el <span data-bnType=\"resourceReference\" data-resourceId=\"108561\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">reino de Dios</span>. A Dios le agrada cuando las personas tienen fe en él. <span data-bnType=\"resourceReference\" data-resourceId=\"108228\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Enoc</span> y Abel fueron ejemplos de esto. Sus ejemplos de fe fervorosa perduraron incluso después de sus vidas.</p>",
+"content": "<p>La fe en Dios se basa en creer que él existe y que creó el mundo. Él tiene el poder de hacer que las cosas existan cuando habla. Él da órdenes y sus palabras pueden ser confiadas. Por eso Abraham, <data class=\"resource-ref\" data-content-id=\"108247\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Sara</data>, <data class=\"resource-ref\" data-content-id=\"108261\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Isaac</data>, <data class=\"resource-ref\" data-content-id=\"108268\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Jacob</data> y <data class=\"resource-ref\" data-content-id=\"108288\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">José</data> confiaron en las promesas de Dios. Creían que Dios tiene el poder para hacer lo que dice que irá a hacer. También creían que él sería fiel para hacerlo. La fe en Dios también se basa en la esperanza. Se basa en la esperanza de lo que Dios hará en el futuro. <data class=\"resource-ref\" data-content-id=\"108230\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Noé</data> creía que Dios salvaría a su familia del <data class=\"resource-ref\" data-content-id=\"108234\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">diluvio</data> que vendría. Abraham y Sara creían que Dios los llevaría juntos con sus  hijos a un país mejor. Su esperanza podría haber estado en peligro cuando Isaac estuvo a punto de ser sacrificado. Pero su esperanza se basaba en el poder de Dios para resucitar a los muertos. También se basaba en vivir en el lugar al que pertenecían. Eso sucedería en la ciudad y el país celestial que Dios preparó para ellos. Estas eran algunas formas de describir el <data class=\"resource-ref\" data-content-id=\"108561\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">reino de Dios</data>. A Dios le agrada cuando las personas tienen fe en él. <data class=\"resource-ref\" data-content-id=\"108228\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Enoc</data> y Abel fueron ejemplos de esto. Sus ejemplos de fe fervorosa perduraron incluso después de sus vidas.</p>",
 "associations": {
 "passage": [
 {
@@ -3389,56 +3389,56 @@
 {
 "reference_id": 108228,
 "content_id": 232197,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Enoc",
 "language": "spa"
 },
 {
 "reference_id": 108230,
 "content_id": 232199,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Noé",
 "language": "spa"
 },
 {
 "reference_id": 108234,
 "content_id": 232203,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Diluvio",
 "language": "spa"
 },
 {
 "reference_id": 108247,
 "content_id": 232216,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Sara",
 "language": "spa"
 },
 {
 "reference_id": 108261,
 "content_id": 232230,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Isaac",
 "language": "spa"
 },
 {
 "reference_id": 108268,
 "content_id": 232237,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Jacob",
 "language": "spa"
 },
 {
 "reference_id": 108288,
 "content_id": 232257,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "José",
 "language": "spa"
 },
 {
 "reference_id": 108561,
 "content_id": 232530,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Reino de Dios",
 "language": "spa"
 }
@@ -3466,13 +3466,6 @@
 "preferred_label": "Isaac"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.3818,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3818,
@@ -3480,11 +3473,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Promise",
 "type": "keyterm",
-"confidence": 0.3114,
+"confidence": 0.3818,
 "match_method": "canonical",
-"preferred_label": "dar testimonio"
+"preferred_label": "promesa"
 },
 {
 "id": "keyterm:Ability",
@@ -3492,6 +3485,13 @@
 "confidence": 0.3114,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "dar testimonio"
 },
 {
 "id": "keyterm:Offering",
@@ -3508,6 +3508,13 @@
 "preferred_label": "José"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -3522,11 +3529,11 @@
 "preferred_label": "Abraham"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2409,
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "ser justo"
+"preferred_label": "Caín"
 },
 {
 "id": "person:Noah",
@@ -3536,25 +3543,11 @@
 "preferred_label": "Noé"
 },
 {
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Caín"
-},
-{
 "id": "person:Abel",
 "type": "person",
 "confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "Abel"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
 },
 {
 "id": "person:Enoch.2",
@@ -3564,11 +3557,25 @@
 "preferred_label": "Henoch"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "cielo"
+"preferred_label": "palabra"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "salvación"
 },
 {
 "id": "person:Sarah",
@@ -3578,6 +3585,13 @@
 "preferred_label": "Sara"
 },
 {
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "esperanza"
+},
+{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -3585,11 +3599,46 @@
 "preferred_label": "mandar"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Confidence",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "esperanza"
+"preferred_label": "esencia"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Esau",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Esaú"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "parábola"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "condenar"
 },
 {
 "id": "keyterm:Always",
@@ -3606,34 +3655,6 @@
 "preferred_label": "lealtad"
 },
 {
-"id": "keyterm:Confidence",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "esencia"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "postrarse"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "condenar"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -3641,32 +3662,11 @@
 "preferred_label": "levantamiento"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "parábola"
-},
-{
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Esaú"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "palabra"
+"preferred_label": "postrarse"
 },
 {
 "id": "realia:Tent",
@@ -3749,11 +3749,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "promesa"
+"preferred_label": "Jehová"
 },
 {
 "id": "person:Moses",
@@ -3763,25 +3763,11 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Promise",
+"type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "person:Jephthah",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Jephté"
-},
-{
-"id": "person:Pharaoh.5",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Faraón"
+"preferred_label": "promesa"
 },
 {
 "id": "person:Samuel",
@@ -3789,6 +3775,20 @@
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Samuel"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Samsón"
+},
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Faraón"
 },
 {
 "id": "person:Barak",
@@ -3805,13 +3805,6 @@
 "preferred_label": "Gedeón"
 },
 {
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Samsón"
-},
-{
 "id": "person:Rahab",
 "type": "person",
 "confidence": 0.1861,
@@ -3819,32 +3812,18 @@
 "preferred_label": "Rahab"
 },
 {
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "dar testimonio"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "pascua"
-},
-{
-"id": "person:David",
+"id": "person:Jephthah",
 "type": "person",
-"confidence": 0.175,
+"confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "Jephté"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "hacer la paz"
+"preferred_label": "sangre"
 },
 {
 "id": "place:Jericho",
@@ -3854,11 +3833,46 @@
 "preferred_label": "Jericó"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "pascua"
+},
+{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "reino"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "liberación"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "pecar"
 },
 {
 "id": "keyterm:Just",
@@ -3868,11 +3882,18 @@
 "preferred_label": "ser justo"
 },
 {
-"id": "keyterm:Liberation",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "liberación"
+"preferred_label": "dar testimonio"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Egipto"
 },
 {
 "id": "place:RedSea",
@@ -3889,32 +3910,11 @@
 "preferred_label": "levantamiento"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "sangre"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "hacer la paz"
 },
 {
 "id": "realia:Skin",
@@ -3924,11 +3924,11 @@
 "preferred_label": "Skin"
 },
 {
-"id": "realia:Prison",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Prison"
+"preferred_label": "Goat"
 },
 {
 "id": "realia:CityWall",
@@ -3938,6 +3938,13 @@
 "preferred_label": "City Wall"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
 "id": "realia:Chain",
 "type": "realia",
 "confidence": 0.115,
@@ -3945,18 +3952,11 @@
 "preferred_label": "Chain"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
+"id": "realia:Prison",
+"type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Prison"
 },
 {
 "id": "fauna:Flock",
@@ -3977,7 +3977,7 @@
 "index_reference": "58012001-58012017",
 "language": "spa",
 "review_level": "None",
-"content": "<p>El autor de Hebreos describió la vida de fe como un largo viaje o carrera. Las personas que ya han corrido la carrera fielmente están entre los creyentes. Son la gran <span data-bnType=\"resourceReference\" data-resourceId=\"108166\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">nube de testigos</span>. Para correr bien la carrera, se necesitan varias cosas. Primero, los creyentes deben estar libres de cualquier cosa que les impida ser fieles a Jesús. Segundo, los creyentes deben seguir corriendo. Esto significa que deben ser pacientes y comprometidos mientras vivan. Tercero, los creyentes deben seguir mirando a Jesús. Recordar constantemente el ejemplo de Jesús siendo fiel a Dios les da fuerza para continuar. Luego, deben aceptar los tiempos difíciles como entrenamiento para una vida de fe. A veces los tiempos difíciles vienen porque los creyentes son maltratados por seguir a Jesús. A veces vienen por <span data-bnType=\"resourceReference\" data-resourceId=\"108233\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">juicio</span> de Dios. Dios trae juicio contra el pecado porque ama a sus hijos. Lo trae para ayudar a sus hijos con una <span data-bnType=\"resourceReference\" data-resourceId=\"108044\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">vida santa</span>. Los creyentes necesitan la gracia de Dios mientras luchan contra el pecado y tratan de ser santos. <span data-bnType=\"resourceReference\" data-resourceId=\"108269\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Esaú</span> esperaba recibir la bendición de Isaac. Le habría llegado en el futuro. Pero Esaú no fue paciente ni se comprometió a trabajar duro por lo que esperaba recibir. Entregó la bendición futura a cambio de algo que quería de inmediato. Esta historia se cuenta en Génesis 25.29–34. Jesús le dio a los creyentes un ejemplo diferente. Jesús estuvo dispuesto a sufrir mientras vivía una vida fiel. Siguió adelante. Esperaba con ansias el gozo de estar con Dios su Padre.</p>",
+"content": "<p>El autor de Hebreos describió la vida de fe como un largo viaje o carrera. Las personas que ya han corrido la carrera fielmente están entre los creyentes. Son la gran <data class=\"resource-ref\" data-content-id=\"108166\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">nube de testigos</data>. Para correr bien la carrera, se necesitan varias cosas. Primero, los creyentes deben estar libres de cualquier cosa que les impida ser fieles a Jesús. Segundo, los creyentes deben seguir corriendo. Esto significa que deben ser pacientes y comprometidos mientras vivan. Tercero, los creyentes deben seguir mirando a Jesús. Recordar constantemente el ejemplo de Jesús siendo fiel a Dios les da fuerza para continuar. Luego, deben aceptar los tiempos difíciles como entrenamiento para una vida de fe. A veces los tiempos difíciles vienen porque los creyentes son maltratados por seguir a Jesús. A veces vienen por <data class=\"resource-ref\" data-content-id=\"108233\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">juicio</data> de Dios. Dios trae juicio contra el pecado porque ama a sus hijos. Lo trae para ayudar a sus hijos con una <data class=\"resource-ref\" data-content-id=\"108044\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">vida santa</data>. Los creyentes necesitan la gracia de Dios mientras luchan contra el pecado y tratan de ser santos. <data class=\"resource-ref\" data-content-id=\"108269\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Esaú</data> esperaba recibir la bendición de Isaac. Le habría llegado en el futuro. Pero Esaú no fue paciente ni se comprometió a trabajar duro por lo que esperaba recibir. Entregó la bendición futura a cambio de algo que quería de inmediato. Esta historia se cuenta en Génesis 25.29–34. Jesús le dio a los creyentes un ejemplo diferente. Jesús estuvo dispuesto a sufrir mientras vivía una vida fiel. Siguió adelante. Esperaba con ansias el gozo de estar con Dios su Padre.</p>",
 "associations": {
 "passage": [
 {
@@ -3991,28 +3991,28 @@
 {
 "reference_id": 108044,
 "content_id": 232013,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Vida santa",
 "language": "spa"
 },
 {
 "reference_id": 108166,
 "content_id": 232135,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Nube de testigos",
 "language": "spa"
 },
 {
 "reference_id": 108233,
 "content_id": 232202,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Juicio",
 "language": "spa"
 },
 {
 "reference_id": 108269,
 "content_id": 232238,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Esaú",
 "language": "spa"
 }
@@ -4068,53 +4068,11 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Reject",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "desechar"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "convertirse"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "testimonio"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "favor"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
 },
 {
 "id": "keyterm:Defilement",
@@ -4124,11 +4082,11 @@
 "preferred_label": "contaminación"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Reject",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "desechar"
 },
 {
 "id": "keyterm:Blood",
@@ -4138,18 +4096,39 @@
 "preferred_label": "sangre"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "espíritu"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "convertirse"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "creer"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "consagración"
 },
 {
 "id": "person:Jesus.2",
@@ -4159,18 +4138,39 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "santo"
+"preferred_label": "ser justo"
 },
 {
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Witness",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "espíritu"
+"preferred_label": "testimonio"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "consagración"
 },
 {
 "id": "keyterm:Love",
@@ -4205,7 +4205,7 @@
 "index_reference": "58012018-58012029",
 "language": "spa",
 "review_level": "None",
-"content": "<p>El autor de Hebreos describió la diferencia entre la antigua alianza y la nueva alianza. El autor hizo esto comparando dos montañas. La primera fue <span data-bnType=\"resourceReference\" data-resourceId=\"108327\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">el Monte Sinaí</span> y era una imagen de la alianza del Monte Sinaí. En esa montaña, la gente tenía miedo de la santidad de Dios. Solo Moisés podía acercarse a Dios. La segunda montaña fue el Monte Sion. También era conocido como <span data-bnType=\"resourceReference\" data-resourceId=\"108505\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Monte Moriah</span> y era una imagen de la nueva alianza. El autor lo usó como una manera de hablar sobre la ciudad de Dios. Llamó a esa ciudad la <span data-bnType=\"resourceReference\" data-resourceId=\"108464\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Jerusalén</span> celestial. Este es otro nombre para la <span data-bnType=\"resourceReference\" data-resourceId=\"108549\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">nueva Jerusalén</span>. Abraham y otras personas fieles del pasado de Israel estaban esperando esa ciudad. En esa ciudad, la gente no tiene miedo de la santidad de Dios. Porque creen en Jesús, son libres para acercarse a Dios. Esa ciudad es parte del reino de Dios. Nunca podrá ser sacudida o destruida. La participación en el reino de Dios lleva a su pueblo a agradecer a Dios y adorarlo.</p>",
+"content": "<p>El autor de Hebreos describió la diferencia entre la antigua alianza y la nueva alianza. El autor hizo esto comparando dos montañas. La primera fue <data class=\"resource-ref\" data-content-id=\"108327\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">el Monte Sinaí</data> y era una imagen de la alianza del Monte Sinaí. En esa montaña, la gente tenía miedo de la santidad de Dios. Solo Moisés podía acercarse a Dios. La segunda montaña fue el Monte Sion. También era conocido como <data class=\"resource-ref\" data-content-id=\"108505\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Monte Moriah</data> y era una imagen de la nueva alianza. El autor lo usó como una manera de hablar sobre la ciudad de Dios. Llamó a esa ciudad la <data class=\"resource-ref\" data-content-id=\"108464\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Jerusalén</data> celestial. Este es otro nombre para la <data class=\"resource-ref\" data-content-id=\"108549\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">nueva Jerusalén</data>. Abraham y otras personas fieles del pasado de Israel estaban esperando esa ciudad. En esa ciudad, la gente no tiene miedo de la santidad de Dios. Porque creen en Jesús, son libres para acercarse a Dios. Esa ciudad es parte del reino de Dios. Nunca podrá ser sacudida o destruida. La participación en el reino de Dios lleva a su pueblo a agradecer a Dios y adorarlo.</p>",
 "associations": {
 "passage": [
 {
@@ -4219,28 +4219,28 @@
 {
 "reference_id": 108327,
 "content_id": 232296,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Monte Sinaí",
 "language": "spa"
 },
 {
 "reference_id": 108464,
 "content_id": 232433,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Jerusalén",
 "language": "spa"
 },
 {
 "reference_id": 108505,
 "content_id": 232474,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Monte Moriah",
 "language": "spa"
 },
 {
 "reference_id": 108549,
 "content_id": 232518,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Nueva Jerusalén",
 "language": "spa"
 }
@@ -4261,60 +4261,11 @@
 "preferred_label": "cielo"
 },
 {
-"id": "keyterm:Priesthood",
+"id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "sacerdocio"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "pacto"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "person:Abel",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Abel"
+"preferred_label": "palabra"
 },
 {
 "id": "keyterm:Favor",
@@ -4324,39 +4275,11 @@
 "preferred_label": "favor"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "palabra"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "promesa"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "pacto"
 },
 {
 "id": "keyterm:Blood",
@@ -4366,25 +4289,18 @@
 "preferred_label": "sangre"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:Church",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "iglesia"
+"preferred_label": "servir"
 },
 {
-"id": "keyterm:Register",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "inscribir"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -4394,11 +4310,95 @@
 "preferred_label": "espíritu"
 },
 {
-"id": "keyterm:Serve",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "servir"
+"preferred_label": "reino"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "person:Abel",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Abel"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "iglesia"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "promesa"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "temer"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Register",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "inscribir"
 },
 {
 "id": "realia:Trumpet",
@@ -4419,7 +4419,7 @@
 "index_reference": "58013001-58013019",
 "language": "spa",
 "review_level": "None",
-"content": "<p>El autor recordó a los creyentes lo que debían continuar haciendo. Lo primero era amarse unos a otros. Esto incluía dar la bienvenida a personas que no conocían. Incluía cuidar a las personas en prisión y a aquellos que eran maltratados. Incluía ser fieles en <span data-bnType=\"resourceReference\" data-resourceId=\"108206\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">el matrimonio</span>. Esto incluía confiar en que Dios proveería para ellos en lugar de querer más y más dinero. El autor recordó a los lectores que también demostraran amor a los fieles líderes de la iglesia. Podían hacerlo <span data-bnType=\"resourceReference\" data-resourceId=\"108227\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">orando</span> por ellos y siguiendo su ejemplo piadoso. Podían hacerlo trayendo alegría a los líderes en lugar de intentar causar problemas. Los creyentes también deben aferrarse a la verdadera enseñanza sobre la gracia de Dios. Seguir las <span data-bnType=\"resourceReference\" data-resourceId=\"108070\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">leyes judías</span> sobre la comida no les traería lo que esperaban. Esperaban vivir con Dios para siempre en la ciudad de su reino. Las personas solo pueden entrar en la ciudad de Dios a través de la fe en Jesús. Deben estar dispuestos a sufrir por tener fe en él. Y pueden ofrecer alabanza constante porque Dios cumplirá sus promesas a través de Jesús.</p>",
+"content": "<p>El autor recordó a los creyentes lo que debían continuar haciendo. Lo primero era amarse unos a otros. Esto incluía dar la bienvenida a personas que no conocían. Incluía cuidar a las personas en prisión y a aquellos que eran maltratados. Incluía ser fieles en <data class=\"resource-ref\" data-content-id=\"108206\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">el matrimonio</data>. Esto incluía confiar en que Dios proveería para ellos en lugar de querer más y más dinero. El autor recordó a los lectores que también demostraran amor a los fieles líderes de la iglesia. Podían hacerlo <data class=\"resource-ref\" data-content-id=\"108227\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">orando</data> por ellos y siguiendo su ejemplo piadoso. Podían hacerlo trayendo alegría a los líderes en lugar de intentar causar problemas. Los creyentes también deben aferrarse a la verdadera enseñanza sobre la gracia de Dios. Seguir las <data class=\"resource-ref\" data-content-id=\"108070\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">leyes judías</data> sobre la comida no les traería lo que esperaban. Esperaban vivir con Dios para siempre en la ciudad de su reino. Las personas solo pueden entrar en la ciudad de Dios a través de la fe en Jesús. Deben estar dispuestos a sufrir por tener fe en él. Y pueden ofrecer alabanza constante porque Dios cumplirá sus promesas a través de Jesús.</p>",
 "associations": {
 "passage": [
 {
@@ -4433,21 +4433,21 @@
 {
 "reference_id": 108070,
 "content_id": 232039,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Leyes judías",
 "language": "spa"
 },
 {
 "reference_id": 108206,
 "content_id": 232175,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Matrimonio",
 "language": "spa"
 },
 {
 "reference_id": 108227,
 "content_id": 232196,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Oración",
 "language": "spa"
 }
@@ -4475,11 +4475,18 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "keyterm:Persuade",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "persuadir"
+"preferred_label": "sangre"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Behavior",
@@ -4496,25 +4503,11 @@
 "preferred_label": "cuerpo"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "sangre"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1842,
-"match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "persuadir"
 },
 {
 "id": "keyterm:LoveForOnesFellowBeliever",
@@ -4531,11 +4524,11 @@
 "preferred_label": "llevar a"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:Always",
 "type": "keyterm",
-"confidence": 0.1737,
+"confidence": 0.1842,
 "match_method": "canonical",
-"preferred_label": "autoridad"
+"preferred_label": "para la eternidad"
 },
 {
 "id": "keyterm:AskFor",
@@ -4545,39 +4538,11 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Undefiled",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "sin mancha"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "sacerdocio"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "favor"
 },
 {
 "id": "keyterm:Name",
@@ -4587,39 +4552,11 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "favor"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "The Way"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "andar"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Ability"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "orar"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -4629,53 +4566,11 @@
 "preferred_label": "Cause of Joy"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Undefiled",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:Conscience",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "conciencia"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "consagración"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "santuario"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "comunión"
-},
-{
-"id": "keyterm:NotALoverOfMoney",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "no amante del dinero"
+"preferred_label": "sin mancha"
 },
 {
 "id": "keyterm:Holy",
@@ -4692,6 +4587,111 @@
 "preferred_label": "servir"
 },
 {
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "comunión"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "orar"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "andar"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "consagración"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "temer"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "The Way"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "decidir"
+},
+{
+"id": "keyterm:NotALoverOfMoney",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "no amante del dinero"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "santuario"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "sacerdocio"
+},
+{
+"id": "keyterm:Conscience",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "conciencia"
+},
+{
 "id": "realia:MostHolyPlace",
 "type": "realia",
 "confidence": 0.1137,
@@ -4706,18 +4706,18 @@
 "preferred_label": "Temple"
 },
 {
-"id": "realia:TheHolyPlace",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "The Holy Place"
-},
-{
 "id": "realia:Tabernacle",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "Tabernacle"
+},
+{
+"id": "realia:TheHolyPlace",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "The Holy Place"
 }
 ]
 }
@@ -4731,7 +4731,7 @@
 "index_reference": "58013020-58013025",
 "language": "spa",
 "review_level": "None",
-"content": "<p>Antes de los saludos finales del autor, Hebreos termina con una bendición. Está basada en la obra de Jesús para establecer la nueva alianza que durará para siempre. Jesús es <span data-bnType=\"resourceReference\" data-resourceId=\"108329\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Señor</span>. Él es el <span data-bnType=\"resourceReference\" data-resourceId=\"108278\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Pastor</span> que cuida del pueblo de Dios (Juan 10.1–18). El Dios que resucitó a Jesús de entre los muertos también está obrando en los creyentes. Les da lo que necesitan para obedecerlo fielmente. Deben tomar las decisiones para hacer lo que Dios quiere. Esto es posible porque Jesús los ayuda. Jesús es el Mesías que es digno de <span data-bnType=\"resourceReference\" data-resourceId=\"108348\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">gloria</span> para siempre.</p>",
+"content": "<p>Antes de los saludos finales del autor, Hebreos termina con una bendición. Está basada en la obra de Jesús para establecer la nueva alianza que durará para siempre. Jesús es <data class=\"resource-ref\" data-content-id=\"108329\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Señor</data>. Él es el <data class=\"resource-ref\" data-content-id=\"108278\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Pastor</data> que cuida del pueblo de Dios (Juan 10.1–18). El Dios que resucitó a Jesús de entre los muertos también está obrando en los creyentes. Les da lo que necesitan para obedecerlo fielmente. Deben tomar las decisiones para hacer lo que Dios quiere. Esto es posible porque Jesús los ayuda. Jesús es el Mesías que es digno de <data class=\"resource-ref\" data-content-id=\"108348\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">gloria</data> para siempre.</p>",
 "associations": {
 "passage": [
 {
@@ -4745,39 +4745,39 @@
 {
 "reference_id": 108278,
 "content_id": 232247,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Pastor",
 "language": "spa"
 },
 {
 "reference_id": 108329,
 "content_id": 232298,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Señor - Gobernante",
 "language": "spa"
 },
 {
 "reference_id": 108348,
 "content_id": 232317,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Gloria",
 "language": "spa"
 }
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.35,
 "match_method": "canonical",
 "preferred_label": "para la eternidad"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "place:Italy",
@@ -4787,11 +4787,18 @@
 "preferred_label": "Italia"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "sangre"
+"preferred_label": "rogar"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "santo"
 },
 {
 "id": "keyterm:Favor",
@@ -4801,13 +4808,6 @@
 "preferred_label": "favor"
 },
 {
-"id": "person:Timothy",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Timoteo"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.225,
@@ -4815,18 +4815,25 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "rogar"
+"preferred_label": "pacto"
 },
 {
-"id": "keyterm:Peace",
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Timoteo"
+},
+{
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "hacer la paz"
+"preferred_label": "gloria del señor"
 },
 {
 "id": "keyterm:Surely",
@@ -4843,32 +4850,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "pacto"
+"preferred_label": "hacer la paz"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "sangre"
 },
 {
 "id": "fauna:Goat",
@@ -4876,6 +4869,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
