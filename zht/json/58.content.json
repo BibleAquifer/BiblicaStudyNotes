@@ -8,7 +8,7 @@
 "index_reference": "58001001-58001004",
 "language": "zht",
 "review_level": "None",
-"content": "<p><span data-bnType=\"resourceReference\" data-resourceId=\"108532\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">希伯來書</span>不像其它新約書信那樣開始，它沒有向讀者致意，也沒有提到作者是誰，它反而談論的是<span data-bnType=\"resourceReference\" data-resourceId=\"108526\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">神的兒子</span>是誰。<span data-bnType=\"resourceReference\" data-resourceId=\"108219\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">耶穌</span>以最清晰和最好的方式顯明了<span data-bnType=\"resourceReference\" data-resourceId=\"108199\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">神</span>是誰。萬物都是透過祂被創造出來的，一切事物能夠繼續存在也是因為祂允許。當人們<span data-bnType=\"resourceReference\" data-resourceId=\"108255\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">信靠（信仰）</span>祂時，耶穌將人們從<span data-bnType=\"resourceReference\" data-resourceId=\"108195\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">罪</span>的權勢中救拔出來。然後耶穌回到了<span data-bnType=\"resourceReference\" data-resourceId=\"108312\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">父（父親）</span>那裡，神的兒子坐在神旁邊的榮耀之位，祂比<span data-bnType=\"resourceReference\" data-resourceId=\"108313\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">天使</span>有更多的權柄。</p>",
+"content": "<p><data class=\"resource-ref\" data-content-id=\"108532\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">希伯來書</data>不像其它新約書信那樣開始，它沒有向讀者致意，也沒有提到作者是誰，它反而談論的是<data class=\"resource-ref\" data-content-id=\"108526\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">神的兒子</data>是誰。<data class=\"resource-ref\" data-content-id=\"108219\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">耶穌</data>以最清晰和最好的方式顯明了<data class=\"resource-ref\" data-content-id=\"108199\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">神</data>是誰。萬物都是透過祂被創造出來的，一切事物能夠繼續存在也是因為祂允許。當人們<data class=\"resource-ref\" data-content-id=\"108255\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">信靠（信仰）</data>祂時，耶穌將人們從<data class=\"resource-ref\" data-content-id=\"108195\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">罪</data>的權勢中救拔出來。然後耶穌回到了<data class=\"resource-ref\" data-content-id=\"108312\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">父（父親）</data>那裡，神的兒子坐在神旁邊的榮耀之位，祂比<data class=\"resource-ref\" data-content-id=\"108313\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">天使</data>有更多的權柄。</p>",
 "associations": {
 "passage": [
 {
@@ -22,49 +22,49 @@
 {
 "reference_id": 108195,
 "content_id": 232796,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "罪",
 "language": "zht"
 },
 {
 "reference_id": 108199,
 "content_id": 232800,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "神",
 "language": "zht"
 },
 {
 "reference_id": 108219,
 "content_id": 232820,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "耶穌",
 "language": "zht"
 },
 {
 "reference_id": 108255,
 "content_id": 232856,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "信",
 "language": "zht"
 },
 {
 "reference_id": 108312,
 "content_id": 232913,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "父",
 "language": "zht"
 },
 {
 "reference_id": 108313,
 "content_id": 232914,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "天使",
 "language": "zht"
 },
 {
 "reference_id": 108526,
 "content_id": 233127,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "神的兒子",
 "language": "zht"
 },
@@ -78,7 +78,7 @@
 {
 "reference_id": 108532,
 "content_id": 233133,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "希伯來",
 "language": "zht"
 }
@@ -99,6 +99,20 @@
 "preferred_label": "Height"
 },
 {
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Word"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.2625,
@@ -113,25 +127,11 @@
 "preferred_label": "Name"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Always",
@@ -141,18 +141,18 @@
 "preferred_label": "Always"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "LORD"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Word"
+"preferred_label": "To Sin"
 }
 ]
 }
@@ -166,7 +166,7 @@
 "index_reference": "58001005-58001014",
 "language": "zht",
 "review_level": "None",
-"content": "<p>耶穌遠超過神的天使。希伯來書的作者用<span data-bnType=\"resourceReference\" data-resourceId=\"108192\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">舊約</span>各樣的字詞從不同方面展示了這一點。天使是神的僕人，耶穌是神的兒子；天使敬拜神，神的兒子被敬拜；天使事奉君王，神的兒子就是君王；天使是被創造的，而神的兒子創造了萬有；神創造的一切都會改變，神的兒子卻永不改變；天使是服事人的使者，耶穌則是拯救人的那一位。無論從哪方面看，耶穌都遠超過神創造的一切。</p>",
+"content": "<p>耶穌遠超過神的天使。希伯來書的作者用<data class=\"resource-ref\" data-content-id=\"108192\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">舊約</data>各樣的字詞從不同方面展示了這一點。天使是神的僕人，耶穌是神的兒子；天使敬拜神，神的兒子被敬拜；天使事奉君王，神的兒子就是君王；天使是被創造的，而神的兒子創造了萬有；神創造的一切都會改變，神的兒子卻永不改變；天使是服事人的使者，耶穌則是拯救人的那一位。無論從哪方面看，耶穌都遠超過神創造的一切。</p>",
 "associations": {
 "passage": [
 {
@@ -180,7 +180,7 @@
 {
 "reference_id": 108192,
 "content_id": 232793,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "舊約聖經",
 "language": "zht"
 }
@@ -201,18 +201,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "Spirit"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
 },
 {
 "id": "realia:Clothing",
@@ -236,46 +236,11 @@
 "preferred_label": "Anointed"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Servant",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Priesthood"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Lawless"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
+"preferred_label": "Minister"
 },
 {
 "id": "keyterm:Ability",
@@ -285,18 +250,46 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Servant",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Minister"
+"preferred_label": "Serve"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Lawless"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
 },
 {
 "id": "keyterm:Love",
@@ -306,11 +299,25 @@
 "preferred_label": "Love"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Serve"
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Bow Down"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Throne"
 },
 {
 "id": "realia:Staff",
@@ -318,6 +325,13 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Staff"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Foundation"
 },
 {
 "id": "realia:Rod",
@@ -332,20 +346,6 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Footstool"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Foundation"
 },
 {
 "id": "realia:OliveOil",
@@ -366,7 +366,7 @@
 "index_reference": "58002001-58002009",
 "language": "zht",
 "review_level": "None",
-"content": "<p><span data-bnType=\"resourceReference\" data-resourceId=\"108335\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">摩西律法</span>是賜予<span data-bnType=\"resourceReference\" data-resourceId=\"108302\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">神的子民</span>的。許多<span data-bnType=\"resourceReference\" data-resourceId=\"108503\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">猶太人</span>相信神使用天使來完成了這件事。若<span data-bnType=\"resourceReference\" data-resourceId=\"108280\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">以色列人</span>不遵守律法，他們便面臨<span data-bnType=\"resourceReference\" data-resourceId=\"108380\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">約的咒詛</span>。耶穌帶來的<span data-bnType=\"resourceReference\" data-resourceId=\"108196\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">救恩</span>信息比律法更大，因此，接受耶穌的信息比遵守<span data-bnType=\"resourceReference\" data-resourceId=\"108328\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">西奈山之約</span>更為重要。耶穌宣布了救恩的<span data-bnType=\"resourceReference\" data-resourceId=\"108043\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">好消息</span>，祂的<span data-bnType=\"resourceReference\" data-resourceId=\"108040\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">門徒</span>和<span data-bnType=\"resourceReference\" data-resourceId=\"108053\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">使徒</span>將這信息傳給他人。透過耶穌的<span data-bnType=\"resourceReference\" data-resourceId=\"108305\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">神蹟</span>，神證明了耶穌的信息是可信的；<span data-bnType=\"resourceReference\" data-resourceId=\"108388\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">聖靈</span>在<span data-bnType=\"resourceReference\" data-resourceId=\"108077\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">信徒</span>中的工作也證明了這一點。<span data-bnType=\"resourceReference\" data-resourceId=\"108202\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">人類</span>的能力和權柄比天使少。耶穌在世上生活時，祂放棄了許多能力與權柄，這就是耶穌使自己比天使微小的意思。不過，耶穌死後，神使祂在勝利中復活，這就是為什麼希伯來書的作者談到了冠冕，因為耶穌是戴著勝利冠冕的王。自從耶穌<span data-bnType=\"resourceReference\" data-resourceId=\"108568\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">復活</span>以來，祂再次擁有了所有的能力和權柄。祂將在來世完全作王統治。那就是<span data-bnType=\"resourceReference\" data-resourceId=\"108543\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">新創造</span>。</p>",
+"content": "<p><data class=\"resource-ref\" data-content-id=\"108335\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">摩西律法</data>是賜予<data class=\"resource-ref\" data-content-id=\"108302\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">神的子民</data>的。許多<data class=\"resource-ref\" data-content-id=\"108503\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">猶太人</data>相信神使用天使來完成了這件事。若<data class=\"resource-ref\" data-content-id=\"108280\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">以色列人</data>不遵守律法，他們便面臨<data class=\"resource-ref\" data-content-id=\"108380\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">約的咒詛</data>。耶穌帶來的<data class=\"resource-ref\" data-content-id=\"108196\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">救恩</data>信息比律法更大，因此，接受耶穌的信息比遵守<data class=\"resource-ref\" data-content-id=\"108328\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">西奈山之約</data>更為重要。耶穌宣布了救恩的<data class=\"resource-ref\" data-content-id=\"108043\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">好消息</data>，祂的<data class=\"resource-ref\" data-content-id=\"108040\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">門徒</data>和<data class=\"resource-ref\" data-content-id=\"108053\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">使徒</data>將這信息傳給他人。透過耶穌的<data class=\"resource-ref\" data-content-id=\"108305\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">神蹟</data>，神證明了耶穌的信息是可信的；<data class=\"resource-ref\" data-content-id=\"108388\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">聖靈</data>在<data class=\"resource-ref\" data-content-id=\"108077\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">信徒</data>中的工作也證明了這一點。<data class=\"resource-ref\" data-content-id=\"108202\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">人類</data>的能力和權柄比天使少。耶穌在世上生活時，祂放棄了許多能力與權柄，這就是耶穌使自己比天使微小的意思。不過，耶穌死後，神使祂在勝利中復活，這就是為什麼希伯來書的作者談到了冠冕，因為耶穌是戴著勝利冠冕的王。自從耶穌<data class=\"resource-ref\" data-content-id=\"108568\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">復活</data>以來，祂再次擁有了所有的能力和權柄。祂將在來世完全作王統治。那就是<data class=\"resource-ref\" data-content-id=\"108543\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">新創造</data>。</p>",
 "associations": {
 "passage": [
 {
@@ -380,112 +380,112 @@
 {
 "reference_id": 108040,
 "content_id": 232641,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "門徒",
 "language": "zht"
 },
 {
 "reference_id": 108043,
 "content_id": 232644,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "好消息",
 "language": "zht"
 },
 {
 "reference_id": 108196,
 "content_id": 232797,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "救恩",
 "language": "zht"
 },
 {
 "reference_id": 108202,
 "content_id": 232803,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "人類",
 "language": "zht"
 },
 {
 "reference_id": 108053,
 "content_id": 232654,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "使徒",
 "language": "zht"
 },
 {
 "reference_id": 108077,
 "content_id": 232678,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "信徒",
 "language": "zht"
 },
 {
 "reference_id": 108280,
 "content_id": 232881,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "以色列",
 "language": "zht"
 },
 {
 "reference_id": 108302,
 "content_id": 232903,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "神的子民",
 "language": "zht"
 },
 {
 "reference_id": 108305,
 "content_id": 232906,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "神蹟",
 "language": "zht"
 },
 {
 "reference_id": 108328,
 "content_id": 232929,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "西奈山之約",
 "language": "zht"
 },
 {
 "reference_id": 108335,
 "content_id": 232936,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "摩西律法",
 "language": "zht"
 },
 {
 "reference_id": 108380,
 "content_id": 232981,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "約的咒詛",
 "language": "zht"
 },
 {
 "reference_id": 108388,
 "content_id": 232989,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "聖靈",
 "language": "zht"
 },
 {
 "reference_id": 108503,
 "content_id": 233104,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "猶太人",
 "language": "zht"
 },
 {
 "reference_id": 108543,
 "content_id": 233144,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "新的創造",
 "language": "zht"
 },
 {
 "reference_id": 108568,
 "content_id": 233169,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "復活",
 "language": "zht"
 }
@@ -506,13 +506,6 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3,
@@ -520,11 +513,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Declare",
+"id": "keyterm:Ability",
 "type": "keyterm",
-"confidence": 0.2222,
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Declare"
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Portent",
@@ -534,11 +527,11 @@
 "preferred_label": "Portent"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Declare",
 "type": "keyterm",
-"confidence": 0.2,
+"confidence": 0.2222,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Declare"
 },
 {
 "id": "deity:HolySpirit",
@@ -548,18 +541,25 @@
 "preferred_label": "Holy Spirit"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Symbol"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 }
 ]
 }
@@ -573,7 +573,7 @@
 "index_reference": "58002010-58002018",
 "language": "zht",
 "review_level": "None",
-"content": "<p>作為神的兒子，耶穌是所有神兒女的長兄。耶穌是第一個不再被死亡的恐懼所奴役的<span data-bnType=\"resourceReference\" data-resourceId=\"108258\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">奴隸</span>，因祂知道祂會帶著<span data-bnType=\"resourceReference\" data-resourceId=\"108569\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">永生</span>從死裡復活。祂不是<span data-bnType=\"resourceReference\" data-resourceId=\"108216\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">魔鬼</span>權勢的奴隸，祂沒有活在罪的權勢之下。這些都是救恩的意義之一。既然耶穌已經先經歷了這些，祂就能引導其他人跨越這些事。耶穌在地上過著完全的人類生活，人類經歷的任何事情，祂都能理解。祂作為人類所受的苦難使祂變得<span data-bnType=\"resourceReference\" data-resourceId=\"108165\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">完全</span>或完整。這使耶穌能夠以人類所需的方式幫助他們。作為人類，耶穌履行了<span data-bnType=\"resourceReference\" data-resourceId=\"108368\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">大祭司</span>的職責，祂獻上了<span data-bnType=\"resourceReference\" data-resourceId=\"108256\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">祭品</span>來贖人們的罪。祂所獻上的祭品就是祂自己，祂的死亡使所有信靠祂的人都能得救。</p>",
+"content": "<p>作為神的兒子，耶穌是所有神兒女的長兄。耶穌是第一個不再被死亡的恐懼所奴役的<data class=\"resource-ref\" data-content-id=\"108258\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">奴隸</data>，因祂知道祂會帶著<data class=\"resource-ref\" data-content-id=\"108569\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">永生</data>從死裡復活。祂不是<data class=\"resource-ref\" data-content-id=\"108216\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">魔鬼</data>權勢的奴隸，祂沒有活在罪的權勢之下。這些都是救恩的意義之一。既然耶穌已經先經歷了這些，祂就能引導其他人跨越這些事。耶穌在地上過著完全的人類生活，人類經歷的任何事情，祂都能理解。祂作為人類所受的苦難使祂變得<data class=\"resource-ref\" data-content-id=\"108165\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">完全</data>或完整。這使耶穌能夠以人類所需的方式幫助他們。作為人類，耶穌履行了<data class=\"resource-ref\" data-content-id=\"108368\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">大祭司</data>的職責，祂獻上了<data class=\"resource-ref\" data-content-id=\"108256\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">祭品</data>來贖人們的罪。祂所獻上的祭品就是祂自己，祂的死亡使所有信靠祂的人都能得救。</p>",
 "associations": {
 "passage": [
 {
@@ -587,42 +587,42 @@
 {
 "reference_id": 108165,
 "content_id": 232766,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "完全",
 "language": "zht"
 },
 {
 "reference_id": 108216,
 "content_id": 232817,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "魔鬼",
 "language": "zht"
 },
 {
 "reference_id": 108258,
 "content_id": 232859,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "奴隸",
 "language": "zht"
 },
 {
 "reference_id": 108368,
 "content_id": 232969,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "大祭司",
 "language": "zht"
 },
 {
 "reference_id": 108569,
 "content_id": 233170,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "永生",
 "language": "zht"
 },
 {
 "reference_id": 108256,
 "content_id": 232857,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "祭物（獻祭）",
 "language": "zht"
 }
@@ -643,13 +643,6 @@
 "preferred_label": "Obligated"
 },
 {
-"id": "keyterm:Slavery",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "Enslavement"
-},
-{
 "id": "keyterm:Partake",
 "type": "keyterm",
 "confidence": 0.2222,
@@ -657,60 +650,11 @@
 "preferred_label": "Partake"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Slavery",
 "type": "keyterm",
-"confidence": 0.2,
+"confidence": 0.2222,
 "match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "keyterm:SetFree",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Set Free"
-},
-{
-"id": "keyterm:Share",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Share"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Persuade"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Enslavement"
 },
 {
 "id": "keyterm:Mercy",
@@ -720,18 +664,11 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Faithfulness"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Put to the Test"
+"preferred_label": "Forgive"
 },
 {
 "id": "keyterm:Name",
@@ -741,11 +678,18 @@
 "preferred_label": "Name"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Blood"
+},
+{
+"id": "keyterm:Share",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Share"
 },
 {
 "id": "keyterm:Life",
@@ -755,32 +699,11 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Blood"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Consecration"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "Heart"
 },
 {
 "id": "keyterm:Sin",
@@ -790,11 +713,88 @@
 "preferred_label": "To Sin"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Church"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:SetFree",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Set Free"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Consecration"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "keyterm:Persuade",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Persuade"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Put to the Test"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Faithfulness"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 }
 ]
 }
@@ -808,7 +808,7 @@
 "index_reference": "58003001-58003019",
 "language": "zht",
 "review_level": "None",
-"content": "<p>希伯來書的作者描述<span data-bnType=\"resourceReference\" data-resourceId=\"108300\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">摩西</span>為神家忠心的僕人。神家是一種談論<span data-bnType=\"resourceReference\" data-resourceId=\"108045\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">神的家</span>的方式，這也是描述<span data-bnType=\"resourceReference\" data-resourceId=\"108334\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">會幕</span>和<span data-bnType=\"resourceReference\" data-resourceId=\"108417\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">聖殿</span>的一種方式。在神的家中，耶穌不僅僅是僕人，他還是神的兒子。透過耶穌，神的家不再僅僅是<span data-bnType=\"resourceReference\" data-resourceId=\"108361\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">聖</span>幕（會幕）或聖殿，所有忠心跟隨耶穌並心懷盼望的人構成了神的家。以色列的故事對耶穌的跟隨者來說是一種警告和範例：以色列人一次又一次地拒絕聽從摩西，他們一再地拒絕順服<span data-bnType=\"resourceReference\" data-resourceId=\"108200\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">神的話</span>。結果便是，他們中的許多人沒有進入神應許給他們的土地。那些聽到希伯來書信息的人中有些是猶太信徒，他們尊敬摩西和摩西律法，但希伯來書的作者敦促他們要更加地委身於耶穌。作者稱耶穌為他們的使徒和大祭司，他們必須持守對<span data-bnType=\"resourceReference\" data-resourceId=\"108232\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">基督</span>的盼望和<span data-bnType=\"resourceReference\" data-resourceId=\"108098\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">信心</span>。</p>",
+"content": "<p>希伯來書的作者描述<data class=\"resource-ref\" data-content-id=\"108300\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">摩西</data>為神家忠心的僕人。神家是一種談論<data class=\"resource-ref\" data-content-id=\"108045\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">神的家</data>的方式，這也是描述<data class=\"resource-ref\" data-content-id=\"108334\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">會幕</data>和<data class=\"resource-ref\" data-content-id=\"108417\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">聖殿</data>的一種方式。在神的家中，耶穌不僅僅是僕人，他還是神的兒子。透過耶穌，神的家不再僅僅是<data class=\"resource-ref\" data-content-id=\"108361\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">聖</data>幕（會幕）或聖殿，所有忠心跟隨耶穌並心懷盼望的人構成了神的家。以色列的故事對耶穌的跟隨者來說是一種警告和範例：以色列人一次又一次地拒絕聽從摩西，他們一再地拒絕順服<data class=\"resource-ref\" data-content-id=\"108200\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">神的話</data>。結果便是，他們中的許多人沒有進入神應許給他們的土地。那些聽到希伯來書信息的人中有些是猶太信徒，他們尊敬摩西和摩西律法，但希伯來書的作者敦促他們要更加地委身於耶穌。作者稱耶穌為他們的使徒和大祭司，他們必須持守對<data class=\"resource-ref\" data-content-id=\"108232\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">基督</data>的盼望和<data class=\"resource-ref\" data-content-id=\"108098\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">信心</data>。</p>",
 "associations": {
 "passage": [
 {
@@ -822,56 +822,56 @@
 {
 "reference_id": 108045,
 "content_id": 232646,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "神的家",
 "language": "zht"
 },
 {
 "reference_id": 108098,
 "content_id": 232699,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "基督",
 "language": "zht"
 },
 {
 "reference_id": 108200,
 "content_id": 232801,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "神的話",
 "language": "zht"
 },
 {
 "reference_id": 108232,
 "content_id": 232833,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "信心",
 "language": "zht"
 },
 {
 "reference_id": 108300,
 "content_id": 232901,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "摩西",
 "language": "zht"
 },
 {
 "reference_id": 108334,
 "content_id": 232935,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "會幕（聖幕、聖所帳篷）",
 "language": "zht"
 },
 {
 "reference_id": 108361,
 "content_id": 232962,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "聖潔",
 "language": "zht"
 },
 {
 "reference_id": 108417,
 "content_id": 233018,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "聖殿",
 "language": "zht"
 }
@@ -892,18 +892,18 @@
 "preferred_label": "Moses"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.3347,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.3347,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.3347,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "person:Jesus.2",
@@ -920,13 +920,6 @@
 "preferred_label": "Disbelieve"
 },
 {
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Faithfulness"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2474,
@@ -941,11 +934,11 @@
 "preferred_label": "To Sin"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Faithfulness",
 "type": "keyterm",
-"confidence": 0.1737,
+"confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "Bear Witness"
+"preferred_label": "Faithfulness"
 },
 {
 "id": "keyterm:AskFor",
@@ -955,11 +948,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Hope"
+"preferred_label": "Holy Spirit"
 },
 {
 "id": "place:Egypt",
@@ -969,25 +962,11 @@
 "preferred_label": "Egypt"
 },
 {
-"id": "keyterm:Encourage",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Encourage"
-},
-{
-"id": "keyterm:Confidence",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Confidence"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "Holy"
 },
 {
 "id": "keyterm:Life",
@@ -997,18 +976,39 @@
 "preferred_label": "Life"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "keyterm:Holy",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:Confidence",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Confidence"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Encourage"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "The Way"
 },
 {
 "id": "keyterm:Glory",
@@ -1029,7 +1029,7 @@
 "index_reference": "58004001-58004013",
 "language": "zht",
 "review_level": "None",
-"content": "<p>很久以前，神邀請祂的百姓以色列進入祂的<span data-bnType=\"resourceReference\" data-resourceId=\"108212\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">安息</span>。這個好消息在摩西的時代就已經傳講開了。<span data-bnType=\"resourceReference\" data-resourceId=\"108389\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">約書亞</span>帶領以色列百姓進入了<span data-bnType=\"resourceReference\" data-resourceId=\"108246\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">迦南</span>地，雖然在那段時間，他們從奴役中得到了安息，但真正持久的安息只有透過相信耶穌並跟隨祂才能得到，這是神邀請每個人享受的安息。神看顧並了解祂所創造的一切，祂用祂的話語和關於耶穌的信息來顯明人們的<span data-bnType=\"resourceReference\" data-resourceId=\"108419\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">心</span>，這就是為什麼神的話像一把活潑有力的<span data-bnType=\"resourceReference\" data-resourceId=\"108548\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">劍</span>。這也是為了警告和鼓勵聽希伯來書信息的信徒，作者希望他們竭盡全力地順服耶穌。</p>",
+"content": "<p>很久以前，神邀請祂的百姓以色列進入祂的<data class=\"resource-ref\" data-content-id=\"108212\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">安息</data>。這個好消息在摩西的時代就已經傳講開了。<data class=\"resource-ref\" data-content-id=\"108389\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">約書亞</data>帶領以色列百姓進入了<data class=\"resource-ref\" data-content-id=\"108246\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">迦南</data>地，雖然在那段時間，他們從奴役中得到了安息，但真正持久的安息只有透過相信耶穌並跟隨祂才能得到，這是神邀請每個人享受的安息。神看顧並了解祂所創造的一切，祂用祂的話語和關於耶穌的信息來顯明人們的<data class=\"resource-ref\" data-content-id=\"108419\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">心</data>，這就是為什麼神的話像一把活潑有力的<data class=\"resource-ref\" data-content-id=\"108548\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">劍</data>。這也是為了警告和鼓勵聽希伯來書信息的信徒，作者希望他們竭盡全力地順服耶穌。</p>",
 "associations": {
 "passage": [
 {
@@ -1043,35 +1043,35 @@
 {
 "reference_id": 108212,
 "content_id": 232813,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "安息",
 "language": "zht"
 },
 {
 "reference_id": 108246,
 "content_id": 232847,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "迦南",
 "language": "zht"
 },
 {
 "reference_id": 108389,
 "content_id": 232990,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "約書亞",
 "language": "zht"
 },
 {
 "reference_id": 108419,
 "content_id": 233020,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "心",
 "language": "zht"
 },
 {
 "reference_id": 108548,
 "content_id": 233149,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "劍",
 "language": "zht"
 }
@@ -1092,18 +1092,18 @@
 "preferred_label": "Heart"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "Good News"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Sabbath",
@@ -1113,6 +1113,20 @@
 "preferred_label": "Sabbath"
 },
 {
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Spirit"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -1120,25 +1134,18 @@
 "preferred_label": "Fear"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:AbleToDiscern",
@@ -1155,18 +1162,11 @@
 "preferred_label": "Joshua"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Spirit"
+"preferred_label": "Promise"
 }
 ]
 }
@@ -1180,7 +1180,7 @@
 "index_reference": "58004014-58005010",
 "language": "zht",
 "review_level": "None",
-"content": "<p>神任命耶穌為大祭司。當耶穌在世上生活時，祂經歷了所有人都會經歷的事情。祂出生為嬰孩，在成長過程中學習；有時耶穌會感到軟弱和痛苦，更有時祂會受到誘惑和考驗，只是祂從未犯罪；有時耶穌會受苦，但在祂的一生中，耶穌學會了如何作為肉身的人來順服神。耶穌對人類生活的理解是完整的，這就是祂得以完全的意思。作為人的祭司，耶穌溫柔地對待信徒，這給予信徒勇氣來到神面前，信徒可以相信神會向給予他們<span data-bnType=\"resourceReference\" data-resourceId=\"108235\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">恩典</span>和<span data-bnType=\"resourceReference\" data-resourceId=\"108342\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">憐憫</span>。</p>",
+"content": "<p>神任命耶穌為大祭司。當耶穌在世上生活時，祂經歷了所有人都會經歷的事情。祂出生為嬰孩，在成長過程中學習；有時耶穌會感到軟弱和痛苦，更有時祂會受到誘惑和考驗，只是祂從未犯罪；有時耶穌會受苦，但在祂的一生中，耶穌學會了如何作為肉身的人來順服神。耶穌對人類生活的理解是完整的，這就是祂得以完全的意思。作為人的祭司，耶穌溫柔地對待信徒，這給予信徒勇氣來到神面前，信徒可以相信神會向給予他們<data class=\"resource-ref\" data-content-id=\"108235\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">恩典</data>和<data class=\"resource-ref\" data-content-id=\"108342\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">憐憫</data>。</p>",
 "associations": {
 "passage": [
 {
@@ -1194,14 +1194,14 @@
 {
 "reference_id": 108235,
 "content_id": 232836,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "恩典",
 "language": "zht"
 },
 {
 "reference_id": 108342,
 "content_id": 232943,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "憐憫",
 "language": "zht"
 }
@@ -1222,11 +1222,25 @@
 "preferred_label": "LORD"
 },
 {
+"id": "person:Melchizedek",
+"type": "person",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "Melchizedek"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:Salvation",
@@ -1243,18 +1257,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "person:Melchizedek",
-"type": "person",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "Melchizedek"
-},
-{
-"id": "keyterm:Always",
+"id": "keyterm:DealGently",
 "type": "keyterm",
-"confidence": 0.2692,
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Deal Gently"
 },
 {
 "id": "keyterm:Favor",
@@ -1264,18 +1271,25 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Mercy"
 },
 {
-"id": "keyterm:DealGently",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Deal Gently"
+"preferred_label": "Pray"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "person:Aaron",
@@ -1292,25 +1306,11 @@
 "preferred_label": "Put to the Test"
 },
 {
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Mercy"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Body"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Pray"
 },
 {
 "id": "keyterm:Ought",
@@ -1320,11 +1320,11 @@
 "preferred_label": "Obligated"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Sky"
 },
 {
 "id": "realia:Throne",
@@ -1345,7 +1345,7 @@
 "index_reference": "58005011-58006012",
 "language": "zht",
 "review_level": "None",
-"content": "<p>希伯來書的作者描述了在信心中成長的意義。人在開始跟隨耶穌時，他們就像一個<span data-bnType=\"resourceReference\" data-resourceId=\"108462\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">屬靈的</span>嬰兒，他們要學習關於耶穌的基本教義，這樣，他們就在靈裡不斷地成長。他們要在信心和忍耐中繼續學習，持續一生。如果他們停止理解耶穌想教導他們的東西，他們就會停止成長。作者還談到了離棄信仰的問題，這發生在信徒不再想要神的<span data-bnType=\"resourceReference\" data-resourceId=\"108546\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">光</span>充滿他們的生命，他們不再盼望將來的世代。將來的世代是另一種談論新創造的方式。他們不再希望聖靈在他們裡面工作，這將導致他們以罪惡和不敬虔的方式生活。作者將這些方式描述為生出荊棘和雜草的田地。作者希望信徒們像一塊產生好作物的田地，而部分信徒已經透過各自的方式表達出<span data-bnType=\"resourceReference\" data-resourceId=\"108355\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">愛神</span>來做到了這一點。</p>",
+"content": "<p>希伯來書的作者描述了在信心中成長的意義。人在開始跟隨耶穌時，他們就像一個<data class=\"resource-ref\" data-content-id=\"108462\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">屬靈的</data>嬰兒，他們要學習關於耶穌的基本教義，這樣，他們就在靈裡不斷地成長。他們要在信心和忍耐中繼續學習，持續一生。如果他們停止理解耶穌想教導他們的東西，他們就會停止成長。作者還談到了離棄信仰的問題，這發生在信徒不再想要神的<data class=\"resource-ref\" data-content-id=\"108546\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">光</data>充滿他們的生命，他們不再盼望將來的世代。將來的世代是另一種談論新創造的方式。他們不再希望聖靈在他們裡面工作，這將導致他們以罪惡和不敬虔的方式生活。作者將這些方式描述為生出荊棘和雜草的田地。作者希望信徒們像一塊產生好作物的田地，而部分信徒已經透過各自的方式表達出<data class=\"resource-ref\" data-content-id=\"108355\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">愛神</data>來做到了這一點。</p>",
 "associations": {
 "passage": [
 {
@@ -1359,21 +1359,21 @@
 {
 "reference_id": 108355,
 "content_id": 232956,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "愛神",
 "language": "zht"
 },
 {
 "reference_id": 108462,
 "content_id": 233063,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "屬靈的",
 "language": "zht"
 },
 {
 "reference_id": 108546,
 "content_id": 233147,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "光",
 "language": "zht"
 }
@@ -1394,13 +1394,6 @@
 "preferred_label": "Repent"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2562,
@@ -1408,18 +1401,11 @@
 "preferred_label": "Believe"
 },
 {
-"id": "keyterm:FundamentalPrinciples",
+"id": "keyterm:Always",
 "type": "keyterm",
-"confidence": 0.1906,
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "Fundamental Principles"
-},
-{
-"id": "keyterm:Eagerness",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Eagerness"
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:Discern",
@@ -1429,67 +1415,18 @@
 "preferred_label": "Discern"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Eagerness",
 "type": "keyterm",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Eagerness"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:FundamentalPrinciples",
 "type": "keyterm",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Obligated"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Complete"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Persuade"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
+"preferred_label": "Fundamental Principles"
 },
 {
 "id": "keyterm:Word",
@@ -1499,11 +1436,18 @@
 "preferred_label": "Word"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "Name"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Holy Spirit"
 },
 {
 "id": "keyterm:Ability",
@@ -1520,11 +1464,11 @@
 "preferred_label": "Beloved"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
+"preferred_label": "Obligated"
 },
 {
 "id": "keyterm:Baptism",
@@ -1534,18 +1478,32 @@
 "preferred_label": "Baptism"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "keyterm:Salvation",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Holy"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Serve"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Heart"
 },
 {
 "id": "person:Jesus.2",
@@ -1562,6 +1520,13 @@
 "preferred_label": "Judgment"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
 "id": "keyterm:Partake",
 "type": "keyterm",
 "confidence": 0.1781,
@@ -1569,11 +1534,46 @@
 "preferred_label": "Partake"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Complete"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Persuade",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Persuade"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Resurrection"
 },
 {
 "id": "keyterm:Love",
@@ -1583,32 +1583,11 @@
 "preferred_label": "Love"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Thistle"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Acacia"
+"preferred_label": "Salvation"
 },
 {
 "id": "flora:Boxthorn",
@@ -1618,11 +1597,32 @@
 "preferred_label": "Boxthorn"
 },
 {
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Acacia"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Thistle"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "Grass"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Brier"
 }
 ]
 }
@@ -1636,7 +1636,7 @@
 "index_reference": "58006013-58006020",
 "language": "zht",
 "review_level": "None",
-"content": "<p>神在<span data-bnType=\"resourceReference\" data-resourceId=\"108243\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">亞伯拉罕之</span><span data-bnType=\"resourceReference\" data-resourceId=\"108253\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">約</span>中向<span data-bnType=\"resourceReference\" data-resourceId=\"108253\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">亞伯拉罕</span>應許。閱讀希伯來書的信徒知道這一點。他們也知道神已經實現了對亞伯拉罕的應許，神賜給了亞伯拉罕日後將成為以色列國的大家庭。希伯來書的作者用這個故事提醒讀者神的應許。神從不說謊，祂總是信守祂的應許。神對<span data-bnType=\"resourceReference\" data-resourceId=\"108215\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">世界</span>的目的不會改變，祂的目的是讓祂的<span data-bnType=\"resourceReference\" data-resourceId=\"108197\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">創造</span>永遠在<span data-bnType=\"resourceReference\" data-resourceId=\"108211\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">平安</span>中與祂同住。這是信徒所擁有的盼望。這個盼望是確定且牢靠的，因為它基於的是耶穌的<span data-bnType=\"resourceReference\" data-resourceId=\"108208\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">工作</span>。</p>",
+"content": "<p>神在<data class=\"resource-ref\" data-content-id=\"108243\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">亞伯拉罕之</data><data class=\"resource-ref\" data-content-id=\"108253\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">約</data>中向<data class=\"resource-ref\" data-content-id=\"108253\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">亞伯拉罕</data>應許。閱讀希伯來書的信徒知道這一點。他們也知道神已經實現了對亞伯拉罕的應許，神賜給了亞伯拉罕日後將成為以色列國的大家庭。希伯來書的作者用這個故事提醒讀者神的應許。神從不說謊，祂總是信守祂的應許。神對<data class=\"resource-ref\" data-content-id=\"108215\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">世界</data>的目的不會改變，祂的目的是讓祂的<data class=\"resource-ref\" data-content-id=\"108197\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">創造</data>永遠在<data class=\"resource-ref\" data-content-id=\"108211\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">平安</data>中與祂同住。這是信徒所擁有的盼望。這個盼望是確定且牢靠的，因為它基於的是耶穌的<data class=\"resource-ref\" data-content-id=\"108208\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">工作</data>。</p>",
 "associations": {
 "passage": [
 {
@@ -1650,42 +1650,42 @@
 {
 "reference_id": 108197,
 "content_id": 232798,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "創造",
 "language": "zht"
 },
 {
 "reference_id": 108208,
 "content_id": 232809,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "工作",
 "language": "zht"
 },
 {
 "reference_id": 108211,
 "content_id": 232812,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "平安",
 "language": "zht"
 },
 {
 "reference_id": 108215,
 "content_id": 232816,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "世界",
 "language": "zht"
 },
 {
 "reference_id": 108243,
 "content_id": 232844,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "亞伯拉罕",
 "language": "zht"
 },
 {
 "reference_id": 108253,
 "content_id": 232854,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "亞伯拉罕之約",
 "language": "zht"
 }
@@ -1720,39 +1720,11 @@
 "preferred_label": "Hope"
 },
 {
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Ask for"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "person:Melchizedek",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Melchizedek"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Always"
 },
 {
 "id": "keyterm:SomethingDefinite",
@@ -1762,11 +1734,39 @@
 "preferred_label": "Something Definite"
 },
 {
+"id": "person:Melchizedek",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Melchizedek"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "realia:Anchor",
@@ -1794,7 +1794,7 @@
 "index_reference": "58007001-58007028",
 "language": "zht",
 "review_level": "None",
-"content": "<p>希伯來書的作者談到了<span data-bnType=\"resourceReference\" data-resourceId=\"108252\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">麥基洗德</span>和<span data-bnType=\"resourceReference\" data-resourceId=\"108383\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">利未</span>，以描述耶穌作為<span data-bnType=\"resourceReference\" data-resourceId=\"108333\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">祭司</span>的工作。神在摩西律法中建立了猶太的祭司制度，來自利未支派的男子擔任祭司，來自<span data-bnType=\"resourceReference\" data-resourceId=\"108220\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">亞倫家族（家譜）</span>的男子擔任大祭司。當大祭司去世時，亞倫家族的另一位男子接替他的職位。然而，詩篇一百一十篇第四節宣告，<span data-bnType=\"resourceReference\" data-resourceId=\"108527\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">彌賽亞</span>將像麥基洗德一樣永遠作祭司。麥基洗德並非猶太祭司制度的一部分，他也不出自利未支派，麥基洗德的家譜沒有記載在舊約中，這對希伯來書的作者而言，意味著麥基洗德沒有開始也沒有結束。從這個角度去理解，那麼麥基洗德作為祭司的職任是永遠的；耶穌也不是來自利未支派，作為神的兒子，耶穌沒有開始也沒有結束，因此，祂作為祭司的職任也是永遠的。耶穌並不是因為猶太祭司制度允許祂而成為祭司的，耶穌作祭司是因為神應許祂會成為祭司。耶穌成為祭司是因為祂擁有強大的永生，死亡無法摧毀。因此，耶穌成全了猶太的祭司制度。神和人之間再也不需要人來擔任祭司，人們也不再需要獻上<span data-bnType=\"resourceReference\" data-resourceId=\"108353\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">贖罪祭</span>來獲得<span data-bnType=\"resourceReference\" data-resourceId=\"108281\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">赦免</span>，耶穌的犧牲拯救人們永遠地脫離罪的權勢。</p>",
+"content": "<p>希伯來書的作者談到了<data class=\"resource-ref\" data-content-id=\"108252\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">麥基洗德</data>和<data class=\"resource-ref\" data-content-id=\"108383\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">利未</data>，以描述耶穌作為<data class=\"resource-ref\" data-content-id=\"108333\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">祭司</data>的工作。神在摩西律法中建立了猶太的祭司制度，來自利未支派的男子擔任祭司，來自<data class=\"resource-ref\" data-content-id=\"108220\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">亞倫家族（家譜）</data>的男子擔任大祭司。當大祭司去世時，亞倫家族的另一位男子接替他的職位。然而，詩篇一百一十篇第四節宣告，<data class=\"resource-ref\" data-content-id=\"108527\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">彌賽亞</data>將像麥基洗德一樣永遠作祭司。麥基洗德並非猶太祭司制度的一部分，他也不出自利未支派，麥基洗德的家譜沒有記載在舊約中，這對希伯來書的作者而言，意味著麥基洗德沒有開始也沒有結束。從這個角度去理解，那麼麥基洗德作為祭司的職任是永遠的；耶穌也不是來自利未支派，作為神的兒子，耶穌沒有開始也沒有結束，因此，祂作為祭司的職任也是永遠的。耶穌並不是因為猶太祭司制度允許祂而成為祭司的，耶穌作祭司是因為神應許祂會成為祭司。耶穌成為祭司是因為祂擁有強大的永生，死亡無法摧毀。因此，耶穌成全了猶太的祭司制度。神和人之間再也不需要人來擔任祭司，人們也不再需要獻上<data class=\"resource-ref\" data-content-id=\"108353\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">贖罪祭</data>來獲得<data class=\"resource-ref\" data-content-id=\"108281\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">赦免</data>，耶穌的犧牲拯救人們永遠地脫離罪的權勢。</p>",
 "associations": {
 "passage": [
 {
@@ -1808,21 +1808,21 @@
 {
 "reference_id": 108220,
 "content_id": 232821,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "族譜（家譜）",
 "language": "zht"
 },
 {
 "reference_id": 108252,
 "content_id": 232853,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "麥基洗德",
 "language": "zht"
 },
 {
 "reference_id": 108281,
 "content_id": 232882,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "赦免",
 "language": "zht"
 },
@@ -1836,28 +1836,28 @@
 {
 "reference_id": 108333,
 "content_id": 232934,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "祭司",
 "language": "zht"
 },
 {
 "reference_id": 108353,
 "content_id": 232954,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "贖罪祭",
 "language": "zht"
 },
 {
 "reference_id": 108383,
 "content_id": 232984,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "利未",
 "language": "zht"
 },
 {
 "reference_id": 108527,
 "content_id": 233128,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "彌賽亞",
 "language": "zht"
 }
@@ -1892,11 +1892,11 @@
 "preferred_label": "Priesthood"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Life"
 },
 {
 "id": "deity:Lord",
@@ -1906,25 +1906,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "Oath"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:Commandment",
@@ -1934,11 +1920,11 @@
 "preferred_label": "Commandment"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "Tribe of Levi"
+"preferred_label": "Bless"
 },
 {
 "id": "person:Levi.3",
@@ -1948,18 +1934,25 @@
 "preferred_label": "Levi"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "Tribe of Levi"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "Oath"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2393,
 "match_method": "canonical",
 "preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
 },
 {
 "id": "person:Jesus.2",
@@ -1969,81 +1962,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
-"confidence": 0.1661,
+"confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:EnactLaws",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Enact Laws"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Aaron"
-},
-{
-"id": "keyterm:Undefiled",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Undefiled"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Carnal",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Carnal"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Make Peace"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
+"preferred_label": "Bear Witness"
 },
 {
 "id": "keyterm:Covenant",
@@ -2053,6 +1976,13 @@
 "preferred_label": "Covenant"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -2060,18 +1990,18 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "Offering"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Undefiled",
+"type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Moses"
+"preferred_label": "Undefiled"
 },
 {
 "id": "person:Judah.4",
@@ -2081,11 +2011,60 @@
 "preferred_label": "Judah"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
+"id": "keyterm:Carnal",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Carnal"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "keyterm:EnactLaws",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Enact Laws"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
 },
 {
 "id": "keyterm:Partake",
@@ -2095,11 +2074,32 @@
 "preferred_label": "Partake"
 },
 {
-"id": "keyterm:Sin",
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Make Peace"
 }
 ]
 }
@@ -2113,7 +2113,7 @@
 "index_reference": "58008001-58008013",
 "language": "zht",
 "review_level": "None",
-"content": "<p>神透過摩西與以色列人民立了西奈山之<span data-bnType=\"resourceReference\" data-resourceId=\"108237\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">約，</span>希伯來書的作者稱它為舊約和前約，這約是基於以色列人必須遵守的律法。猶太的祭司制度屬於這約的一部分。在聖殿建成之前，以色列的祭司在會幕中服事。會幕和聖殿是根據<span data-bnType=\"resourceReference\" data-resourceId=\"108201\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">天上（天國）</span>的樣式建造的，它們是神作王統治的聖所的複製品，那裡是耶穌行大祭司職任的地方。耶穌作為大祭司和神<span data-bnType=\"resourceReference\" data-resourceId=\"108336\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">新約</span>的<span data-bnType=\"resourceReference\" data-resourceId=\"108553\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">中保</span>服事祂的子民。新約不取決於人們遵守神的律法，而是取決於神從內心改變人。既然神立了新約，便為<span data-bnType=\"resourceReference\" data-resourceId=\"108327\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">西奈山</span>之約畫上了句號。</p>",
+"content": "<p>神透過摩西與以色列人民立了西奈山之<data class=\"resource-ref\" data-content-id=\"108237\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">約，</data>希伯來書的作者稱它為舊約和前約，這約是基於以色列人必須遵守的律法。猶太的祭司制度屬於這約的一部分。在聖殿建成之前，以色列的祭司在會幕中服事。會幕和聖殿是根據<data class=\"resource-ref\" data-content-id=\"108201\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">天上（天國）</data>的樣式建造的，它們是神作王統治的聖所的複製品，那裡是耶穌行大祭司職任的地方。耶穌作為大祭司和神<data class=\"resource-ref\" data-content-id=\"108336\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">新約</data>的<data class=\"resource-ref\" data-content-id=\"108553\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">中保</data>服事祂的子民。新約不取決於人們遵守神的律法，而是取決於神從內心改變人。既然神立了新約，便為<data class=\"resource-ref\" data-content-id=\"108327\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">西奈山</data>之約畫上了句號。</p>",
 "associations": {
 "passage": [
 {
@@ -2127,35 +2127,35 @@
 {
 "reference_id": 108201,
 "content_id": 232802,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "天（天堂）",
 "language": "zht"
 },
 {
 "reference_id": 108237,
 "content_id": 232838,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "約",
 "language": "zht"
 },
 {
 "reference_id": 108327,
 "content_id": 232928,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "西奈山",
 "language": "zht"
 },
 {
 "reference_id": 108336,
 "content_id": 232937,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "中保",
 "language": "zht"
 },
 {
 "reference_id": 108553,
 "content_id": 233154,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "新的約",
 "language": "zht"
 }
@@ -2183,11 +2183,11 @@
 "preferred_label": "Offering"
 },
 {
-"id": "keyterm:Priesthood",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "Priesthood"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Law",
@@ -2197,11 +2197,11 @@
 "preferred_label": "Law"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:Priesthood",
+"type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Priesthood"
 },
 {
 "id": "realia:Tabernacle",
@@ -2211,13 +2211,6 @@
 "preferred_label": "Tabernacle"
 },
 {
-"id": "keyterm:Mind.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Mind"
-},
-{
 "id": "keyterm:Servant",
 "type": "keyterm",
 "confidence": 0.2,
@@ -2225,53 +2218,11 @@
 "preferred_label": "Minister"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Mind.2",
 "type": "keyterm",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:EnactLaws",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Enact Laws"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "True"
-},
-{
-"id": "keyterm:Blameless",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Be Blameless"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Egypt"
+"preferred_label": "Mind"
 },
 {
 "id": "keyterm:Mercy",
@@ -2281,27 +2232,6 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
 "id": "keyterm:UnjustDeed",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -2309,25 +2239,18 @@
 "preferred_label": "Unjust Deed"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Judah"
-},
-{
-"id": "place:HolyPlace",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Holy Place"
+"preferred_label": "Egypt"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "True"
 },
 {
 "id": "keyterm:Holy",
@@ -2342,6 +2265,83 @@
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Serve"
+},
+{
+"id": "keyterm:Blameless",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Be Blameless"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "keyterm:EnactLaws",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Enact Laws"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Holy Place"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Judah"
 },
 {
 "id": "realia:Throne",
@@ -2362,7 +2362,7 @@
 "index_reference": "58009001-58009028",
 "language": "zht",
 "review_level": "None",
-"content": "<p>西奈山之約就像一份在死亡時生效的遺囑。這裡的死亡不是指人的死亡，而是指神所提供動物的死亡。這顯示了神愛人，不希望人們因罪而死。西奈山之約並不是會永遠延續下去的，它預示著將要遠超過它的事物，它指向了彌賽亞及其工作。新約也是在死亡時生效的，這裡的死亡不是指人或動物的死亡，而是指耶穌基督的死亡。耶穌犧牲自己來建立新約，這顯示出神對人的深愛。西奈山之約中，人們被灑上動物的<span data-bnType=\"resourceReference\" data-resourceId=\"108315\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">血</span>，使人成為<span data-bnType=\"resourceReference\" data-resourceId=\"108363\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">潔淨</span>的，這使人們能夠進入會幕；新約中，人們被灑上耶穌的血，不過信徒實際上並不會感受到耶穌真實的血液在他們身上，這只是在描述耶穌拯救人們時，在靈性上發生的事情。耶穌的血比動物的血更有力量，祂的血使那些信靠祂的人完全得潔淨並被神永遠地接納。耶穌赦免他們，也醫治罪對人們思想和心靈所造成的傷害，希伯來書的作者將這描述為洗去心中天良的虧欠。耶穌使人們能夠與神完全地、永遠地同在，這就是耶穌再來時將完全成就的人的救恩。</p>",
+"content": "<p>西奈山之約就像一份在死亡時生效的遺囑。這裡的死亡不是指人的死亡，而是指神所提供動物的死亡。這顯示了神愛人，不希望人們因罪而死。西奈山之約並不是會永遠延續下去的，它預示著將要遠超過它的事物，它指向了彌賽亞及其工作。新約也是在死亡時生效的，這裡的死亡不是指人或動物的死亡，而是指耶穌基督的死亡。耶穌犧牲自己來建立新約，這顯示出神對人的深愛。西奈山之約中，人們被灑上動物的<data class=\"resource-ref\" data-content-id=\"108315\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">血</data>，使人成為<data class=\"resource-ref\" data-content-id=\"108363\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">潔淨</data>的，這使人們能夠進入會幕；新約中，人們被灑上耶穌的血，不過信徒實際上並不會感受到耶穌真實的血液在他們身上，這只是在描述耶穌拯救人們時，在靈性上發生的事情。耶穌的血比動物的血更有力量，祂的血使那些信靠祂的人完全得潔淨並被神永遠地接納。耶穌赦免他們，也醫治罪對人們思想和心靈所造成的傷害，希伯來書的作者將這描述為洗去心中天良的虧欠。耶穌使人們能夠與神完全地、永遠地同在，這就是耶穌再來時將完全成就的人的救恩。</p>",
 "associations": {
 "passage": [
 {
@@ -2376,14 +2376,14 @@
 {
 "reference_id": 108315,
 "content_id": 232916,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "血",
 "language": "zht"
 },
 {
 "reference_id": 108363,
 "content_id": 232964,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "潔淨或不潔淨",
 "language": "zht"
 }
@@ -2418,18 +2418,18 @@
 "preferred_label": "Holy Place"
 },
 {
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.4304,
-"match_method": "canonical",
-"preferred_label": "Priesthood"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.4304,
 "match_method": "canonical",
 "preferred_label": "Covenant"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.4304,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
 },
 {
 "id": "realia:Tabernacle",
@@ -2460,11 +2460,11 @@
 "preferred_label": "To Cleanse"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Serve"
 },
 {
 "id": "person:Jesus.2",
@@ -2474,11 +2474,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.3643,
 "match_method": "canonical",
-"preferred_label": "Serve"
+"preferred_label": "Always"
 },
 {
 "id": "deity:Lord",
@@ -2488,18 +2488,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Liberation",
-"type": "keyterm",
-"confidence": 0.2393,
-"match_method": "canonical",
-"preferred_label": "Liberation"
-},
-{
 "id": "keyterm:Regulations",
 "type": "keyterm",
 "confidence": 0.2393,
 "match_method": "canonical",
 "preferred_label": "Regulations"
+},
+{
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.2393,
+"match_method": "canonical",
+"preferred_label": "Liberation"
 },
 {
 "id": "fauna:Bull",
@@ -2509,18 +2509,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Holy Spirit"
 },
 {
 "id": "keyterm:Life",
@@ -2530,6 +2523,20 @@
 "preferred_label": "Life"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2321,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2321,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.2321,
@@ -2537,11 +2544,11 @@
 "preferred_label": "Law"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Holy Spirit"
+"preferred_label": "Body"
 },
 {
 "id": "keyterm:Conscience",
@@ -2551,25 +2558,11 @@
 "preferred_label": "Conscience"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1793,
 "match_method": "canonical",
 "preferred_label": "Goat"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1732,
-"match_method": "canonical",
-"preferred_label": "Aaron"
 },
 {
 "id": "keyterm:Defilement",
@@ -2579,88 +2572,18 @@
 "preferred_label": "Defilement"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1732,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1721,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "True"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Court Case"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Commandment"
-},
-{
-"id": "keyterm:Propitiation",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Mercy Seat"
-},
-{
-"id": "place:MostHolyPlace",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Most Holy Place"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Moses"
 },
 {
 "id": "keyterm:Unblemished",
@@ -2670,6 +2593,41 @@
 "preferred_label": "Unblemished"
 },
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Forgive"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Commandment"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "True"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -2677,18 +2635,32 @@
 "preferred_label": "Baptism"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
+"id": "place:MostHolyPlace",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "Most Holy Place"
 },
 {
-"id": "keyterm:Parable",
+"id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Parable"
+"preferred_label": "Court Case"
+},
+{
+"id": "keyterm:Propitiation",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Mercy Seat"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "To Command"
 },
 {
 "id": "keyterm:Judgment",
@@ -2698,18 +2670,39 @@
 "preferred_label": "Judgment"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Parable"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Consecration"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Glory",
@@ -2726,6 +2719,13 @@
 "preferred_label": "Shedding of Blood"
 },
 {
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1132,
@@ -2740,11 +2740,18 @@
 "preferred_label": "Winged Creature"
 },
 {
-"id": "realia:Staff",
+"id": "flora:Hyssop",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Hyssop"
+},
+{
+"id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "Curtain"
 },
 {
 "id": "realia:Lampstand.2",
@@ -2754,11 +2761,11 @@
 "preferred_label": "Lampstand"
 },
 {
-"id": "flora:Hyssop",
-"type": "flora",
+"id": "realia:Staff",
+"type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Hyssop"
+"preferred_label": "Staff"
 },
 {
 "id": "realia:Altar",
@@ -2766,13 +2773,6 @@
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "Altar"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Curtain"
 }
 ]
 }
@@ -2786,7 +2786,7 @@
 "index_reference": "58010001-58010025",
 "language": "zht",
 "review_level": "None",
-"content": "<p>在祭司的職分中，耶穌作為祭物在<span data-bnType=\"resourceReference\" data-resourceId=\"108530\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">十字架</span>上獻上了自己的生命。那些信靠祂的人將永遠罪得赦免，耶穌就這樣打破了罪的權勢。耶穌在神使祂從死裡復活時打破了死亡的權勢。將來，所有神的敵人都將被完全置於耶穌的掌控之下。在會幕和聖殿中，只有大祭司可以在<span data-bnType=\"resourceReference\" data-resourceId=\"108365\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">至聖所</span>中親近神。至聖所與其它房間用一個幔子隔開。至聖所是神在天上掌權之地的複本，耶穌復活後，去了天上真正的神掌權之地，並在那裡停留。通過信靠耶穌，耶穌使祂的跟隨者也進入神的同在。耶穌的身體就像一個幔子，信徒透過祂進入神所在的至聖所。希伯來書的作者希望他的讀者勇敢地來到神面前，他們不需要害怕神，他們應該彼此鼓勵，對神保持親近。罪得赦免和在神的同在中使信徒充滿盼望，使他們充滿了行<span data-bnType=\"resourceReference\" data-resourceId=\"108060\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">善事</span>和向他人表達愛的渴望。</p>",
+"content": "<p>在祭司的職分中，耶穌作為祭物在<data class=\"resource-ref\" data-content-id=\"108530\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">十字架</data>上獻上了自己的生命。那些信靠祂的人將永遠罪得赦免，耶穌就這樣打破了罪的權勢。耶穌在神使祂從死裡復活時打破了死亡的權勢。將來，所有神的敵人都將被完全置於耶穌的掌控之下。在會幕和聖殿中，只有大祭司可以在<data class=\"resource-ref\" data-content-id=\"108365\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">至聖所</data>中親近神。至聖所與其它房間用一個幔子隔開。至聖所是神在天上掌權之地的複本，耶穌復活後，去了天上真正的神掌權之地，並在那裡停留。通過信靠耶穌，耶穌使祂的跟隨者也進入神的同在。耶穌的身體就像一個幔子，信徒透過祂進入神所在的至聖所。希伯來書的作者希望他的讀者勇敢地來到神面前，他們不需要害怕神，他們應該彼此鼓勵，對神保持親近。罪得赦免和在神的同在中使信徒充滿盼望，使他們充滿了行<data class=\"resource-ref\" data-content-id=\"108060\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">善事</data>和向他人表達愛的渴望。</p>",
 "associations": {
 "passage": [
 {
@@ -2800,21 +2800,21 @@
 {
 "reference_id": 108060,
 "content_id": 232661,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "善行",
 "language": "zht"
 },
 {
 "reference_id": 108365,
 "content_id": 232966,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "至聖所",
 "language": "zht"
 },
 {
 "reference_id": 108530,
 "content_id": 233131,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "十字架",
 "language": "zht"
 }
@@ -2856,13 +2856,6 @@
 "preferred_label": "Law"
 },
 {
-"id": "keyterm:Conscience",
-"type": "keyterm",
-"confidence": 0.244,
-"match_method": "canonical",
-"preferred_label": "Conscience"
-},
-{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.244,
@@ -2870,18 +2863,11 @@
 "preferred_label": "Consecration"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Conscience",
 "type": "keyterm",
-"confidence": 0.236,
+"confidence": 0.244,
 "match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Priesthood"
+"preferred_label": "Conscience"
 },
 {
 "id": "keyterm:Blood",
@@ -2891,11 +2877,25 @@
 "preferred_label": "Blood"
 },
 {
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
 },
 {
 "id": "keyterm:Faithfulness",
@@ -2905,11 +2905,11 @@
 "preferred_label": "Faithfulness"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Bear Witness"
+"preferred_label": "Ask for"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -2919,39 +2919,11 @@
 "preferred_label": "To Cleanse"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Forgive"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "True"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Complete"
 },
 {
 "id": "keyterm:Covenant",
@@ -2961,25 +2933,11 @@
 "preferred_label": "Covenant"
 },
 {
-"id": "keyterm:Encourage",
-"type": "keyterm",
+"id": "deity:HolySpirit",
+"type": "deity",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Encourage"
-},
-{
-"id": "keyterm:Mind.2",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Mind"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Lawless"
+"preferred_label": "Holy Spirit"
 },
 {
 "id": "keyterm:Ability",
@@ -2989,53 +2947,18 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Mind.2",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "Mind"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Clean",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Clean"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Holy Place"
+"preferred_label": "True"
 },
 {
 "id": "keyterm:Holy",
@@ -3045,13 +2968,6 @@
 "preferred_label": "Holy"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.168,
@@ -3059,11 +2975,88 @@
 "preferred_label": "Serve"
 },
 {
-"id": "realia:MostHolyPlace",
-"type": "realia",
-"confidence": 0.116,
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Most Holy Place"
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Encourage"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Complete"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Clean"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Holy Place"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Lawless"
 },
 {
 "id": "realia:Curtain",
@@ -3073,11 +3066,11 @@
 "preferred_label": "Curtain"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.108,
+"id": "realia:MostHolyPlace",
+"type": "realia",
+"confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Most Holy Place"
 },
 {
 "id": "realia:Scroll",
@@ -3087,11 +3080,11 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Cattle"
 },
 {
 "id": "realia:Temple",
@@ -3108,11 +3101,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:TheHolyPlace",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "The Holy Place"
+"preferred_label": "House"
 },
 {
 "id": "realia:Footstool",
@@ -3120,6 +3113,13 @@
 "confidence": 0.108,
 "match_method": "canonical",
 "preferred_label": "Footstool"
+},
+{
+"id": "realia:TheHolyPlace",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "The Holy Place"
 },
 {
 "id": "fauna:Flock",
@@ -3140,7 +3140,7 @@
 "index_reference": "58010026-58010039",
 "language": "zht",
 "review_level": "None",
-"content": "<p>收到希伯來書的信徒因為他們的信仰而<span data-bnType=\"resourceReference\" data-resourceId=\"108054\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">受逼迫</span>，不信的人說他們的壞話、偷竊他們的財產並將他們關進監獄。不過，信徒們即使在受苦時也仍然忠於耶穌。希伯來書的作者希望他們繼續忠於神，這樣，當<span data-bnType=\"resourceReference\" data-resourceId=\"108065\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">耶穌再來</span>時，他們將享受神應許給他們的祝福。作者不希望他們放棄信仰。放棄信仰意味著故意繼續犯罪、承認不認識耶穌。雖然人們為了停止被惡待很可能受到了這樣的誘惑，但是這樣做的信徒將不再能坦然無懼地接近神，相反，他們在恐懼中等待<span data-bnType=\"resourceReference\" data-resourceId=\"108055\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">審判日</span>的到來。他們就像所有不願接受神恩典的人一樣，這樣的人拒絕從死亡中得救。神從不強迫人們接受祂的恩賜。</p>",
+"content": "<p>收到希伯來書的信徒因為他們的信仰而<data class=\"resource-ref\" data-content-id=\"108054\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">受逼迫</data>，不信的人說他們的壞話、偷竊他們的財產並將他們關進監獄。不過，信徒們即使在受苦時也仍然忠於耶穌。希伯來書的作者希望他們繼續忠於神，這樣，當<data class=\"resource-ref\" data-content-id=\"108065\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">耶穌再來</data>時，他們將享受神應許給他們的祝福。作者不希望他們放棄信仰。放棄信仰意味著故意繼續犯罪、承認不認識耶穌。雖然人們為了停止被惡待很可能受到了這樣的誘惑，但是這樣做的信徒將不再能坦然無懼地接近神，相反，他們在恐懼中等待<data class=\"resource-ref\" data-content-id=\"108055\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">審判日</data>的到來。他們就像所有不願接受神恩典的人一樣，這樣的人拒絕從死亡中得救。神從不強迫人們接受祂的恩賜。</p>",
 "associations": {
 "passage": [
 {
@@ -3154,21 +3154,21 @@
 {
 "reference_id": 108054,
 "content_id": 232655,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "受逼迫",
 "language": "zht"
 },
 {
 "reference_id": 108055,
 "content_id": 232656,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "審判日",
 "language": "zht"
 },
 {
 "reference_id": 108065,
 "content_id": 232666,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "耶穌的再來",
 "language": "zht"
 }
@@ -3180,13 +3180,6 @@
 "confidence": 0.3464,
 "match_method": "canonical",
 "preferred_label": "LORD"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "Fear"
 },
 {
 "id": "keyterm:Life",
@@ -3203,67 +3196,18 @@
 "preferred_label": "Believe"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
 "id": "keyterm:Extremely",
 "type": "keyterm",
 "confidence": 0.1964,
 "match_method": "canonical",
 "preferred_label": "Extremely"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Court Case"
-},
-{
-"id": "keyterm:HaveSympathyFor",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Have Sympathy For"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Witness"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Decided"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Mercy"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Covenant"
 },
 {
 "id": "keyterm:Favor",
@@ -3273,46 +3217,11 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:GrantJustice",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Avenge"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "keyterm:EternalFire",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Eternal Fire"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "Mercy"
 },
 {
 "id": "keyterm:Defilement",
@@ -3322,18 +3231,11 @@
 "preferred_label": "Defilement"
 },
 {
-"id": "keyterm:Law",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Law"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Blood"
+"preferred_label": "Covenant"
 },
 {
 "id": "deity:HolySpirit",
@@ -3343,11 +3245,39 @@
 "preferred_label": "Holy Spirit"
 },
 {
-"id": "keyterm:Consecration.2",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Consecration"
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Cause of Joy"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Blood"
+},
+{
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Court Case"
+},
+{
+"id": "keyterm:EternalFire",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Eternal Fire"
 },
 {
 "id": "keyterm:Judgment",
@@ -3362,6 +3292,76 @@
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Witness"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Law"
+},
+{
+"id": "keyterm:HaveSympathyFor",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Have Sympathy For"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:GrantJustice",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Avenge"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Consecration"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Decided"
 }
 ]
 }
@@ -3375,7 +3375,7 @@
 "index_reference": "58011001-58011022",
 "language": "zht",
 "review_level": "None",
-"content": "<p>對神的信心是基於相信神的存在以及神創造了世界。神有能力透過說話創造事物。神發出命令，並且祂的話是可信的，這就是為什麼亞伯拉罕、<span data-bnType=\"resourceReference\" data-resourceId=\"108247\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">撒拉</span>、<span data-bnType=\"resourceReference\" data-resourceId=\"108261\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">以撒</span>、<span data-bnType=\"resourceReference\" data-resourceId=\"108268\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">雅各</span>和<span data-bnType=\"resourceReference\" data-resourceId=\"108288\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">約瑟</span>都相信神的應許。他們相信神有能力成就祂所說的，他們也相信神會信實地成就它。對神的信心也基於盼望，也就是對神將來要做之事的盼望。<span data-bnType=\"resourceReference\" data-resourceId=\"108230\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">挪亞</span>相信神會拯救他的家人免受即將到來的<span data-bnType=\"resourceReference\" data-resourceId=\"108234\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">洪水</span>侵害；亞伯拉罕和撒拉相信神會帶領他們和他們的子孫到一個更好的國土。而當以撒差點被殺時，他們的希望雖有破滅的危險，但他們仍將盼望建基於神使人從死裡復活的能力，也建基於生活在一個屬乎他們的地方，也就是在神為他們預備的城市和天國中。這些是描述<span data-bnType=\"resourceReference\" data-resourceId=\"108561\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">神的國</span>的方式。神喜悅人們對祂有信心，<span data-bnType=\"resourceReference\" data-resourceId=\"108228\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">以諾</span>和亞伯都是這樣的例子，他們是信心堅定的榜樣，即使在他們去世後也依舊在流傳。</p>",
+"content": "<p>對神的信心是基於相信神的存在以及神創造了世界。神有能力透過說話創造事物。神發出命令，並且祂的話是可信的，這就是為什麼亞伯拉罕、<data class=\"resource-ref\" data-content-id=\"108247\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">撒拉</data>、<data class=\"resource-ref\" data-content-id=\"108261\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">以撒</data>、<data class=\"resource-ref\" data-content-id=\"108268\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">雅各</data>和<data class=\"resource-ref\" data-content-id=\"108288\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">約瑟</data>都相信神的應許。他們相信神有能力成就祂所說的，他們也相信神會信實地成就它。對神的信心也基於盼望，也就是對神將來要做之事的盼望。<data class=\"resource-ref\" data-content-id=\"108230\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">挪亞</data>相信神會拯救他的家人免受即將到來的<data class=\"resource-ref\" data-content-id=\"108234\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">洪水</data>侵害；亞伯拉罕和撒拉相信神會帶領他們和他們的子孫到一個更好的國土。而當以撒差點被殺時，他們的希望雖有破滅的危險，但他們仍將盼望建基於神使人從死裡復活的能力，也建基於生活在一個屬乎他們的地方，也就是在神為他們預備的城市和天國中。這些是描述<data class=\"resource-ref\" data-content-id=\"108561\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">神的國</data>的方式。神喜悅人們對祂有信心，<data class=\"resource-ref\" data-content-id=\"108228\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">以諾</data>和亞伯都是這樣的例子，他們是信心堅定的榜樣，即使在他們去世後也依舊在流傳。</p>",
 "associations": {
 "passage": [
 {
@@ -3389,56 +3389,56 @@
 {
 "reference_id": 108228,
 "content_id": 232829,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "以諾",
 "language": "zht"
 },
 {
 "reference_id": 108230,
 "content_id": 232831,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "諾亞",
 "language": "zht"
 },
 {
 "reference_id": 108234,
 "content_id": 232835,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "洪水",
 "language": "zht"
 },
 {
 "reference_id": 108247,
 "content_id": 232848,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "撒拉",
 "language": "zht"
 },
 {
 "reference_id": 108261,
 "content_id": 232862,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "以撒",
 "language": "zht"
 },
 {
 "reference_id": 108268,
 "content_id": 232869,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "雅各",
 "language": "zht"
 },
 {
 "reference_id": 108288,
 "content_id": 232889,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "約瑟",
 "language": "zht"
 },
 {
 "reference_id": 108561,
 "content_id": 233162,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "神的國",
 "language": "zht"
 }
@@ -3466,13 +3466,6 @@
 "preferred_label": "Isaac"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.3818,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3818,
@@ -3480,11 +3473,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Promise",
 "type": "keyterm",
-"confidence": 0.3114,
+"confidence": 0.3818,
 "match_method": "canonical",
-"preferred_label": "Bear Witness"
+"preferred_label": "Promise"
 },
 {
 "id": "keyterm:Ability",
@@ -3492,6 +3485,13 @@
 "confidence": 0.3114,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
 },
 {
 "id": "keyterm:Offering",
@@ -3508,6 +3508,13 @@
 "preferred_label": "Joseph"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -3522,11 +3529,11 @@
 "preferred_label": "Abraham"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2409,
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
+"preferred_label": "Cain"
 },
 {
 "id": "person:Noah",
@@ -3536,25 +3543,11 @@
 "preferred_label": "Noah"
 },
 {
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Cain"
-},
-{
 "id": "person:Abel",
 "type": "person",
 "confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "Abel"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
 },
 {
 "id": "person:Enoch.2",
@@ -3564,11 +3557,25 @@
 "preferred_label": "Enoch"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Word"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "person:Sarah",
@@ -3578,6 +3585,13 @@
 "preferred_label": "Sarah"
 },
 {
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -3585,11 +3599,46 @@
 "preferred_label": "To Command"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Confidence",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Hope"
+"preferred_label": "Confidence"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Israelites"
+},
+{
+"id": "person:Esau",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Esau"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Parable"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Condemn"
 },
 {
 "id": "keyterm:Always",
@@ -3606,34 +3655,6 @@
 "preferred_label": "Faithfulness"
 },
 {
-"id": "keyterm:Confidence",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Confidence"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Condemn"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Israelites"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -3641,32 +3662,11 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Esau"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Word"
+"preferred_label": "Bow Down"
 },
 {
 "id": "realia:Tent",
@@ -3749,11 +3749,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "LORD"
 },
 {
 "id": "person:Moses",
@@ -3763,25 +3763,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Promise",
+"type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "person:Jephthah",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Jephthah"
-},
-{
-"id": "person:Pharaoh.5",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
+"preferred_label": "Promise"
 },
 {
 "id": "person:Samuel",
@@ -3789,6 +3775,20 @@
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Samuel"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Samson"
+},
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Pharaoh"
 },
 {
 "id": "person:Barak",
@@ -3805,13 +3805,6 @@
 "preferred_label": "Gideon"
 },
 {
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Samson"
-},
-{
 "id": "person:Rahab",
 "type": "person",
 "confidence": 0.1861,
@@ -3819,32 +3812,18 @@
 "preferred_label": "Rahab"
 },
 {
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Passover"
-},
-{
-"id": "person:David",
+"id": "person:Jephthah",
 "type": "person",
-"confidence": 0.175,
+"confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "Jephthah"
 },
 {
-"id": "keyterm:Peace",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Make Peace"
+"preferred_label": "Blood"
 },
 {
 "id": "place:Jericho",
@@ -3854,11 +3833,46 @@
 "preferred_label": "Jericho"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Passover"
+},
+{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Liberation"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "keyterm:Just",
@@ -3868,11 +3882,18 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "keyterm:Liberation",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Liberation"
+"preferred_label": "Bear Witness"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Egyptians"
 },
 {
 "id": "place:RedSea",
@@ -3889,32 +3910,11 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Blood"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Make Peace"
 },
 {
 "id": "realia:Skin",
@@ -3924,11 +3924,11 @@
 "preferred_label": "Skin"
 },
 {
-"id": "realia:Prison",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Prison"
+"preferred_label": "Goat"
 },
 {
 "id": "realia:CityWall",
@@ -3938,6 +3938,13 @@
 "preferred_label": "City Wall"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
 "id": "realia:Chain",
 "type": "realia",
 "confidence": 0.115,
@@ -3945,18 +3952,11 @@
 "preferred_label": "Chain"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
+"id": "realia:Prison",
+"type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Prison"
 },
 {
 "id": "fauna:Flock",
@@ -3977,7 +3977,7 @@
 "index_reference": "58012001-58012017",
 "language": "zht",
 "review_level": "None",
-"content": "<p>希伯來書的作者將信仰生活描述為一場漫長的旅程或賽跑，那些已經忠心地完成這場賽跑的人圍繞在信徒周圍，他們就是那巨大的<span data-bnType=\"resourceReference\" data-resourceId=\"108166\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">雲彩般的見證人（見證人的雲彩）</span>。要跑好這場賽跑，有幾件事是必要的：首先，信徒必須擺脫一切使他們無法忠於耶穌的事物；其次，信徒必須堅持奔跑。這意味著他們必須在有生之年保持忍耐與堅定；第三，信徒必須不斷仰望耶穌。不斷銘記耶穌忠於神的榜樣，能夠給予信徒繼續前行的力量；接下來，他們必須將困難時期看作信仰生活的訓練。有時困難時期來臨是因為信徒因跟隨耶穌而受到了不公待遇，有時卻是因為神的<span data-bnType=\"resourceReference\" data-resourceId=\"108233\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">審判</span>。神愛祂的兒女，所以要審判罪，這審判是為了幫助祂的兒女過<span data-bnType=\"resourceReference\" data-resourceId=\"108044\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">聖潔的生活</span>。信徒在與罪惡鬥爭並努力成聖時需要神的恩典。<span data-bnType=\"resourceReference\" data-resourceId=\"108269\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">以掃</span>希望得到以撒的祝福。這祝福本應在未來降臨於他，但以掃既不耐煩也不願為他所希望獲得的祝福而努力工作，他為了眼前的需求而放棄了未來的祝福。這個故事記載在創世記25:29–34。耶穌為信徒樹立了不同的榜樣。耶穌願意在信心的生活中受苦。祂堅持不懈。祂期待著與天父與神同在的喜樂。</p>",
+"content": "<p>希伯來書的作者將信仰生活描述為一場漫長的旅程或賽跑，那些已經忠心地完成這場賽跑的人圍繞在信徒周圍，他們就是那巨大的<data class=\"resource-ref\" data-content-id=\"108166\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">雲彩般的見證人（見證人的雲彩）</data>。要跑好這場賽跑，有幾件事是必要的：首先，信徒必須擺脫一切使他們無法忠於耶穌的事物；其次，信徒必須堅持奔跑。這意味著他們必須在有生之年保持忍耐與堅定；第三，信徒必須不斷仰望耶穌。不斷銘記耶穌忠於神的榜樣，能夠給予信徒繼續前行的力量；接下來，他們必須將困難時期看作信仰生活的訓練。有時困難時期來臨是因為信徒因跟隨耶穌而受到了不公待遇，有時卻是因為神的<data class=\"resource-ref\" data-content-id=\"108233\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">審判</data>。神愛祂的兒女，所以要審判罪，這審判是為了幫助祂的兒女過<data class=\"resource-ref\" data-content-id=\"108044\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">聖潔的生活</data>。信徒在與罪惡鬥爭並努力成聖時需要神的恩典。<data class=\"resource-ref\" data-content-id=\"108269\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">以掃</data>希望得到以撒的祝福。這祝福本應在未來降臨於他，但以掃既不耐煩也不願為他所希望獲得的祝福而努力工作，他為了眼前的需求而放棄了未來的祝福。這個故事記載在創世記25:29–34。耶穌為信徒樹立了不同的榜樣。耶穌願意在信心的生活中受苦。祂堅持不懈。祂期待著與天父與神同在的喜樂。</p>",
 "associations": {
 "passage": [
 {
@@ -3991,28 +3991,28 @@
 {
 "reference_id": 108044,
 "content_id": 232645,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "聖潔的生活",
 "language": "zht"
 },
 {
 "reference_id": 108166,
 "content_id": 232767,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "雲彩般的見證人",
 "language": "zht"
 },
 {
 "reference_id": 108233,
 "content_id": 232834,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "審判",
 "language": "zht"
 },
 {
 "reference_id": 108269,
 "content_id": 232870,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "以掃",
 "language": "zht"
 }
@@ -4068,53 +4068,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Reject",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Reject"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Witness"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Body"
 },
 {
 "id": "keyterm:Defilement",
@@ -4124,11 +4082,11 @@
 "preferred_label": "Defilement"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Reject",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Reject"
 },
 {
 "id": "keyterm:Blood",
@@ -4138,18 +4096,39 @@
 "preferred_label": "Blood"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Spirit"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Believe"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Consecration"
 },
 {
 "id": "person:Jesus.2",
@@ -4159,18 +4138,39 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Witness",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Spirit"
+"preferred_label": "Witness"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Consecration"
 },
 {
 "id": "keyterm:Love",
@@ -4205,7 +4205,7 @@
 "index_reference": "58012018-58012029",
 "language": "zht",
 "review_level": "None",
-"content": "<p>希伯來書的作者以兩座山描述了舊約和新約之間的區別：第一座是<span data-bnType=\"resourceReference\" data-resourceId=\"108327\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">西奈山</span>，作者描繪了立下西奈山之約時的場景。在那座山上，人們害怕神的聖潔，只有摩西靠近了神；第二座山是錫安山，它也被稱作<span data-bnType=\"resourceReference\" data-resourceId=\"108505\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">摩利亞山</span>，作者也描繪了新約景象。作者以此來談論神的城，他稱那座城為天上的<span data-bnType=\"resourceReference\" data-resourceId=\"108464\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">耶路撒冷</span>。這是<span data-bnType=\"resourceReference\" data-resourceId=\"108549\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">新耶路撒冷</span>的另一個名字。亞伯拉罕和以色列歷史上其他忠信的人一直在等待那座城。在那座城裡，人們不再害怕神的聖潔，因為他們信靠耶穌，所以他們可以自由地靠近神。那座城是神國的一部分，它永遠不會被動搖或被摧毀。分享神的國使神的子民感謝神並敬拜祂。</p>",
+"content": "<p>希伯來書的作者以兩座山描述了舊約和新約之間的區別：第一座是<data class=\"resource-ref\" data-content-id=\"108327\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">西奈山</data>，作者描繪了立下西奈山之約時的場景。在那座山上，人們害怕神的聖潔，只有摩西靠近了神；第二座山是錫安山，它也被稱作<data class=\"resource-ref\" data-content-id=\"108505\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">摩利亞山</data>，作者也描繪了新約景象。作者以此來談論神的城，他稱那座城為天上的<data class=\"resource-ref\" data-content-id=\"108464\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">耶路撒冷</data>。這是<data class=\"resource-ref\" data-content-id=\"108549\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">新耶路撒冷</data>的另一個名字。亞伯拉罕和以色列歷史上其他忠信的人一直在等待那座城。在那座城裡，人們不再害怕神的聖潔，因為他們信靠耶穌，所以他們可以自由地靠近神。那座城是神國的一部分，它永遠不會被動搖或被摧毀。分享神的國使神的子民感謝神並敬拜祂。</p>",
 "associations": {
 "passage": [
 {
@@ -4219,28 +4219,28 @@
 {
 "reference_id": 108327,
 "content_id": 232928,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "西奈山",
 "language": "zht"
 },
 {
 "reference_id": 108464,
 "content_id": 233065,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "耶路撒冷",
 "language": "zht"
 },
 {
 "reference_id": 108505,
 "content_id": 233106,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "摩利亞山",
 "language": "zht"
 },
 {
 "reference_id": 108549,
 "content_id": 233150,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "新耶路撒冷",
 "language": "zht"
 }
@@ -4261,60 +4261,11 @@
 "preferred_label": "Sky"
 },
 {
-"id": "keyterm:Priesthood",
+"id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Priesthood"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "person:Abel",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Abel"
+"preferred_label": "Word"
 },
 {
 "id": "keyterm:Favor",
@@ -4324,39 +4275,11 @@
 "preferred_label": "Favor"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Word"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Heavenly"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Covenant"
 },
 {
 "id": "keyterm:Blood",
@@ -4366,25 +4289,18 @@
 "preferred_label": "Blood"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Church",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "Serve"
 },
 {
-"id": "keyterm:Register",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Register"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -4394,11 +4310,95 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "keyterm:Serve",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Serve"
+"preferred_label": "Kingdom"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "person:Abel",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Abel"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Church"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Heavenly"
+},
+{
+"id": "keyterm:Register",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Register"
 },
 {
 "id": "realia:Trumpet",
@@ -4419,7 +4419,7 @@
 "index_reference": "58013001-58013019",
 "language": "zht",
 "review_level": "None",
-"content": "<p>作者提醒信徒們應該持續去做的事情。首先是彼此相愛。這包括接待他們不認識的人，也包括關心在監獄中的人和那些受到不公平待遇的人，更加包括在<span data-bnType=\"resourceReference\" data-resourceId=\"108206\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">婚姻</span>中保持彼此忠誠以及這信靠神會供應他們，而不是貪愛更多的金錢。作者提醒讀者也要向忠心的教會領袖表達愛。信徒們可以透過<span data-bnType=\"resourceReference\" data-resourceId=\"108227\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">禱告</span>來做到這一點，並且效法領袖們敬虔的榜樣。他們也可以透過帶給領袖喜樂，而不是試圖製造問題來表達愛。信徒也必須堅持對神恩典的真實教導。遵循<span data-bnType=\"resourceReference\" data-resourceId=\"108070\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">猶太律法</span>對食物的規定並不會帶給人們心中所盼望的。人們盼望永遠與神同住在神國的城市裡，但人們只能透過對耶穌的信心進入神的城。信徒們必須願意因信靠耶穌而受苦。同時，他們可以不斷地讚美，因為神會透過耶穌實現祂的應許。</p>",
+"content": "<p>作者提醒信徒們應該持續去做的事情。首先是彼此相愛。這包括接待他們不認識的人，也包括關心在監獄中的人和那些受到不公平待遇的人，更加包括在<data class=\"resource-ref\" data-content-id=\"108206\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">婚姻</data>中保持彼此忠誠以及這信靠神會供應他們，而不是貪愛更多的金錢。作者提醒讀者也要向忠心的教會領袖表達愛。信徒們可以透過<data class=\"resource-ref\" data-content-id=\"108227\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">禱告</data>來做到這一點，並且效法領袖們敬虔的榜樣。他們也可以透過帶給領袖喜樂，而不是試圖製造問題來表達愛。信徒也必須堅持對神恩典的真實教導。遵循<data class=\"resource-ref\" data-content-id=\"108070\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">猶太律法</data>對食物的規定並不會帶給人們心中所盼望的。人們盼望永遠與神同住在神國的城市裡，但人們只能透過對耶穌的信心進入神的城。信徒們必須願意因信靠耶穌而受苦。同時，他們可以不斷地讚美，因為神會透過耶穌實現祂的應許。</p>",
 "associations": {
 "passage": [
 {
@@ -4433,21 +4433,21 @@
 {
 "reference_id": 108070,
 "content_id": 232671,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "猶太法律",
 "language": "zht"
 },
 {
 "reference_id": 108206,
 "content_id": 232807,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "婚姻",
 "language": "zht"
 },
 {
 "reference_id": 108227,
 "content_id": 232828,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "禱告",
 "language": "zht"
 }
@@ -4475,11 +4475,18 @@
 "preferred_label": "Offering"
 },
 {
-"id": "keyterm:Persuade",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "Persuade"
+"preferred_label": "Blood"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:Behavior",
@@ -4496,25 +4503,11 @@
 "preferred_label": "Body"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "Blood"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1842,
-"match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Persuade"
 },
 {
 "id": "keyterm:LoveForOnesFellowBeliever",
@@ -4531,11 +4524,11 @@
 "preferred_label": "Bring In"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:Always",
 "type": "keyterm",
-"confidence": 0.1737,
+"confidence": 0.1842,
 "match_method": "canonical",
-"preferred_label": "Authority"
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:AskFor",
@@ -4545,39 +4538,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Undefiled",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Undefiled"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Priesthood"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Decided"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Favor"
 },
 {
 "id": "keyterm:Name",
@@ -4587,39 +4552,11 @@
 "preferred_label": "Name"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "The Way"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Live"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Ability"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Pray"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -4629,53 +4566,11 @@
 "preferred_label": "Cause of Joy"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Undefiled",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Conscience",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Conscience"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Consecration"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Holy Place"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Fellowship"
-},
-{
-"id": "keyterm:NotALoverOfMoney",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Not a Lover of Money"
+"preferred_label": "Undefiled"
 },
 {
 "id": "keyterm:Holy",
@@ -4692,6 +4587,111 @@
 "preferred_label": "Serve"
 },
 {
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Fellowship"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Authority"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Live"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Consecration"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "The Way"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Decided"
+},
+{
+"id": "keyterm:NotALoverOfMoney",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Not a Lover of Money"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Holy Place"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
+},
+{
+"id": "keyterm:Conscience",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Conscience"
+},
+{
 "id": "realia:MostHolyPlace",
 "type": "realia",
 "confidence": 0.1137,
@@ -4706,18 +4706,18 @@
 "preferred_label": "Temple"
 },
 {
-"id": "realia:TheHolyPlace",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "The Holy Place"
-},
-{
 "id": "realia:Tabernacle",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "Tabernacle"
+},
+{
+"id": "realia:TheHolyPlace",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "The Holy Place"
 }
 ]
 }
@@ -4731,7 +4731,7 @@
 "index_reference": "58013020-58013025",
 "language": "zht",
 "review_level": "None",
-"content": "<p>在最後的問候之前，作者以祝福結束了希伯來書。這祝福是基於耶穌為建立永恆的新約所作的工作。耶穌是<span data-bnType=\"resourceReference\" data-resourceId=\"108329\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">主</span>，是照顧神子民的<span data-bnType=\"resourceReference\" data-resourceId=\"108278\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">牧羊人</span>（約翰福音10:1–18）。使耶穌從死裡復活的神也在信徒中工作，祂賜給信徒所需的一切，使信徒能夠忠心地順服祂。信徒必須選擇做神所希望的事，這是可以做到的，因為耶穌幫助會他們。耶穌是永遠配得<span data-bnType=\"resourceReference\" data-resourceId=\"108348\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">榮耀</span>的彌賽亞。</p>",
+"content": "<p>在最後的問候之前，作者以祝福結束了希伯來書。這祝福是基於耶穌為建立永恆的新約所作的工作。耶穌是<data class=\"resource-ref\" data-content-id=\"108329\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">主</data>，是照顧神子民的<data class=\"resource-ref\" data-content-id=\"108278\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">牧羊人</data>（約翰福音10:1–18）。使耶穌從死裡復活的神也在信徒中工作，祂賜給信徒所需的一切，使信徒能夠忠心地順服祂。信徒必須選擇做神所希望的事，這是可以做到的，因為耶穌幫助會他們。耶穌是永遠配得<data class=\"resource-ref\" data-content-id=\"108348\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">榮耀</data>的彌賽亞。</p>",
 "associations": {
 "passage": [
 {
@@ -4745,39 +4745,39 @@
 {
 "reference_id": 108278,
 "content_id": 232879,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "牧羊人",
 "language": "zht"
 },
 {
 "reference_id": 108329,
 "content_id": 232930,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "主 - 統治者",
 "language": "zht"
 },
 {
 "reference_id": 108348,
 "content_id": 232949,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "榮耀",
 "language": "zht"
 }
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.35,
 "match_method": "canonical",
 "preferred_label": "Always"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "place:Italy",
@@ -4787,11 +4787,18 @@
 "preferred_label": "Italy"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Blood"
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "keyterm:Favor",
@@ -4801,13 +4808,6 @@
 "preferred_label": "Favor"
 },
 {
-"id": "person:Timothy",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Timothy"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.225,
@@ -4815,18 +4815,25 @@
 "preferred_label": "Good"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Ask for"
+"preferred_label": "Covenant"
 },
 {
-"id": "keyterm:Peace",
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Timothy"
+},
+{
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Make Peace"
+"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Surely",
@@ -4843,32 +4850,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Blood"
 },
 {
 "id": "fauna:Goat",
@@ -4876,6 +4869,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",

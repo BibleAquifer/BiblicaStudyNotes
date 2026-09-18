@@ -8,7 +8,7 @@
 "index_reference": "20001001-20001007",
 "language": "rus",
 "review_level": "None",
-"content": "<p><span data-bnType=\"resourceReference\" data-resourceId=\"108531\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Притчи</span> учат <span data-bnType=\"resourceReference\" data-resourceId=\"108325\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">мудрости</span>. Цель книги Притчи — научить людей жить хорошо.</p><p>Жить хорошо — значит жить мудро. Жить мудро — значит поступать правильно, честно и справедливо. Мудрость основана на почитании <span data-bnType=\"resourceReference\" data-resourceId=\"108199\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Бога</span>. Бог научил <span data-bnType=\"resourceReference\" data-resourceId=\"108280\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">израильтян</span> поступать правильно, честно и справедливо. Этому Он учил их через <span data-bnType=\"resourceReference\" data-resourceId=\"108335\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Закон Моисея</span>.</p><p>Знание законов Божьих — не единственный способ понять, что правильно, честно и справедливо. Этому можно научиться, слушая, что говорят мудрые люди. Мудрые люди обладают умением, знанием и пониманием. Но почитание и страх перед <span data-bnType=\"resourceReference\" data-resourceId=\"108226\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Господом</span> важнее всего этого, потому так люди начинают становиться мудрыми и жить хорошо.</p>",
+"content": "<p><data class=\"resource-ref\" data-content-id=\"108531\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Притчи</data> учат <data class=\"resource-ref\" data-content-id=\"108325\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">мудрости</data>. Цель книги Притчи — научить людей жить хорошо.</p><p>Жить хорошо — значит жить мудро. Жить мудро — значит поступать правильно, честно и справедливо. Мудрость основана на почитании <data class=\"resource-ref\" data-content-id=\"108199\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Бога</data>. Бог научил <data class=\"resource-ref\" data-content-id=\"108280\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">израильтян</data> поступать правильно, честно и справедливо. Этому Он учил их через <data class=\"resource-ref\" data-content-id=\"108335\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Закон Моисея</data>.</p><p>Знание законов Божьих — не единственный способ понять, что правильно, честно и справедливо. Этому можно научиться, слушая, что говорят мудрые люди. Мудрые люди обладают умением, знанием и пониманием. Но почитание и страх перед <data class=\"resource-ref\" data-content-id=\"108226\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Господом</data> важнее всего этого, потому так люди начинают становиться мудрыми и жить хорошо.</p>",
 "associations": {
 "passage": [
 {
@@ -22,42 +22,42 @@
 {
 "reference_id": 108199,
 "content_id": 193281,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Бог",
 "language": "rus"
 },
 {
 "reference_id": 108226,
 "content_id": 193308,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Господь",
 "language": "rus"
 },
 {
 "reference_id": 108280,
 "content_id": 193362,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Израиль",
 "language": "rus"
 },
 {
 "reference_id": 108325,
 "content_id": 193407,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Мудрость",
 "language": "rus"
 },
 {
 "reference_id": 108335,
 "content_id": 193417,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Закон Моисея",
 "language": "rus"
 },
 {
 "reference_id": 108531,
 "content_id": 193613,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Притча",
 "language": "rus"
 }
@@ -92,13 +92,6 @@
 "preferred_label": "Intention"
 },
 {
-"id": "keyterm:Guidance",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Guidance"
-},
-{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.2429,
@@ -106,25 +99,11 @@
 "preferred_label": "Have Insight"
 },
 {
-"id": "keyterm:Fool",
+"id": "keyterm:Guidance",
 "type": "keyterm",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Fool"
-},
-{
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Crafty"
-},
-{
-"id": "keyterm:Discretion",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Discretion"
+"preferred_label": "Guidance"
 },
 {
 "id": "keyterm:SimplePerson",
@@ -134,6 +113,34 @@
 "preferred_label": "Simple Person"
 },
 {
+"id": "keyterm:Fool",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Fool"
+},
+{
+"id": "keyterm:Discretion",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Discretion"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Crafty"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Соломон"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -141,18 +148,25 @@
 "preferred_label": "Fear"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
 "id": "keyterm:Fairness",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Fairness"
+},
+{
+"id": "keyterm:Understanding",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Understanding"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Давид"
 },
 {
 "id": "deity:Lord",
@@ -167,20 +181,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Израиль"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Соломон"
-},
-{
-"id": "keyterm:Understanding",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Understanding"
 }
 ]
 }
@@ -194,7 +194,7 @@
 "index_reference": "20001008-20009018",
 "language": "rus",
 "review_level": "None",
-"content": "<p>Этот раздел книги Притчи представляет собой обращение отца к своему сыну. Отец и мать на примере своей жизни учат сына, как жить хорошо. Отец настоятельно призывает сына жить в соответствии с тем, чему они его учат.</p><p>Родители дают советы о многом. Они говорят о том, чтобы быть смирённым и полностью доверять Богу. Сын должен хранить своё <span data-bnType=\"resourceReference\" data-resourceId=\"108419\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">сердце</span>, потому что в сердце он принимает решения. Они советуют сыну говорить «нет», когда его искушают сделать зло. Это относится к воровству, обогащению нечестным путём, к отказу делиться с другими, ко лжи, к зависти и интимным отношениям с чужой женой.</p><p>Также здесь даются советы, как стать мудрым. Люди становятся мудрыми, когда начинают чтить Бога. Ведь мудрость исходит от Бога, и Он хочет, чтобы все <span data-bnType=\"resourceReference\" data-resourceId=\"108202\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">люди</span> имели мудрость. Бог щедро дарует мудрость тем, кто о ней просит, именно об этом написанном в этом тексте в форме еврейской <span data-bnType=\"resourceReference\" data-resourceId=\"108204\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">поэзии</span> и в Послании Иакова 1:5.</p><p>Мудрость описывается как женщина, которая публично обращается ко всем. Она приглашает всех прийти в её дом и разделить с ней пир. Это означает, что люди слушают мудрость и повинуются мудрому наставлению. Так люди обретают мудрость. Следование мудрым наставлениям ведёт к здоровью, богатству, успеху и чести. Это те принципы, которые родители заметили в своей жизни и теперь хотят, чтобы их сын жил именно так.</p><p>Бог создал мудрость прежде всего творения. Она уже была с Богом, когда Он создавал мир. Мудрость была полна радости и восторга, когда Бог создавал <span data-bnType=\"resourceReference\" data-resourceId=\"108215\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">мир</span> и всех людей. Это показывает, что мудрости можно научиться, изучая <span data-bnType=\"resourceReference\" data-resourceId=\"108197\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">творение</span>.</p><p>В этом поэтическом разделе также говорится о глупости, которая описывается как женщина, которая ничего не знает и полна гордости. Она плохо обращается с другими людьми. Как и мудрость, глупость также зовёт всех и приглашает на пир. Но следование её наставлениям приводит к опасности, страданиям, бедам, <span data-bnType=\"resourceReference\" data-resourceId=\"108465\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">стыду</span> и смерти.</p>",
+"content": "<p>Этот раздел книги Притчи представляет собой обращение отца к своему сыну. Отец и мать на примере своей жизни учат сына, как жить хорошо. Отец настоятельно призывает сына жить в соответствии с тем, чему они его учат.</p><p>Родители дают советы о многом. Они говорят о том, чтобы быть смирённым и полностью доверять Богу. Сын должен хранить своё <data class=\"resource-ref\" data-content-id=\"108419\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">сердце</data>, потому что в сердце он принимает решения. Они советуют сыну говорить «нет», когда его искушают сделать зло. Это относится к воровству, обогащению нечестным путём, к отказу делиться с другими, ко лжи, к зависти и интимным отношениям с чужой женой.</p><p>Также здесь даются советы, как стать мудрым. Люди становятся мудрыми, когда начинают чтить Бога. Ведь мудрость исходит от Бога, и Он хочет, чтобы все <data class=\"resource-ref\" data-content-id=\"108202\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">люди</data> имели мудрость. Бог щедро дарует мудрость тем, кто о ней просит, именно об этом написанном в этом тексте в форме еврейской <data class=\"resource-ref\" data-content-id=\"108204\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">поэзии</data> и в Послании Иакова 1:5.</p><p>Мудрость описывается как женщина, которая публично обращается ко всем. Она приглашает всех прийти в её дом и разделить с ней пир. Это означает, что люди слушают мудрость и повинуются мудрому наставлению. Так люди обретают мудрость. Следование мудрым наставлениям ведёт к здоровью, богатству, успеху и чести. Это те принципы, которые родители заметили в своей жизни и теперь хотят, чтобы их сын жил именно так.</p><p>Бог создал мудрость прежде всего творения. Она уже была с Богом, когда Он создавал мир. Мудрость была полна радости и восторга, когда Бог создавал <data class=\"resource-ref\" data-content-id=\"108215\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">мир</data> и всех людей. Это показывает, что мудрости можно научиться, изучая <data class=\"resource-ref\" data-content-id=\"108197\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">творение</data>.</p><p>В этом поэтическом разделе также говорится о глупости, которая описывается как женщина, которая ничего не знает и полна гордости. Она плохо обращается с другими людьми. Как и мудрость, глупость также зовёт всех и приглашает на пир. Но следование её наставлениям приводит к опасности, страданиям, бедам, <data class=\"resource-ref\" data-content-id=\"108465\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">стыду</data> и смерти.</p>",
 "associations": {
 "passage": [
 {
@@ -208,42 +208,42 @@
 {
 "reference_id": 108197,
 "content_id": 193279,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Творение",
 "language": "rus"
 },
 {
 "reference_id": 108202,
 "content_id": 193284,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Люди",
 "language": "rus"
 },
 {
 "reference_id": 108204,
 "content_id": 193286,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Поэзия",
 "language": "rus"
 },
 {
 "reference_id": 108215,
 "content_id": 193297,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Мироздание",
 "language": "rus"
 },
 {
 "reference_id": 108419,
 "content_id": 193501,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Сердце",
 "language": "rus"
 },
 {
 "reference_id": 108465,
 "content_id": 193547,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Стыд и честь",
 "language": "rus"
 }
@@ -355,18 +355,18 @@
 "preferred_label": "Sound Wisdom"
 },
 {
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2554,
-"match_method": "canonical",
-"preferred_label": "Counsel"
-},
-{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.2554,
 "match_method": "canonical",
 "preferred_label": "Safety"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.2554,
+"match_method": "canonical",
+"preferred_label": "Counsel"
 },
 {
 "id": "keyterm:Glory",
@@ -390,18 +390,18 @@
 "preferred_label": "Vine"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.2044,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.2044,
 "match_method": "canonical",
 "preferred_label": "Straightness"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.2044,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 },
 {
 "id": "keyterm:Mischief",
@@ -411,32 +411,11 @@
 "preferred_label": "Mischief"
 },
 {
-"id": "keyterm:Exempt",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2036,
 "match_method": "canonical",
-"preferred_label": "Exempt"
-},
-{
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.2036,
-"match_method": "canonical",
-"preferred_label": "Crafty"
-},
-{
-"id": "keyterm:Fairness",
-"type": "keyterm",
-"confidence": 0.2036,
-"match_method": "canonical",
-"preferred_label": "Fairness"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2036,
-"match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Peace"
 },
 {
 "id": "keyterm:Ardour",
@@ -453,11 +432,32 @@
 "preferred_label": "Complete"
 },
 {
+"id": "keyterm:Fairness",
+"type": "keyterm",
+"confidence": 0.2036,
+"match_method": "canonical",
+"preferred_label": "Fairness"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2036,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.2036,
 "match_method": "canonical",
 "preferred_label": "Favor"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.2036,
+"match_method": "canonical",
+"preferred_label": "Exempt"
 }
 ]
 }
@@ -471,7 +471,7 @@
 "index_reference": "20010001-20030033",
 "language": "rus",
 "review_level": "None",
-"content": "<p>В этом разделе книги Притчи собраны тексты в форме еврейской поэзии, поговорки и короткие наставления. Некоторые из них были написаны или собраны людьми, чьи имена известны. К ним относят <span data-bnType=\"resourceReference\" data-resourceId=\"108473\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Соломон</span>, <span data-bnType=\"resourceReference\" data-resourceId=\"108496\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">Езекия</span> и Агур. Другие были написаны или собраны людьми, чьи имена не указаны. Этот список включает в себя изречения мудрецов (Прит.22:17 – 24:34).</p><p>Люди могут стать мудрыми, когда Бог дарует им мудрость. Так было в случае с Соломоном, история об этом записана в Третьей книге Царств 3:1–15. Люди также могут стать мудрыми, изучая окружающий мир. Это включает в себя изучение растений, животных, погоды, других людей и всего, что создал Бог. По мере изучения люди приобретают знания и начинают понимать то, как устроена жизнь. Это уроки, которые они усвоили, и закономерности, которые они заметили. Когда знания и понимание сочетаются с уважением Бога и почитанием к Нему, они становятся благочестивой мудростью.</p><p>На протяжении сотен лет в Израиле мудрые люди делились с другими этими уроками и наблюдениями. Они передавали их через тексты, написанные в форме еврейской поэзии, через поговорки и притчи. В этом поэтическом разделе содержатся наставления по многим различным вопросам. Сюда вошли наставления о гневе, зависти, спорах, еде, чести, смирении и гордости. Они включают обсуждение вопросов отношений в семье между мужьями и жёнами и между родителями и детьми, а также отношений в обществе между мужчинами и женщинами и между друзьями и <span data-bnType=\"resourceReference\" data-resourceId=\"108370\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">ближними</span>. Здесь рассматриваются вопросы финансов и отношений между богатыми и бедными людьми. Сюда вошли наставления о <span data-bnType=\"resourceReference\" data-resourceId=\"108208\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">труде</span>, лени, земледелии, бизнесе и торговле. Они включают вопросы о справедливости, суде и управлении. Они также касаются разума и сердца, того, как и что говорить, и того, как и что слушать. Все эти наставления учат поступать правильно и справедливо.</p>",
+"content": "<p>В этом разделе книги Притчи собраны тексты в форме еврейской поэзии, поговорки и короткие наставления. Некоторые из них были написаны или собраны людьми, чьи имена известны. К ним относят <data class=\"resource-ref\" data-content-id=\"108473\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Соломон</data>, <data class=\"resource-ref\" data-content-id=\"108496\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">Езекия</data> и Агур. Другие были написаны или собраны людьми, чьи имена не указаны. Этот список включает в себя изречения мудрецов (Прит.22:17 – 24:34).</p><p>Люди могут стать мудрыми, когда Бог дарует им мудрость. Так было в случае с Соломоном, история об этом записана в Третьей книге Царств 3:1–15. Люди также могут стать мудрыми, изучая окружающий мир. Это включает в себя изучение растений, животных, погоды, других людей и всего, что создал Бог. По мере изучения люди приобретают знания и начинают понимать то, как устроена жизнь. Это уроки, которые они усвоили, и закономерности, которые они заметили. Когда знания и понимание сочетаются с уважением Бога и почитанием к Нему, они становятся благочестивой мудростью.</p><p>На протяжении сотен лет в Израиле мудрые люди делились с другими этими уроками и наблюдениями. Они передавали их через тексты, написанные в форме еврейской поэзии, через поговорки и притчи. В этом поэтическом разделе содержатся наставления по многим различным вопросам. Сюда вошли наставления о гневе, зависти, спорах, еде, чести, смирении и гордости. Они включают обсуждение вопросов отношений в семье между мужьями и жёнами и между родителями и детьми, а также отношений в обществе между мужчинами и женщинами и между друзьями и <data class=\"resource-ref\" data-content-id=\"108370\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">ближними</data>. Здесь рассматриваются вопросы финансов и отношений между богатыми и бедными людьми. Сюда вошли наставления о <data class=\"resource-ref\" data-content-id=\"108208\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">труде</data>, лени, земледелии, бизнесе и торговле. Они включают вопросы о справедливости, суде и управлении. Они также касаются разума и сердца, того, как и что говорить, и того, как и что слушать. Все эти наставления учат поступать правильно и справедливо.</p>",
 "associations": {
 "passage": [
 {
@@ -485,28 +485,28 @@
 {
 "reference_id": 108208,
 "content_id": 193290,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Труд",
 "language": "rus"
 },
 {
 "reference_id": 108370,
 "content_id": 193452,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Ближний",
 "language": "rus"
 },
 {
 "reference_id": 108473,
 "content_id": 193555,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Соломон",
 "language": "rus"
 },
 {
 "reference_id": 108496,
 "content_id": 193578,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Езекия",
 "language": "rus"
 }
@@ -590,18 +590,18 @@
 "preferred_label": "Deceit"
 },
 {
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.3593,
-"match_method": "canonical",
-"preferred_label": "Delight"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3593,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Delight",
+"type": "keyterm",
+"confidence": 0.3593,
+"match_method": "canonical",
+"preferred_label": "Delight"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -618,18 +618,18 @@
 "preferred_label": "Bless"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3579,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3579,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "keyterm:Crafty",
@@ -653,18 +653,18 @@
 "preferred_label": "Trust"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.3557,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.3557,
 "match_method": "canonical",
 "preferred_label": "Kindness"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.3557,
+"match_method": "canonical",
+"preferred_label": "Hope"
 },
 {
 "id": "keyterm:Counsel",
@@ -734,7 +734,7 @@
 "index_reference": "20031001-20031009",
 "language": "rus",
 "review_level": "None",
-"content": "<p>В этом разделе книги Притчи мать обращается к своему сыну. Неизвестно, кем был царь Лемуил, но мудрость его матери была от Бога. Некоторые из её советов были похожи на наставления отца в книге Притчи 1–9. Мать предостерегает Лемуила от сексуальных грехов.</p><p>Большая часть её советов касалась того, как мудро править, будучи <span data-bnType=\"resourceReference\" data-resourceId=\"108330\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">царём</span>. Её советы согласовывались с Божьими постановлениями для царей, изложенными в книге Второзаконие 17:17–20. Они говорят о запрете иметь множество жён и о необходимости помнить о том, что было заповедано. В Израиле существовал Закон Моисея, забывая который, цари начинали угнетать и несправедливо обращаться с народом.</p><p>Вместо этого Лемуил должен был защищать бедных и помогать <span data-bnType=\"resourceReference\" data-resourceId=\"108418\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">нищим</span>. Это описывается как заступничество за тех, кто не может постоять за себя. Как правитель, Лемуил имел больше власти, чем другие люди, поэтому он должен был использовать эту власть, чтобы заботиться о других людях и быть справедливым.</p>",
+"content": "<p>В этом разделе книги Притчи мать обращается к своему сыну. Неизвестно, кем был царь Лемуил, но мудрость его матери была от Бога. Некоторые из её советов были похожи на наставления отца в книге Притчи 1–9. Мать предостерегает Лемуила от сексуальных грехов.</p><p>Большая часть её советов касалась того, как мудро править, будучи <data class=\"resource-ref\" data-content-id=\"108330\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">царём</data>. Её советы согласовывались с Божьими постановлениями для царей, изложенными в книге Второзаконие 17:17–20. Они говорят о запрете иметь множество жён и о необходимости помнить о том, что было заповедано. В Израиле существовал Закон Моисея, забывая который, цари начинали угнетать и несправедливо обращаться с народом.</p><p>Вместо этого Лемуил должен был защищать бедных и помогать <data class=\"resource-ref\" data-content-id=\"108418\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">нищим</data>. Это описывается как заступничество за тех, кто не может постоять за себя. Как правитель, Лемуил имел больше власти, чем другие люди, поэтому он должен был использовать эту власть, чтобы заботиться о других людях и быть справедливым.</p>",
 "associations": {
 "passage": [
 {
@@ -748,14 +748,14 @@
 {
 "reference_id": 108330,
 "content_id": 193412,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Царь",
 "language": "rus"
 },
 {
 "reference_id": 108418,
 "content_id": 193500,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Нищие",
 "language": "rus"
 }
@@ -769,18 +769,18 @@
 "preferred_label": "Лемуил"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Wine"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "keyterm:Utterance",
@@ -808,7 +808,7 @@
 "index_reference": "20031010-20031031",
 "language": "rus",
 "review_level": "None",
-"content": "<p>Последний раздел книги Притчей — это <span data-bnType=\"resourceReference\" data-resourceId=\"108533\" data-resourceType=\"BiblicaStudyNotesKeyTerms\">акростих.</span> В нём рассказывается о человеке, который прислушался к мудрости, о которой говорится в книге Притчи 8:6.</p><p>Этот человек усвоил уроки, преподанные в книге Притчи, и применил их на практике во всех сферах своей жизни.</p><p>Предыдущие стихи в книге Притчи описывают мудрость как женщину, и в этом разделе человек, научившийся мудрости, описывается как превосходная женщина. Этот человек подобен сильной и умной женщине, которая заботится обо всём и обо всех, за кого она несёт ответственность.</p><p>Она безвозмездно помогает тем, кто нуждается в помощи. Она тщательно продумывает планы и много работает. Она смелая и не беспокоится о будущем. Члены её семьи и её города доверяют ей.</p><p>По тому, как она живет, всем понятно, что она чтит Бога. Это заставляет людей уважать её. Её уважают не за красоту или обаяние, а потому, что она мудра сердцем и в своих поступках. </p>",
+"content": "<p>Последний раздел книги Притчей — это <data class=\"resource-ref\" data-content-id=\"108533\" data-resource-code=\"BiblicaStudyNotesKeyTerms\">акростих.</data> В нём рассказывается о человеке, который прислушался к мудрости, о которой говорится в книге Притчи 8:6.</p><p>Этот человек усвоил уроки, преподанные в книге Притчи, и применил их на практике во всех сферах своей жизни.</p><p>Предыдущие стихи в книге Притчи описывают мудрость как женщину, и в этом разделе человек, научившийся мудрости, описывается как превосходная женщина. Этот человек подобен сильной и умной женщине, которая заботится обо всём и обо всех, за кого она несёт ответственность.</p><p>Она безвозмездно помогает тем, кто нуждается в помощи. Она тщательно продумывает планы и много работает. Она смелая и не беспокоится о будущем. Члены её семьи и её города доверяют ей.</p><p>По тому, как она живет, всем понятно, что она чтит Бога. Это заставляет людей уважать её. Её уважают не за красоту или обаяние, а потому, что она мудра сердцем и в своих поступках. </p>",
 "associations": {
 "passage": [
 {
@@ -822,7 +822,7 @@
 {
 "reference_id": 108533,
 "content_id": 193615,
-"resource_code": "BiblicaStudyNotesKeyTerms",
+"resource_code": "BiblicaStudyNotes",
 "label": "Акростих",
 "language": "rus"
 }
@@ -836,18 +836,18 @@
 "preferred_label": "Fear"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Trust"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Instruction"
 },
 {
 "id": "deity:Lord",
@@ -878,11 +878,18 @@
 "preferred_label": "Spindle"
 },
 {
-"id": "flora:Vine",
+"id": "flora:Flax",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Flax"
+},
+{
+"id": "realia:Lamp",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Lamp"
 },
 {
 "id": "realia:Ship",
@@ -892,13 +899,6 @@
 "preferred_label": "Ship"
 },
 {
-"id": "realia:Wool",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Wool"
-},
-{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.1105,
@@ -906,11 +906,18 @@
 "preferred_label": "Linen"
 },
 {
-"id": "flora:Flax",
+"id": "realia:Wool",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Wool"
+},
+{
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Flax"
+"preferred_label": "Vine"
 },
 {
 "id": "realia:PurpleCloth",
@@ -918,13 +925,6 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Purple Cloth"
-},
-{
-"id": "realia:Lamp",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Lamp"
 },
 {
 "id": "realia:Tunic.2",
